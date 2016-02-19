@@ -69564,7 +69564,7 @@ function attach_tabs(element) {
         };
 
         var getContracts = function(underlying) {
-            BinarySocket.send({ contracts_for: underlying, region: 'japan' });
+            BinarySocket.send({ contracts_for: underlying, landing_company: 'japan' });
         };
 
         var getContractForms = function() {
