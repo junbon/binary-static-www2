@@ -62480,6 +62480,8 @@ function contractTypeDisplayMapping(type) {
         DIGITUNDER: "bottom",
         EXPIRYRANGE: "top",
         EXPIRYMISS: "bottom",
+        EXPIRYRANGEE: "top",
+        EXPIRYMISSE: "bottom",
         RANGE: "top",
         UPORDOWN: "bottom",
         ONETOUCH: "top",
