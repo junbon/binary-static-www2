@@ -53164,7 +53164,7 @@ pjax_config_page('/trade.cgi', function() {
                             Symbols.details(response);
                             var underlying = $('[name=underlying_symbol] option:selected').val() || $('#underlying option:selected').val();
                             var tick = $('[name=tick_count]').val() || 100;
-                            TradingAnalysis.set_digit_info(BetAnalysis.tab_last_digitws);
+                            TradingAnalysis.set_digit_info(TradingAnalysis.tab_last_digitws);
                             var request = JSON.parse('{"ticks_history":"'+ underlying +'",'+
                                                       '"end": "latest",'+
                                                       '"count": '+ tick +','+
@@ -53434,208 +53434,6 @@ pjax_config_page('trading', function () {
         }(),
     };
 }();
-;BetAnalysis.DigitInfo = function() {
-    this.chart_config = {
-        chart: {
-                renderTo:'last_digit_histo',
-                defaultSeriesType:'column',
-                backgroundColor:'#eee',
-                borderWidth:1,
-                borderColor:'#ccc',
-                plotBackgroundColor:'#fff',
-                plotBorderWidth:1,
-                plotBorderColor:'#ccc',
-                height:225 // This is "unresponsive", but so is leaving it empty where it goes to 400px.
-        },
-        title:{text:''},
-        credits:{enabled:false},
-        exporting:{enabled:false},
-        legend:{
-            enabled:false
-        },
-        tooltip:{
-            borderWidth:1,
-            formatter:function() {
-                var that = this;
-                var total = $("select[name='tick_count']").val();
-                var percentage = that.y/total*100;
-                return '<b>Digit:</b> '+ that.x +'<br/>'+
-                '<b>Percentage:</b> '+ percentage.toFixed(1) + " %";
-            }
-        },
-        plotOptions:{
-            column:{
-                shadow:false,
-                borderWidth:0.5,
-                borderColor:'#666',
-                pointPadding:0,
-                groupPadding:0,
-                color: '#e1f0fb',
-            },
-            series: {
-                dataLabels: {
-                    enabled: true,
-                    formatter: function() {
-                        var total = $("select[name='tick_count']").val();
-                        var percentage = this.point.y/total*100;
-                        return percentage.toFixed(2) + ' %';
-                    },
-                },
-            },
-        },
-        xAxis:{
-            categories: ['0','1','2','3','4','5','6','7','8','9'],
-            lineWidth:0,
-            lineColor:'#999',
-            tickLength:10,
-            tickColor:'#ccc',
-        },
-        yAxis:{
-            title:{text:''},
-            maxPadding:0,
-            gridLineColor:'#e9e9e9',
-            tickWidth:1,
-            tickLength:3,
-            tickColor:'#ccc',
-            lineColor:'#ccc',
-            endOnTick:true,
-            opposite: false,
-            labels: {
-                align: 'left',
-                x: 0,
-                enabled: false,
-                formatter: function() {
-                    var total = $("select[name='tick_count']").val();
-                    var percentage = parseInt(this.value/total*100);
-                    return percentage + " %";
-                },
-            },
-        },
-    };
-
-    this.spots = [];
-};
-
-BetAnalysis.DigitInfo.prototype = {
-    render: function(tab) {
-        this.id = tab.id;
-        var that = this;
-        $.get(this.url(tab), function (texts) {
-            tab.content.html(texts);
-        }).done(function () {
-            that.on_latest();
-            that.show_chart(BetForm.attributes.underlying());
-        });
-    },
-    url: function() {
-        var existing_link = $('#tab_last_digit').find('a');
-        var url = existing_link.attr('href').replace(/underlying=\w+/,'underlying='+ BetForm.attributes.underlying());
-        existing_link.attr('href', url);
-        return url;
-    },
-    on_latest: function() {
-        var that = this;
-        var tab = $('#tab_last_digit-content');
-        var form = tab.find('form:first');
-        form.on('submit', function(event) {
-            event.preventDefault();
-            return false;
-        }).addClass('unbind_later');
-
-        var get_latest = function() {
-            var action = form.attr('action');
-            $.ajax({
-                url     : action,
-                async   : true,
-                data    : form.serialize(),
-                success : function (texts) {
-                    that.chart.destroy();
-                    tab.html(texts);
-                    that.on_latest();
-                    var underlying = $('[name=underlying]', form).val();
-                    that.show_chart(underlying);
-                }
-            });
-        };
-        $('[name=underlying]', form).on('change',  get_latest ).addClass('unbind_later');
-        $('[name=tick_count]', form).on('change',  get_latest ).addClass('unbind_later');
-    },
-    show_chart: function(underlying) {
-        this.chart_config.xAxis.title = {
-            text: $('#last_digit_title').html(),
-        };
-        this.spots = $.parseJSON($('#last_digit_data').html());
-        this.chart = new Highcharts.Chart(this.chart_config);
-        this.chart.addSeries({name : underlying, data: []});
-
-        this.update();
-    },
-    update: function(symbol, latest_spot) {
-        if(typeof this.chart === "undefined") {
-            return;
-        }
-
-        var series = this.chart.series[0]; // Where we put the final data.
-
-        if (series.name != symbol) {
-            latest_spot = undefined; // This simplifies the logic a bit later.
-        }
-
-        if (typeof latest_spot !== "undefined") { // This is a bit later. :D
-            this.spots.unshift(latest_spot.slice(-1)); // Only last digit matters
-            this.spots.pop();
-        }
-
-        // Always recompute and draw, even if theres no new data.
-        // This is especially useful on first reuqest, but maybe in other ways.
-        var filtered_spots = [];
-        var digit = 10,
-            filterFunc = function (el) { return el == digit; };
-        var min_max_counter = [];
-        while(digit--) {
-            var val = this.spots.filter(filterFunc).length;
-            filtered_spots[digit] = val;
-            if (typeof min_max_counter[val] === 'undefined') {
-                min_max_counter[val] = 0;
-            }
-            min_max_counter[val]++;
-        }
-        var min = Math.min.apply(null, filtered_spots);
-        var max = Math.max.apply(null, filtered_spots);
-        var min_index = filtered_spots.indexOf(min);
-        var max_index = filtered_spots.indexOf(max);
-        // changing color
-        if (min_max_counter[min] === 1) {
-            filtered_spots[min_index] = {y: min, color: '#CC0000'};
-        }
-
-        if (min_max_counter[max] === 1) {
-            filtered_spots[max_index] = {y: max, color: '#2E8836'};
-        }
-        return series.setData(filtered_spots);
-    },
-    show_tab: function() {
-        var tab_last_digit = $('#tab_last_digit');
-        MenuContent.show_tab(tab_last_digit);
-        var saved_anaysis_tab = SessionStore.get('bet_page.selected_analysis_tab');
-        if(saved_anaysis_tab == 'tab_last_digit') {
-            MenuContent.trigger({
-                'tab_id': saved_anaysis_tab
-            });
-        }
-    },
-    hide_tab: function() {
-        var tab_last_digit = $('#tab_last_digit');
-        MenuContent.hide_tab(tab_last_digit);
-        if(typeof this.chart !== "undefined") {
-            this.chart.destroy();
-        }
-        this.chart = undefined;
-        this.spots = [];
-    }
-};
-
-BetAnalysis.tab_last_digit = new BetAnalysis.DigitInfo();
 ;BetAnalysis.JapanInfo = function() {
 
     this.show = this.hide = function(){};
@@ -54240,7 +54038,7 @@ BetAnalysis.tab_last_digit = new BetAnalysis.DigitInfo();
                     var analysis_tab = BetForm.attributes.extratab();
                     if(analysis_tab == 'last_digit') {
                         // We should show exactly one of these
-                        BetAnalysis.tab_last_digit.show_tab();
+                        $('#tab_last_digit').removeClass("invisible");
                     } else {
                         // Hide them all if none selected
                         MenuContent.hide_tab($('#tab_last_digit'));
@@ -56406,7 +56204,6 @@ BetForm.Time.EndTime.prototype = {
                         var bet = JSON.parse(data);
                         BetForm.spot.update(bet.spot);
                         BetPrice.order_form.update_from_stream(bet);
-                        BetAnalysis.tab_last_digit.update(BetForm.attributes.underlying(), bet.spot);
                     }
                 },
             };
@@ -59953,7 +59750,7 @@ pjax_config_page("settingsws", function() {
     };
 
     var responseTNCApproval = function(response) {
-        if(+response.tnc_approval === 1) {
+        if(!response.hasOwnProperty('error')) {
             redirectToMyAccount();
         }
         else {
@@ -61826,8 +61623,7 @@ var TradingAnalysis = (function() {
                     '" class="tm-a">' + text.localize('Explanation') + '</a>' +
                   '</li>' +
                   '<li id="tab_last_digit" class="invisible tm-li">' +
-                    '<a href="' + page.url.url_for('trade/last_digit_info?underlying=' + $('#underlying').val() +
-                    '&ajax_only=1') + '" class="tm-a">' +
+                    '<a href="#" class="tm-a">' +
                     text.localize('Last Digit Stats') + '</a>' +
                   '</li>' +
                   '<li id="tab_japan_info" class="invisible tm-li last">' +
@@ -61913,7 +61709,7 @@ var TradingAnalysis = (function() {
                 if (currentTab == 'tab_last_digit') {
                     var underlying = $('[name=underlying] option:selected').val() || $('#underlying option:selected').val();
                     var tick = $('[name=tick_count]').val() || 100;
-                    trading_digit_info = BetAnalysis.tab_last_digitws;
+                    trading_digit_info = TradingAnalysis.tab_last_digitws;
                     var request = JSON.parse('{"ticks_history":"'+ underlying +'",'+
                                               '"end": "latest",'+
                                               '"count": '+ tick +','+
@@ -62127,7 +61923,7 @@ var Barriers = (function () {
         }
     };
 })();
-;BetAnalysis.DigitInfoWS = function() {
+;TradingAnalysis.DigitInfoWS = function() {
     this.chart_config = {
         chart: {
                 renderTo:'last_digit_histo',
@@ -62216,7 +62012,7 @@ var Barriers = (function () {
     this.prev_max_index = -1;
 };
 
-BetAnalysis.DigitInfoWS.prototype = {
+TradingAnalysis.DigitInfoWS.prototype = {
     add_content: function(underlying){
         var domain = document.domain.split('.').slice(-2).join('.'),
             underlyings =[];
@@ -62236,7 +62032,7 @@ BetAnalysis.DigitInfoWS.prototype = {
         var contentId = document.getElementById('tab_last_digit-content'),
             content = '<div class="grd-parent">'+
                         '<div id="last_digit_histo_form" class="grd-grid-8 grd-grid-mobile-12 grd-centered">'+
-                        '<form class=smallfont action="'+ page.url.url_for('trade/last_digit_info') +'" method="post">'+
+                        '<form class=smallfont action="#" method="post">'+
                         '<div class="grd-grid-mobile-12">'+ text.localize('Select market')+' : ' + elem +' </div>'+
                         '<div class="grd-grid-mobile-12">'+ text.localize('Number of ticks')+' : <select class="smallfont" name="tick_count"><option value="25">25</option><option value="50">50</option><option selected="selected" value="100">100</option><option value="500">500</option><option value="1000">1000</option></select></div>'+
                         '</form>'+
@@ -62405,7 +62201,7 @@ BetAnalysis.DigitInfoWS.prototype = {
     }
 };
 
-BetAnalysis.tab_last_digitws = new BetAnalysis.DigitInfoWS();
+TradingAnalysis.tab_last_digitws = new TradingAnalysis.DigitInfoWS();
 ;/*
  * This contains common functions we need for processing the response
  */
@@ -62718,10 +62514,10 @@ function contractTypeDisplayMapping(type) {
         DIGITODD: "bottom",
         DIGITOVER: "top",
         DIGITUNDER: "bottom",
-        EXPIRYRANGE: "top",
-        EXPIRYMISS: "bottom",
         EXPIRYRANGEE: "top",
         EXPIRYMISSE: "bottom",
+        EXPIRYRANGE: "top",
+        EXPIRYMISS: "bottom",
         RANGE: "top",
         UPORDOWN: "bottom",
         ONETOUCH: "top",
@@ -67866,8 +67662,6 @@ var Table = (function(){
       return;
     } else {
       var loginid = message.client_id;
-      // Record that client viewed updated Terms & Conditions
-      BinarySocket.send({"tnc_approval" : "1"});
       //set cookies
       var oldCookieValue = $.cookie('loginid_list');
       var cookie_domain = '.' + document.domain.split('.').slice(-2).join('.');
@@ -70081,7 +69875,7 @@ function attach_tabs(element) {
         };
 
         var getContracts = function(underlying) {
-            BinarySocket.send({ contracts_for: underlying, landing_company: 'japan' });
+            BinarySocket.send({ contracts_for: underlying, region: 'japan' });
         };
 
         var getContractForms = function() {
