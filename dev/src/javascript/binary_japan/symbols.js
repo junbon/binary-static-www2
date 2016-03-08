@@ -18,7 +18,7 @@ if(typeof is_japan === 'function'){
                                 };
 
 				data.active_symbols.forEach(function(symbol){
-					if(typeof allowed_symbols[symbol.symbol] !== 'undefined'){
+					if (typeof allowed_symbols[symbol.symbol] !== 'undefined'){
 						active_symbols.push(symbol);
 					}
 				});
