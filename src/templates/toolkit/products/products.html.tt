@@ -1,0 +1,88 @@
+<div class="products-page grd-grid-12">
+	<h1>[% l('Products') %]</h1>
+	<p>[% l('[_1] provides a variety of products to help you determine what markets to trade on. Try them out.', request.website.display_name) %]</p>
+	<div class="grd-grid-12 grd-parent">
+		<div class="grd-grid-12 no-padding product">
+			<h2>[% l('Webtrader') %]</h2>
+    		<div class="grd-grid-12 no-padding">
+                <div class="grd-grid-8 grd-grid-tablet-8 grd-grid-phablet-12 grd-grid-mobile-12 no-padding">
+                    <div class="desc">[% l('Flexible charting platform with a variety of customisable features.') %]</div>
+                    <div class="grd-grid-4 grd-grid-tablet-6 grd-grid-phablet-6 grd-grid-mobile-12 icon">
+                        <a href="//webtrader.binary.com" target="_blank">[% l('Web version') %]</a>
+                    </div>
+                    <div class="grd-grid-4 grd-grid-tablet-6 grd-grid-phablet-6 grd-grid-mobile-12 icon">
+                        <a href="https://chrome.google.com/webstore/detail/webtrader/lcgbonbkhleeeoibhgepeeeldjmgjhcm" target="_blank">[% l('Chrome app') %]</a>
+                    </div>
+                </div>
+                <div class="grd-grid-4 grd-grid-tablet-4 grd-grid-phablet-0 grd-grid-mobile-0 no-padding">
+                    <a href="//webtrader.binary.com" target="_blank" class="main-image">
+						<img class="chart-type-icon responsive" src="[% request.url_for('images/pages/charting/webtrader-icon.svg') %]">
+					</a>
+                </div>
+            </div>
+        </div>
+        <div class="grd-grid-12 separator-line"></div>
+		<div class="grd-grid-12 no-padding product">
+			<h2>[% l('Tradingview') %]</h2>
+    		<div class="grd-grid-12 no-padding">
+                <div class="grd-grid-8 grd-grid-tablet-8 grd-grid-phablet-12 grd-grid-mobile-12 no-padding">
+                    <div class="desc">[% l('Advanced charting platform with a wide range of technical indicators.') %]</div>
+                    <div class="grd-grid-4 grd-grid-tablet-6 grd-grid-phablet-6 grd-grid-mobile-12 icon">
+                        <a href="//tradingview.binary.com" target="_blank">[% l('Web version') %]</a>
+                    </div>
+                    <div class="grd-grid-4 grd-grid-tablet-6 grd-grid-phablet-6 grd-grid-mobile-12 icon">
+                        <a href="https://chrome.google.com/webstore/detail/binarycom-charts-tradingv/hjfmkhhogfkmedagjkdbgpineanneemh" target="_blank">[% l('Chrome app') %]</a>
+                    </div>
+                </div>
+                <div class="grd-grid-4 grd-grid-tablet-4 grd-grid-phablet-0 grd-grid-mobile-0 no-padding">
+                    <a href="//tradingview.binary.com" target="_blank" class="main-image">
+						<img class="chart-type-icon responsive" src="[% request.url_for('images/pages/charting/tradingview-icon.svg') %]">
+					</a>
+                </div>
+            </div>
+        </div>
+        <div class="grd-grid-12 separator-line"></div>
+		<div class="grd-grid-12 no-padding product">
+			<h2>[% l('Tick Trade') %]</h2>
+    		<div class="grd-grid-12 no-padding">
+                <div class="grd-grid-8 grd-grid-tablet-8 grd-grid-phablet-12 grd-grid-mobile-12 no-padding">
+                    <div class="desc">[% l('Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.') %]</div>
+                    <div class="grd-grid-4 grd-grid-tablet-6 grd-grid-phablet-6 grd-grid-mobile-12 icon">
+                        <a href="//webtrader.binary.com" target="_blank">Google Play</a>
+                    </div>
+                    <div class="grd-grid-4 grd-grid-tablet-6 grd-grid-phablet-6 grd-grid-mobile-12 icon">
+                        <a href="//webtrader.binary.com" target="_blank">App Store</a>
+                    </div>
+                </div>
+                <div class="grd-grid-4 grd-grid-tablet-4 grd-grid-phablet-0 grd-grid-mobile-0 no-padding">
+                    <a href="//webtrader.binary.com" target="_blank" class="main-image">
+						<img class="chart-type-icon responsive" src="https://static-www2.binary.com/images/pages/charting/webtrader-icon.svg">
+					</a>
+                </div>
+            </div>
+        </div>
+        <div class="grd-grid-12 separator-line"></div>
+		<div class="grd-grid-12 no-padding product">
+			<h2>[% l('Binary Next Gen') %]</h2>
+    		<div class="grd-grid-12 no-padding">
+                <div class="grd-grid-8 grd-grid-tablet-8 grd-grid-phablet-12 grd-grid-mobile-12 no-padding">
+                    <div class="desc">[% l('Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.') %]</div>
+                    <div class="grd-grid-4 grd-grid-tablet-6 grd-grid-phablet-6 grd-grid-mobile-12 icon">
+                        <a href="//webtrader.binary.com" target="_blank">Google Play</a>
+                    </div>
+                    <div class="grd-grid-4 grd-grid-tablet-6 grd-grid-phablet-6 grd-grid-mobile-12 icon">
+                        <a href="//webtrader.binary.com" target="_blank">App Store</a>
+                    </div>
+                    <div class="grd-grid-4 grd-grid-tablet-6 grd-grid-phablet-6 grd-grid-mobile-12 icon">
+                        <a href="//webtrader.binary.com" target="_blank">Web version</a>
+                    </div>
+                </div>
+                <div class="grd-grid-4 grd-grid-tablet-4 grd-grid-phablet-0 grd-grid-mobile-0 no-padding">
+                    <a href="//webtrader.binary.com" target="_blank" class="main-image">
+						<img class="chart-type-icon responsive" src="https://static-www2.binary.com/images/pages/charting/webtrader-icon.svg">
+					</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

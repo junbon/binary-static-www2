@@ -1,0 +1,21 @@
+.products-page {
+	.product {
+		margin-top: 2em;
+		h2 {
+			margin-bottom: 0.5em;
+		}
+		.desc {
+			line-height: 1.4em;
+		}
+		.icon {
+			margin-top: 100px;
+			@include BIDIR_VALUE(padding, 0 15px 0 0, 0 0 0 15px);
+		}
+	}
+	.main-image {
+		@include BIDIR_VALUE(float, right, left);
+	}
+	.separator-line {
+		margin: 3em 0 1em;
+	}
+}
