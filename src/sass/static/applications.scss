@@ -12,8 +12,14 @@
 			@include BIDIR_VALUE(padding, 0 15px 0 0, 0 0 0 15px);
 		}
 	}
-	.main-image {
+	.opp-image {
 		@include BIDIR_VALUE(float, right, left);
+		&.github-icon {
+			margin: 100px 15px 0;
+			img {
+				width: 40px;
+			}
+		}
 	}
 	.separator-line {
 		margin: 3em 0 1em;
