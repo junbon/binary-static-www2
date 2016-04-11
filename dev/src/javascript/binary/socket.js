@@ -138,6 +138,7 @@ function BinarySocketClass() {
                 var type = response.msg_type;
                 if (type === 'authorize') {
                     if(response.hasOwnProperty('error')) {
+                        LocalStore.set('reality_check.ack', 0);
                        send({'logout': '1', passthrough: {'redirect': 'login'}});
                     }
                     else {
@@ -155,6 +156,7 @@ function BinarySocketClass() {
                     ViewBalanceUI.updateBalances(response);
                 } else if (type === 'time') {
                     page.header.time_counter(response);
+                    ViewPopupWS.dispatch(response);
                 } else if (type === 'logout') {
                     page.header.do_logout(response);
                     localStorage.removeItem('jp_test_allowed');
@@ -200,7 +202,10 @@ function BinarySocketClass() {
                             .on('click', '#ratelimit-refresh-link', function () {
                                 window.location.reload();
                             });
-                      } else if (response.error.code === 'InvalidToken' && type !== 'new_account_virtual' && type !== 'paymentagent_withdraw') {
+                      } else if (response.error.code === 'InvalidToken' && 
+                          type !== 'reset_password' && 
+                          type !== 'new_account_virtual' && 
+                          type !== 'paymentagent_withdraw') {
                         BinarySocket.send({'logout': '1'});
                       }
                     }
