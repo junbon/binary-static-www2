@@ -19,7 +19,7 @@
                         <img class="chart-type-icon responsive" src="[% request.url_for('images/pages/applications/webtrader-icon.svg') %]">
                     </a>
                     <a href="https://github.com/" target="_blank" class="opp-image github-icon">
-                        <img class="chart-type-icon responsive" src="[% request.url_for('images/pages/applications/github-icon.png') %]">
+                        <img class="chart-type-icon responsive" src="[% request.url_for('images/pages/applications/github-icon.svg') %]">
                     </a>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                         <img class="chart-type-icon responsive" src="[% request.url_for('images/pages/applications/tradingview-icon.svg') %]">
                     </a>
                     <a href="https://github.com/" target="_blank" class="opp-image github-icon">
-                        <img class="chart-type-icon responsive" src="[% request.url_for('images/pages/applications/github-icon.png') %]">
+                        <img class="chart-type-icon responsive" src="[% request.url_for('images/pages/applications/github-icon.svg') %]">
                     </a>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                         <img class="chart-type-icon responsive" src="[% request.url_for('images/pages/applications/ticktrade-icon.svg') %]">
                     </a>
                     <a href="https://github.com/binary-com/mobile" target="_blank" class="opp-image github-icon">
-                        <img class="chart-type-icon responsive" src="[% request.url_for('images/pages/applications/github-icon.png') %]">
+                        <img class="chart-type-icon responsive" src="[% request.url_for('images/pages/applications/github-icon.svg') %]">
                     </a>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                         <img class="chart-type-icon responsive" src="[% request.url_for('images/pages/applications/nextgen-icon.svg') %]">
                     </a>
                     <a href="https://github.com/binary-com/binary-next-gen" target="_blank" class="opp-image github-icon">
-                        <img class="chart-type-icon responsive" src="[% request.url_for('images/pages/applications/github-icon.png') %]">
+                        <img class="chart-type-icon responsive" src="[% request.url_for('images/pages/applications/github-icon.svg') %]">
                     </a>
                 </div>
             </div>
