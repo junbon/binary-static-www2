@@ -52357,6 +52357,656 @@ function swithTabIfError(IsErrorFound)
     }
 }
 
+;var Highchart = (function() {
+  var initialized;
+  // initiate the chart for the first time only, send it ticks or candles data
+  function init_chart(options) {
+      var data = [];
+      var type = '';
+      var start_time = '<div style="margin-bottom:3px;margin-left:10px;height:0;width:20px;border:0;border-bottom:2px;border-style:solid;border-color:#E98024;display:inline-block"></div> Start time ';
+      var entry_spot = '<div style="margin-left:10px;display:inline-block;border:3px solid orange;border-radius:6px;width:4px;height:4px;"></div> Entry spot ';
+      var exit_spot = '<div style="margin-left:10px;display:inline-block;background-color:orange;border-radius:6px;width:10px;height:10px;"></div> Exit spot ';
+      var end_time = '<div style="margin-bottom: 3px;margin-left:10px;height:0;width:20px;border:0;border-bottom:2px;border-style:dashed;border-color:#E98024;display:inline-block"></div> End time ';
+      var delay = '<span style="color:red">Charting for this underlying is delayed </span>';
+      // options.history indicates line chart
+      if(options.history){
+        type = 'line';
+        var history = options.history;
+        var times = history.times;
+        var prices = history.prices;
+        var i;
+        if (window.delayed) {
+          for(i = 0; i < times.length; ++i) {
+              data.push([times[i]*1000, prices[i]*1]);
+          }
+        } else {
+          for(i = 0; i < times.length; ++i) {
+            if (times[i] >= options.min && times[i] <= window.max) {
+              // only display the first tick before entry spot and one tick after exit spot
+              // as well as the set of ticks between them
+              data.push([times[i]*1000, prices[i]*1]);
+            }
+          }
+        }
+      }
+      // options.candles indicates candle chart
+      if(options.candles) {
+        type = 'candlestick';
+        data = options.candles.map(function(c){
+          return [c.epoch*1000, c.open*1, c.high*1, c.low*1, c.close*1];
+        });
+      }
+      // underlying name displayed on top of the chart
+      var title = options.title;
+      // element where chart is to be displayed
+      var el = document.getElementById('analysis_live_chart');
+
+      var chartOptions = {
+        chart: {
+          type: 'line',
+          renderTo: el,
+          backgroundColor: null, /* make background transparent */
+          height: 450
+        },
+        title:{
+          text: title,
+          style: { fontSize:'16px' }
+        },
+        credits:{
+          enabled: false
+        },
+        tooltip:{ xDateFormat:'%A, %b %e, %H:%M:%S GMT' },
+        xAxis: {
+          type: 'datetime',
+          categories:null,
+          startOnTick: false,
+          endOnTick: false,
+          // min indicates where to start displaying the chart
+          min: options.min ? parseInt(options.min)*1000 : null,
+          // max indicates where to stop displaying the chart
+          max: window.max ? parseInt(window.max)*1000 : null,
+          labels: { overflow:"justify", format:"{value:%H:%M:%S}" }
+        },
+        yAxis: {
+          labels: { align: 'left', x: 0, y: -2 },
+          title: ''
+        },
+        series: [{
+          name: title,
+          data: data,
+          type: type,
+          // zones are used to display color of the line
+          zones: [{
+              // make the line grey until it reaches entry_time or start_time if entry spot time is not yet known
+              value: window.entry_time ? window.entry_time*1000 : window.start_time*1000,
+              color: '#ccc'
+          }, {
+              // make the line default color until exit_time is reached
+              value: window.exit_time*1000 || null,
+              color: ''
+          }, {
+              // make the line grey again after trade ended
+              color: '#ccc'
+          }],
+          zoneAxis: 'x'
+        }],
+        exporting: {enabled: false, enableImages: false},
+        legend: {enabled: false},
+        navigator: { enabled: true },
+        plotOptions: {
+          line: {
+            marker: { radius: 2 }
+          },
+          candlestick: {
+            lineColor: 'black',
+            color: 'red',
+            upColor: 'green',
+            upLineColor: 'black',
+            shadow: true
+          },
+        },
+        rangeSelector: { enabled: false },
+      };
+
+      // display comma after every three digits instead of space
+      Highcharts.setOptions({
+        lang: {thousandsSep: ','}
+      });
+
+      // display a guide for clients to know how we are marking entry and exit spots
+      if (options.history) {
+        chartOptions.subtitle = {
+          text: window.delayed ? delay + start_time + entry_spot + exit_spot + end_time : start_time + entry_spot + exit_spot + end_time,
+          align: 'right',
+          useHTML: true
+        };
+      } else if (options.candles) {
+        chartOptions.subtitle = {
+          text: window.delayed ? delay + start_time + end_time : start_time + end_time,
+          align: 'right',
+          useHTML: true
+        };
+      }
+
+      var chart = new Highcharts.Chart(chartOptions);
+      initialized = true;
+
+      // this is used to draw lines such as start and end times
+      chart.addPlotLineX = function(chartOptions) {
+        chart.xAxis[0].addPlotLine({
+           value: chartOptions.value,
+           id: chartOptions.id || chartOptions.value,
+           label: {text: chartOptions.label || '', x: chartOptions.text_left ? -15 : 5},
+           color: chartOptions.color || '#e98024',
+           zIndex: 4,
+           width: chartOptions.width || 2,
+           dashStyle: chartOptions.dashStyle || 'Solid'
+        });
+        var subtitle = window.chart.subtitle.element;
+        var subtitle_length = window.chart.subtitle.element.childNodes.length;
+        if (window.is_sold) {
+          var textnode = document.createTextNode(" Sell time ");
+          for (i = 0; i < window.chart.subtitle.element.childNodes.length; i++) {
+            if (/End time/.test(window.chart.subtitle.element.childNodes[i].nodeValue)) {
+              var item = window.chart.subtitle.element.childNodes[i];
+              window.chart.subtitle.element.replaceChild(textnode, item);
+            }
+          }
+        }
+      };
+
+      // this is used to draw lines such as barrier
+      chart.addPlotLineY = function(chartOptions) {
+        chart.yAxis[0].addPlotLine({
+          id: chartOptions.id || chartOptions.label,
+          value: chartOptions.value,
+          label: {text: chartOptions.label, align: 'center'},
+          color: chartOptions.color || 'green',
+          zIndex: 4,
+          width: 2,
+        });
+      };
+
+      el.chart = chart;
+
+      return el.chart;
+  }
+
+  var start_time, purchase_time, now_time, end_time, entry_tick_time, is_sold, sell_time, sell_spot_time, is_expired, exit_tick_time, exitTime;
+
+  // since these values are used in almost every function, make them easy to initialize
+  function initialize_values(contract) {
+    start_time      = contract.date_start;
+    purchase_time   = contract.purchase_time;
+    now_time        = contract.current_spot_time;
+    end_time        = contract.date_expiry;
+    entry_tick_time = contract.entry_tick_time;
+    is_sold         = contract.is_sold;
+    sell_time       = contract.sell_time;
+    sell_spot_time  = contract.sell_spot_time;
+    is_expired      = contract.is_expired;
+    exit_tick_time  = contract.exit_tick_time;
+    entry_spot      = contract.entry_spot;
+    exitTime        = is_sold && sell_time < end_time ? sell_spot_time : end_time;
+  }
+
+  // use this instead of BinarySocket.send to avoid overriding the on-message function of trading page
+  var socketSend = function(req) {
+      if(!req.hasOwnProperty('passthrough')) {
+          req.passthrough = {};
+      }
+      // send dispatch_to to help socket.js forward the correct response back to here
+      req.passthrough['dispatch_to'] = 'ViewChartWS';
+      BinarySocket.send(req);
+  };
+
+  var dispatch = function(response) {
+    if(response.echo_req.hasOwnProperty('passthrough') && response.echo_req.passthrough.dispatch_to === 'ViewChartWS') {
+      var type = response.msg_type,
+          error = response.error;
+      var contract = window.contract;
+      initialize_values(contract);
+      if (type === 'contracts_for' && !error) {
+          if (response.contracts_for.feed_license === 'delayed') {
+            window.request.end = 'latest';
+            delete window.request.start;
+            delete window.request.subscribe;
+            window.delayed = true;
+          }
+          socketSend(window.request);
+      } else if ((type === 'history' || type === 'candles' || type === 'tick' || type === 'ohlc') && !error){
+          window.responseID = response[type].id;
+          // send view popup the response ID so view popup can forget the calls if it's closed before contract ends
+          ViewPopupWS.storeSubscriptionID(window.responseID);
+          var options  = { 'title' : contract.display_name };
+          if (response.history || response.candles) {
+            if (response.history) {
+                window.tick_type = 'history';
+                options.history = response.history;
+                if (options.history.times.length === 0) {
+                  show_error('missing');
+                  return;
+                }
+                if (response.history.times) {
+                  for (i = 0; i < response.history.times.length; i++) {
+                      if (contract.entry_tick_time && parseInt(response.history.times[i]) === contract.entry_tick_time) {
+                          // set the chart to display from the tick before entry_tick_time
+                          options.min = parseInt(response.history.times[i-1]);
+                          break;
+                      } else if (contract.purchase_time && start_time > contract.purchase_time && (parseInt(response.history.times[i]) === contract.purchase_time || (parseInt(response.history.times[i]) < contract.purchase_time && parseInt(response.history.times[i+1]) > contract.purchase_time))) {
+                          // set the chart to display from the tick before purchase_time
+                          options.min = parseInt(response.history.times[i-1]);
+                          break;
+                      } else if (start_time && (parseInt(response.history.times[i]) === start_time || parseInt(response.history.times[i]) < start_time && parseInt(response.history.times[i+1]) > start_time)) {
+                          // set the chart to display from the tick before start_time and calculate entry tick time
+                          options.min = response.history.times[i];
+                          options.entry_tick_time = parseInt(response.history.times[i+1]);
+                          break;
+                      }
+                  }
+                }
+                get_max_history(contract, response);
+            } else if (response.candles) {
+                window.tick_type = 'candles';
+                options.candles = response.candles;
+                if (options.candles.length === 0) {
+                  show_error('missing');
+                  return;
+                }
+                for (i = 0; i < response.candles.length; i++) {
+                    if (contract.entry_tick_time && response.candles[i] && response.candles[i].epoch <= contract.entry_tick_time && response.candles[i+1].epoch > contract.entry_tick_time) {
+                        // set the chart to display from the candle before entry_tick_time
+                        options.min = response.candles[i-1].epoch;
+                        break;
+                    } else if (contract.purchase_time && response.candles[i] && response.candles[i].epoch <= contract.purchase_time && response.candles[i+1].epoch > contract.purchase_time) {
+                        // set the chart to display from the candle before purchase_time
+                        options.min = response.candles[i-1].epoch;
+                        break;
+                    }
+                }
+                get_max_candle(contract, response);
+            }
+            // set the entry_time
+            // if proposal_open_contract hasn't sent the entry_tick_time, use the calculated entry_tick_time
+            window.entry_time = entry_tick_time ? entry_tick_time : options.entry_tick_time;
+            // if we weren't able to calculate the entry_tick_time either
+            // because ticks_history hadn't reached it yet, take the contract's start_time.
+            // start_time and exit_time are used in displaying the color zones
+            window.start_time = start_time;
+            if (is_sold && sell_time && sell_time < end_time) {
+              window.exit_time = sell_spot_time;
+            } else if (exit_tick_time) {
+              window.exit_time = exit_tick_time;
+            } else {
+              window.exit_time = end_time;
+            }
+            // only initialize chart if it hasn't already been initialized
+            if (!window.chart && !initialized) {
+              window.chart = init_chart(options);
+
+              if (purchase_time !== start_time) draw_line_x(purchase_time, 'Purchase Time', '', '', '#7cb5ec');
+
+              // second condition is used to make sure contracts that have purchase time
+              // but are sold before the start time don't show start time
+              if (!is_sold || (is_sold && sell_time && sell_time > start_time)) {
+                draw_line_x(start_time);
+              }
+
+              var duration = calculate_granularity(end_time, now_time, purchase_time, start_time)[1];
+
+              // show end time before contract ends if duration of contract is less than one day
+              // second OR condition is used so we don't draw end time again if there is sell time before
+              if (end_time - (start_time || purchase_time) <= 24*60*60 && (!is_sold || (is_sold && sell_time && sell_time >= end_time))) {
+                draw_line_x(end_time, '', 'textLeft', 'Dash');
+              }
+              if (contract.barrier) {
+                  window.chart.addPlotLineY({id: 'barrier', value: contract.barrier*1, label: 'Barrier (' + contract.barrier + ')'});
+                  // set ymin and ymax to calculate the scale of the y-axis
+                  // it's used to ensure barrier and ticks are always in scope
+                  window.ymin = contract.barrier*1;
+                  window.ymax = contract.barrier*1;
+                  window.barrier = contract.barrier;
+              } else if (contract.high_barrier && contract.low_barrier) {
+                  window.chart.addPlotLineY({id: 'high_barrier', value: contract.high_barrier*1, label: 'High Barrier (' + contract.high_barrier + ')'});
+                  window.chart.addPlotLineY({id: 'low_barrier', value: contract.low_barrier*1, label: 'Low Barrier (' + contract.low_barrier + ')'});
+                  window.ymin = contract.low_barrier*1;
+                  window.ymax = contract.high_barrier*1;
+              }
+            }
+            // this function sets the scale of y-axis
+            // first call doesn't need any variables sent
+            find_min_max();
+          } else if (response.tick || response.ohlc) {
+            if (response.tick) {
+              options.tick = response.tick;
+              // if chart is streaming without reaching entry_tick_time, update barrier value
+              if (!is_sold && !is_expired && !window.entry_time) update_barrier(options);
+
+              // if entry_tick_time is not available and we failed to calculate it earlier
+              // the first tick received will be taken as entry tick
+              if (response.tick.epoch > start_time && !window.entry_time) {
+                  window.entry_time = response.tick.epoch;
+              }
+
+              // with every updated tick that comes in, update scale of y-axis
+              find_min_max(response.tick.quote);
+            } else if (response.ohlc) {
+              window.tick_type = 'candles';
+              options.ohlc = response.ohlc;
+              // for candles we need to send both low and high
+              find_min_max(response.ohlc.low, response.ohlc.high);
+            }
+            if (window.chart && window.chart.series) {
+              update_chart(contract, options);
+            }
+          }
+          if (window.entry_time) {
+            select_entry_tick(window.entry_time);
+            if (window.chart) {
+              // now that we have the updated value of entry tick,
+              // we have to update the color zones with the correct entry_tick_time value
+              // instead of the vague start_time
+              window.chart.series[0].zones[0].value = parseInt(window.entry_time)*1000;
+              // force to redraw:
+              window.chart.isDirty = true;
+              window.chart.redraw();
+            }
+          }
+          if (is_sold || is_expired) {
+            if (sell_time && sell_time < end_time) {
+              window.exit_time = sell_spot_time;
+              window.is_sold = 'true';
+              if (window.chart) window.chart.xAxis[0].setExtremes(options.min ? options.min*1000 : null, (sell_time*1 + 3)*1000);
+            } else if (exit_tick_time) {
+              window.exit_time = exit_tick_time;
+            }
+            if (window.chart) {
+              // also update color zone of exit_time
+              window.chart.series[0].zones[1].value = parseInt(window.exit_time)*1000;
+              // force to redraw:
+              window.chart.isDirty = true;
+              window.chart.redraw();
+            }
+            end_contract(contract);
+          }
+      } else if (type === 'ticks_history' && error) {
+          show_error();
+      }
+    }
+  };
+
+  function show_chart(contract, update) {
+      window.contract = contract;
+      if (!update) initialized = false;
+      request_data(contract);
+  }
+
+  function show_error(type) {
+    if (type === 'missing') {
+      document.getElementById('analysis_live_chart').innerHTML = '<p class="error-msg">' + text.localize('ticks history returned an empty array') + '</p>';
+    } else {
+      document.getElementById('analysis_live_chart').innerHTML = '<p class="error-msg">' + error.message + '</p>';
+    }
+  }
+
+  function clear_values() {
+    window.max = '';
+    window.entry_time = '';
+    window.exit_time = '';
+    window.responseID = '';
+    window.tick_type = '';
+    window.start_time = '';
+    window.chart = '';
+    window.request = '';
+    window.delayed = '';
+    window.is_sold = '';
+  }
+
+  function request_data(contract) {
+    initialize_values(contract);
+    var calculateGranularity = calculate_granularity(exitTime, now_time, purchase_time, start_time);
+    var granularity = calculateGranularity[0],
+        duration    = calculateGranularity[1],
+        margin      = 0; // time margin
+    margin = granularity === 0 ? Math.max(300, 30*duration/(60*60) || 0) : 3*granularity;
+
+    var request = {
+      ticks_history: contract.underlying,
+      start: ((purchase_time || start_time)*1 - margin).toFixed(0), /* load more ticks before start */
+      end: end_time ? (end_time*1 + margin).toFixed(0) : 'latest',
+      style: 'ticks',
+      count: 4999 /* maximum number of ticks possible */
+    };
+
+    if (is_sold) {
+      request.end = sell_spot_time ? (sell_spot_time*1 + margin).toFixed(0) : 'latest';
+    }
+
+    if(granularity !== 0) {
+      request.granularity = granularity;
+      request.style = 'candles';
+    }
+
+    if(!contract.is_expired && !contract.sell_spot_time) {
+        request.subscribe = 1;
+    }
+
+    window.request = request;
+    var contracts_response = window.contracts_for;
+
+    if (contracts_response && contracts_response.echo_req.contracts_for === contract.underlying) {
+      if (contracts_response.contracts_for.feed_license === 'delayed') {
+        window.request.end = 'latest';
+        delete window.request.start;
+        delete window.request.subscribe;
+        window.delayed = true;
+      }
+      socketSend(window.request);
+    } else {
+      socketSend({'contracts_for': contract.underlying});
+    }
+  }
+
+  function update_barrier(options, fix) {
+    if (window.chart && contract.barrier && window.barrier && window.chart.series[0].yAxis.plotLinesAndBands[0].options.value !== options.tick.quote*1) {
+        window.chart.yAxis[0].removePlotLine('barrier');
+        window.chart.addPlotLineY({id: 'barrier', value: options.tick.quote*1, label: 'Barrier (' + options.tick.quote + ')'});
+        window.ymin = options.tick.quote*1;
+        window.ymax = options.tick.quote*1;
+        window.barrier = options.tick.quote*1;
+    }
+  }
+
+  function find_min_max(currentLow, currentHigh) {
+    if (window.chart && window.chart.yAxis[0]) {
+      var chartYmax = window.chart.yAxis[0].max,
+          chartYmin = window.chart.yAxis[0].min;
+      var margin = Math.max((chartYmax - chartYmin), window.ymax - window.ymin) * 0.005;
+      var ymax = -1,
+          ymin = -1;
+      if (chartYmax < window.ymax) {
+        // if barrier is higher than chart's maximum y-axis value
+        // update the value of chart's y-axis accordingly
+        ymax = window.ymax + margin;
+      }
+      if (chartYmin > window.ymin) {
+        ymin = window.ymin - margin;
+      }
+      currentHigh = currentHigh || currentLow;
+      if (currentHigh && currentHigh > chartYmax) {
+        // if tick value is higher than chart's maximum y-axis value,
+        // set max to null to use highchart's default value
+        ymax = null;
+      }
+      if (currentLow && currentLow < chartYmin) {
+        ymin = null;
+      }
+      // only send the updated values if they have been changed, else keep the chart as is
+      chart.yAxis[0].setExtremes(ymin !== -1 ? ymin : chartYmin, ymax !== -1 ? ymax : chartYmax);
+    }
+    return;
+  }
+
+  // function to set an orange circle on the entry tick
+  function select_entry_tick(value) {
+    value = parseInt(value);
+    if (value && window.tick_type === 'history' && window.chart) {
+      var firstIndex = Object.keys(chart.series[0].data)[0];
+      for (i = firstIndex; i < chart.series[0].data.length; i++) {
+        if (value*1000 === chart.series[0].data[i].x) {
+          chart.series[0].data[i].update({marker: {fillColor: '#fff', lineColor: 'orange', lineWidth: 3, radius: 4, states: {hover: {fillColor: '#fff', lineColor: 'orange', lineWidth: 3, radius: 4}}}});
+          return;
+        }
+      }
+    }
+  }
+
+  // function to set an orange circle on the exit tick
+  function select_exit_tick(value) {
+    value = parseInt(value);
+    if (value && window.tick_type === 'history') {
+      for (i = chart.series[0].data.length - 1; i >= 0; i--) {
+        if (value*1000 === chart.series[0].data[i].x) {
+          chart.series[0].data[i].update({marker: {fillColor: 'orange', lineColor: 'orange', lineWidth: 3, radius: 4, states: {hover: {fillColor: 'orange', lineColor: 'orange', lineWidth: 3, radius: 4}}}});
+          return;
+        }
+      }
+    }
+  }
+
+  // calculate where to display the maximum value of the x-axis of the chart for line chart
+  function get_max_history(contract, response) {
+    initialize_values(contract);
+    var end;
+    if (sell_spot_time && sell_time < end_time) {end = sell_spot_time;}
+    else if (exit_tick_time) {end = exit_tick_time;}
+    else {end = end_time;}
+    if (response.history && response.history.times && (is_expired || is_sold)) {
+      for (i = response.history.times.length; i >= 0; i--) {
+          if (response.history.times[i] === end.toString()) {
+              window.max = response.history.times[i+1];
+              break;
+          }
+      }
+    } else if (window.delayed) {
+      if (response.history.times[response.history.times.length - 1] > start_time) {
+        window.max = response.history.times[response.history.times.length - 1];
+      } else {
+        window.max = start_time;
+      }
+    } else {
+      window.max = end_time.toString();
+    }
+    return;
+  }
+
+  // calculate where to display the maximum value of the x-axis of the chart for candle
+  function get_max_candle(contract, response) {
+    initialize_values(contract);
+    if (sell_spot_time && sell_time < end_time) {end = sell_spot_time;}
+    else {end = end_time;}
+    if (contract.is_expired || contract.is_sold) {
+      for (i = response.candles.length - 2; i >= 0; i--) {
+          if (response.candles[i] && response.candles[i].epoch <= end && response.candles[i+1].epoch > end) {
+              window.max = response.candles[i+1].epoch;
+              break;
+          }
+      }
+    } else if (window.delayed) {
+      if (response.candles[response.candles.length - 1].epoch > start_time) {
+        window.max = response.candles[response.candles.length - 1].epoch;
+      } else {
+        window.max = start_time;
+      }
+    } else {
+      window.max = end_time;
+    }
+    return;
+  }
+
+  function draw_line_x(valueTime, labelName, textLeft, dash, color) {
+    var req = {
+      value : valueTime*1000
+    };
+    if (labelName && labelName !== '') req.label = labelName;
+    if (textLeft === 'textLeft') req.text_left = true;
+    if (dash && dash !== '') req.dashStyle = dash;
+    if (color) req.color = color;
+    window.chart.addPlotLineX(req);
+  }
+
+  // function to draw the last line needed and forget the streams
+  // also sets the exit tick
+  function end_contract(contract) {
+    initialize_values(contract);
+    if (window.chart) {
+      if (exit_tick_time || is_expired || sell_time) {
+        if (sell_time && sell_time < end_time) {
+          window.is_sold = 'true';
+          draw_line_x(sell_time, '', 'textLeft', 'Dash');
+        } else if (sell_time && sell_time >= end_time) {
+          draw_line_x(end_time, '', 'textLeft', 'Dash');
+        }
+      }
+      if (sell_spot_time && sell_spot_time < end_time && sell_spot_time >= start_time) {
+        select_exit_tick(sell_spot_time);
+      } else if (exit_tick_time) {
+        select_exit_tick(exit_tick_time);
+      }
+    }
+    if (window.responseID) {
+      BinarySocket.send({'forget':window.responseID});
+    }
+    if (sell_time) {
+      clear_values();
+    }
+  }
+
+  function calculate_granularity(end_time, now_time, purchase_time, start_time) {
+    var duration = Math.min(end_time*1, now_time) - (purchase_time || start_time);
+    var granularity = 0;
+    if(duration <= 60*60) { granularity = 0; } // 1 hour
+    else if(duration <= 2*60*60) { granularity = 120; } // 2 hours
+    else if(duration <= 6*60*60) { granularity = 600; } // 6 hours
+    else if(duration <= 24*60*60) { granularity = 900; } // 1 day
+    else if(duration <= 24*5*60*60) { granularity = 3600; } // 5 days
+    else if(duration <= 24*30*60*60) { granularity = 14400; } // 30 days
+    else { granularity = 86400; } // more than 30 days
+    window.granularity = granularity;
+    return [granularity, duration];
+  }
+
+  // add the new data to the chart
+  function update_chart(contract, options){
+    initialize_values(contract);
+    var granularity = calculate_granularity(exitTime, now_time, purchase_time, start_time)[0];
+    var series = window.chart.series[0];
+    var last = series.data[series.data.length - 1];
+    if(granularity === 0) {
+      window.chart.series[0].addPoint([options.tick.epoch*1000, options.tick.quote*1]);
+    } else {
+      var c = options.ohlc;
+      var ohlc = [c.open_time*1000, c.open*1, c.high*1, c.low*1, c.close*1];
+
+      if(last.x !== ohlc[0]) {
+        series.addPoint(ohlc, true, true);
+      }
+      else {
+        last.update(ohlc,true);
+      }
+    }
+    if (last.x > end_time*1000 || last.x > sell_time*1000) {
+      end_contract(contract);
+    }
+    return;
+  }
+
+  return {
+    show_chart   : show_chart,
+    dispatch     : dispatch,
+    clear_values : clear_values
+  };
+}());
 ;var live_chart;
 var chart_closed;
 var ticks_array = [];
@@ -63024,13 +63674,13 @@ function updatePurchaseStatus(final_price, pnl, contract_status){
     $cost = $('#contract_purchase_cost');
     $profit = $('#contract_purchase_profit');
 
-    $payout.html(Content.localize().textBuyPrice + '<p>'+Math.abs(pnl)+'</p>');
-    $cost.html(Content.localize().textFinalPrice + '<p>'+final_price+'</p>');
+    $payout.html(Content.localize().textBuyPrice + '<p>'+addComma(Math.abs(pnl))+'</p>');
+    $cost.html(Content.localize().textFinalPrice + '<p>'+addComma(final_price)+'</p>');
     if(!final_price){
-        $profit.html(Content.localize().textLoss + '<p>'+pnl+'</p>');
+        $profit.html(Content.localize().textLoss + '<p>'+addComma(pnl)+'</p>');
     }
     else{
-        $profit.html(Content.localize().textProfit + '<p>'+(Math.round((final_price-pnl)*100)/100)+'</p>');
+        $profit.html(Content.localize().textProfit + '<p>'+addComma(Math.round((final_price-pnl)*100)/100)+'</p>');
     }
 }
 
@@ -63081,6 +63731,7 @@ function reloadPage(){
 }
 
 function addComma(num){
+    num = (num || 0) * 1;
     return num.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
@@ -63273,7 +63924,8 @@ function chartFrameSource(underlying, highchart_time){
             textMessageMinRequired: text.localize('Minimum of [_1] characters required.'),
             textFeatureUnavailable: text.localize('Sorry, this feature is not available.'),
             textMessagePasswordScore: text.localize( 'Password score is: [_1]. Passing score is: 20.'),
-            textShouldNotLessThan: text.localize('Please enter a number greater or equal to [_1].')
+            textShouldNotLessThan: text.localize('Please enter a number greater or equal to [_1].'),
+            textNumberLimit: text.localize('Please enter a number between [_1].')       // [_1] should be a range
         };
 
         var starTime = document.getElementById('start_time_label');
@@ -63463,6 +64115,9 @@ function chartFrameSource(underlying, highchart_time){
                 break;
             case 'number_not_less_than':
                 msg = localize.textShouldNotLessThan.replace('[_1]', param);
+                break;
+            case 'number_should_between':
+                msg = localize.textNumberLimit.replace('[_1]', param);
                 break;
             default:
                 break;
@@ -64091,8 +64746,6 @@ var TradingEvents = (function () {
             sessionStorage.setItem('date_start', value);
         }
 
-        Durations.display();
-
         return make_price_request;
     };
 
@@ -64133,7 +64786,7 @@ var TradingEvents = (function () {
             return 0;
         }
         $('#duration_units').val(value);
-        
+
         sessionStorage.setItem('duration_units',value);
         Durations.select_unit(value);
         Durations.populate();
@@ -64541,7 +65194,7 @@ var TradingEvents = (function () {
                 submitForm(document.getElementById('websocket_form'));
             }));
         }
-        
+
         // For verifying there are 2 digits after decimal
         var isStandardFloat = (function(value){
             return (value % 1 !== 0 && ((+parseFloat(value)).toFixed(10)).replace(/^-?\d*\.?|0+$/g, '').length>2);
@@ -64663,6 +65316,7 @@ var Message = (function () {
                 processActiveSymbols(response);
             } else if (type === 'contracts_for') {
                 processContract(response);
+                window.contracts_for = response;
             } else if (type === 'payout_currencies') {
                 page.client.set_storage_value('currencies', response.payout_currencies);
                 displayCurrencies();
@@ -66119,8 +66773,12 @@ function BinarySocketClass() {
                         clearInterval(timeouts[response.echo_req.passthrough.req_number]);
                         delete timeouts[response.echo_req.passthrough.req_number];
                     }
-                    else if (passthrough.hasOwnProperty('dispatch_to') && passthrough.dispatch_to === 'ViewPopupWS') {
+                    else if (passthrough.hasOwnProperty('dispatch_to')) {
+                      if (passthrough.dispatch_to === 'ViewPopupWS') {
                         ViewPopupWS.dispatch(response);
+                      } else if (passthrough.dispatch_to === 'ViewChartWS') {
+                        Highchart.dispatch(response);
+                      }
                     }
                 }
                 var type = response.msg_type;
@@ -66146,8 +66804,9 @@ function BinarySocketClass() {
                     page.header.time_counter(response);
                     ViewPopupWS.dispatch(response);
                 } else if (type === 'logout') {
-                    page.header.do_logout(response);
                     localStorage.removeItem('jp_test_allowed');
+                    RealityCheckData.clear();
+                    page.header.do_logout(response);
                 } else if (type === 'landing_company_details') {
                     page.client.response_landing_company_details(response);
                     RealityCheck.init();
@@ -66181,6 +66840,8 @@ function BinarySocketClass() {
                       checkClientsCountry();
                     }
                   }
+                } else if (type === 'reality_check') {
+                    RealityCheck.realityCheckWSHandler(response);
                 }
                 if (response.hasOwnProperty('error')) {
                     if(response.error && response.error.code) {
@@ -68250,7 +68911,7 @@ var Table = (function(){
 }());
 
 function validateEmail(mail) {
-  if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(mail)){
+  if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$/.test(mail)){
     return true;
   }
   return false;
@@ -68260,7 +68921,7 @@ function passwordValid(password) {
   if (password.length > 25) {
     return false;
   }
-  
+
   var r = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,25}$/;
   return r.test(password);
 }
@@ -70116,13 +70777,138 @@ var ProfitTableUI = (function(){
     checkValidity: checkValidity
   };
 })();
-;var RealityCheck = (function() {
-    "use strict";
-    var reality_check_url = page.url.url_for('user/reality_check');
-    var reality_freq_url  = page.url.url_for('user/reality_check_frequency');
-    var defaultFrequencyInMin = 60;
-    var loginTime;
+;var RealityCheckData = (function () {
+    'use strict';
+
+    var defaultInterval = 600000;
+    var durationTemplateString = '[_1] days [_2] hours [_3] minutes';
+    var tradingTimeTemplate = 'Your trading statistics since [_1].';
+
+    function getSummaryAsync() {
+        BinarySocket.send({reality_check: 1});
+    }
+
+    function getAck() {
+        return LocalStore.get('reality_check.ack');
+    }
+
+    function setOpenSummaryFlag() {
+        LocalStore.set('reality_check.keep_open', 1);
+    }
+
+    function getOpenSummaryFlag() {
+        return LocalStore.get('reality_check.keep_open');
+    }
+
+    function triggerCloseEvent() {
+        LocalStore.set('reality_check.keep_open', 0);
+    }
+    
+    function updateAck() {
+        LocalStore.set('reality_check.ack', 1);
+    }
+
+    function getInterval() {
+        return LocalStore.get('reality_check.interval');
+    }
+
+    function getPreviousLoadLoginId() {
+        return LocalStore.get('reality_check.loginid');
+    }
+
+    function setPreviousLoadLoginId() {
+        var id = TUser.get().loginid;
+        LocalStore.set('reality_check.loginid', id);
+    }
+
+    function updateInterval(ms) {
+        LocalStore.set('reality_check.interval', ms);
+    }
+
+    function clear() {
+        LocalStore.remove('reality_check.ack');
+        LocalStore.remove('reality_check.interval');
+        LocalStore.remove('reality_check.keep_open');
+        LocalStore.remove('reality_check.close');
+        LocalStore.remove('reality_check.svrtime');
+        LocalStore.remove('reality_check.basetime');
+    }
+
+    function resetInvalid() {
+        var ack = LocalStore.get('reality_check.ack');
+        var interval = +(LocalStore.get('reality_check.interval'));
+        if (ack !== '0' && ack !== '1') {
+            LocalStore.set('reality_check.ack', 0);
+        }
+
+        if (!interval) {
+            LocalStore.set('reality_check.interval', defaultInterval);
+        }
+    }
+
+    function summaryData(wsData) {
+        var startTime = moment.utc(new Date(wsData.start_time * 1000));
+        var currentTime = moment.utc();
+
+        var sessionDuration = moment.duration(currentTime.diff(startTime));
+        var durationD = sessionDuration.get('days');
+        var durationH = sessionDuration.get('hours');
+        var durationM = sessionDuration.get('minutes');
+
+        var durationString = durationTemplateString
+            .replace('[_1]', durationD)
+            .replace('[_2]', durationH)
+            .replace('[_3]', durationM);
+
+        var turnover = +(wsData.buy_amount) + (+(wsData.sell_amount));
+        var profitLoss = +(wsData.sell_amount) - (+(wsData.buy_amount));
+
+        var startTimeString = tradingTimeTemplate.replace('[_1]', startTime.format('YYYY-MM-DD HH:mm:ss') + ' GMT');
+        return {
+            startTimeString: startTimeString,
+            loginTime: startTime.format('YYYY-MM-DD HH:mm:ss') + ' GMT',
+            currentTime: currentTime.format('YYYY-MM-DD HH:mm:ss') + ' GMT',
+            sessionDuration: durationString,
+            loginId: wsData.loginid,
+            currency: wsData.currency,
+            turnover: (+turnover).toFixed(2),
+            profitLoss: (+profitLoss).toFixed(2),
+            contractsBought: wsData.buy_count,
+            contractsSold: wsData.sell_count,
+            openContracts: wsData.open_contract_count,
+            potentialProfit: (+(wsData.potential_profit)).toFixed(2)
+        };
+    }
+
+    return {
+        getSummaryAsync: getSummaryAsync,
+        getAck: getAck,
+        setOpenSummaryFlag: setOpenSummaryFlag,
+        getOpenSummaryFlag: getOpenSummaryFlag,
+        getPreviousLoadLoginId: getPreviousLoadLoginId,
+        setPreviousLoadLoginId: setPreviousLoadLoginId,
+        updateAck: updateAck,
+        getInterval: getInterval,
+        updateInterval: updateInterval,
+        clear: clear,
+        resetInvalid: resetInvalid,
+        summaryData: summaryData,
+        triggerCloseEvent: triggerCloseEvent
+    };
+}());
+;var RealityCheck = (function () {
+    'use strict';
     var hiddenClass = 'invisible';
+    var loginTime;
+
+    function realityCheckWSHandler(response) {
+        if ($.isEmptyObject(response.reality_check)) {
+            // not required for reality check
+            return;
+        }
+        var summary = RealityCheckData.summaryData(response.reality_check);
+        RealityCheckUI.renderSummaryPopUp(summary);
+    }
 
     function computeIntervalForNextPopup(loginTime, interval) {
         var currentTime = Date.now();
@@ -70130,148 +70916,205 @@ var ProfitTableUI = (function(){
         return timeLeft;
     }
 
-    function currentFrequencyInMS() {
-        var currentInterval = LocalStore.get('reality_check.interval');
-        if (!currentInterval) {
-            LocalStore.set('reality_check.interval', defaultFrequencyInMin * 60 * 1000);
-            return defaultFrequencyInMin * 60 * 1000;
-        }
-        return currentInterval;
+    function startSummaryTimer() {
+        var interval = RealityCheckData.getInterval();
+        var toWait = computeIntervalForNextPopup(loginTime, interval);
+        
+        window.setTimeout(function () {
+            RealityCheckData.setOpenSummaryFlag();
+            RealityCheckData.getSummaryAsync();
+        }, toWait);
     }
 
-    function updateFrequency(mins) {
-        var ms;
-        if (mins > 120) {
-            $('#realityDuration').val(120);
-            ms = 120 * 60 * 1000;
-        } else {
-            ms = mins * 60 * 1000;
+    function realityStorageEventHandler(ev) {
+        if (ev.key === 'reality_check.ack' && ev.newValue === '1') {
+            RealityCheckUI.closePopUp();
+            startSummaryTimer();
+        } else if (ev.key === 'reality_check.keep_open' && ev.newValue === '0') {
+            RealityCheckUI.closePopUp();
+            startSummaryTimer();
         }
-
-        LocalStore.set('reality_check.interval', ms);
     }
 
-    function displayPopUp(div) {
-        if ($('#reality-check').length > 0) {
+    function onContinueClick() {
+        var intervalMinute = +($('#realityDuration').val());
+
+        if (!(Math.floor(intervalMinute) == intervalMinute && $.isNumeric(intervalMinute))) {
+            var shouldBeInteger = text.localize('Interval should be integer.');
+            $('p.error-msg').text(shouldBeInteger);
+            $('p.error-msg').removeClass(hiddenClass);
             return;
         }
 
-        LocalStore.set('reality_check.close', 'false');
-        var lightboxDiv = $("<div id='reality-check' class='lightbox'></div>");
-
-        var wrapper = $('<div></div>');
-        wrapper = wrapper.append(div);
-        wrapper = $('<div></div>').append(wrapper);
-        wrapper.appendTo(lightboxDiv);
-        lightboxDiv.appendTo('body');
-
-        var $msg = lightboxDiv.find('p.error-msg');
-
-        var inputBox = lightboxDiv.find('#realityDuration');
-        inputBox.val(currentFrequencyInMS() / 60 / 1000);
-        inputBox.keyup(function(e) {
-            $msg.addClass(hiddenClass);
-            updateFrequency(e.target.value);
-        });
-
-        lightboxDiv.find('#continue').click(function() {
-            if (inputBox.val() < 10) {
-                var minimumValueMsg = Content.errorMessage('number_not_less_than', 10);
-                $msg.text(minimumValueMsg);
-                $msg.removeClass(hiddenClass);
-                return;
-            }
-
-            LocalStore.set('reality_check.ack', 1);
-            closePopUp();
-        });
-        lightboxDiv.find('#btn_logout').click(function(){
-            LocalStore.set('reality_check.ack', 0);
-            BinarySocket.send({"logout": "1"});
-        });
-
-        inputBox.keypress(onlyNumericOnKeypress);
-    }
-
-    function closePopUp() {
-        $('#reality-check').remove();
-        LocalStore.set('reality_check.close', 'true');
-        popUpWhenIntervalHit();         // start timer only after user click continue trading
-    }
-
-    function popUpFrequency() {
-        if(LocalStore.get('reality_check.ack') === '1') {
+        if (intervalMinute < 10 || intervalMinute > 120) {
+            var minimumValueMsg = Content.errorMessage('number_should_between', '10 to 120');
+            $('p.error-msg').text(minimumValueMsg);
+            $('p.error-msg').removeClass(hiddenClass);
             return;
         }
-
-        // show pop up to get user approval
-        $.ajax({
-            url: reality_freq_url,
-            dataType: 'html',
-            method: 'POST',
-            success: function(realityFreqText) {
-                if (realityFreqText.includes('reality-check-content')) {
-                    displayPopUp($(realityFreqText));
-                }
-            },
-            error: function(xhr) {
-                return;
-            }
-        });
+        
+        var intervalMs = intervalMinute * 60 * 1000;
+        RealityCheckData.updateInterval(intervalMs);
+        RealityCheckData.triggerCloseEvent();
+        RealityCheckData.updateAck();
+        RealityCheckUI.closePopUp();
+        startSummaryTimer();
     }
 
-    function popUpRealityCheck() {
-        $.ajax({
-            url: reality_check_url,
-            dataType: 'html',
-            method: 'POST',
-            success: function(realityCheckText) {
-                if (realityCheckText.includes('reality-check-content')) {
-                    displayPopUp($(realityCheckText));
-                }
-            },
-            error: function(xhr) {
-                return;
-            }
-        });
+    function onLogoutClick() {
+        logout();
     }
 
-    function popUpWhenIntervalHit() {
-        var interval = LocalStore.get('reality_check.interval');
-
-        window.setTimeout(function() {
-            popUpRealityCheck();
-        }, computeIntervalForNextPopup(loginTime, interval));
-    }
-
-    function popUpCloseHandler(ev) {
-        if (ev.key === 'reality_check.close' && ev.newValue === 'true') {
-            closePopUp();
-        } else if (ev.key === 'reality_check.interval') {
-            $('#realityDuration').val(ev.newValue / 60 / 1000);
-        }
+    function logout() {
+        BinarySocket.send({"logout": "1"});
     }
 
     function init() {
         if (!page.client.require_reality_check()) {
+            RealityCheckData.setPreviousLoadLoginId();
             return;
-        }
-        
-        // to change old interpretation of reality_check
-        if (LocalStore.get('reality_check.ack') > 1) {
-            LocalStore.set('reality_check.ack', 0);
         }
 
         var rcCookie = getCookieItem('reality_check');
         loginTime = rcCookie && rcCookie.split(',')[1] * 1000;
-        window.addEventListener('storage', popUpCloseHandler, false);
 
-        popUpFrequency();
-        popUpWhenIntervalHit();
+        window.addEventListener('storage', realityStorageEventHandler, false);
+
+        if (TUser.get().loginid !== RealityCheckData.getPreviousLoadLoginId()) {
+            RealityCheckData.clear();
+        }
+
+        RealityCheckData.resetInvalid();            // need to reset after clear
+
+        if (RealityCheckData.getAck() !== '1') {
+            RealityCheckUI.renderFrequencyPopUp();
+        } else if (RealityCheckData.getOpenSummaryFlag() === '1') {
+            RealityCheckData.getSummaryAsync();
+        } else {
+            startSummaryTimer();
+        }
+
+        RealityCheckData.setPreviousLoadLoginId();
+    }
+    
+    return {
+        init: init,
+        onContinueClick: onContinueClick,
+        onLogoutClick: onLogoutClick,
+        realityCheckWSHandler: realityCheckWSHandler
+    };
+}());
+;var RealityCheckUI = (function () {
+    'use strict';
+
+    var frequency_url = page.url.url_for('user/reality_check_frequencyws');
+    var summary_url  = page.url.url_for('user/reality_check_summaryws');
+
+    function showPopUp(content) {
+        if ($('#reality-check').length > 0) {
+            return;
+        }
+
+        var lightboxDiv = $("<div id='reality-check' class='lightbox'></div>");
+
+        var wrapper = $('<div></div>');
+        wrapper = wrapper.append(content);
+        wrapper = $('<div></div>').append(wrapper);
+        wrapper.appendTo(lightboxDiv);
+        lightboxDiv.appendTo('body');
+
+        $('#realityDuration').val(RealityCheckData.getInterval());
+        $('#realityDuration').keypress(onlyNumericOnKeypress);
+    }
+
+    function showIntervalOnPopUp() {
+        var intervalMinutes = Math.floor(RealityCheckData.getInterval() / 60 / 1000);
+        $('#realityDuration').val(intervalMinutes);
+    }
+
+    function renderFrequencyPopUp() {
+        $.ajax({
+            url: frequency_url,
+            dataType: 'html',
+            method: 'GET',
+            success: function(realityCheckText) {
+                if (realityCheckText.includes('reality-check-content')) {
+                    var payload = $(realityCheckText);
+                    showPopUp(payload.find('#reality-check-content'));
+                    showIntervalOnPopUp();
+                    $('#continue').click(RealityCheck.onContinueClick);
+                }
+            },
+            error: function(xhr) {
+                return;
+            }
+        });
+        $('#continue').click(RealityCheck.onContinueClick);
+    }
+
+    function updateSummary(summary) {
+        $('#start-time').text(summary.startTimeString);
+        $('#login-time').append(summary.loginTime);
+        $('#current-time').append(summary.currentTime);
+        $('#session-duration').append(summary.sessionDuration);
+        
+        $('#login-id').text(summary.loginId);
+        $('#currency').text(summary.currency);
+        $('#turnover').text(summary.turnover);
+        $('#profitloss').text(summary.profitLoss);
+        $('#bought').text(summary.contractsBought);
+        $('#sold').text(summary.contractsSold);
+        $('#open').text(summary.openContracts);
+        $('#potential').text(summary.potentialProfit);
+    }
+
+    function renderSummaryPopUp(summary) {
+        $.ajax({
+            url: summary_url,
+            dataType: 'html',
+            method: 'GET',
+            success: function(realityCheckText) {
+                if (realityCheckText.includes('reality-check-content')) {
+                    var payload = $(realityCheckText);
+                    showPopUp(payload.find('#reality-check-content'));
+                    updateSummary(summary);
+                    showIntervalOnPopUp();
+                    $('#continue').click(RealityCheck.onContinueClick);
+                    $('button#btn_logout').click(RealityCheck.onLogoutClick);
+                }
+            },
+            error: function(xhr) {
+                return;
+            }
+        });
+    }
+
+    function frequencyEventHandler() {
+        $('button#continue').click(function() {
+            RealityCheckData.updateAck();
+        });
+    }
+    
+    function summaryEventHandler() {
+        $('button#continue').click(function() {
+            RealityCheckData.updateAck();
+        });
+        
+        $('button#btn_logout').click(function() {
+            BinarySocket.send({logout: 1});
+        });
+    }
+
+    function closePopUp() {
+        $('#reality-check').remove();
     }
 
     return {
-        init: init
+        frequencyEventHandler: frequencyEventHandler,
+        summaryEventHandler: summaryEventHandler,
+        renderFrequencyPopUp: renderFrequencyPopUp,
+        renderSummaryPopUp: renderSummaryPopUp,
+        closePopUp: closePopUp
     };
 }());
 ;pjax_config_page('user/reset_passwordws', function() {
@@ -70744,7 +71587,6 @@ var ProfitTableUI = (function(){
 }
 ;var ViewPopupUI = (function() {
     var _container = null;
-    var _diff_end_start_time = 300; // we show point markers if end time start time difference is <= than this (5 minutes default)
     return {
         _init: function () {
             _container = null;
@@ -70762,6 +71604,10 @@ var ProfitTableUI = (function(){
                 con.hide();
                 var _on_close = function () {
                     that.cleanup(true);
+                    if(TradePage.is_trading_page()) {
+                        // Re-subscribe the trading page's tick stream which was unsubscribed by popup's chart
+                        BinarySocket.send({'ticks_history':$('#underlying').val(),'style':'ticks','end':'latest','count':20,'subscribe':1});
+                    }
                 };
                 con.find('a.close').on('click', function () { _on_close(); } );
                 $(document).on('keydown', function(e) {
@@ -70776,6 +71622,7 @@ var ProfitTableUI = (function(){
             this.clear_timer();
             this.close_container();
             this._init();
+            Highchart.clear_values();
         },
         forget_streams: function() {
             while(window.stream_ids && window.stream_ids.length > 0) {
@@ -70792,32 +71639,11 @@ var ProfitTableUI = (function(){
             }
         },
         close_container: function () {
-            if (live_chart && typeof live_chart !== "undefined") {
-                live_chart.close_chart();
-            }
             if (this._container) {
                 this._container.hide().remove();
                 $('.popup_page_overlay').hide().remove();
                 this._container = null;
             }
-        },
-        server_data: function () {
-            var data = {};
-            var field = $('#sell_extra_info_data');
-            if (field) {
-                data['barrier']             = field.attr('barrier');
-                data['barrier2']            = field.attr('barrier2');
-                data['is_immediate']        = field.attr('is_immediate');
-                data['is_negative']         = field.attr('is_negative');
-                data['is_forward_starting'] = field.attr('is_forward_starting');
-                data['trade_feed_delay']    = field.attr('trade_feed_delay');
-                data['currency']            = field.attr('currency');
-                data['purchase_price']      = field.attr('purchase_price');
-                data['shortcode']           = field.attr('shortcode');
-                data['payout']              = field.attr('payout');
-                data['contract_id']         = field.attr('contract_id');
-            }
-            return data;
         },
         disable_button: function (button) {
             button.attr('disabled', 'disabled');
@@ -70882,169 +71708,6 @@ var ProfitTableUI = (function(){
             }
             con.offset({left: x, top: y});
         },
-        show_chart: function (con, symbol) {
-            var that = this;
-            var server_data = that.server_data();
-            var liveChartConfig = new LiveChartConfig({ renderTo: 'analysis_live_chart', symbol: symbol, with_trades: 0, shift: 0});
-            var time_obj = that.get_time_interval();
-            if(time_obj['is_live'] && time_obj['is_live'] === 1) {
-                 liveChartConfig.update( {
-                     live: '10min'
-                 });
-            } else {
-                var from_date, to_date;
-                if (server_data.is_forward_starting > 0) {
-                    if(server_data.trade_feed_delay > 0) {
-                        from_date = that.get_date_from_seconds(time_obj['from_time'] - parseInt(server_data.trade_feed_delay));
-                        to_date = that.get_date_from_seconds(time_obj['to_time'] + parseInt(server_data.trade_feed_delay));
-                    }
-                } else {
-                    from_date = that.get_date_from_seconds(time_obj['from_time'] - 5);
-                    to_date = that.get_date_from_seconds(time_obj['to_time']);
-                }
- 
-                var display_marker = false;
-                if(time_obj['to_time'] - time_obj['from_time'] <= _diff_end_start_time) {
-                    display_marker = true;
-                }
- 
-                if(time_obj['force_tick']) {
-                    liveChartConfig.update({
-                        force_tick: true,
-                    });
-                }
- 
-                liveChartConfig.update({
-                    interval: {
-                        from: from_date,
-                        to: to_date
-                    },
-                    with_markers: display_marker,
-                });
-            }
-            configure_livechart();
-            updateLiveChart(liveChartConfig);
-            var barrier,
-                purchase_time = $('#trade_details_purchase_date').attr('epoch_time');
-            if (!purchase_time) { // dont add barrier if its forward starting
-                if(server_data.barrier && server_data.barrier2) {
-                    if (liveChartConfig.has_indicator('high')) {
-                        live_chart.remove_indicator('high');
-                    }
-                    barrier = new LiveChartIndicator.Barrier({ name: "high", value: server_data.barrier, color: 'green', label: text.localize('High Barrier')});
-                    live_chart.add_indicator(barrier);
- 
-                    if (liveChartConfig.has_indicator('low')) {
-                        live_chart.remove_indicator('low');
-                    }
-                    barrier = new LiveChartIndicator.Barrier({ name: "low", value: server_data.barrier2, color: 'red', label: text.localize('Low Barrier')});
-                    live_chart.add_indicator(barrier);
- 
-                } else {
-                    if (liveChartConfig.has_indicator('barrier')) {
-                        live_chart.remove_indicator('barrier');
-                    }
-                    barrier = new LiveChartIndicator.Barrier({ name: "barrier", value: server_data.barrier, color: 'green', label: text.localize('Barrier')});
-                    live_chart.add_indicator(barrier);
-                }
-            }
-            that.add_time_indicators(liveChartConfig);
-            that.reposition_confirmation();
-        },
-        get_date_from_seconds: function(seconds) {
-            var date = new Date(seconds*1000);
-            return date;
-        },
-        get_epoch: function(elementID) {
-            return $('#' + elementID).attr('epoch_time');
-        },
-        get_time_interval: function() {
-            var time_obj = {};
-            var start_time    = this.get_epoch('trade_details_start_date');
-            var purchase_time = this.get_epoch('trade_details_purchase_date');
-            var now_time      = this.get_epoch('trade_details_now_date');
-            var end_time      = this.get_epoch('trade_details_end_date');
-            if(purchase_time) { // forward starting
-                time_obj['from_time'] = parseInt(purchase_time);
-                time_obj['to_time'] = parseInt(start_time);
-            } else if(start_time && now_time) {
-                if (now_time > start_time) {
-                    if (((parseInt(end_time) - parseInt(start_time)) > 3600) && ((parseInt(now_time) - parseInt(start_time)) < 3600)) {
-                        // check if end date is more than 1 hours and now time - start time is less than 1 hours
-                        // in this case we switch back to tick chart rather than ohlc
-                        time_obj['from_time'] = parseInt(start_time);
-                        time_obj['to_time'] = parseInt(start_time) + 3595;
-                    } else if ((parseInt(end_time) - parseInt(start_time)) === 3600) {
-                        time_obj['from_time'] = parseInt(start_time);
-                        time_obj['to_time'] = parseInt(end_time);
-                        time_obj['force_tick'] = 1;
-                    } else {
-                        time_obj['from_time'] = parseInt(start_time);
-                        time_obj['to_time'] = parseInt(end_time);
-                    }
-                }
-            } else if (!now_time && start_time && end_time) { // bet has expired
-                time_obj['from_time'] = parseInt(start_time);
-                time_obj['to_time'] = parseInt(end_time);
-            } else {
-                time_obj['is_live'] = 1;
-            }
-            return time_obj;
-        },
-        add_time_indicators: function(liveChartConfig) {
-            var that = this,
-                indicator;
-            var start_time      = that.get_epoch('trade_details_start_date');
-            var purchase_time   = that.get_epoch('trade_details_purchase_date');
-            var sold_time       = that.get_epoch('trade_details_sold_date');
-            var end_time        = that.get_epoch('trade_details_end_date');
-            var entry_spot_time = that.get_epoch('trade_details_entry_spot_time');
-            if(purchase_time) {
-                if (liveChartConfig.has_indicator('purchase_time')) {
-                    live_chart.remove_indicator('purchase_time');
-                }
-                indicator = new LiveChartIndicator.Barrier({ name: "purchase_time", label: 'Purchase Time', value: that.get_date_from_seconds(parseInt(purchase_time)), color: '#e98024', axis: 'x'});
-                live_chart.add_indicator(indicator);
-            }
-
-            if(start_time) {
-                if (liveChartConfig.has_indicator('start_time')) {
-                    live_chart.remove_indicator('start_time');
-                }
-                indicator = new LiveChartIndicator.Barrier({ name: "start_time", label: 'Start Time', value: that.get_date_from_seconds(parseInt(start_time)), color: '#e98024', axis: 'x'});
-                live_chart.add_indicator(indicator);
-            }
-
-            if(entry_spot_time && entry_spot_time != start_time) {
-                if (liveChartConfig.has_indicator('entry_spot_time')) {
-                    live_chart.remove_indicator('entry_spot_time');
-                }
-
-                if (start_time && entry_spot_time < start_time) {
-                    indicator = new LiveChartIndicator.Barrier({ name: "entry_spot_time", label: 'Entry Spot', value: that.get_date_from_seconds(parseInt(entry_spot_time)), color: '#e98024', axis: 'x'});
-                } else {
-                    indicator = new LiveChartIndicator.Barrier({ name: "entry_spot_time", label: 'Entry Spot', value: that.get_date_from_seconds(parseInt(entry_spot_time)), color: '#e98024', axis: 'x', nomargin: true});
-                }
-                live_chart.add_indicator(indicator);
-            }
-
-            if(end_time) {
-                if (liveChartConfig.has_indicator('end_time')) {
-                    live_chart.remove_indicator('end_time');
-                }
-
-                indicator = new LiveChartIndicator.Barrier({ name: "end_time", label: 'End Time', value: that.get_date_from_seconds(parseInt(end_time)), color: '#e98024', axis: 'x'});
-                live_chart.add_indicator(indicator);
-            }
-            if(sold_time) {
-                if (liveChartConfig.has_indicator('sold_time')) {
-                    live_chart.remove_indicator('sold_time');
-                }
-
-                indicator = new LiveChartIndicator.Barrier({ name: "sold_time", label: 'Sell Time', value: that.get_date_from_seconds(parseInt(sold_time)), color: '#e98024', axis: 'x'});
-                live_chart.add_indicator(indicator);
-            }
-        },
     };
 }());
 ;var ViewPopupWS = (function() {
@@ -71055,9 +71718,6 @@ var ProfitTableUI = (function(){
         contract,
         history,
         proposal,
-        nextTickEpoch,
-        nextTickReqCount,
-        nextTickReqMax,
         isSold,
         isSellClicked,
         chartStarted;
@@ -71076,9 +71736,6 @@ var ProfitTableUI = (function(){
         contract      = {};
         history       = {};
         proposal      = {};
-        nextTickEpoch = '';
-        nextTickReqCount = 0;
-        nextTickReqMax   = 3;
         isSold        = false;
         isSellClicked = false;
         chartStarted  = false;
@@ -71148,9 +71805,6 @@ var ProfitTableUI = (function(){
         // ----- Normal -----
         else {
             contractType = 'normal';
-            if(Object.keys(history).length === 0) {
-                getTickHistory(contract.underlying, contract.date_start + 1, contract.date_start + 60, 0, {'next_tick': 1});
-            }
             normalShowContract();
         }
     };
@@ -71174,7 +71828,7 @@ var ProfitTableUI = (function(){
             "contract_category"   : ((/asian/i).test(contract.shortcode) ? 'asian' : (/digit/i).test(contract.shortcode) ? 'digits' : 'callput'),
             "longcode"            : contract.longcode,
             "display_decimals"    : history.prices[0].split('.')[1].length || 2,
-            "display_symbol"      : contract.underlying,
+            "display_symbol"      : contract.display_name,
             "contract_start"      : contract.date_start,
             "show_contract_result": 0
         });
@@ -71250,13 +71904,13 @@ var ProfitTableUI = (function(){
         sellSetVisibility(false);
         // showWinLossStatus(is_win);
     };
- 
+
     var spreadMakeTemplate = function() {
         $Container = $('<div/>');
         $Container.prepend($('<div/>', {id: 'sell_bet_desc', class: 'popup_bet_desc drag-handle', text: text.localize('Contract Information')}));
 
         var $table = $('<table><tbody></tbody></table>');
-        var tbody = spreadRow('Status'              , 'status', (contract.is_ended ? 'loss' : 'profit')) + 
+        var tbody = spreadRow('Status'              , 'status', (contract.is_ended ? 'loss' : 'profit')) +
                     spreadRow('Entry Level'         , 'entry_level') +
                     spreadRow('Exit Level'          , 'exit_level', '', '', !contract.is_ended) +
                     spreadRow('Stop Loss Level'     , 'stop_loss_level') +
@@ -71286,10 +71940,6 @@ var ProfitTableUI = (function(){
 
     // ===== Contract: Normal =====
     var normalShowContract = function() {
-        if(nextTickEpoch.length === 0) {
-            return;
-        }
-
         setLoadingState(false);
 
         if(!$Container) {
@@ -71297,21 +71947,23 @@ var ProfitTableUI = (function(){
         }
 
         containerSetText('trade_details_contract_id'   , contract.contract_id);
-        containerSetText('trade_details_ref_id'        , contract.transaction_id);
-        containerSetText('trade_details_start_date'    , epochToDateTime(contract.date_start) , {'epoch_time': contract.date_start});
-        containerSetText('trade_details_end_date'      , epochToDateTime(contract.date_expiry), {'epoch_time': contract.date_expiry});
+        containerSetText('trade_details_start_date'    , epochToDateTime(contract.date_start));
+        containerSetText('trade_details_end_date'      , epochToDateTime(contract.date_expiry));
         containerSetText('trade_details_purchase_price', contract.currency + ' ' + parseFloat(contract.buy_price).toFixed(2));
 
-        normalUpdateTimers(contract.current_spot_time, moment().valueOf());
-        normalUpdate();
-
         if(!chartStarted) {
-            ViewPopupUI.show_chart($Container, contract.underlying);
-            chartStarted = true;
+            if (TradePage.is_trading_page()) socketSend({"forget_all":"ticks"});
+            else {
+                Highchart.show_chart(contract);
+                chartStarted = true;
+            }
         }
+
+        normalUpdate();
     };
 
     var normalUpdate = function() {
+        normalUpdateTimers(contract.current_spot_time, moment().valueOf());
         var finalPrice = contract.sell_price || contract.bid_price,
             is_started = !contract.is_forward_starting || contract.current_spot_time > contract.date_start,
             user_sold  = contract.sell_spot_time && contract.sell_spot_time < contract.date_expiry,
@@ -71319,10 +71971,10 @@ var ProfitTableUI = (function(){
 
         var currentSpot = user_sold ? contract.sell_spot : (is_ended ? contract.exit_tick : contract.current_spot);
 
+        containerSetText('trade_details_ref_id'          , contract.transaction_ids.buy + (contract.transaction_ids.sell ? ' - ' + contract.transaction_ids.sell : ''));
         containerSetText('trade_details_current_date'    , epochToDateTime(!is_ended ? contract.current_spot_time : (user_sold ? contract.sell_spot_time : contract.exit_tick_time)));
         containerSetText('trade_details_current_spot'    , currentSpot || text.localize('not available'));
         containerSetText('trade_details_indicative_price', contract.currency + ' ' + parseFloat(is_ended ? (contract.sell_price || contract.bid_price) : contract.bid_price).toFixed(2));
-        containerSetText('trade_details_now_date'        , '' , {'epoch_time': contract.current_spot_time});
 
         var profit_loss = finalPrice - contract.buy_price;
         var percentage  = (profit_loss * 100 / contract.buy_price).toFixed(2);
@@ -71330,23 +71982,19 @@ var ProfitTableUI = (function(){
         $Container.find('#trade_details_profit_loss').attr('class', profit_loss >= 0 ? 'profit' : 'loss');
 
         if(!is_started) {
-            containerSetText('trade_details_purchase_date', '', {'epoch_time': contract.purchase_time});
-            containerSetText('trade_details_entry_spot'   , '-');
-            containerSetText('trade_details_message'      , text.localize('Contract is not started yet'));
+            containerSetText('trade_details_entry_spot', '-');
+            containerSetText('trade_details_message'   , text.localize('Contract is not started yet'));
         }
         else{
             if(contract.entry_spot > 0) {
-                var entrySpotTime = contract.is_forward_starting ? contract.date_start : nextTickEpoch;
-                containerSetText('trade_details_entry_spot', contract.entry_spot > 0 ? '<div id="trade_details_entry_spot_time" epoch_time="' + entrySpotTime + '">' + contract.entry_spot + '</div>' : '-');
+                containerSetText('trade_details_entry_spot', contract.entry_spot);
             }
-            containerSetText('trade_details_purchase_date' , '', {'epoch_time': ''});
             containerSetText('trade_details_message', contract.validation_error || '&nbsp;');
         }
 
         if(!isSold && user_sold) {
             isSold = true;
-            containerSetText('trade_details_sold_date', '', {'epoch_time': contract.sell_spot_time});
-            ViewPopupUI.show_chart($Container, contract.underlying);
+            Highchart.show_chart(contract, 'update');
         }
         if(is_ended) {
             normalContractEnded(parseFloat(profit_loss) >= 0);
@@ -71354,6 +72002,7 @@ var ProfitTableUI = (function(){
                 ViewPopupUI.forget_streams();
                 sellExpired();
             }
+            Highchart.show_chart(contract, 'update');
         }
 
         sellSetVisibility(!isSellClicked && !isSold && !is_ended && +contract.is_valid_to_sell === 1);
@@ -71365,7 +72014,7 @@ var ProfitTableUI = (function(){
         window.server_time_at_response = serverTime * 1000 + (window.client_time_at_response - clientTime);
         var update_time = function() {
             var now = Math.floor((window.server_time_at_response + moment().valueOf() - window.client_time_at_response) / 1000);
-            containerSetText('trade_details_live_date' , epochToDateTime(now));
+            containerSetText('trade_details_live_date' , epochToDateTime(Math.max(now, contract.current_spot_time || 0)));
 
             var is_started = !contract.is_forward_starting || contract.current_spot_time > contract.date_start,
                 is_ended   = contract.is_expired || contract.is_sold;
@@ -71380,7 +72029,7 @@ var ProfitTableUI = (function(){
                     remained = remained % day_seconds;
                 }
                 containerSetText('trade_details_live_remaining',
-                    (days > 0 ? days + ' ' + text.localize(days > 1 ? 'days' : 'day') + ', ' : '') + 
+                    (days > 0 ? days + ' ' + text.localize(days > 1 ? 'days' : 'day') + ', ' : '') +
                     moment((remained) * 1000).utc().format('HH:mm:ss'));
             }
         };
@@ -71391,14 +72040,13 @@ var ProfitTableUI = (function(){
     };
 
     var normalContractEnded = function(is_win) {
-        containerSetText('trade_details_now_date'        , '', {'epoch_time': ''});
         containerSetText('trade_details_current_title'   , text.localize(contract.sell_spot_time < contract.date_expiry ? 'Contract Sold' : 'Contract Expiry'));
         containerSetText('trade_details_indicative_label', text.localize('Price'));
         containerSetText('trade_details_message'         , '&nbsp;', {'epoch_time': ''});
         sellSetVisibility(false);
         // showWinLossStatus(is_win);
     };
- 
+
     var normalMakeTemplate = function() {
         $Container = $('<div/>').append($('<div/>', {id: wrapperID}));
         $Container.prepend($('<div/>', {id: 'sell_bet_desc', class: 'popup_bet_desc drag-handle', text: contract.longcode}));
@@ -71407,8 +72055,8 @@ var ProfitTableUI = (function(){
         $sections.find('#sell_details_table').append($(
             '<table>' +
                 '<tr><th colspan="2">' + text.localize('Contract Information') + '</th></tr>' +
-                    // normalRow('Contract ID',    '', 'trade_details_contract_id') +
-                    // normalRow('Reference ID',   '', 'trade_details_ref_id') +
+                    normalRow('Contract ID',    '', 'trade_details_contract_id') +
+                    normalRow('Reference ID',   '', 'trade_details_ref_id') +
                     normalRow('Start Time',     '', 'trade_details_start_date') +
                     normalRow('End Time',       '', 'trade_details_end_date') +
                     normalRow('Remaining Time', '', 'trade_details_live_remaining') +
@@ -71422,9 +72070,6 @@ var ProfitTableUI = (function(){
                     normalRow('Profit/Loss',    '', 'trade_details_profit_loss') +
                 '<tr><td colspan="2" class="last_cell" id="trade_details_message">&nbsp;</td></tr>' +
             '</table>' +
-            '<div id="trade_details_now_date"      class="' + hiddenClass + '"></div>' +
-            '<div id="trade_details_purchase_date" class="' + hiddenClass + '"></div>' +
-            '<div id="trade_details_sold_date"     class="' + hiddenClass + '"></div>' +
             '<div id="errMsg" class="notice-msg hidden"></div>' +
             '<div id="trade_details_bottom"><div id="contract_sell_wrapper" class="' + hiddenClass + '"></div><div id="contract_sell_message"></div><div id="contract_win_status" class="' + hiddenClass + '"></div></div>'
         ));
@@ -71435,23 +72080,7 @@ var ProfitTableUI = (function(){
 
         $Container.find('#' + wrapperID)
             .append($sections.html())
-            .append($('<div/>', {id: 'sell_extra_info_data', class: hiddenClass}))
             .append($('<div/>', {id: 'errMsg', class: 'notice-msg ' + hiddenClass}));
-
-        containerSetText('sell_extra_info_data', '', {
-            'barrier'            : contract.barrier || contract.high_barrier,
-            'barrier2'           : contract.low_barrier || '',
-            'path_dependent'     : contract.is_path_dependent > 0 ? '1' : '',
-            'is_forward_starting': contract.is_forward_starting,
-            'purchase_price'     : contract.buy_price,
-            'shortcode'          : contract.shortcode,
-            'payout'             : contract.payout,
-            'currency'           : contract.currency,
-            'contract_id'        : contract.contract_id,
-            'is_immediate'       : '0',
-            'is_negative'        : '0',
-            'trade_feed_delay'   : '60'
-        });
 
         ViewPopupUI.show_inpage_popup('<div class="' + popupboxID + '">' + $Container.html() + '</div>', '', '#sell_bet_desc, #sell_details_table');
 
@@ -71659,24 +72288,6 @@ var ProfitTableUI = (function(){
                 history = response.history;
                 spreadShowContract();
                 break;
-            case 'normal':
-                if(response.echo_req.passthrough.hasOwnProperty('next_tick')) {
-                    if(!nextTickEpoch) {
-                        if(response.history.times.length > 0) {
-                            nextTickEpoch = response.history.times[0];
-                            normalShowContract();
-                        }
-                        else {
-                            if(nextTickReqCount < nextTickReqMax) {
-                                socketSend(response.echo_req);
-                            }
-                            else {
-                                showErrorPopup(response);
-                            }
-                        }
-                    }
-                }
-                break;
         }
     };
 
@@ -71709,9 +72320,6 @@ var ProfitTableUI = (function(){
         if(!req.hasOwnProperty('passthrough')) {
             req.passthrough = {};
         }
-        else {
-            nextTickReqCount += req.passthrough.hasOwnProperty('next_tick') ? 1 : 0;
-        }
         req.passthrough['dispatch_to'] = 'ViewPopupWS';
         BinarySocket.send(req);
     };
@@ -71739,6 +72347,10 @@ var ProfitTableUI = (function(){
                 case 'sell_expired':
                     responseSellExpired(response);
                     break;
+                case 'forget_all':
+                    Highchart.show_chart(contract);
+                    chartStarted = true;
+                    break;
                 default:
                     break;
             }
@@ -71749,11 +72361,12 @@ var ProfitTableUI = (function(){
     };
 
     return {
-        init         : init,
-        dispatch     : dispatch,
-        tickUpdate   : tickUpdate,
-        spreadUpdate : spreadUpdate,
-        normalUpdate : normalUpdate
+        init                : init,
+        dispatch            : dispatch,
+        tickUpdate          : tickUpdate,
+        spreadUpdate        : spreadUpdate,
+        normalUpdate        : normalUpdate,
+        storeSubscriptionID : storeSubscriptionID
     };
 }());
 
@@ -72570,60 +73183,60 @@ function attach_tabs(element) {
                 answer: true, id: 18
             },
             {
-                question: "{JAPAN ONLY}Predicted that the underlying asset price is largely up-dean and in order to obtain the benefit also moving in either direction of rising send falling, obtained both options of the call options that exercise price is higher than the underlying asset price and tie put option that exercise prize is lower than underlying asset price.",
+                question: "{JAPAN ONLY}If you believe the underlying asset price will move by a large amount in either direction, you can benefit by buying both a call and a put option, with the exercise prices set above and below the current underlying price.",
                 answer: true, id: 19
             },
             {
-                question: "{JAPAN ONLY}Predicts that width of up-down of underlying asset is small and  in order to obtain the benefit also moving in either direction of rising and falling, granted together both of the call option that exercise price is higher than underlying asset and the put option that exercise price is lower than underlying asset price.",
+                question: "{JAPAN ONLY}If you believe the underlying asset price will be only moderately volatile, you could still benefit by buying both a call and put option with exercise prices that are above and below the exercise price.",
                 answer: true, id: 20
             },
             {
-                question: "{JAPAN ONLY}Covered option is holding the underlying assets which like covering sell position of options and sell the it.",
+                question: "{JAPAN ONLY}A Covered option position is where you hold an offsetting position in the underlying asset.",
                 answer: true,
                 id: 21,
             },
             {
-                question: "{JAPAN ONLY}Predicted the underlying asset price will decline than strike price at exit time and bought binary call options.",
+                question: "{JAPAN ONLY}A binary call option buyer will benefit from a correct prediction that the asset price will decline to below the strike price by the judgment time.",
                 answer: false,
                 id: 22
             },
             {
-                question: "{JAPAN ONLY}Predicted the underlying asset price will decline than strike price at exit time and bought binary put options.",
+                question: "{JAPAN ONLY}A binary put option buyer will benefit from a correct prediction that the asset price will decline to below the strike price by the judgment time.",
                 answer: false,
                 id: 23
             },
             {
-                question: "{JAPAN ONLY}Predicted the underlying asset price will raise than strike price at exit time and bought binary put options.",
+                question: "{JAPAN ONLY}A binary put options buyer will benefit from a correct prediction that the asset price will rise above the strike price by the judgment time.",
                 answer: false,
                 id: 24
             },
             {
-                question: "{JAPAN ONLY}Predicted the underlying asset price will decline than strike price at exit time and bought binary call options.",
+                question: "{JAPAN ONLY}A binary call options buyer will benefit from a correct prediction that the asset price will rise above the strike price by the judgment time.",
                 answer: true,
                 id: 25
             },
             {
-                question: "{JAPAN ONLY} At buying call option, break-even point is the price added option fee of a unit of the underlying asset to exercise price.",
+                question: "{JAPAN ONLY}When buying a vanilla call option, the break-even price at the exercise point is the strike price plus the option price paid in units of the underlying.",
                 answer: true,
                 id: 26
             },
             {
-                question: "{JAPAN ONLY} At buying put option, break-even point is the price minuses option fee of a unit of the underlying asset to exercise price.",
+                question: "{JAPAN ONLY}When buying a vanilla put option, the break-even price at the exercise point is the strike price minus the option price paid in units of the underlying.",
                 answer: true,
                 id: 27
             },
             {
-                question: "{JAPAN ONLY}Hedge you used for binary option is needed to be conducted as compensation part of loss of  the hedged asset because payout is fixed.",
+                question: "{JAPAN ONLY}Using binary options for hedging a position in the underlying asset means that only part of the loss or gain can be hedged, because the payout amount is fixed.",
                 answer: true,
                 id: 28
             },
             {
-                question: "{JAPAN ONLY}Using two options, if obtain  binary put option which exercise price is higher and binary call option which exercise price is lower, its possible to obtain profit in case that exit price is between the exercise prices of two options and its possible to invest range binary options which will be payout in case that exit price is in side of the predetermined price.",
+                question: "{JAPAN ONLY}It is possible to use two binary options to make a profit if the asset price settles inbetween the two strikes. It is also possible to buy a single range option that will achieve the same result.",
                 answer: true,
                 id: 29
             },
             {
-                question: "{JAPAN ONLY}Using two options, if get  binary call option which exercise price is higher and binary put option which exercise price is lower, its possible to obtain profit in case that exit price is out side of the price range made by exercise prices of two options and its possible to invest range binary options which will be payout in case that exit price is out side of the predetermined price.",
+                question: "{JAPAN ONLY}It is possible to use two binary options to make a profit if the asset price settles outside the two strikes. It is also possible to buy a single range option that will achieve the same result.",
                 answer: true,
                 id: 30
             },
@@ -72631,7 +73244,7 @@ function attach_tabs(element) {
         ],
         section3:[
             {
-                question: "{JAPAN ONLY}Trading period (expiration) of binary option is 2 hours and more. All of the transactions are established at the start of the trading period and the established position will be settled only by judge.",
+                question: "{JAPAN ONLY}In Japan there are defined trading periods for binary options must be 2 hours or longer, and all trades must be conducted at the start of each trading period.",
                 answer: false,
                 id: 31
             },
@@ -72641,22 +73254,22 @@ function attach_tabs(element) {
                 id: 32
             },
             {
-                question: "{JAPAN ONLY}Short positions of currency-related binary options, unlike the short positions of the other currency-related option, will not be loss cut because it is not a financial instruments subjected to loss cut regulation.",
+                question: "{JAPAN ONLY}In contrast to other types of FX options, short positions in FX Binary Options cannot be closed-out as they are not subject to loss-cut regulations.",
                 answer: false,
                 id: 33
             },
             {
-                question: "{JAPAN ONLY}Short positions of currency-related binary option is conducted transactions by depositing necessary margin requirement to trader in advance. If the margin shortage after the transaction established, it is necessary to deposit the additional margin to the trader.",
+                question: "{JAPAN ONLY}Short positions in FX Binary Options must be covered by initial margin and any further losses must be covered by further margin deposits.",
                 answer: true,
                 id: 34
             },
             {
-                question: "{JAPAN ONLY}Although each traders determined the limit amount to deal with the customer, even if customer's transaction amount, loss with a certain period and open interest a customer held exceeds the reference, the transaction with the customer will not be discontinued or cancelled.",
+                question: "{JAPAN ONLY}Although customers and brokers will set limits on customers trading losses, even if those losses are exceeded, it is the customer's responsibility to close the position and so mandatory loss-cuts will not be executed by the broker company.",
                 answer: false,
                 id: 35
             },
             {
-                question: "{JAPAN ONLY}Options may be either European or American style of exercise, and the one which can be exercised at only one expiry time is the European style option.",
+                question: "{JAPAN ONLY}Options may be European or American style of exercise, and those which can be exercised at only one expiry time are the European style options.",
                 answer: true,
                 id: 36
             },
@@ -72686,27 +73299,27 @@ function attach_tabs(element) {
                 id: 41,
             },
             {
-                question: "{JAPAN ONLY}Exercise price is the price which buy and sell underlying asset by exercise the right and in case of binary option, it is basic price to judge the presence (exist) of payout.",
+                question: "{JAPAN ONLY}The Exercise Price is the level at which the option buyer has the right to trade the underlying, and is also used for binary options to determine whether the buyer should receive a payout.",
                 answer: true,
                 id: 42
             },
             {
-                question: "{JAPAN ONLY}Exit price is the underlying asset price at exercise time and it's the price to judge the presence (exist) of payout by comparing with exercise price.",
+                question: "{JAPAN ONLY}The Exit Price is the price that is observed at the judgment time, and is used to determine whether a payout should be made.",
                 answer: true,
                 id: 43
             },
             {
-                question: "{JAPAN ONLY}The payout is the amount that seller of the option paid to the buyer as a result of exercising the right, when the predetermined exercise conditions meet and the amount paid like that called payout amount.",
+                question: "{JAPAN ONLY}The payout is the amount that the option seller must pay to the buyer if the buyer exercises his right when the conditions for a payout have been satisfied.",
                 answer: true,
                 id: 44
             },
             {
-                question: "{JAPAN ONLY}In the OTC currency binary options trading, if the exchange rate during the trading period move to one direction more than expected, that there is no exercise price which can continue appropriate trading around at-the-money, there is possible to add the exercise price on the way. However, even if the exercise price has been added, do the exercise price will continue trading using up to it, also the transaction price will not be affected by the additional impact of the exercise price.",
+                question: "{JAPAN ONLY}In OTC currency binary options trading, if the exchange rate during the trading period moves by more than expected in one direction, and there are no longer any exercise prices which can continue to trade, it is possible under certain conditions to add further exercise prices. However, even when further exercise price have been added, the prices of the original options will not be affected.",
                 answer: true,
                 id: 45
             },
             {
-                question: "{JAPAN ONLY}The exit price is important in binary options. In case of handling the OTC currency-related binary options trading for personal, company inspects if mistakes and intentional operation has not been performed inspection for exit price the company determined and also checking whether there is an error in the data in case that the company use the rate data provided by third company.",
+                question: "{JAPAN ONLY}The exit price is important in binary options. In case of handling the OTC currency-related binary options trading for private individuals, the broker company must perform inspections of the exit prices which have been used for determining option payout, and must check whether there is an error in the data in cases where that the company has used rated data provided by third company.",
                 answer: true,
                 id: 46
             },
@@ -72750,76 +73363,76 @@ function attach_tabs(element) {
                 answer: false, id: 54
             },
             {
-                question: "{JAPAN ONLY}The option of the leverage effect, the buyer is likely to be obtained several times profit compared to the option fee, but the loss is limited to the option fee, when it comes to seller, profit is limited to the option fee, but loss will be likely to be doubled of option fee.",
+                question: "{JAPAN ONLY}Options are said to be leveraged products because in the case of large moves in the underlying asset price, the values of the options can increase by large amounts compared to the price paid for the option.",
                 answer: true, id: 55
             },
             {
-                question: "{JAPAN ONLY}The buyer of the plane option can waiver when incriminating, so the maximum loss of buyer is option fee and maximum earning is the amount subtracted by the difference of underlying asset price and exercise price from option fee. Therefore, when the underlying asset price is infinite, the profit will be infinite.",
+                question: "{JAPAN ONLY}The buyer of a vanilla option can choose whether to exercise the option or not. His loss is limited to the price paid for the option, whereas his potential profit is unlimited.",
                 answer: true, id: 56
             },
             {
-                question: "{JAPAN ONLY}While seller of plan options is limited the earnings is the option fee, the difference of the underlying asset price and the strike price is a loss, if the underlying asset price is infinite, the loss will be infinite.",
+                question: "{JAPAN ONLY}The seller of a vanilla option can not choose whether to exercise the option or not. His profit is limited to the price received for the option, whereas his potential loss is unlimited and could be substantial.",
                 answer: true, id: 57
             },
             {
-                question: "{JAPAN ONLY}Exercise deadline is coming, but the option to exercise is not carried out and disappear, option premium the seller received will be as it is that of the seller.",
+                question: "{JAPAN ONLY}If the exercise period passes without the option being exercised by the buyer, the option premium received by the seller will be the profit made on the trade.",
                 answer: true, id: 58
             },
             {
-                question: "{JAPAN ONLY}Although the options which is not be exercised will disappear at the exercise period, the option fee which seller received will remain for sellers.",
+                question: "{JAPAN ONLY}Even if the option is exercise or not exercised, the original option premium remains with the option seller.",
                 answer: true, id: 59
             },
             {
-                question: "{JAPAN ONLY}Maximum loss of buyer at binary options is an optional fee, maximum loss of the seller will be the amount subtracted the option fee from the payout amount.",
+                question: "{JAPAN ONLY}The maximum loss for the buyer of an option is the price paid, and the maximium loss for the option seller will be the payout amount minus the opion price he received.",
                 answer: true, id: 60
             },
             {
-                question: "{JAPAN ONLY}Based on the probability of profit is obtained by the exercise, it can not be said that cheaper options is advantageous unconditionally.",
+                question: "{JAPAN ONLY}Because option prices are determined by the probability of being exercised, it cannot be said that cheaper options have any natural advantage over expensive options.",
                 answer: true,
                 id: 61,
             },
             {
-                question: "{JAPAN ONLY}Binary options is lower risks and higher returns than plan options because loss of sellers is limited at binary options.",
+                question: "{JAPAN ONLY}Binary options have lower risk than vanilla options for option sellers, because with binary options the maximum loss is fixed.",
                 answer: false,
                 id: 62
             },
             {
-                question: "{JAPAN ONLY}Although binary option loss is limited, based on the assets of the investors, so as not to become excessive speculative trading, it is necessary to bear in mind the moderation in transactions.",
+                question: "{JAPAN ONLY}Even though losses in binary options are limited, it is still necessary to take care not to engage in excessive speculative trading and to moderate your transactions volume.",
                 answer: true,
                 id: 63
             },
             {
-                question: "{JAPAN ONLY}In case probability to receive the payout is 50% and magnification of payout for the investment is less than a 2-fold lower, than the expected rate will be  1 times lower and forecast recovery amount is less than the investment.",
+                question: "{JAPAN ONLY}If the probablility of a payout is 50% then when the potential payout is less than 100% of the price paid for the option, the expected return on the investment will be less than 100%.",
                 answer: true,
                 id: 64
             },
             {
-                question: "{JAPAN ONLY}It can not be said that binary option is unconditionally advantageous because the reason why investors will lose the full amount of investment at binary option, on the other hand part of investment will remain at FX.",
+                question: "{JAPAN ONLY}It cannot be said that binary options trading is unconditionally advanteous over regular spot fx trading, because investors may lose all of their investment whereas in spot fx trading there will still be some value in the trading position.",
                 answer: true,
                 id: 65
             },
             {
-                question: "{JAPAN ONLY}The contents of the financial instruments of the OTC binary options are the same even transactions dealers handling financial instruments business are different.",
+                question: "{JAPAN ONLY}The particular details of binary options are all the same, no matter which broking company you trade with.",
                 answer: false,
                 id: 66
             },
             {
-                question: "{JAPAN ONLY}The price of OTC binary options of the same conditions, (sometimes) the price varies depending on transactions dealers handling financial instruments business.",
+                question: "{JAPAN ONLY}Even if all details of the binary options match perfectly, there may still be differences in the prices shown by different broking companies.",
                 answer: true,
                 id: 67
             },
             {
-                question: "{JAPAN ONLY}Price of OTC currency option is the calculated value based on multiple elements and is determined by relative trading basically.",
+                question: "{JAPAN ONLY}Prices for currency options are calculated relative the value of theunderlying spot price, and are dependant on multiple factors which may vary.",
                 answer: true,
                 id: 68
             },
             {
-                question: "{JAPAN ONLY}Regarding to the OTC price of financial instruments, in case that financial instruments business operator suggests both of  bid and ask price (or trading price and cancellation price), generally there is a difference of them. This option will be wider as the expiration approaches.",
+                question: "{JAPAN ONLY}Where broking companies show bid and offer prices for purchasing and sell-back of positions, these prices may become further apart the nearer you are to the exercise time.",
                 answer: true,
                 id: 69
             },
             {
-                question: "{JAPAN ONLY}Price of the option, the price of the underlying asset, price fluctuation rate of the underlying assets, the time until the exercise date, subject to any of the impact of interest rates.",
+                question: "{JAPAN ONLY}Option prices depend on the spot price, the time to expiry, the volatility of the spot rate and interest rates.",
                 answer: true, id: 70
             },
 
@@ -72830,7 +73443,7 @@ function attach_tabs(element) {
                 answer: true, id: 71
             },
             {
-                question: "{JAPAN ONLY}Price of call option will be lower interest rates of the underlying assets is low, but the price of the put option, go up when the interest rates of the underlying assets is low.",
+                question: "{JAPAN ONLY}The price of a vanilla call option will be lower when price of the underlying asset is low, but the price of the put option will be higher when the price of the underlying asset is low.",
                 answer: true, id: 72
             },
             {
@@ -72999,7 +73612,6 @@ function attach_tabs(element) {
         sendResult: sendResult
     };
 }());
-
 ;var KnowledgeTest = (function() {
     "use strict";
 
