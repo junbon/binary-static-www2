@@ -1,15 +1,33 @@
 .applications-page {
-	.application {
-		margin-top: 2em;
-		h2 {
-			margin-bottom: 0.5em;
-		}
-		.desc {
-			line-height: 1.4em;
-		}
-		.icon {
-			margin-top: 40px;
-			@include BIDIR_VALUE(padding, 0 15px 0 0, 0 0 0 15px);
-		}
-	}
+    .application {
+        margin: 20px 0 40px;
+        padding-right: 30px !important;
+        line-height: 1.4em;
+
+        img.image {
+            height: 180px;
+            width: auto !important;
+        }
+        h2 {
+            color: $COLOR_ORANGE;
+            font-weight: normal;
+            margin: 20px 0 15px;
+        }
+        .desc {
+            padding: 0px;
+            margin: 20px 0;
+        }
+        .icon {
+            margin-top: 10px;
+            @include BIDIR_VALUE(padding, 0 15px 0 0, 0 0 0 15px);
+        }
+        span.button {
+            font-weight: normal;
+            min-width: 110px;
+            padding: 10px;
+        }
+        &.links {
+            line-height: 1.8em;
+        }
+    }
 }
