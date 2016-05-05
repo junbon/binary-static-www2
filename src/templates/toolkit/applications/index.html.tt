@@ -84,14 +84,14 @@
         <div class="clear"></div>
 
         <div class="grd-grid-6 grd-grid-phablet-12 grd-grid-mobile-12 no-padding application">
-            <div class="grd-grid-12 no-padding">[% l('[_1] is an active proponent of the open-source movement. you can suggest your enhancements and activity take part in the development of our applications. You can find more information for developers on our <a href="[_2]">Developer Portal</a>.', request.website.display_name, request.url_for('https://developers.binary.com')) %]</div>
+            <div class="grd-grid-12 no-padding">[% l('[_1] is an active proponent of the open-source movement. you can suggest your enhancements and activity take part in the development of our applications. You can find more information for developers on our <a href="[_2]">Developers Portal</a>.', request.website.display_name, '//developers.binary.com') %]</div>
         </div>
 
         <div class="grd-grid-6 grd-grid-phablet-12 grd-grid-mobile-12 no-padding application links">
-            <div class="grd-grid-12"><a href="https://github.com/binary-com/mobile">[% l('Tick Trade on GitHub') %]</a></div>
-            <div class="grd-grid-12"><a href="https://github.com/">[% l('Webtrader on GitHub') %]</a></div>
-            <div class="grd-grid-12"><a href="https://github.com/">[% l('Next-Gen on GitHub') %]</a></div>
-            <div class="grd-grid-12"><a href="https://github.com/">[% l('List of all our open source projects') %]</a></div>
+            <div class="grd-grid-12"><a target="_blank" href="https://github.com/binary-com/mobile">[% l('Tick Trade on GitHub') %]</a></div>
+            <div class="grd-grid-12"><a target="_blank" href="https://github.com/binary-com/webtrader">[% l('Webtrader on GitHub') %]</a></div>
+            <div class="grd-grid-12"><a target="_blank" href="https://github.com/binary-com/binary-next-gen">[% l('Next-Gen on GitHub') %]</a></div>
+            <div class="grd-grid-12"><a target="_blank" href="https://github.com/binary-com/">[% l('List of all our open source projects') %]</a></div>
         </div>
     </div>
 </div>
