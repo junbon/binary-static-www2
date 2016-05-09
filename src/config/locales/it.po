@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Italian (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 20:11+0000\n"
+"PO-Revision-Date: 2016-05-09 21:17+0000\n"
 "Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/binary/static/it/>\n"
@@ -7608,7 +7608,7 @@ msgstr "Convertitori di valuta online"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:256
 msgid "Only %1 are allowed."
-msgstr "Sono consentiti solo 1%."
+msgstr "Sono consentiti solo %1."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:342
 msgid "Only 2 decimal points are allowed."
