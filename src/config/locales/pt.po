@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 20:52+0000\n"
+"PO-Revision-Date: 2016-05-10 00:57+0000\n"
 "Last-Translator: Alcino Jorge <alcino@binary.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
@@ -1351,7 +1351,9 @@ msgstr "Ação"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Adapt affiliate-marketing tactics and promotional materials as needed, to localise all content for maximum effectiveness"
-msgstr "Adapte táticas de marketing de afiliados e materiais promocionais, conforme necessário, para localizar todos os conteúdos para eficácia máxima"
+msgstr ""
+"Adapte táticas de marketing de afiliados e materiais promocionais, conforme "
+"necessário, para localizar todos os conteúdos para máxima eficácia"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Adapt communication appropriately to suit a variety of different formats and target audiences"
@@ -1770,8 +1772,8 @@ msgstr "Assim que você clicar em \"COMPRAR\", a negociação é registrada na s
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/asian.html.tt:10
 msgid "Asian contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
 msgstr ""
-"Os contratos \"Asiáticos\" serão reembolsados ao preço de compra se o "
-"contrato não terminar dentro de 5 minutos."
+"Contratos asiáticos serão reembolsados ao preço de compra se o contrato não "
+"terminar dentro de 5 minutos."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/winning/asian.html.tt:1
 msgid "Asian options settle by comparing the <strong>last tick</strong> with the average spot over the period."
@@ -12864,7 +12866,11 @@ msgstr "Você não concedeu acesso a quaisquer aplicativos."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:119
 msgid "You have not obtained and have not maintained all necessary licences and consents to operate within any laws, rules, and regulations applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business;"
-msgstr "Você não obteve nem manteve todas as licenças e autorizações necessárias para operar dentro de quaisquer leis, regras e regulamentos aplicáveis, sob a autoridade de qualquer entidade regulatória, da jurisdição na qual você opera ou em que o seu negócio se destina;"
+msgstr ""
+"Você não obteve nem manteve todas as licenças e autorizações necessárias "
+"para operar dentro de quaisquer leis, regras e regulamentos aplicáveis sob a "
+"autoridade de qualquer entidade regulatória da jurisdição na qual você opera "
+"ou aonde o seu negócio se destina;"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/email/bonus_reject.html.tt:10
 msgid "You have not yet reached the turnover required to be credited with the bonus."
@@ -12986,7 +12992,11 @@ msgstr "Você afirma e garante à empresa que, excluindo os conteúdos, você po
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:89
 msgid "You represent, warrant, and undertake that you have obtained and shall maintain all necessary licences and consents to operate within any laws, rules, and regulations applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business."
-msgstr "Você declara, garante e assume que obteve e irá manter todas as licenças e autorizações necessárias para operar dentro de quaisquer leis, regras ou regulamentos aplicáveis, sob a autoridade de qualquer entidade regulatória, da jurisdição na qual você opera ou em que se destina o seu negócio."
+msgstr ""
+"Você declara, garante e assume que obteve e irá manter todas as licenças e "
+"autorizações necessárias para operar dentro de quaisquer leis, regras ou "
+"regulamentos aplicáveis, sob a autoridade de qualquer entidade regulatória, "
+"na jurisdição na qual você opera ou em que se destina o seu negócio."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:90
 msgid "You represent, warrant, and undertake that your website or promotion shall contain no material which is defamatory, pornographic, unlawful, harmful, threatening, obscene, harassing, or racially, ethnically, or otherwise objectionable or discriminatory, violent, politically sensitive, or otherwise controversial or in breach of any third party rights and shall not link to any such material."
