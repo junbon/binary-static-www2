@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: BOM\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-08 23:14+0000\n"
-"Last-Translator: Alina Demidova <alinademidova1@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 06:39+0000\n"
+"Last-Translator: Ruslan <ruslan.mukhametdinov.90@gmail.com>\n"
 "Language-Team: Russian "
 "<https://hosted.weblate.org/projects/binary/static/ru/>\n"
 "Language: ru\n"
@@ -11521,10 +11521,14 @@ msgid "This document (the \"Agreement\") sets out the terms and conditions (\"Te
 msgstr "Данный документ (в дальнейшем именуемый \"Соглашение\") устанавливает правила и условия (\"Правила\"), действующие между \"Компанией\" – Binary Services Ltd (также именуемой в тексте \"мы,\" \"нас\" и \"наш\") и Вами (лицом, зарегистрировавшимся на интерфейсе прикладного программирования Binary.com (\"API\"); \"Вы\" или \"Ваш\")."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:8
-#, fuzzy
 #| msgid "This document (the \"Agreement\") sets out the terms and conditions between \"the Company\" which is Binary Services Ltd, and you (the person who applied for this program; \"you\" or \"your\"), in relation to your application to setup an affiliate account (and membership of the affiliate program if your application is deemed successful) to promote the website %1"
 msgid "This document (the \"Agreement\") sets out the terms and conditions between \"the Company\" which is Binary Services Ltd, and you (the person who applied for this program; \"you\", \"your\", or \"Affiliate\"), in relation to your application to setup an affiliate account (and membership of the affiliate program if your application is deemed successful)"
-msgstr "Данный документ (\"Соглашение\") устанавливает правила и условия между \"Компанией\", что обозначает Binary Services Ltd, и Вами (человеком, подавшим заявку на партнерскую программу; \"Вы\"), в отношении Вашего заявления на партнерский счет (и участие в партнерской программе, если заявка одобрена) с целью продвижения сайта %1"
+msgstr ""
+"Данный документ (\"Соглашение\") устанавливает правила и условия между  "
+"Binary Services Ltd (далее \"Компания\"), и лицом, подавшим заявку на "
+"участие в партнерской программе (далее \"Вы\", \"Вами\" или \"Партнером\"), "
+"в отношении Вашего заявления на открытие партнерского счета (и участие в "
+"партнерской программе, если заявка одобрена)"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:394
 msgid "This feature is not relevant to virtual-money accounts."
@@ -12568,9 +12572,12 @@ msgid "We reserve the right to modify, supplement, or replace these Terms at any
 msgstr "Мы оставляем за собой право вносить изменения, дополнения или менять данные Правила в любое время. Вы будете уведомлены о любых значительных изменениях. Ваша регистрация на API Binary.com и дальнейшее использование API Binary.com будет означать принятие Вами таковых изменений."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:50
-#, fuzzy
 msgid "We reserve the right to refuse your referrals’ application to open an account (or to close their accounts), as deemed necessary, to comply with any requirements we may periodically establish and/or that may be required under applicable laws, rules, and regulations."
 msgstr ""
+"Мы оставляем за собой право отклонить заявку Ваших рефералов на открытие(или "
+"закрытие) счета с целью соблюдения требований, которые мы можем периодически "
+"устанавливать и/или которые могут быть необходимы в рамках применимого "
+"законодательства, правил и норм."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/why_us.html.haml:1
 msgid "We segregate and hold client funds in secure AAA-rated banks."
