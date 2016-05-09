@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Italian (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 20:01+0000\n"
-"Last-Translator: Mauro Piccillo <mauro.piccillo@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 20:11+0000\n"
+"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/binary/static/it/>\n"
 "Language: it\n"
@@ -1813,6 +1813,8 @@ msgstr "Appena clicchi sul pulsante \"ACQUISTA\", il tuo trade viene registrato 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/asian.html.tt:10
 msgid "Asian contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
 msgstr ""
+"I contratti asiatici verranno rimborsati al prezzo d'acquisto se il "
+"contratto non termina entro 5 minuti."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/winning/asian.html.tt:1
 msgid "Asian options settle by comparing the <strong>last tick</strong> with the average spot over the period."
@@ -3802,6 +3804,8 @@ msgstr "Differenze con gli altri feed di dati"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/digits.html.tt:7
 msgid "Digit contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
 msgstr ""
+"I contratti digit verranno rimborsati al prezzo d'acquisto se il contratto "
+"non termina entro 5 minuti."
 
 #. (@range)
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Pricing/Engine/Digits.pm:57
@@ -4221,6 +4225,8 @@ msgstr "Pari/Dispari"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/evenodd.html.tt:6
 msgid "Even/Odd contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
 msgstr ""
+"I contratti Pari/Dispari verranno rimborsati al prezzo d'acquisto se il "
+"contratto non termina entro 5 minuti."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/spread_bets.html.haml:1
 msgid "Example:"
@@ -7855,6 +7861,8 @@ msgstr "Sopra/Sotto"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/overunder.html.tt:6
 msgid "Over/Under contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
 msgstr ""
+"I contratti Over/Under verranno rimborsati al prezzo d'acquisto se il "
+"contratto non termina entro 5 minuti."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:427
 msgid "Overlay"
