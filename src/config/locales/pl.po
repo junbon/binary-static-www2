@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-04 18:33+0000\n"
-"Last-Translator: Ewelina Bruździak <e.bruzdziak@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 08:04+0000\n"
+"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/binary/static/pl/>"
 "\n"
 "Language: pl\n"
@@ -7839,10 +7839,16 @@ msgid "Ownership and content of the %1 website remains our respective properties
 msgstr "Treść strony internetowej %1 pozostaje naszą własnością, która nie zostanie Ci przekazana przez żaden akt lub pominięcie na mocy niniejszej Umowy."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:62
-#, fuzzy
 #| msgid "Ownership, content and liability for affiliate sites are the sole responsibility of the affiliate. You will be solely responsible for the development, operation, and maintenance of your site and for all materials that appear on your site. You will indemnify and hold us harmless from all claims, damages, and expenses (including, without limitation to, attorneys' fees) relating to the development, operation, maintenance, and contents of your site."
 msgid "Ownership, content, and liability of the Affiliate's websites are the sole responsibility of the Affiliate. You will be solely responsible for the development, operation, and maintenance of your website and for all materials that appear on your website. You will indemnify and hold us harmless from all claims, damages, and expenses (including, without limitation to, attorneys' fees) relating to the development, operation, maintenance, and contents of your website."
-msgstr "Odpowiedzialność za własność, treść i wiarygodność stron partnerskich ponosi wyłącznie partner. Partner jest w pełni odpowiedzialny za kodowanie, działanie i utrzymanie swojej strony internetowej i wszystkich materiałów, jakie się na niej pojawiają. Partner nie będzie pociągał Firmy do odpowiedzialności w związku z jakimikolwiek roszczeniami, odszkodowaniami czy wydatkami (w tym kosztami postępowań sądowych) związanymi z kodowaniem, działaniem i utrzymaniem swojej strony, czy też jej zawartością."
+msgstr ""
+"Odpowiedzialność za własność, treść i wiarygodność stron partnerskich ponosi "
+"wyłącznie partner. Partner jest w pełni odpowiedzialny za kodowanie, "
+"działanie i utrzymanie swojej strony internetowej i wszystkich materiałów, "
+"jakie się na niej pojawiają. Partner nie będzie pociągał Firmy do "
+"odpowiedzialności w związku z jakimikolwiek roszczeniami, odszkodowaniami "
+"czy wydatkami (w tym kosztami postępowań sądowych) związanymi z kodowaniem, "
+"działaniem i utrzymaniem swojej strony, czy też jej zawartością."
 
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Locale.pm:210
 msgid "P.O. Box is not accepted in address."
@@ -13224,10 +13230,15 @@ msgstr "Nie będziesz zawierać zakładów w imieniu osób, którym polecasz nas
 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:38
-#, fuzzy
 #| msgid "You may not purchase or register keywords, search terms or other identifiers for use in any search engine, portal, sponsored advertising service or other search or referral service which are identical or similar to any of the Company's trademarks or trade names that include the word \"%1\" or any variation thereof. However, this does not extend to the use of Meta tag keywords on your site which are identical or similar to any of the Company's trademarks or trade names including the term %1."
 msgid "You shall not purchase or register keywords, search terms or other identifiers for use in any search engine, portal, sponsored advertising service or other search or referral service which are identical or similar to any of the Company's trademarks or trade names that include the word \"%1\" or any variation thereof."
-msgstr "Zabrania się kupowania i rejestracji słów kluczowych, terminów wyszukiwania i innych identyfikatorów, które można wykorzystać w jakiejkolwiek wyszukiwarce, portalu, sponsorowanym serwisie reklamowym lub innej usłudze wyszukiwania lub w serwisie polecającym, które są identyczne lub podobne do któregokolwiek ze znaków towarowych lub którejkolwiek nazwy handlowej Firmy, zawierających słowo \"%1\" lub jego odmiany. Jednakże nie obejmuje to korzystania ze znajdujących się na stronie partnera Metatagów, które są identyczne lub podobne do któregokolwiek ze znaków towarowych i którejkolwiek nazwy handlowej Firmy, w tym terminu %1."
+msgstr ""
+"Partner nie będzie kupowa ani rejestrował słów kluczowych, terminów "
+"wyszukiwania i innych identyfikatorów, które można wykorzystać w "
+"jakiejkolwiek wyszukiwarce, portalu, sponsorowanym serwisie reklamowym lub "
+"innej usłudze wyszukiwania lub w serwisie polecającym, które są identyczne "
+"lub podobne do któregokolwiek ze znaków towarowych lub którejkolwiek nazwy "
+"handlowej Firmy, zawierających słowo \"%1\" lub jego odmiany."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:35
 msgid "You shall not resort to high-pressure sales tactics or false promises."
@@ -13418,10 +13429,11 @@ msgid "Your cashier is locked as per your request"
 msgstr "Twoja sekcja Kasjer została zablokowana na Twoją prośbę"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:743
-#, fuzzy
 #| msgid "Your cashier is locked as per your request - to unlock it, please <a href=\"%1\">click here</a>."
 msgid "Your cashier is locked as per your request - to unlock it, please click %1here"
-msgstr "Sekcja Kasjer została zablokowana na Twoją prośbę - jeśli chcesz ją odblokować, prosimy <a href=\"%1\">kliknąć tutaj</a>."
+msgstr ""
+"Sekcja Kasjer została zablokowana na Twoją prośbę - jeśli chcesz ją "
+"odblokować, prosimy kliknąć %1 tutaj"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:595
 msgid "Your cashier is locked as per your request - to unlock it, please enter the password."
