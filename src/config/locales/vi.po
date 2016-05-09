@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 18:34+0000\n"
-"Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 19:51+0000\n"
+"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Vietnamese "
 "<https://hosted.weblate.org/projects/binary/static/vi/>\n"
 "Language: vi\n"
@@ -154,7 +154,10 @@ msgstr ""
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/careers.html.haml:1
 msgid "%1 is always looking to add experienced professionals to its talented team of administrators, technical contributors, and managers. To support our continued growth, we’ve developed a number of exciting career opportunities in the following areas:"
-msgstr "1% luôn tìm kiếm các chuyên gia có kinh nghiệm để bổ sung vào đội ngũ quản trị, kỹ thuật, và quản lý. Để hỗ trợ cho việc tăng trưởng liên tục, chúng tôi đã phát triển một số cơ hội nghề nghiệp thú vị trong các lĩnh vực sau:"
+msgstr ""
+"%1 luôn tìm kiếm các chuyên gia có kinh nghiệm để bổ sung vào đội ngũ quản "
+"trị, kỹ thuật, và quản lý. Để hỗ trợ cho việc tăng trưởng liên tục, chúng "
+"tôi đã phát triển một số cơ hội nghề nghiệp thú vị trong các lĩnh vực sau:"
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -789,7 +792,9 @@ msgstr "<strong>định giá 2 chiều</strong> - %1 định giá giao dịch v
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/payment_agent.html.haml:1
 msgid "<strong>Additional business exposure:</strong> You will increase awareness of your services and generate new business."
-msgstr "<strong> 1Phát sinh giao dịch:</strong> 2Bạn sẽ hiểu biết thêm về dịch vụ của mình và có thể tạo thêm được giao dịch mới."
+msgstr ""
+"<strong>Phát sinh giao dịch:</strong> Bạn sẽ hiểu biết thêm về dịch "
+"vụ của mình và có thể tạo thêm được giao dịch mới."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/what_is_binary_trading.html.haml:1
 msgid "<strong>All durations</strong> - from 10 seconds to 365 days."
@@ -809,7 +814,7 @@ msgstr "<strong>Tất cả thị trường</strong> - tiền tệ, chỉ số c�
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/what_is_binary_trading.html.haml:1
 msgid "<strong>All payouts</strong> - from $1 to $50,000."
-msgstr "<strong> 1Tất cả tiền thưởng</strong> 2 - từ $1 đến $50,000."
+msgstr "<strong>Tất cả tiền thưởng</strong> - từ $1 đến $50,000."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/maltainvestws.html.tt:430
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/register/risk_disclaimer_message.html.tt:2
@@ -3449,15 +3454,21 @@ msgid ""
 "\n"
 "Binary\n"
 msgstr ""
-"% 1 thân mến,\n"
+"%1 thân mến,\n"
 "\n"
-"Tôi viết thư cho bạn về việc liên quan tới tài khoản của bạn trên trang Binary.com.\n"
+"Tôi viết thư cho bạn về việc liên quan tới tài khoản của bạn trên "
+"trang Binary.com.\n"
 "\n"
-"Chúng tôi được yêu cầu xác minh việc khách hàng đã trên 18 tuổi, và vì vậy chúng tôi yêu cầu bạn gửi bản scan phô tô của một trong những thứ sau tới %2:\n"
+"Chúng tôi được yêu cầu xác minh việc khách hàng đã trên 18 tuổi, và"
+" vì vậy chúng tôi yêu cầu bạn gửi bản scan phô tô của một trong nhữ"
+"ng thứ sau tới %2:\n"
 "\n"
-"- Hộ chiếu hoặc giấy phép Lái xe hoặc Chứng minh nhân dân có giá trị hiện hành.\n"
+"- Hộ chiếu hoặc giấy phép Lái xe hoặc Chứng minh nhân dân có giá "
+"trị hiện hành.\n"
 "\n"
-"Để phù hợp với quy định cấp phép, bạn sẽ không thể gửi tiền, rút tiền hoặc giao dịch trên tài khoản cho tới khi chúng tôi nhận được những giấy tờ này.\n"
+"Để phù hợp với quy định cấp phép, bạn sẽ không thể gửi tiền, rú"
+"t tiền hoặc giao dịch trên tài khoản cho tới khi chúng tôi nhận đượ"
+"c những giấy tờ này.\n"
 "\n"
 "Hi vọng sớm nhận được hồi âm từ bạn.\n"
 "\n"
@@ -3507,11 +3518,15 @@ msgid ""
 "\n"
 "We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
 msgstr ""
-"% 1 thân mến,\n"
+"%1 thân mến,\n"
 "\n"
-"Chúng tôi thực sự rất vui mừng rằng bạn đã quyết định giao dịch với %2 và chúng tôi hi vọng rằng hoạt động của bạn trên sàn của chúng tôi đã rất tích cực.\n"
+"Chúng tôi thực sự rất vui mừng rằng bạn đã quyết định giao dịch "
+"với %2 và chúng tôi hi vọng rằng hoạt động của bạn trên sàn của "
+"chúng tôi đã rất tích cực.\n"
 "\n"
-"Chúng tôi đã gửi cho bạn thông báo để bạn biết rằng chúng tôi đã nhận được yêu cầu nhận tiền thưởng của bạn. Thật không may, chúng tôi đã không thể xử lý yêu cầu của bạn với những lý do dưới đây:"
+"Chúng tôi đã gửi cho bạn thông báo để bạn biết rằng chúng tôi đã "
+"nhận được yêu cầu nhận tiền thưởng của bạn. Thật không may, chúng "
+"tôi đã không thể xử lý yêu cầu của bạn với những lý do dưới đây:"
 
 #. (token, link)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/email/lost_password.html.tt:1
@@ -3694,7 +3709,7 @@ msgstr "Gửi tiền: %1 ngày làm việc"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_methods.html.tt:67
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_methods.html.tt:91
 msgid "Deposit: %1 working days"
-msgstr "Gửi tiền: % 1 ngày làm việc"
+msgstr "Gửi tiền: %1 ngày làm việc"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_methods.html.tt:191
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_methods.html.tt:213
@@ -9628,7 +9643,10 @@ msgstr "Xin lỗi, bạn không thể rút tiền. Số dư tài khoản của b
 #. ("$currency $amount",                $limit,                request()
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:961
 msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2. Please contact <a href=\"%3\">customer support</a> to authenticate your account."
-msgstr "Xin lỗi, bạn không thể rút tiền. Số tiền rút %1 của bạn vượt quá giới hạn tiền rút%2. Vui lòng liên hệ<a href=\"%3\"> 1bộ phận hỗ trợ khách hàng</a> 2 để xác thực tài khoản của bạn."
+msgstr ""
+"Xin lỗi, bạn không thể rút tiền. Số tiền rút %1 của bạn vượt quá giới hạn "
+"tiền rút%2. Vui lòng liên hệ<a href=\"%3\"> bộ phận hỗ trợ khách hàng</a> để "
+"xác thực tài khoản của bạn."
 
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/User.pm:69
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
@@ -12853,7 +12871,9 @@ msgstr "Bạn có thể sử dụng một đại lý thanh toán uỷ quyền đ
 #. ($loginid_to)
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:497
 msgid "You cannot transfer to account %1, as their account is currently disabled."
-msgstr "Bạn không thể chuyển vào tài khoản% 1, vì tài khoản của họ hiện đang bị vô hiệu hóa."
+msgstr ""
+"Bạn không thể chuyển vào tài khoản %1, vì tài khoản của họ hiện đang bị vô "
+"hiệu hóa."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:375
 msgid "You did not change anything."
