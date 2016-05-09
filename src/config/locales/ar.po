@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arabic (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 04:33+0000\n"
+"PO-Revision-Date: 2016-05-09 04:50+0000\n"
 "Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/binary/static/ar/>"
 "\n"
@@ -678,7 +678,7 @@ msgid "<p style=\"font-weight: bold;\">Thanks for signing up for a virtual accou
 msgstr ""
 "<p style=\"font-weight: bold;\">شكراً لتسجيلكم من أجل الحصول على حساب "
 "إفتراضي!</p><p>أدخل رمز التحقق التالي في النموذج لإنشاء حساب<p><p><span "
-"style=\"background: #f2f2f2; padding: 10px;\">%</span></p></p><p>استمتع "
+"style=\"background: #f2f2f2; padding: 10px;\">1%</span></p></p><p>استمتع "
 "بالتداول معنا في Binary.com.</p>"
 
 #. ($params->{code})
@@ -688,8 +688,8 @@ msgstr ""
 "<p style=\"line-height:200%;color:#333333;font-size:15px;\">عميلنا العزيز "
 "المحترم</p>قبل أن نستطيع مساعدتك في تغيير كلمة المرور الخاصة بك, نرجو منك "
 "مساعدتنا في التحقق من هويتك من خلال إدخال رمز التحقق التالي في نموذج أعادة "
-"تعيين كلمة المرور<p><span style=\"background: #f2f2f2; padding: 10px;\">1 "
-"%</span></p></p>"
+"تعيين كلمة المرور<p><span style=\"background: #f2f2f2; padding: 10px;\""
+">1%</span></p></p>"
 
 #. ($params->{code})
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:133
@@ -698,12 +698,16 @@ msgstr ""
 "<p style=\"line-height:200%;color:#333333;font-size:15px;\">عزيزنا العميل "
 "المحترم,</p><p>نرجو منك مساعدتنا في التحقق من هويتك من خلال إدخال رمز التحقق "
 "التالي في نموذج وكيل سحب الدفعة<p><span style=\"background: #f2f2f2; padding:"
-" 10px;\">1 %</span></p>"
+" 10px;\">1%</span></p>"
 
 #. ($params->{code})
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:145
 msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Please help us to verify your identity by entering the following verification token into the payment withdrawal form:<p><span style=\"background: #f2f2f2; padding: 10px;\">%1</span></p></p>"
-msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\">عزيزنا العميل المحترم,</p>نرجو منك مساعدتنا في التحقق من هويتك من خلال إدخال رمز التحقق التالي في نموذج سحب الدفع:<p><span style=\"background: #f2f2f2; padding: 10px;\">1 %</span></p></p>"
+msgstr ""
+"<p style=\"line-height:200%;color:#333333;font-size:15px;\">عزيزنا العميل "
+"المحترم,</p>نرجو منك مساعدتنا في التحقق من هويتك من خلال إدخال رمز التحقق "
+"التالي في نموذج سحب الدفع:<p><span style=\"background: #f2f2f2; padding: "
+"10px;\">1%</span></p></p>"
 
 #. (purpose, code)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/email/send_verificationws.html.tt:1
@@ -718,9 +722,9 @@ msgid ""
 msgstr ""
 "<p style='font-weight: bold; margin-bottom: 0;'>شكراً لتسجيلكم من أجل الحصول "
 "على حساب إفتراضي!</p><p style='margin-bottom: 0; margin-top: 0;'>أدخل رمز "
-"التحقق التالي في نموذج 1 %:<p style='margin-bottom: 0; margin-top: 0;'><span "
-"style='background: #f2f2f2; padding: 10px;'>2 %</span></p></p><p style"
-"='margin-top: 0;'>استمتع بالتداول معنا في Binary.com.</p>"
+"التحقق التالي في نموذج %1:<p style='margin-bottom: 0; margin-top: 0;'><span "
+"style='background: #f2f2f2; padding: 10px;'>2%</span></p></p><p style"
+"='margin-top: 0;'>استمتع بالتداول معنا في Binary.com.</p>\n"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/faq.html.tt:73
 msgid ""
@@ -6695,7 +6699,7 @@ msgstr "المعرفة بنظرية الاحتمالات وحساب التفاض
 #. ($next_dt->date . ' ' . $next_dt->time)
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount/Japan.pm:151
 msgid "Knowledge test is unavailable now, you may take the test on %1"
-msgstr "اختبار المعرفة غير متاح الآن, يمكنك اجراء الإختبار على 1 %."
+msgstr "Knowledge test is unavailable now, you may take the test on %1"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/header.html.tt:73
 msgid "LOG OUT"
