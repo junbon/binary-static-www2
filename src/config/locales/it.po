@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Italian (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-08 18:41+0000\n"
+"PO-Revision-Date: 2016-05-09 06:03+0000\n"
 "Last-Translator: Annalisa <ligiu@me.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/binary/static/it/>\n"
@@ -78,10 +78,11 @@ msgid "%1 New Password Request"
 msgstr "Richiesta nuova password %1"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:725
-#, fuzzy
 #| msgid "Your token has expired. If you require further assistance, please contact our <a href=\"%1\"><strong>Customer Support</strong></a>."
 msgid "%1 Please click the link below to restart the password recovery process. If you require further assistance, please contact our Customer Support."
-msgstr "Il token è scaduto. Per ulteriore assistenza, contatta la nostra <a href=\"%1\"><strong>Assistenza Clienti</strong></a>."
+msgstr ""
+"%1 clicca il link qui sotto per riavviare la procedura di ripristino della "
+"password. Per ulteriore assistenza, contatta la nostra Assistenza Clienti."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/payment_agent.html.haml:1
@@ -159,6 +160,9 @@ msgstr "%1 si basa completamente sul web e non richiede l'installazione di alcun
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 is looking to recruit highly skilled, experienced designers who are passionate about developing attractive visuals for both online and offline applications."
 msgstr ""
+"%1 è alla ricerca di designer altamente qualificati e con esperienza con la "
+"passione per lo sviluppo di elementi visivi attraenti sia per le "
+"applicazioni online che per quelle offline."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/index.html.haml:1
@@ -177,22 +181,38 @@ msgstr "%1 è alla ricerca di un professionista con un certo grado di esperienza
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "%1 is seeking a qualified proofreader with a flair for language and a meticulous eye for detail. You must be able to interact with our staff using a web-based translator interface. You’ll work with colleagues in IT, Customer Support and Marketing to provide localized text and document translation services on our global website %1."
 msgid "%1 is seeking a qualified proofreader with a flair for language and a meticulous eye for detail. You must be able to interact with our staff using a web-based translator interface. You’ll work with colleagues in IT, Customer Support and Marketing to provide localised text and translation services."
-msgstr "%1 è alla ricerca di un proofreader qualificato con l'attitudine per le lingue e un'occhio attento ai dettagli. Deve essere in grado di interagire con il nostro staff utilizzando un'interfaccia per i traduttori basata sul web. Lavorerà in stretta collaborazione con i colleghi dell'IT, Assistenza Clienti e Marketing per fornire servizi di localizzazione di testi e traduzione di documenti sul nostro sito internet %1."
+msgstr ""
+"%1 è alla ricerca di un proofreader qualificato con l'attitudine per le "
+"lingue e un'occhio attento ai dettagli. Deve essere in grado di interagire "
+"con il nostro staff utilizzando un'interfaccia per i traduttori basata sul "
+"web. Lavorerà in stretta collaborazione con i colleghi dell'IT, Assistenza "
+"Clienti e Marketing per fornire servizi di localizzazione di testi e "
+"traduzione."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "%1 is seeking qualified translation professionals familiar with specific target markets, languages, and cultures. By delivering a high level of translation and customer support services, you will be the company’s voice to our clients. You’ll work with colleagues in IT, Customer Support and Marketing to provide localized text and document translation services on our global website %1. This position will report to our Translation Project Manager."
 msgid "%1 is seeking qualified translation professionals familiar with specific target markets, languages, and cultures. By delivering high-quality translation to support our customers in a particular language, you will serve as the company’s voice to clients in certain key areas of the world. You’ll work with colleagues in IT, Customer Support, and Marketing to provide localised text and translation services through a web-based tool. This position will report to our Translation Project Manager."
-msgstr "%1 è alla ricerca di traduttori professionisti qualificati con competenza in specifici settori del mercato, lingue e culture. Offrendo un elevato livello di servizi di traduzione e assistenza clienti, sarà il rappresentante della società nei confronti dei nostri clienti. Lavorerà in stretta collaborazione con i colleghi dell'IT, Assistenza Clienti e Marketing per fornire servizi di localizzazione di testi e traduzione di documenti sul nostro sito internet %1. Questo ruolo comunicherà con il nostro Manager addetto ai progetti di traduzione."
+msgstr ""
+"%1 è alla ricerca di traduttori professionisti qualificati con competenza in "
+"specifici settori del mercato, lingue e culture. Offrendo un elevato livello "
+"di servizi di traduzione a supporto dei nostri clienti, in una data lingua, "
+"rappresenterai i clienti della società in determinate aree chiave del mondo. "
+"Lavorerà in stretta collaborazione con i colleghi dell'IT, Assistenza "
+"Clienti e Marketing per fornire servizi di localizzazione di testi e "
+"traduzione attraverso uno strumento online. Questo ruolo comunicherà con il "
+"nostro Manager addetto ai progetti di traduzione."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 is seeking several highly skilled Marketing Executives, eager to contribute their energy, passion, and specialised strengths in connecting with prospects and clients based throughout the globe."
 msgstr ""
+"%1 è alla ricerca di Direttori commerciali altamente qualificati, desiderosi "
+"di contribuire con la propria energia, passione e punti di forza nel "
+"collegamento tra le prospettive di sviluppo future e i clienti in tutto il "
+"mondo."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/benefits_of_trading_binaries.html.haml:1
@@ -218,6 +238,11 @@ msgstr "%1 può avere accesso a informazioni a te non disponibili, può acquisir
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 now seeks Affiliate Managers to drive rapid growth and business development in key areas of the world. Successful recruits for this telecommuting role will actively increase %1’s market presence, expanding its network of affiliate partners from particular countries, geographic regions, and / or languages as needed."
 msgstr ""
+"%1 ricerca Manager d'affiliazione per gestire la rapida crescita e lo "
+"sviluppo commerciale nelle aree chiave del mondo. Le reclute di successo per "
+"questo incarico nel telelavoro incrementeranno attivamente la presenza sul "
+"mercato di %1, espandendo la rete dei partner affiliati di particolari "
+"paesi, aree geografiche e/o lingue, se necessario."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -258,16 +283,26 @@ msgstr "%1 ti fornisce la possibilità di escluderti autonomamente oppure di <a 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 seeks a Project Coordinator to help drive the production of promotional content and rollout of marketing campaigns, designed to engage new prospects and current customers based throughout the globe."
 msgstr ""
+"%1 ricerca un Coordinatore per i progetti che aiuti a gestire la produzione "
+"dei contenuti promozionali e la presentazione delle campagne commerciali, "
+"progettate per coinvolgere nuovi prospect e clienti attuali in tutto il "
+"mondo."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 seeks a Social Media Executive to enhance and proactively manage the company's social-media efforts. This role requires effective utilisation of a variety of social media channels to attract and nurture prospects, clients, partners, and recruits based throughout the world."
 msgstr ""
+"%1 ricerca un Direttore dei social media per migliorare e gestire in modo "
+"proattivo gli sforzi sui social media della società. Questo ruolo richiede "
+"un utilizzo efficace di una varietà di canali di social media per attirare e "
+"promuovere prospect, clienti, partner e reclute in tutto il mondo."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 seeks a sharp Copywriter to produce content that actively engages new prospects and current customers based throughout the world."
 msgstr ""
+"%1 ricerca un Copywriter attento per produrre contenuti che coinvolgano "
+"attivamente nuovi prospect e i clienti attuali in tutto il mondo."
 
 #. ($currency)
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:116
@@ -289,11 +324,18 @@ msgstr "Gli indici Continuous di %1 sono l'Indice di Volatility 25, Volatility 5
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
 msgid "%1's OTC Indices and stocks are sourced from the over-the-counter market and provide you with an alternative means of trading stock indices and stocks - available from sources outside of the centralised exchanges."
 msgstr ""
+"Gli indici OTC e le azioni di %1 provengono dal mercato fuori borsa e "
+"forniscono strumenti di trading in indici azionari e azioni alternativi, "
+"disponibili da fonti esterne alle borse centralizzate."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
 msgid "%1's OTC Indices and stocks offer the benefit of real-time charts and pricing. Enjoy even more exciting opportunities to trade our featured market indices and stocks through this new real-time offering."
 msgstr ""
+"Gli indici OTC e le azioni di %1 offrono i vantaggi dei grafici e dei prezzi "
+"in tempo reale. Goditi opportunità ancora più emozionanti per negoziare i "
+"nostri indici di mercato e azioni attraverso questa nuova offerta in tempo "
+"reale."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/spread_bets.html.haml:1
@@ -1063,10 +1105,10 @@ msgid "A Bachelor’s degree in Computer Science, or an equivalent combination o
 msgstr "Una laurea in Informatica o un mix equivalente di formazione tecnica, training ed esperienza lavorativa"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "A Bachelor’s degree in business or related discipline"
 msgid "A Bachelor’s degree in Marketing, Business Administration, or related discipline"
-msgstr "Una laurea in Economia e Commercio o in discipline simili"
+msgstr ""
+"Una laurea in Marketing, Amministrazione aziendale o in discipline simili"
 
 #. ($params->{website_name})
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:114
@@ -1144,10 +1186,9 @@ msgid "A momentum indicator showing the percent rate-of-change of a triple expon
 msgstr "Un indicatore di momento indicante la percentuale del tasso di variazione di una tripla media mobile adattiva esponenziale. Come gli altri oscillatori, l'indicatore TRIX oscilla attorno alla linea dello zero."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "A native speaker with good command of English (oral and written)"
 msgid "A native speaker with strong command of the English language, in both oral and written form"
-msgstr "Un madrelingua con buona conoscenza dell'inglese (orale e scritto)"
+msgstr "Un madrelingua con ottima conoscenza dell'inglese scritto e orale"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "A panel featuring industry leaders awards BetOnMarkets.com ‘Financial Betting Operator of the Year’ over two other finalists. It’s a major victory for our brand and further recognition of our world-beating service. Ten years on, and going from strength to strength."
@@ -1198,10 +1239,11 @@ msgid "A tick is the minimum upward or downward movement in the price of a marke
 msgstr "Un \"tick\" è la variazione minima verso l'alto o verso il basso del prezzo di mercato."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "A university degree in Marketing, Journalism, Communications or other business related discipline"
 msgid "A university degree in Marketing, Communication, Business Administration, or related discipline"
-msgstr "Un diploma di laurea in Marketing, Giornalismo, Comunicazione o altre discipline connesse al commercio"
+msgstr ""
+"Un diploma di laurea in Marketing, Comunicazione, Amministrazione aziendale "
+"o discipline simili"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "A university degree in Marketing, Journalism, Communications, or other business-related discipline"
@@ -1248,32 +1290,28 @@ msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "AGENTE DI PAGAMENTO AUTORIZZATO?"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "The ability to communicate fluently in English (both oral and written)"
 msgid "Ability to communicate fluently in the English language, in both oral and written forms"
-msgstr "La capacità di comunicare in modo fluente in inglese (scritto e orale)"
+msgstr "La capacità di comunicare in modo fluente in inglese scritto e orale"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "The ability to speak and write in multiple languages"
 msgid "Ability to speak multiple languages"
-msgstr "La capacità di parlare e scrivere in varie lingue"
+msgstr "La capacità di parlare varie lingue"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "The ability to speak and write in multiple languages"
 msgid "Ability to speak, read, and write multiple languages"
-msgstr "La capacità di parlare e scrivere in varie lingue"
+msgstr "La capacità di parlare, leggere e scrivere in varie lingue"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ability to work in a multicultural and international environment"
 msgstr "Capacità di lavorare in un ambiente multiculturale e internazionale"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "Will work with a simple web-based translation tool"
 msgid "Ability to work with a simple web-based translation tool"
-msgstr "Lavorerà con un semplice strumento di traduzione sul web"
+msgstr "La capacità di lavorare con un semplice strumento di traduzione sul web"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:519
 msgid "About"
@@ -1394,14 +1432,19 @@ msgstr "Azione"
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Adapt affiliate-marketing tactics and promotional materials as needed, to localise all content for maximum effectiveness"
 msgstr ""
+"Adattare tattiche di marketing d'affiliazione e materiale promozionale, se "
+"necessario, per localizzare tutti i contenuti per una maggiore efficienza"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Adapt communication appropriately to suit a variety of different formats and target audiences"
 msgstr ""
+"Adattare le comunicazioni in modo adeguato per soddisfare una varietà di "
+"formati diversi e pubblico di riferimento"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Adapt tone of voice as appropriate to suit specified target audiences"
 msgstr ""
+"Adattare il tono di voce per soddisfare uno specifico pubblico di riferimento"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:540
 msgid "Add Lines"
@@ -1463,10 +1506,9 @@ msgid "Affiliate"
 msgstr "Affiliato"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
-#, fuzzy
 #| msgid "Affiliate Program"
 msgid "Affiliate Manager"
-msgstr "Programma di affiliazione"
+msgstr "Manager di affiliazione"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/partners.html.haml:1
 msgid "Affiliate Program"
@@ -1485,10 +1527,13 @@ msgid "All"
 msgstr "Tutto"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:25
-#, fuzzy
 #| msgid "You shall be expected to act with good faith and integrity in your relationships with your referrals and that you shall not resort to high-pressure sales tactics or false promises"
 msgid "All affiliate activities must be conducted in a professional and proper manner. You shall be expected to act with good faith and integrity in your relationships with your referrals, and always act in the best interests of your referrals."
-msgstr "Sei tenuto ad agire in buona fede e con integrità nella relazione con i tuoi referenti e non dovrai ricorrere a tattiche di vendita troppo invasive o a false promesse"
+msgstr ""
+"Tutte le attività d'affiliazione devono essere condotte in modo adeguato e "
+"professionale. Sei tenuto ad agire in buona fede e con integrità nella "
+"relazione con i tuoi referenti e dovrai sempre agire nel miglior interesse "
+"dei referenti."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
 msgid "All calls are recorded for training and monitoring purposes"
@@ -1579,6 +1624,8 @@ msgstr "Un diploma universitario in Matematica, Fisica o Ingegneria"
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "An assertive, sales-driven personality, able to adapt quickly and achieve powerful results"
 msgstr ""
+"Una personalità determinata, con una propensione alle vendite, in grado di "
+"adattarsi rapidamente e raggiungere risultanti importanti"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:346
 msgid "An error occured."
@@ -1656,6 +1703,12 @@ msgstr "Qualsiasi modifica alla nostra informativa sulla privacy o sulla sicurez
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:134
 msgid "Any disputes, controversy, or claims that arise out of or relating to this Agreement against the Company will be referred to and finally determined by an arbitration firm selected by the Company. The language to be used in the arbitral proceedings will be English. Judgement upon the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof. You are also responsible for any and all costs related to such arbitration."
 msgstr ""
+"Qualsiasi disputa o controversia derivante dal presente Accordo nei "
+"confronti della Società verrà sottoposta e gestita da una società "
+"d'arbitrato selezionata dalla Società. La lingua da utilizzare nelle "
+"procedure d'arbitrato saranno in inglese. Il giudizio pronunciato da parte "
+"dell'arbitrato(i) può essere presentato in qualsiasi tribunale competente. "
+"Sei inoltre responsabile per qualsiasi costo connesso a tale arbitrato."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:191
 msgid "Any failure on your part to maintain the security of any security devices or procedures used in or in association with the Binary.com API;"
@@ -1695,10 +1748,12 @@ msgid "Applications"
 msgstr "Applicazioni"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
-#, fuzzy
 #| msgid "With a meticulous eye for detail, proofread and correct the content appearing on the company’s website, blogs and social media outlets."
 msgid "Apply a meticulous eye for detail in proofreading the content that appears on the company’s website, blog, social media outlets, and marketing materials."
-msgstr "Con un occhio attento ai dettagli, in grado di verificare e correggere il contenuto presente sul sito internet della società, blog e social media."
+msgstr ""
+"Applicare un occhio attento ai dettagli, in grado di verificare il contenuto "
+"presente sul sito internet della società, blog e social media e materiale "
+"commerciale."
 
 #. (website, apply_payment_agent_url)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_list.html.tt:29
@@ -1815,6 +1870,11 @@ msgstr "In qualità di nostro Manager/Team Lead DevOps, sarai responsabile della
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/static.html.tt:3
 msgid "As part of a re-branding exercise, the Random Indices are renamed to Volatility Indices. The indices remain the same and you may continue trading as usual. <a href=\"https://blog.binary.com/random-indices-renamed-to-volatility-indices/\" target=\"_blank\">Read more</a>."
 msgstr ""
+"Come parte di un'attività di ribranding, gli indici Random sono stati "
+"rinominati Indici Volatility. Gli indici rimangono fli stessi e puoi "
+"continuare a fare trading come sempre. <a href=\"https://blog.binary.com"
+"/random-indices-renamed-to-volatility-indices/\" target=\"_blank\">Leggi "
+"altro</a>."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/tour.html.haml:1
 msgid "As soon as you click on the ‘PURCHASE’ button, your trade registers in your account. The price of your trade continues to update in real time."
