@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: German (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 16:41+0000\n"
-"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 19:41+0000\n"
+"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -10327,7 +10327,21 @@ msgstr "Das Unternehmen behält sich das Recht vor, jederzeit einen Teil dieses 
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:145
 msgid "The Company reserves the right to restrict client trading and/or cancel or reverse transactions in the case that any contracts are acquired or sold at prices that do not reflect fair market prices or that are acquired or sold at an abnormally low level of risk due to an undetected programming error, bug or glitch in our website software, market data feed or contract pricing latency, data feed error, stray quotes, incorrect pricing parameters, or manifest mis-calculation of prices or other manifest error. Clients have a duty to report to the Company any such problems, errors or suspected system inadequacies that they may experience and may not abuse of or arbitrage such system problems or errors for profit. The Company will endeavour to resolve any such difficulties in the shortest time possible. Persons with insider knowledge of any financial market or instrument are prohibited from trading at this website."
-msgstr "Für den Fall, dass Finanzkontrakte zu Kursen erworben oder verkauft werden, die keine fairen Marktkurse widerspiegeln oder die aufgrund eines unbemerkten Programmierungsfehlers, einer Störung oder Panne unserer Website-Software, des Kursdatenfeeds oder Kontraktkursverzögerungen, Datenfeed Streufehlern, falschen Kursparametern oder offenkundigen Falschberechnungen oder offenkundigen Fehlern zu einem anormalen, niedrigen Risikolevel erworben oder verkauft werden, behält sich das Unternehmen das Recht vor, solche Transaktionen zu stornieren oder rückgängig zu machen. Der Kunde ist verpflichtet, das Unternehmen über derartige Fehler zu unterrichten und darf den Kursunterschied, der sich aus sochlen Systemfehlern ergibt, zum eigenen Profit ausnutzen oder missbrauchen. Das Unternehmen wird sich bemühen, derartige Probleme soll schnell wie möglich zu beheben. Personen mit Insider-Wissen über einen Finanzmakrt oder ein Wertpapier ist der Handel auf dieser Website untersagt."
+msgstr ""
+"Für den Fall, dass Finanzkontrakte zu Kursen erworben oder verkauft werden, "
+"die keine fairen Marktkurse widerspiegeln oder die aufgrund eines "
+"unbemerkten Programmierungsfehlers, einer Störung oder Panne unserer Website-"
+"Software, des Kursdatenfeeds oder Kontraktkursverzögerungen, Datenfeed "
+"Streufehlern, falschen Kursparametern oder offenkundigen Falschberechnungen "
+"oder offenkundigen Fehlern zu einem anormalen, niedrigen Risikolevel "
+"erworben oder verkauft werden, behält sich das Unternehmen das Recht vor, "
+"solche Transaktionen zu stornieren oder rückgängig zu machen. Der Kunde ist "
+"verpflichtet, das Unternehmen über derartige Fehler zu unterrichten und darf "
+"den Kursunterschied, der sich aus sochlen Systemfehlern ergibt, zum eigenen "
+"Profit ausnutzen oder missbrauchen. Das Unternehmen wird sich bemühen, "
+"derartige Probleme soll schnell wie möglich zu beheben. Personen mit Insider-"
+"Wissen über einen Finanzmakrt oder ein Wertpapier ist der Handel auf dieser "
+"Website untersagt. "
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:116
 msgid "The Company reserves the right to suspend the operation of this site or sections thereof:"
@@ -10367,7 +10381,10 @@ msgstr "Das Unternehmen wird Sie per E-Mail benachrichtigen, ob Ihre Bewerbung p
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:51
 msgid "The Company will provide advertising collaterals with links containing affiliate IDs which may be modified by us from time to time."
-msgstr "Das Unternehmen wird Ihnen Werbematerial mit Links, die die Partner-IDs enthalten, zur Verfügung stellen, die von uns jederzeit verändert werden dürfen."
+msgstr ""
+"Das Unternehmen wird Ihnen Werbematerial mit Links, die die Partner-IDs "
+"enthalten, zur Verfügung stellen, die von uns jederzeit verändert  werden "
+"dürfen."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:16
 msgid "The Company will, at its sole discretion, determine whether or not your application has been successful. The Company's decision is final and is not open to appeal."
@@ -10459,7 +10476,9 @@ msgstr "Die Fähigkeit, effektiv in Englisch sowohl in mündlicher als auch schr
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "The ability to communicate fluently in English, in both oral and written form"
-msgstr "Die Fähigkeit, fließend in Englisch sowohl in mündliche als auch schriftlicher Form zu kommunizieren"
+msgstr ""
+"Die Fähigkeit, fließend in Englisch sowohl in mündliche als auch "
+"schriftlicher Form zu kommunizieren "
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "The ability to multi-task, balance deadlines, and reliably deliver high-quality content"
@@ -11100,7 +11119,13 @@ msgstr "Dieses Dokument (der „Vertrag\") legt die Allgemeinen Geschäftsbeding
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:8
 msgid "This document (the \"Agreement\") sets out the terms and conditions between \"the Company\" which is Binary Services Ltd, and you (the person who applied for this program; \"you\", \"your\", or \"Affiliate\"), in relation to your application to setup an affiliate account (and membership of the affiliate program if your application is deemed successful)"
-msgstr "Dieses Dokument (der „Vertrag\") legt die Allgemeinen Geschäftsbedingungen zwischen „dem Unternehmen\", d. h. der Binary Services Ltd. und Ihnen (der Person, die sich für das Programm beworben hat „Sie“, „Ihr“ oder „Geschäftspartner“) hinsichtlich Ihres Antrags zur Eröffnung eines Partnerkontos (und einer Mitgliedschaft im Partnerprogramm, sofern Ihr Antrag genehmigt wird) fest"
+msgstr ""
+"Dieses Dokument (der „Vertrag\") legt die Allgemeinen Geschäftsbedingungen "
+"zwischen „dem Unternehmen\", d. h. der Binary Services Ltd. und Ihnen (der "
+"Person, die sich für das Programm beworben hat „Sie“, „Ihr“ oder "
+"„Geschäftspartner“) hinsichtlich Ihres Antrags zur Eröffnung eines "
+"Partnerkontos (und einer Mitgliedschaft im Partnerprogramm, sofern Ihr "
+"Antrag genehmigt wird) fest."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:394
 msgid "This feature is not relevant to virtual-money accounts."
@@ -12128,7 +12153,11 @@ msgstr "Wir behalten uns das Recht vor, diese Bedingungen zu jeder Zeit zu verä
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:50
 msgid "We reserve the right to refuse your referrals’ application to open an account (or to close their accounts), as deemed necessary, to comply with any requirements we may periodically establish and/or that may be required under applicable laws, rules, and regulations."
-msgstr "Wir behalten uns das Recht vor, Anträge Ihrer Empfohlenen zur Kontoeröffnung (oder Kündigung iher Konten), sofern erforderlich, abzulehnen, um alle Anforderungen, die wir periodiach aufstellen und/oder die nach geltenden Gesetzen, Regeln und Vorschriften erforderlich sind, zu befolgen."
+msgstr ""
+"Wir behalten uns das Recht vor, Anträge Ihrer Empfohlenen zur Kontoeröffnung "
+"(oder Kündigung iher Konten), sofern erforderlich, abzulehnen, um alle "
+"Anforderungen, die wir periodiach aufstellen und/oder die nach geltenden "
+"Gesetzen, Regeln und Vorschriften erforderlich sind, zu befolgen. "
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/why_us.html.haml:1
 msgid "We segregate and hold client funds in secure AAA-rated banks."
@@ -12546,7 +12575,19 @@ msgstr "Bei %1 ist Ihr Geld sicher."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:52
 msgid "With regards to tracking your referrals accessing Binary.com via the links on your website or by quoting your affiliate IDs during the sign-up process, the Company shall use all reasonable endeavours to ensure that whenever a client is referred to Binary.com through these links or affiliate IDs, and they subsequently place a contract or otherwise transact with the Company, the relevant client is identified as originating from your referral. However, the Company shall not be liable to you in any way if the Company is unable to identify a client as originating from your referral. Only properly tagged clients can be assigned to you. It is your responsibility to ensure that all links are properly tagged."
-msgstr "Hinsichtlich des Tracking Ihrer Empfehlungen, die über die Links auf Ihrer Website oder unter Nennung Ihrer Partner-IDs während des des Anmeldeprozesses zugreifen, wird das Unternehmen alle zumutbaren Anstrengungen unternehmen um sicherzustellen, dass, wenn ein Kunde über diese Links oder Partner-IDs zu Binary.com empfohlen wird und anschließend einen Vertrag mit dem Unternehmen abschließt oder andere Transaktionen mit dem Unternehmen tätigt, dieser Kunde auch als von Ihnen oder Ihrer Site empfohlen identifiziert wird. Allerdings ist das Unternehmen in keiner Weise gegenüber Ihnen haftbar, wenn das Unternehmen nicht in der Lage ist zu erkennen, ob ein Kunde von Ihnen empfohlen wurde. Nur ordentlich gekennzechten Kunden können IIhnen zugeordnet werden. Sie sind dafür zuständig dafür zu sorgen, dass alle Links korrekt gekennzeichnet sind."
+msgstr ""
+"Hinsichtlich des Tracking Ihrer Empfehlungen, die  über die Links auf Ihrer "
+"Website oder unter Nennung Ihrer Partner-IDs während des des "
+"Anmeldeprozesses zugreifen, wird das Unternehmen alle zumutbaren "
+"Anstrengungen unternehmen um sicherzustellen, dass, wenn ein Kunde über "
+"diese Links oder Partner-IDs zu Binary.com empfohlen wird und anschließend "
+"einen Vertrag mit dem Unternehmen abschließt oder andere Transaktionen mit "
+"dem Unternehmen tätigt, dieser Kunde auch als von Ihnen oder Ihrer Site "
+"empfohlen identifiziert wird. Allerdings ist das Unternehmen in keiner Weise "
+"gegenüber Ihnen haftbar, wenn das Unternehmen nicht in der Lage ist zu "
+"erkennen, ob ein Kunde von Ihnen empfohlen wurde. Nur ordentlich "
+"gekennzechten Kunden können IIhnen zugeordnet werden. Sie sind dafür "
+"zuständig dafür zu sorgen, dass alle Links korrekt gekennzeichnet sind."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/cashier/index.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_methods.html.tt:15
