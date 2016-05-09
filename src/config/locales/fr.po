@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: French (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-09 11:11+0200\n"
-"PO-Revision-Date: 2016-05-09 20:32+0800\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2016-05-09 22:53+0000\n"
+"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/binary/static/fr/>"
 "\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Weblate 2.7-dev\n"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:47
 msgid "\"Binary\" or \"digital\" options are options that pay a pre-determined, fixed amount, depending on whether or not an event occurs at the time the Binary Option expires. Binary Options can have only one of two possible outcomes and allow you to take a simple \"Yes or No\" approach. Like traditional options, Binary Options are based on an underlying asset such as currencies, commodities, indexes or stocks, however one of the most significant differences from traditional options, among others, is that there can be only two outcomes for the option, either the client is paid the return upon the occurrence of the event, or the client loses the investment amount as determined in each option."
@@ -437,6 +437,12 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1’s IT Operations Group is responsible for the design, development and operation of the company’s high-traffic networks. Its responsibilities include hardware and software deployment, up-time and reliability testing, incident response reporting, network security, intrusion detection, and load balancing."
 msgstr ""
+"L'équipe de gestion des TI de %1 est responsable de la conception, du "
+"développement et de la gestion des réseaux à fort trafic de la société.  Ses "
+"responsabilités comprennent le déploiement des matériels et logiciels "
+"informatiques, le contrôle du temps de disponibilité et de la fiabilité, la "
+"gestion des rapports d'incidents, la sécurité de réseau, la détection "
+"d'intrusion et la répartition de charge."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
@@ -642,7 +648,7 @@ msgstr "1 a"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "2-3 years of applicable experience in a web application testing role"
-msgstr ""
+msgstr "Deux à trois ans d'expérience à un poste de test d'applications Web"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/tour.html.haml:1
 msgid "2-way pricing"
@@ -785,7 +791,7 @@ msgstr "Limite du volume des transactions sur 7 jours"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "<< Back to Job Descriptions"
-msgstr ""
+msgstr "<< Retour aux descriptions de postes"
 
 #. (url_for('/group-history')
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/index.html.haml:1
@@ -1011,7 +1017,7 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "<strong>Duties and Responsibilities:</strong>"
-msgstr ""
+msgstr "<strong>Tâches et responsabilités :</strong>"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:77
 msgid "<strong>Exchange Rate Risk</strong>: Exchange rates between foreign currencies can change rapidly due to a wide range of economic, political and other conditions, exposing you to risk of exchange rate losses in addition to the inherent risk of loss from trading the underlying investment product. If you deposit funds in a currency to trade Contracts denominated in a different currency, your gains or losses on the underlying investment therefore may be affected by changes in the exchange rate between the currencies."
@@ -1181,10 +1187,9 @@ msgstr ""
 "trade reste-entre, ou le trade finit-entre."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "<strong>To get your API token:</strong>"
 msgid "<strong>Requirements:</strong>"
-msgstr "<strong>Pour obtenir votre token d'API :</strong>"
+msgstr "<strong>Prérequis :</strong>"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/how_to_trade_binaries.html.haml:1
 msgid "<strong>Rise/Fall</strong> - predict if the market will rise or fall from its current level."
@@ -1401,6 +1406,8 @@ msgstr "== Sans frais =="
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "A Bachelor’s degree in Computer Science, or an equivalent combination of technical education, training and work experience"
 msgstr ""
+"Un niveau Bac+3 en informatique ou un niveau équivalent combinant formation "
+"technique et expérience professionnelle"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "A Bachelor’s degree in Marketing, Business Administration, or related discipline"
@@ -1524,7 +1531,7 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "A preference and passion for Linux and open-source platforms"
-msgstr ""
+msgstr "Une préférence et une passion pour Linux et les plateformes open source"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "A proactive approach to solving problems and delivering client solutions"
@@ -1837,7 +1844,7 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Advanced knowledge of software design principles"
-msgstr ""
+msgstr "Connaissance approfondie des principes de conception de logiciel"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Advising senior managers regarding salary negotiations and job offers"
@@ -1991,6 +1998,7 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "An advanced university degree in Mathematics, Physics or Engineering"
 msgstr ""
+"Diplôme d'études supérieures en mathématiques, en physique ou en ingénierie"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "An assertive, sales-driven personality, able to adapt quickly and achieve powerful results"
@@ -2259,15 +2267,32 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "As a Senior Front-End Developer, you’ll be tasked with writing robust, high-quality, production-ready code; refactoring and optimizing a large and complex legacy code base; and contributing to the architecture that drives our high-traffic global website."
 msgstr ""
+"En tant que développeur front-end expérimenté, vous rédigerez des lignes de "
+"code de haute qualité, fiables et prêtes à l'emploi. Vous prendrez également "
+"en charge le réusinage de code tout en contribuant à améliorer "
+"l'architecture essentielle au bon fonctionnement de notre site Web "
+"international à fort trafic."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "As a Senior Perl Developer, you’ll be tasked with writing robust, high-quality, production-ready code and contributing to the architecture that drives our high-traffic global website."
 msgstr ""
+"En tant que développeur Perl expérimenté, vous rédigerez des lignes de code "
+"de haute qualité, fiables et prêtes à l'emploi, tout en contribuant à "
+"améliorer l'architecture essentielle au bon fonctionnement de notre site Web "
+"international à fort trafic."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "As a developer in the %1 Quant Group, you will be responsible for the implementation and maintenance of the company's risk management and derivatives pricing software. You and the members of your team will develop software designed to study the market micro-structure, optimize existing code, manage financial data feeds and ensure the continuous running of our automated trading platform."
 msgstr ""
+"En tant que développeur au sein de l'équipe d'analystes quantitatifs de %1, "
+"vous serez responsable de l'installation et de la maintenance du logiciel de "
+"la société, permettant la gestion du risque et la tarification des produits "
+"dérivés.  En collaboration avec les membres de votre équipe, vous "
+"développerez un logiciel dédié à l'étude de la microstructure du marché et "
+"optimiserez le code existant. Vous assurerez la gestion des flux de données "
+"financières et veillerez au bon fonctionnement en continu de notre "
+"plateforme de trading automatisée."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/payment_agent.html.haml:1
 msgid "As a first step, please send us an application with:"
@@ -2293,6 +2318,9 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "As our DevOps Manager/Team Lead, you'll be responsible for the training, development and direction of a world class Linux-based Systems Administration team."
 msgstr ""
+"En tant que responsable/chef d'équipe DevOps, vous prendrez en charge la "
+"formation, le développement et la direction d'une équipe de classe mondiale "
+"spécialisée dans l'administration des systèmes Linux."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/tour.html.haml:1
 msgid "As soon as you click on the ‘PURCHASE’ button, your trade registers in your account. The price of your trade continues to update in real time."
@@ -2664,10 +2692,17 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Binary Group Services is searching for talented and motivated Perl developers who are looking for a chance to excel. If you have the skill set we seek, you’ll become a valued member of a highly competent back-end development team engaged in driving our binary options trading systems to new heights."
 msgstr ""
+"Le groupe Binary recrute des développeurs Perl talentueux et motivés, "
+"désireux d'exceller dans leur domaine.  Si vous possédez les compétences que "
+"nous recherchons, vous deviendrez un maillon indispensable de notre équipe "
+"experte en développement back-end, chargée de propulser nos systèmes de "
+"trading d'options binaires au sommet du marché."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Binary Group Services is searching for talented and motivated front-end developers who are looking for a chance to excel."
 msgstr ""
+"Le groupe Binary recrute des développeurs front-end talentueux et motivés, "
+"désireux d'exceller dans leur domaine."
 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:7
@@ -3633,6 +3668,8 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Conduct disaster and recovery planning and execution"
 msgstr ""
+"Gérer la planification et la mise en œuvre d'un plan de reprise après "
+"catastrophe"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:199
 #, fuzzy
@@ -3998,6 +4035,8 @@ msgstr "%1 recherche plusieurs graphistes talentueux, désireux de mettre à pro
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Creating interfaces and tools to access market information, real-time and historical analysis of trading strategies"
 msgstr ""
+"Création d'interfaces et d'outils permettant d'accéder aux informations de "
+"marché et à l'analyse historique des stratégies de trading en temps réel"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:203
 msgid "Credit/Debit"
@@ -4447,7 +4486,7 @@ msgstr "Décline"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Deep Perl expertise"
-msgstr ""
+msgstr "Solide expertise du langage Perl"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:38
 msgid "Default"
@@ -5023,6 +5062,8 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Engage in data mining using SQL databases, R/S-Plus, OLAP and other analytical tools"
 msgstr ""
+"Exploration de données utilisant les bases de données SQL, R/S-Plus, le "
+"traitement analytique en ligne (OLAP) et d'autres outils analytiques"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Enhance and proactively manage the company's social-media efforts, using a variety of channels to attract and nurture prospects, clients, partners, and recruits."
@@ -5143,7 +5184,7 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Excellent oral and written communication skills"
-msgstr ""
+msgstr "Excellentes capacités de communication orale et écrite"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Excellent written and verbal communication skills in both English and Bahasa Malaysia"
@@ -5204,7 +5245,7 @@ msgstr "Une technologie de trading exclusive conçue pour les options binaires."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Execute and update manual and automated test plans"
-msgstr ""
+msgstr "Exécuter et mettre à jour les plans de tests manuels et automatisés"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Execute and update manual and automated test plans, ensure the integrity of releases, investigate and reproduce client-reported issues."
@@ -5263,31 +5304,45 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Experience with Git"
-msgstr ""
+msgstr "Expérience du travail avec Git"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Experience with Postgres or another RDBMS a plus"
 msgstr ""
+"Une expérience préalable de Postgres ou d'un autre système de gestion de "
+"base de données relationnelle est un plus"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Experience with languages like C/C++/R/Python/VBA/Mat lab/SQL would be a plus"
 msgstr ""
+"Une expérience de langages tels que C, C++, R, Python, VBA, MATLAB et SQL "
+"serait un plus"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Experience with programming languages like Perl, Python, or Ruby coupled with the ability to produce high quality, self-documenting code, using test driven development techniques"
 msgstr ""
+"Expérience de langages de programmation tels que Perl, Python ou Ruby et "
+"capacité à fournir un code auto-descriptif de haute qualité en utilisant les "
+"techniques de développement piloté par les tests (TDD)"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Experience with relational database design and/or open-source RDBMS (Postgres, MySQL, etc.) systems"
 msgstr ""
+"Expérience de la conception de bases de données relationnelles et/ou des "
+"systèmes de gestion de bases de données (SGBD) relationnelles (Postgres, "
+"MySQL, etc.)"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Experience with, and enthusiasm for, Linux and open-source products such as Apache, mod proxy, mod_perl, Squid, Bind, DHCP, iptables and Postfix"
 msgstr ""
+"Expérience et enthousiasme dans le domaine des produits Linux et open source "
+"tels qu'Apache, mod_proxy, mod_perl, Squid, Bind, DHCP, iptables et Postfix"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Experience working with client-side JavaScript frameworks such as jQuery, ReactJS, and/or AngularJS"
 msgstr ""
+"Expérience du travail sur les frameworks JavaScript (côté client) tels que "
+"jQuery, ReactJS et/ou AngularJS"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Experience working within an international environment"
@@ -5295,7 +5350,7 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Expertise in cloud solutions"
-msgstr ""
+msgstr "Expertise des solutions cloud"
 
 #: /home/git/regentmarkets/bom-web/lib/BOM/Web/Trade.pm:274
 msgid "Expiry Price"
@@ -5335,14 +5390,18 @@ msgstr "Moyenne mobile exponentielle"
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Extensive experience in the application of advanced coding principles and standards"
 msgstr ""
+"Solide expérience de la mise en application des principes et normes de "
+"programmation avancée."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Extensive experience with TCP/IP networking, VPNs and IPSEC"
 msgstr ""
+"Solide expérience des réseaux TCP/IP, des réseaux privés virtuels (VPN) et "
+"du protocole de sécurité IPsec"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Extensive knowledge of Javascript, HTML, CSS, AJAX, JSON"
-msgstr ""
+msgstr "Solide connaissance de JavaScript, HTML, CSS, AJAX et JSON"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/index.html.haml:1
@@ -5377,10 +5436,12 @@ msgstr "False"
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Familiarity with Perl, DBI, Mason, Moose, Sereal, Plack/PSGI, nginx, Javascript, MySQL/Postgres, Memcached, Redis, RabbitMQ, git"
 msgstr ""
+"Connaissance de Perl, DBI, Mason, Moose, Sereal, Plack/PSGI, nginx, "
+"Javascript, MySQL/Postgres, Memcached, Redis, RabbitMQ et Git"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Familiarity with virtualization concepts (openvz / Xen / vmware)"
-msgstr ""
+msgstr "Connaissance des concepts de virtualisation (openvz / Xen / vmware)"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:25
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/maltainvestws.html.tt:35
@@ -5554,7 +5615,7 @@ msgstr "Trading polyvalent"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Fluency with Linux administration"
-msgstr ""
+msgstr "Maîtrise de l'administration des systèmes Linux"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/index.html.haml:1
 msgid "Follow a simple step-by-step guide to binary trading."
@@ -5938,7 +5999,7 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Hands-on test automation experience a plus"
-msgstr ""
+msgstr "Une expérience directe de l'automatisation de tests est un plus"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/email/common_email.html.tt:723
 msgid "Have a question? Need Help?"
@@ -6298,6 +6359,10 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "If you have the skill set we seek, you’ll become a valued member of a highly competent front end development team engaged in driving our binary options trading systems to new heights."
 msgstr ""
+"Si vous possédez les compétences que nous recherchons, vous deviendrez un "
+"maillon indispensable de notre équipe experte en développement front-end, "
+"chargée de propulser nos systèmes de trading d'options binaires au sommet du "
+"marché."
 
 #. (broker_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/main.html.tt:82
@@ -7071,7 +7136,7 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Investigate and reproduce client-reported issues"
-msgstr ""
+msgstr "Examiner et reproduire les problèmes signalés par les clients"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:74
 msgid "Investing or trading in Contracts exposes you to the performance of the underlying or reference instrument or asset to which the Binary Contract refers including foreign exchange, indices, stocks and commodities each of which have their own features and risks."
@@ -7816,10 +7881,9 @@ msgid "Japan website Terms and Conditions Paragraph 1"
 msgstr "Japan website Terms and Conditions Paragraph 1"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "Your details"
 msgid "Job details"
-msgstr "Vos détails"
+msgstr "Informations sur le poste"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/email/common_email.html.tt:679
 msgid "Join our analysts LIVE twice a week for a comprehensive analysis of recent developments and trends in the global financial markets."
@@ -7897,10 +7961,16 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Knowledge of hardware and software firewalls, intrusion detection methods, security systems and DDoS protection"
 msgstr ""
+"Maîtrise des pare-feux matériels et logiciels, des méthodes de détection "
+"d'intrusion, des systèmes de sécurité et de la protection contre les "
+"attaques DdoS"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Knowledge of probability theory, numerical methods, Monte-Carlo simulation, statistical modeling, and time series analysis would be a plus"
 msgstr ""
+"Une connaissance de la théorie des probabilités, de l'analyse numérique, de "
+"la méthode de Monte-Carlo, de la modélisation statistique et de l'analyse de "
+"séries temporelles serait un plus"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Knowledge of probability theory, stochastic calculus, numerical methods, Monte-Carlo simulation, differential equations, econometrics, and statistical modeling"
@@ -8291,6 +8361,9 @@ msgstr "Malte"
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Manage security, intrusion detection, DDoS protection and PCI compliance measures related to each of our deployed servers"
 msgstr ""
+"Assurer la sécurité, la détection d'intrusion, la protection contre les "
+"attaques DDoS et la conformité aux normes PCI pour chacun de nos serveurs en "
+"activité"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Manage the company’s cashier system"
@@ -8562,11 +8635,13 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Monitor and optimize website trading activity"
-msgstr ""
+msgstr "Contrôle et optimisation de l'activité de trading sur le site Web"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Monitor hardware and software deployment and manage our worldwide network of servers and office networks"
 msgstr ""
+"Contrôler le déploiement des matériels et logiciels informatiques et gérer "
+"notre réseau international de serveurs et de réseaux locaux"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Monitor website trading activity and minimize abuse"
@@ -9443,6 +9518,9 @@ msgstr "Instruments de Superposition"
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Oversee incident responses for our production servers and take the necessary measures to correct and enhance IT operations"
 msgstr ""
+"Superviser la réaction aux incidents informatiques pour nos serveurs de "
+"production et prendre les mesures nécessaires à la correction et à "
+"l'amélioration des systèmes de gestion des TI"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:59
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:107
@@ -9660,7 +9738,7 @@ msgstr "Période"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Perl knowledge and/or readiness to learn is a must"
-msgstr ""
+msgstr "Connaissance de Perl et/ou volonté d'apprentissage indispensables"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/open_source_projects.html.haml:1
 msgid "Perl modules"
@@ -10280,7 +10358,7 @@ msgstr "Clients Professionnels"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Proficiency in a scripting language - Perl preferred"
-msgstr ""
+msgstr "Parfaite maîtrise d'un langage de script (idéalement Perl)"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Proficiency in a second language (oral and written) is preferred"
@@ -10807,6 +10885,9 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Review, develop and enhance codes used in option pricing and real time risk management programs"
 msgstr ""
+"Révision, développement et amélioration des codes utilisés dans la "
+"tarification d'options et dans les programmes de gestion du risque en temps "
+"réel"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:145
 #, fuzzy
@@ -11249,6 +11330,10 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Since all dealing on the %1 website is fully automated, our pricing and risk management algorithms must take full account of real-time pricing parameters, data feed irregularities and latencies."
 msgstr ""
+"Toutes les opérations de courtage sont automatisées sur le site %1. Par "
+"conséquent, nos algorithmes de cotation et de gestion du risque doivent "
+"prendre en compte les paramètres de cotation en temps réel, les "
+"irrégularités des flux de données et les latences."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/faq.html.tt:31
 msgid "Since their inception, 'binary options' has become a popular trading product. The numerous binary options trading platforms subsequently being created, support this growing trend. By becoming an affiliate now you can profit from the fast growth of interest in this new industry."
@@ -11865,10 +11950,12 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Strong analytical and problem solving abilities"
 msgstr ""
+"Solides compétences dans le domaine de l'analytique et de la résolution de "
+"problèmes"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Strong attention to detail"
-msgstr ""
+msgstr "Souci du détail"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Strong command of the English language, in both oral and written form"
@@ -11877,6 +11964,8 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Strong knowledge of developing cross-platform/browser-compatible applications for web and mobile"
 msgstr ""
+"Solide connaissance du développement d'applications Web et mobile "
+"multiplateformes/compatibles avec les navigateurs"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Strong oral and written communication skills in both the regional language and English"
@@ -11925,7 +12014,7 @@ msgstr "Envoyer"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Submit your CV and Cover Letter"
-msgstr ""
+msgstr "Envoyez votre CV et votre lettre de motivation"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:583
 #, fuzzy
@@ -12162,6 +12251,12 @@ msgstr "Merci d'avoir vérifié votre mail."
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "The %1 Quantitative Analytics group is responsible for the pricing of binary options offered on our website, as well as the risk management and profitability of its options book. Processing over a million transactions each day, the company manages a book of exotic options which arguably exceeds in complexity that of the typical derivatives desk."
 msgstr ""
+"L'équipe d'analystes quantitatifs de %1 est responsable de la tarification "
+"des options binaires proposées sur notre site Web, de la gestion du risque "
+"et de la rentabilité du portefeuille d'options de la société.  Affichant "
+"plus d'un million de transactions par jour, la société gère un portefeuille "
+"d'options exotiques dont la complexité excède celle des marchés dérivés "
+"standards."
 
 #. ($website_name)
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Accounts.pm:690
@@ -12712,11 +12807,13 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "The ability to work in a Linux/Unix based environment"
-msgstr ""
+msgstr "Capacité à travailler dans un environnement Linux/Unix"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "The ability to write high-quality, self-documenting code, using test-driven development techniques"
 msgstr ""
+"Capacité à rédiger un code auto-descriptif de haute qualité en utilisant des "
+"techniques de développement piloté par les tests (TDD)"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/privacy.html.tt:10
 msgid "The above personal data that we collect will be held by us and processed for any purpose as may be allowed by law or required by any law. We may also transfer such personal data to any company within the Binary Group of companies, any of our business associates or payment providers, whether in or outside of the EEA including in countries which might not offer an equivalent level of protection of personal data."
@@ -13834,6 +13931,8 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Thorough knowledge of bash scripting, as well as experience with scripting languages such as Perl and PHP"
 msgstr ""
+"Solide connaissance des scripts Bash et expérience des langages de script "
+"tels que Perl et PHP"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:77
 msgid "Thursday"
@@ -13893,6 +13992,10 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "To be considered for this mission critical leadership role, you’ll need to demonstrate a passion for open source technologies and a desire to test your talents in a dynamic and challenging work environment."
 msgstr ""
+"Pour répondre aux exigences de ce poste à haute responsabilité, vous devez "
+"nourrir une passion pour les technologies open source et être prêt à mettre "
+"vos talents à l'épreuve au sein d'un environnement de travail dynamique et "
+"stimulant."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:434
 msgid "To begin Binary option trading, you will first need to read all these documents carefully to understand the structure, risk and other important things. Please confirm that you have read and understood the documents listed below checking the box. If you have any questions, please contact our customer support."
@@ -14249,6 +14352,8 @@ msgstr "Transfert au client"
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Translate the ongoing business needs of the company into a suitable IT infrastructure"
 msgstr ""
+"Répondre aux besoins permanents de la société à travers le développement "
+"d'une infrastructure informatique adéquate"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/open_source_projects.html.haml:1
 msgid "Translations"
@@ -15680,6 +15785,8 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Work with members of the QA team to ensure the integrity of releases"
 msgstr ""
+"Collaborer avec les membres de l'équipe d'assurance qualité pour garantir "
+"l'intégrité des publications"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Work with senior staff to coordinate project delivery; develop and update schedules; document processes; and push initiatives to successful completion."
