@@ -244,6 +244,7 @@ Client.prototype = {
         }
     },
     response_authorize: function(response) {
+        page.client.set_storage_value('session_start', parseInt(moment().valueOf() / 1000));
         TUser.set(response.authorize);
         this.set_storage_value('is_virtual', TUser.get().is_virtual);
         this.check_storage_values();
@@ -265,7 +266,8 @@ Client.prototype = {
     },
     clear_storage_values: function() {
         var that  = this;
-        var items = ['currencies', 'allowed_markets', 'landing_company_name', 'is_virtual', 'has_reality_check', 'tnc_status'];
+        var items = ['currencies', 'allowed_markets', 'landing_company_name', 'is_virtual',
+                     'has_reality_check', 'tnc_status', 'session_duration_limit', 'session_start'];
         items.forEach(function(item) {
             that.set_storage_value(item, '');
         });
