@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Chinese (Taiwan) (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 11:10+0000\n"
-"Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 21:52+0000\n"
+"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) "
 "<https://hosted.weblate.org/projects/binary/static/zh_TW/>\n"
 "Language: zh_tw\n"
@@ -808,7 +808,7 @@ msgstr "<strong>外匯</strong> - 可交易所有主要貨幣對。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "<strong>Duties and Responsibilities:</strong>"
-msgstr "<strong> 1職責:</strong> 2"
+msgstr "<strong>職責:</strong>"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:77
 msgid "<strong>Exchange Rate Risk</strong>: Exchange rates between foreign currencies can change rapidly due to a wide range of economic, political and other conditions, exposing you to risk of exchange rate losses in addition to the inherent risk of loss from trading the underlying investment product. If you deposit funds in a currency to trade Contracts denominated in a different currency, your gains or losses on the underlying investment therefore may be affected by changes in the exchange rate between the currencies."
@@ -12331,7 +12331,9 @@ msgstr "我們鼓勵新創意，不鼓勵安全、老套的想法。您可以按
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/conflicts_policy.html.tt:22
 msgid "Where our arrangements to manage conflicts are not or cannot be sufficient to be reasonably confident that risks of damage to a client’s interest will be prevented we aim to disclose the general nature or sources of conflicts. This is aimed at allowing the client the opportunity to consider whether to ask for more information by sending an email to compliance<b></b>@<i></i>binary.com, or to continue with the service; we do not aim to provide detailed, highly specific or comprehensive information."
-msgstr "我們致力於提供完善的管理措施以盡力防止客戶利益虧損，其中若有不到之處，我們會將衝突起源的一般性質揭露。目的是要讓客戶有機會考慮是否需要發送電子郵件到compliance<b> 1</b> 2@<i> 3</i> 4binary.com索取更詳細的資訊或繼續使用該項服務。我們並不旨在提供詳盡、高度具體或全面性資訊。"
+msgstr ""
+"我們致力於提供完善的管理措施以盡力防止客戶利益虧損，其中若有不到之處，我們會將衝突起源的一般性質揭露。目的是要讓客戶有機會考慮是否需要發送電子郵件到com"
+"pliance<b></b>@<i></i>binary.com索取更詳細的資訊或繼續使用該項服務。我們並不旨在提供詳盡、高度具體或全面性資訊。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/careers.html.haml:1
 msgid "Where supportive colleagues are like a second family."
