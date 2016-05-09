@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Italian (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 07:04+0000\n"
-"Last-Translator: Annalisa <ligiu@me.com>\n"
+"PO-Revision-Date: 2016-05-09 08:08+0000\n"
+"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/binary/static/it/>\n"
 "Language: it\n"
@@ -1215,13 +1215,11 @@ msgid "A scanned copy of your passport or driver's licence."
 msgstr "Una copia scannerizzata del tuo passaporto o della patente."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "A strong and passionate interest in marketing and advertising"
 msgid "A strong and passionate interest in Marketing and Advertising"
 msgstr "Un forte e acceso interesse nel marketing e nella pubblicità"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "A strong and passionate interest in social media, marketing, and advertising"
 msgid "A strong and passionate interest in Social Media, Marketing, and Advertising"
 msgstr "Un forte e acceso interesse nei social media, marketing e pubblicità"
@@ -2898,10 +2896,13 @@ msgid "Commission on withdrawals"
 msgstr "Commissione sui prelievi"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:81
-#, fuzzy
 #| msgid "Commissionable earnings will be earned for the life of the client, on all transactions the client undertakes at the merchant, for as long as you, the affiliate, remain a member of this affiliate program. The company reserves the right to cancel the commissions that are not reclaimed after 2 years."
 msgid "Commissions will be earned throughout the life of the client, on all transactions the client undertakes at the merchant, for as long as you, the Affiliate, remain a member of this affiliate program. The company reserves the right to cancel the commissions that are not reclaimed after 2 years."
-msgstr "Per tutta la vita del cliente, guadagnerai delle commissioni su tutte le transazioni effettuate dallo stesso fintanto che tu, in qualità di affiliato, rimarrai membro di questo programma di affiliazione. La società si riserva il diritto di annullare le commissioni non reclamate entro 2 anni."
+msgstr ""
+"Per tutta la vita del cliente, guadagnerai delle commissioni su tutte le "
+"transazioni effettuate dallo stesso fintanto che tu, in qualità di "
+"affiliato, rimarrai membro di questo programma di affiliazione. La società "
+"si riserva il diritto di annullare le commissioni non reclamate entro 2 anni."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:271
@@ -9631,7 +9632,6 @@ msgid "Sign me up"
 msgstr "Registrami"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "Significant experience in, Social Media, Marketing, and/or advertising"
 msgid "Significant experience in Social Media, Marketing, and / or Advertising"
 msgstr "Notevole esperienza nei social media, marketing e/o pubblicità"
@@ -10206,7 +10206,6 @@ msgstr ""
 "Pubblicità"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "A strong and passionate interest in marketing and advertising"
 msgid "Strong, passionate interest in Marketing and Advertising"
 msgstr "Un forte e acceso interesse nel marketing e nella pubblicità"
@@ -10739,10 +10738,12 @@ msgstr ""
 "fine."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:51
-#, fuzzy
 #| msgid "The Company will provide you with the advertising collateral with Links containing affiliate IDs and which may be modified by us from time to time."
 msgid "The Company will provide advertising collaterals with links containing affiliate IDs which may be modified by us from time to time."
-msgstr "La Società ti fornirà la garanzia pubblicitaria con i Link contenenti l'ID di affiliazione che potrà essere, di volta in volta, modificato da parte nostra."
+msgstr ""
+"La Società ti fornirà la garanzia pubblicitaria con i Link contenenti l'ID "
+"di affiliazione che potrà essere, di volta in volta, modificato da parte "
+"nostra."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:16
 msgid "The Company will, at its sole discretion, determine whether or not your application has been successful. The Company's decision is final and is not open to appeal."
