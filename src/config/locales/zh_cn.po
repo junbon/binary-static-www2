@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Chinese (China) (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 11:09+0000\n"
-"Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 21:46+0000\n"
+"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Chinese (China) "
 "<https://hosted.weblate.org/projects/binary/static/zh_CN/>\n"
 "Language: zh_cn\n"
@@ -12343,7 +12343,9 @@ msgstr "我们鼓励新创意，不鼓励保守、老套的想法。您可以按
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/conflicts_policy.html.tt:22
 msgid "Where our arrangements to manage conflicts are not or cannot be sufficient to be reasonably confident that risks of damage to a client’s interest will be prevented we aim to disclose the general nature or sources of conflicts. This is aimed at allowing the client the opportunity to consider whether to ask for more information by sending an email to compliance<b></b>@<i></i>binary.com, or to continue with the service; we do not aim to provide detailed, highly specific or comprehensive information."
-msgstr "我们致力于提供完善的管理措施以尽力防止客户利益亏损，其中若有不到之处，我们会将冲突起源的一般性质揭露。目的是要让客户有机会考虑是否需要通过发送电子邮件到compliance<b> 1</b> 2@<i> 3</i> 4binary.com索取更详细的信息或继续使用该项服务。我们并不旨在提供详尽、高度具体或全面性信息。"
+msgstr ""
+"我们致力于提供完善的管理措施以尽力防止客户利益亏损，其中若有不到之处，我们会将冲突起源的一般性质揭露。目的是要让客户有机会考虑是否需要通过发送电子邮件到c"
+"ompliance<b></b>@<i></i>binary.com索取更详细的信息或继续使用该项服务。我们并不旨在提供详尽、高度具体或全面性信息。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/careers.html.haml:1
 msgid "Where supportive colleagues are like a second family."
