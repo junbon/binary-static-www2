@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 13:48+0000\n"
-"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 16:38+0000\n"
+"Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
 "Language-Team: Vietnamese "
 "<https://hosted.weblate.org/projects/binary/static/vi/>\n"
 "Language: vi\n"
@@ -1782,6 +1782,8 @@ msgstr "Ngay khi bạn nhấn vào nút \"MUA\", giao dịch của bạn sẽ đ
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/asian.html.tt:10
 msgid "Asian contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
 msgstr ""
+"Các hợp đồng Châu Á sẽ được hoàn tiền tại giá mua nếu hợp đồng không kết "
+"thúc trong vòng 5 phút."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/winning/asian.html.tt:1
 msgid "Asian options settle by comparing the <strong>last tick</strong> with the average spot over the period."
@@ -3591,16 +3593,28 @@ msgid "Demonstrate the ability to think / act quickly and multi-task as needed t
 msgstr "Chứng minh khả năng suy nghĩ/ phản ứng nhanh và thực hiện nhiều nhiệm vụ khi cần thiết để các chiến dịch được thực hiện hiệu quả"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:10
-#, fuzzy
 #| msgid "Our servers apply a tick filtering algorithm. The purpose of this filtering algorithm is to strip the feed of stray ticks. Stray ticks are ticks that manifestly fall outside of the current trading range of the market; such ticks are often due to communication delays with the exchanges or banks that provide quotes, human error, or database problems at any point between the originator of the quote and our servers."
 msgid "Depending on the quality of the data feeds received from our feed providers, our servers might apply a tick filtering algorithm. The purpose of this filtering algorithm is to strip the feed of stray ticks. Stray ticks are ticks that manifestly fall outside of the current trading range of the market; such ticks are often due to communication delays with the exchanges or banks that provide quotes, human error, or database problems at any point between the originator of the quote and our servers."
-msgstr "Máy chủ của chúng tôi áp dụng thuật toán lọc điểm. Mục đích của thuật toán lọc này là để lọc các điểm đi lạc. Các điểm đi lạc là các điểm mà nằm ngoài vùng giao dịch hiện tại của thị trường, những điểm này thường do sự giao dịch bị trì hoãn hoặc ngân hàng có lỗi về yết giá, lỗi về nhân sự, hoặc lỗi dữ liệu tại bất cứ điểm nào giữa nơi yết giá và máy chủ của chúng tôi."
+msgstr ""
+"Tuỳ thuộc vào chất lượng của nguồn dữ liệu nhận được từ những bên cung cấp "
+"dữ liệu, máy chủ của chúng tôi áp dụng thuật toán lọc điểm. Mục đích của "
+"thuật toán lọc này là để lọc các điểm đi lạc. Các điểm đi lạc là các điểm mà "
+"nằm ngoài vùng giao dịch hiện tại của thị trường, những điểm này thường do "
+"sự giao dịch bị trì hoãn hoặc ngân hàng có lỗi về yết giá, lỗi về nhân sự, "
+"hoặc lỗi dữ liệu tại bất cứ điểm nào giữa nơi yết giá và máy chủ của chúng "
+"tôi."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:17
-#, fuzzy
 #| msgid "Once stray ticks have been removed, a very short-term smoothing algorithm is applied to the data feed. This smoothing algorithm removes a little of the \"random noise\" surrounding the data feed, and ensures that clients who buy path-dependent contracts (such as the one-touch or barrier-range contracts) will not have their contracts knocked-in or knocked-out by random short-term market noise that does not reflect the true market price."
 msgid "Depending on the quality of the feeds received from our feed providers, our servers might also apply a very short-term smoothing algorithm to the data feed. This smoothing algorithm removes a little of the \"random noise\" surrounding the data feed, and ensures that clients who buy path-dependent contracts (such as the one-touch or barrier-range contracts) will not have their contracts knocked-in or knocked-out by random short-term market noise that does not reflect the true market price."
-msgstr "Khi điểm chạy lạc đã được gỡ bỏ, một thuật toán trơn ngắn hạn được áp dụng cho nguồn thông tin này. Thuật toán trơn này sẽ gỡ bỏ một số \"rắc rối ngẫu nhiên\" xung quanh nguồn dữ liệu, và bảo đảm rằng khách hàng người mua hợp đồng phụ thuộc (như là hợp đồng một chạm hoặc hợp đồng có rào cản) sẽ không có những hợp đồng bị những rắc rối của thị trường ngẫu nhiên thâm nhập vào cái mà không có phản ánh giá đúng của trị trường."
+msgstr ""
+"Tuỳ thuộc vào chất lượng của nguồn dữ liệu nhận được từ các bên cấp dữ liệu, "
+"máy chủ của chúng tôi sẽ thực hiện một thuật toán trơn ngắn với nguồn cấp dữ "
+"liệu. Thuật toán trơn này sẽ gỡ bỏ một số \"rắc rối ngẫu nhiên\" xung quanh "
+"nguồn dữ liệu, và bảo đảm rằng khách hàng người mua hợp đồng phụ thuộc (như "
+"là hợp đồng một chạm hoặc hợp đồng có rào cản) sẽ không có những hợp đồng bị "
+"những rắc rối của thị trường ngẫu nhiên thâm nhập vào cái mà không có phản "
+"ánh giá đúng của trị trường."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:562
 #: /home/git/regentmarkets/bom-backoffice/f_manager_confodeposit.cgi:273
@@ -3737,6 +3751,8 @@ msgstr "Những khác biệt với các nguồn dữ liệu khác"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/digits.html.tt:7
 msgid "Digit contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
 msgstr ""
+"Các hợp đồng hàng số sẽ được hoàn tiền tại giá mua nếu hợp đồng không kết "
+"thúc trong vòng 5 phút."
 
 #. (@range)
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Pricing/Engine/Digits.pm:57
@@ -4058,10 +4074,11 @@ msgid "Ends Between/Ends Outside trades"
 msgstr "Giao dịch Kết thúc ở Giữa/ Kết thúc bên ngoài"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/endsinout.html.tt:14
-#, fuzzy
 #| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
 msgid "Ends In/Out contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
-msgstr "Hợp đồng sẽ được hoàn lại bằng giá mua trong những trường hợp sau: (1) có ít hơn 2 lần thay đổi giá trong khoảng thời gian từ khi bắt đầu đến thời điểm kết thúc, hoặc (2) đối với các hợp đồng có thời hạn, nếu hợp đồng không kết thúc trong vòng 5 phút."
+msgstr ""
+"Hợp đồng kết thúc trong/ ngoài sẽ được hoàn lại bằng giá mua nếu có ít hơn 2 "
+"sự thay đổi giá giữa thời điểm hợp đồng bắt đầu và kết thúc."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Engage in data mining using SQL databases, R/S-Plus, OLAP and other analytical tools"
@@ -4150,6 +4167,8 @@ msgstr "Hòa vốn/ Số dư"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/evenodd.html.tt:6
 msgid "Even/Odd contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
 msgstr ""
+"Các hợp đồng chẵn/ lẻ sẽ được hoàn tiền tại giá mua nếu hợp đồng không kết "
+"thúc trong vòng 5 phút."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/spread_bets.html.haml:1
 msgid "Example:"
@@ -4954,10 +4973,11 @@ msgid "Higher/Lower"
 msgstr "Cao hơn/Thấp hơn"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/higherlower.html.tt:6
-#, fuzzy
 #| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
 msgid "Higher/Lower contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
-msgstr "Hợp đồng sẽ được hoàn lại bằng giá mua trong những trường hợp sau: (1) có ít hơn 2 lần thay đổi giá trong khoảng thời gian từ khi bắt đầu đến thời điểm kết thúc, hoặc (2) đối với các hợp đồng có thời hạn, nếu hợp đồng không kết thúc trong vòng 5 phút."
+msgstr ""
+"Hợp đồng giá trên/ dưới sẽ được hoàn lại bằng giá mua nếu có ít hơn 2 bước "
+"giá giữa thời điểm bắt đầu và kết thúc hợp đồng."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 msgid "Higher/Lower trades"
@@ -7767,6 +7787,8 @@ msgstr "Trên/Dưới"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/overunder.html.tt:6
 msgid "Over/Under contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
 msgstr ""
+"Các hợp đồng trên giá/ dưới giá sẽ được hoàn tiền nếu hợp đồng không kết "
+"thúc trong vòng 5 phút."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:427
 msgid "Overlay"
@@ -8990,10 +9012,15 @@ msgid "Rise/Fall contracts of less than 5 minutes duration are only available wh
 msgstr "Tăng/Giảm các hợp đồng trong khoảng thời gian ít hơn 5 phút chỉ khả dụng khi bạn chọn nút \"Bây giờ\" làm thời gian bắt đầu."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/risefall.html.tt:18
-#, fuzzy
 #| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
 msgid "Rise/Fall contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes, or (3) for contracts starting in the future, if there are no ticks in the 5 minutes before the contract's start time."
-msgstr "Hợp đồng sẽ được hoàn lại bằng giá mua trong những trường hợp sau: (1) có ít hơn 2 lần thay đổi giá trong khoảng thời gian từ khi bắt đầu đến thời điểm kết thúc, hoặc (2) đối với các hợp đồng có thời hạn, nếu hợp đồng không kết thúc trong vòng 5 phút."
+msgstr ""
+"Hợp đồng giá lên/ xuống sẽ được hoàn lại bằng giá mua trong những trường hợp "
+"sau: (1) có ít hơn 2 lần thay đổi giá trong khoảng thời gian từ khi bắt đầu "
+"đến thời điểm kết thúc, hoặc (2) đối với các hợp đồng có thời hạn, nếu hợp "
+"đồng không kết thúc trong vòng 5 phút, hoặc (3) đối với những hợp đồng có "
+"thời gian bắt đầu trong tương lai, nếu không có sự thay đổi giá nào trong "
+"vòng 5 phút trước khi hợp đồng bắt đầu."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 msgid "Rise/Fall trades"
@@ -9750,10 +9777,11 @@ msgid "Stays Between/Goes Outside trades"
 msgstr "Giao dịch Ở Giữa/ Đi ra ngoài"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/staysinout.html.tt:10
-#, fuzzy
 #| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
 msgid "Stays In/Goes Out Contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
-msgstr "Hợp đồng sẽ được hoàn lại bằng giá mua trong những trường hợp sau: (1) có ít hơn 2 lần thay đổi giá trong khoảng thời gian từ khi bắt đầu đến thời điểm kết thúc, hoặc (2) đối với các hợp đồng có thời hạn, nếu hợp đồng không kết thúc trong vòng 5 phút."
+msgstr ""
+"Hợp đồng trong/ ngoài sẽ được hoàn lại bằng giá mua nếu có ít hơn 2 sự thay "
+"đổi giá giữa thời điểm hợp đồng bắt đầu và kết thúc."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:358
 msgid "Step"
@@ -10638,10 +10666,12 @@ msgid "The expiry price is the price of the underlying when the contract expires
 msgstr "Giá đáo hạn là giá của cơ sở khi hợp đồng hết hạn."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:13
-#, fuzzy
 #| msgid "The filtering algorithm is based on a mathematical formula similar to the \"Bollinger Bands\" volatility system - i.e., short-term volatility bands are determined around the present market value, and ticks that are manifestly outside of such bands are removed."
 msgid "The filtering algorithm may for example be similar to the \"Bollinger Bands\" volatility system - i.e., short-term volatility bands are determined around the present market value, and ticks that are manifestly outside of such bands are removed."
-msgstr "Thuật toán lọc dựa trên công thức toán học tương tự như hệ thống biến động \"Dải Bollinger\" - ví dụ, các dải biến động ngắn hạn được xác định xung quanh giá trị thị trường hiện tại, và điểm nằm bên ngoài của những dải này được loại bỏ."
+msgstr ""
+"Thuật toán lọc điểm sẽ tương tự như hệ thống biến động \"Dải Bollinger\" - "
+"ví dụ, các dải biến động ngắn hạn được xác định xung quanh giá trị thị "
+"trường hiện tại, và điểm nằm bên ngoài của những dải này được loại bỏ."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:18
 msgid "The financial trading services contained within this site are only suitable for Clients who are able to bear the loss of all the money they invest and who understand and have experience of the risks involved in the acquisition of financial contracts."
@@ -10878,7 +10908,9 @@ msgstr "Có lỗi xảy ra khi xác minh địa chỉ của bạn."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:746
 msgid "There was a problem validating your personal details. Please fix the fields %1here"
-msgstr "Xảy ra lỗi phê chuẩn thông tin cá nhân chi tiết của bạn. Vui lòng sửa trường %1 tại đây"
+msgstr ""
+"Xảy ra lỗi phê chuẩn thông tin cá nhân chi tiết của bạn. Vui lòng sửa trường "
+"%1tại đây"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:655
 msgid "There was an error"
@@ -11304,10 +11336,12 @@ msgid "Touch/No Touch"
 msgstr "Chạm/Không Chạm"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/touchnotouch.html.tt:11
-#, fuzzy
 #| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
 msgid "Touch/No Touch contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
-msgstr "Hợp đồng sẽ được hoàn lại bằng giá mua trong những trường hợp sau: (1) có ít hơn 2 lần thay đổi giá trong khoảng thời gian từ khi bắt đầu đến thời điểm kết thúc, hoặc (2) đối với các hợp đồng có thời hạn, nếu hợp đồng không kết thúc trong vòng 5 phút."
+msgstr ""
+"Hợp đồng chạm/ không chạm sẽ được hoàn lại bằng giá mua nếu có ít hơn 2 lần "
+"thay đổi giá trong khoảng thời gian từ khi hợp đồng bắt đầu cho tới lúc kết "
+"thúc."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/types_of_trades.html.haml:1
 msgid "Touch/No touch trades"
@@ -13202,7 +13236,8 @@ msgstr "Quỹ của bạn đã được khóa theo yêu cầu của bạn"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:743
 msgid "Your cashier is locked as per your request - to unlock it, please click %1here"
-msgstr "Tiền đã bị khóa theo yêu cầu của bạn - để mở khóa, vui lòng nhấn %1 tại đây"
+msgstr ""
+"Tiền đã bị khóa theo yêu cầu của bạn - để mở khóa, vui lòng nhấn %1tại đây"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:595
 msgid "Your cashier is locked as per your request - to unlock it, please enter the password."
