@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Italian (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 19:49+0000\n"
-"Last-Translator: Annalisa <ligiu@me.com>\n"
+"PO-Revision-Date: 2016-05-09 20:01+0000\n"
+"Last-Translator: Mauro Piccillo <mauro.piccillo@gmail.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/binary/static/it/>\n"
 "Language: it\n"
@@ -79,7 +79,9 @@ msgstr "Richiesta nuova password %1"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:725
 msgid "%1 Please click the link below to restart the password recovery process. If you require further assistance, please contact our Customer Support."
-msgstr "%1 clicca il link qui sotto per riavviare la procedura di ripristino della password. Per ulteriore assistenza, contatta la nostra Assistenza Clienti."
+msgstr ""
+"%1 clicca il link sottostante per riavviare la procedura di ripristino della "
+"password. Per ulteriore assistenza, contatta la nostra Assistenza Clienti."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/payment_agent.html.haml:1
@@ -156,7 +158,10 @@ msgstr "%1 si basa completamente sul web e non richiede l'installazione di alcun
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 is looking to recruit highly skilled, experienced designers who are passionate about developing attractive visuals for both online and offline applications."
-msgstr "%1 è alla ricerca di designer altamente qualificati e con esperienza con la passione per lo sviluppo di elementi visivi attraenti sia per le applicazioni online che per quelle offline."
+msgstr ""
+"%1 è alla ricerca di designer altamente qualificati, con esperienza e con la "
+"passione per lo sviluppo di elementi visivi attraenti, sia per le "
+"applicazioni online che per quelle offline."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/index.html.haml:1
@@ -181,12 +186,24 @@ msgstr "%1 è alla ricerca di un proofreader qualificato con l'attitudine per le
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 is seeking qualified translation professionals familiar with specific target markets, languages, and cultures. By delivering high-quality translation to support our customers in a particular language, you will serve as the company’s voice to clients in certain key areas of the world. You’ll work with colleagues in IT, Customer Support, and Marketing to provide localised text and translation services through a web-based tool. This position will report to our Translation Project Manager."
-msgstr "%1 è alla ricerca di traduttori professionisti qualificati con competenza in specifici settori del mercato, lingue e culture. Offrendo un elevato livello di servizi di traduzione a supporto dei nostri clienti, in una data lingua, rappresenterai i clienti della società in determinate aree chiave del mondo. Lavorerà in stretta collaborazione con i colleghi dell'IT, Assistenza Clienti e Marketing per fornire servizi di localizzazione di testi e traduzione attraverso uno strumento online. Questo ruolo comunicherà con il nostro Manager addetto ai progetti di traduzione."
+msgstr ""
+"%1 è alla ricerca di traduttori professionisti qualificati, con competenza "
+"in specifici settori del mercato, lingue e culture. Offrendo un elevato "
+"livello di servizi di traduzione a supporto dei nostri clienti, in una data "
+"lingua, rappresenterai la società per i clienti in determinate aree chiave "
+"nel mondo. Lavorerai in stretta collaborazione con i colleghi dell'IT, "
+"Assistenza Clienti e Marketing per fornire servizi di localizzazione di "
+"testi e traduzione attraverso uno strumento online. Questo ruolo comunicherà "
+"con il nostro Manager addetto ai progetti di traduzione."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 is seeking several highly skilled Marketing Executives, eager to contribute their energy, passion, and specialised strengths in connecting with prospects and clients based throughout the globe."
-msgstr "%1 è alla ricerca di Direttori commerciali altamente qualificati, desiderosi di contribuire con la propria energia, passione e punti di forza nel collegamento tra le prospettive di sviluppo future e i clienti in tutto il mondo."
+msgstr ""
+"%1 è alla ricerca di Direttori commerciali altamente qualificati, desiderosi "
+"di contribuire con la propria energia, passione e punti di forza al "
+"collegamento tra le prospettive di sviluppo future e i clienti in tutto il "
+"mondo."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/benefits_of_trading_binaries.html.haml:1
@@ -211,7 +228,12 @@ msgstr "%1 può avere accesso a informazioni a te non disponibili, può acquisir
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 now seeks Affiliate Managers to drive rapid growth and business development in key areas of the world. Successful recruits for this telecommuting role will actively increase %1’s market presence, expanding its network of affiliate partners from particular countries, geographic regions, and / or languages as needed."
-msgstr "%1 ricerca Manager d'affiliazione per gestire la rapida crescita e lo sviluppo commerciale nelle aree chiave del mondo. Le reclute di successo per questo incarico nel telelavoro incrementeranno attivamente la presenza sul mercato di %1, espandendo la rete dei partner affiliati di particolari paesi, aree geografiche e/o lingue, se necessario."
+msgstr ""
+"%1 ricerca Manager d'affiliazione per gestire la rapida crescita e lo "
+"sviluppo commerciale nelle aree chiave del mondo. I candidati di successo "
+"per questo incarico nel telelavoro incrementeranno attivamente la presenza "
+"sul mercato di %1, espandendo la rete dei partner affiliati di particolari "
+"paesi, aree geografiche e/o lingue quanto necessario."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -251,17 +273,27 @@ msgstr "%1 ti fornisce la possibilità di escluderti autonomamente oppure di <a 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 seeks a Project Coordinator to help drive the production of promotional content and rollout of marketing campaigns, designed to engage new prospects and current customers based throughout the globe."
-msgstr "%1 ricerca un Coordinatore per i progetti che aiuti a gestire la produzione dei contenuti promozionali e la presentazione delle campagne commerciali, progettate per coinvolgere nuovi prospect e clienti attuali in tutto il mondo."
+msgstr ""
+"%1 cerca un Coordinatore per i progetti che aiuti a gestire la produzione "
+"dei contenuti promozionali e la presentazione delle campagne commerciali, "
+"progettate per coinvolgere clienti potenziali e attuali in tutto il mondo."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 seeks a Social Media Executive to enhance and proactively manage the company's social-media efforts. This role requires effective utilisation of a variety of social media channels to attract and nurture prospects, clients, partners, and recruits based throughout the world."
-msgstr "%1 ricerca un Direttore dei social media per migliorare e gestire in modo proattivo gli sforzi sui social media della società. Questo ruolo richiede un utilizzo efficace di una varietà di canali di social media per attirare e promuovere prospect, clienti, partner e reclute in tutto il mondo."
+msgstr ""
+"%1 cerca un Direttore dei social media per migliorare e gestire "
+"energicamente gli sforzi social della società. Questo ruolo richiede un "
+"utilizzo efficace di una varietà di canali di social media per attirare e "
+"promuovere clienti potenziali, attuali, partner e candidati da tutto il "
+"mondo."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 seeks a sharp Copywriter to produce content that actively engages new prospects and current customers based throughout the world."
-msgstr "%1 ricerca un Copywriter attento per produrre contenuti che coinvolgano attivamente nuovi prospect e i clienti attuali in tutto il mondo."
+msgstr ""
+"%1 cerca un Copywriter attento per produrre contenuti che coinvolgano "
+"attivamente clienti potenziali e attuali in tutto il mondo."
 
 #. ($currency)
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:116
@@ -282,7 +314,10 @@ msgstr "Gli indici Continuous di %1 sono l'Indice di Volatility 25, Volatility 5
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
 msgid "%1's OTC Indices and stocks are sourced from the over-the-counter market and provide you with an alternative means of trading stock indices and stocks - available from sources outside of the centralised exchanges."
-msgstr "Gli indici OTC e le azioni di %1 provengono dal mercato fuori borsa e forniscono strumenti di trading in indici azionari e azioni alternativi, disponibili da fonti esterne alle borse centralizzate."
+msgstr ""
+"Gli indici OTC e le azioni di %1 provengono dal mercato fuori borsa e "
+"forniscono mezzi alternativi per effettuare trading su indici azionari e "
+"azioni, disponibili da fonti esterne alle borse centralizzate."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
@@ -1347,11 +1382,15 @@ msgstr "Azione"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Adapt affiliate-marketing tactics and promotional materials as needed, to localise all content for maximum effectiveness"
-msgstr "Adattare tattiche di marketing d'affiliazione e materiale promozionale, se necessario, per localizzare tutti i contenuti per una maggiore efficienza"
+msgstr ""
+"Adattare tattiche di marketing d'affiliazione e materiale promozionale come "
+"necessario, per localizzare tutti i contenuti per una maggiore efficienza"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Adapt communication appropriately to suit a variety of different formats and target audiences"
-msgstr "Adattare le comunicazioni in modo adeguato per soddisfare una varietà di formati diversi e pubblico di riferimento"
+msgstr ""
+"Adattare le comunicazioni in modo adeguato per soddisfare diversi formati e "
+"pubblico di riferimento"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Adapt tone of voice as appropriate to suit specified target audiences"
@@ -1605,7 +1644,13 @@ msgstr "Qualsiasi modifica alla nostra informativa sulla privacy o sulla sicurez
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:134
 msgid "Any disputes, controversy, or claims that arise out of or relating to this Agreement against the Company will be referred to and finally determined by an arbitration firm selected by the Company. The language to be used in the arbitral proceedings will be English. Judgement upon the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof. You are also responsible for any and all costs related to such arbitration."
-msgstr "Qualsiasi disputa o controversia derivante dal presente Accordo nei confronti della Società verrà sottoposta e gestita da una società d'arbitrato selezionata dalla Società. La lingua da utilizzare nelle procedure d'arbitrato saranno in inglese. Il giudizio pronunciato da parte dell'arbitrato(i) può essere presentato in qualsiasi tribunale competente. Sei inoltre responsabile per qualsiasi costo connesso a tale arbitrato."
+msgstr ""
+"Qualsiasi disputa o controversia derivante dal presente Accordo nei "
+"confronti della Società verrà sottoposta e gestita da una società "
+"d'arbitrato selezionata dalla Società. La lingua da utilizzare nelle "
+"procedure d'arbitrato sarà l'inglese. Il giudizio pronunciato da parte "
+"dell'arbitro(i) potrà essere presentato in qualsiasi tribunale competente. "
+"Sei inoltre responsabile per qualsiasi costo connesso a tale arbitrato."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:191
 msgid "Any failure on your part to maintain the security of any security devices or procedures used in or in association with the Binary.com API;"
@@ -1646,7 +1691,9 @@ msgstr "Applicazioni"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Apply a meticulous eye for detail in proofreading the content that appears on the company’s website, blog, social media outlets, and marketing materials."
-msgstr "Applicare un occhio attento ai dettagli, in grado di verificare il contenuto presente sul sito internet della società, blog e social media e materiale commerciale."
+msgstr ""
+"Scrutare attentamente i dettagli, verificando il contenuto presente sul sito "
+"internet, blog, social media, e sul materiale commerciale della società."
 
 #. (website, apply_payment_agent_url)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:67
@@ -1800,7 +1847,8 @@ msgstr "Assistere nella procedura di controllo e registrazione delle presentazio
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Assist marketing team members with additional tasks and initiatives"
-msgstr "Assistere i membri addetti al marketing per attività aggiuntive e iniziative"
+msgstr ""
+"Assistere i membri addetti al marketing per attività e iniziative aggiuntive"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Assist senior members of the marketing team in implementing a broad array of promotional campaigns"
@@ -1829,7 +1877,9 @@ msgstr "Per questa posizione è richiesto almeno 1 anno di esperienza lavorativa
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "At least five years of experience with affiliate marketing, growth hacking, business development, and other closely related skills"
-msgstr "Almeno cinque anni di esperienza in marketing d'affiliazione, sviluppo della pirateria informatica, sviluppo aziendale e altre abilità connesse"
+msgstr ""
+"Almeno cinque anni di esperienza in marketing d'affiliazione, growth "
+"hacking, sviluppo aziendale e altre abilità connesse"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Audit deposit patterns and take action on fraud or abuse"
@@ -2289,7 +2339,9 @@ msgstr "Quando questa tipologia di promozione è disponibile, gli importi del de
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Brainstorm new ways of using social media to connect meaningfully with prospects, clients, and partners"
-msgstr "Raccogliere nuovi modi per utilizzare i social media e collegare significativamente prospect, clienti e partner"
+msgstr ""
+"Raccogliere nuovi modi per utilizzare i social media, interagendo "
+"significativamente con clienti potenziali, attuali e partner"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:167
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/maltainvestws.html.tt:137
@@ -3041,7 +3093,10 @@ msgstr "Contribuisci ai progetti open-source di %1."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Contribute your creativity and marketing capabilities to further the company’s branding efforts, implementing a broad array of promotional campaigns."
-msgstr "Contribuire con la tua creatività e capacità commerciali per migliorare gli sforzi per il marchio della società, implementando una serie di campagne promozionali."
+msgstr ""
+"Contribuire con le tue capacità creative e commerciali a migliorare gli "
+"sforzi per il marchio della società, implementando una serie di campagne "
+"promozionali."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Contribute your ideas, energy, and creativity to further the company’s dynamic branding efforts"
@@ -3125,15 +3180,22 @@ msgstr "Crea un nuovo token"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Create clear, concise and engaging content for display on the company’s website, blog, social media outlets, and marketing materials"
-msgstr "Crea contenuti chiari, concisi e coinvolgenti da mostrare sul sito internet della società, blog, social media e materiale commerciale"
+msgstr ""
+"Creare contenuti chiari, concisi e coinvolgenti da mostrare sul sito "
+"internet, blog, social media e sul materiale commerciale della società"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Create clear, concise, and engaging content that effectively promotes the company’s trading platform and product offerings in a variety of formats."
-msgstr "Crea contenuti chiari, concisi e coinvolgenti che promuovano efficacemente l'offerta della piattaforma di trading e dei prodotti della società in svariati formati."
+msgstr ""
+"Creare contenuti chiari, concisi e coinvolgenti che promuovano efficacemente "
+"l'offerta della piattaforma di trading e dei prodotti della società in "
+"svariati formati."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Create content to support our international marketing campaigns in a variety of different formats and languages"
-msgstr "Creare contenuti per supportare le nostre campagne di marketing internazionale in una varietà di formati e lingue diverse"
+msgstr ""
+"Creare contenuti per supportare le nostre campagne di marketing "
+"internazionale in diversi formati e lingue"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Create the graphics required to support our global marketing and advertising campaigns. The team's creative efforts span a number of channels, including online marketing, affiliate networks, print advertising, tradeshows, special events, and promotional projects."
@@ -3571,7 +3633,9 @@ msgstr "Annullare per violazione"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Demonstrate the ability to think / act quickly and multi-task as needed to execute effective campaigns"
-msgstr "Dimostrare la capacità di pensare / agire rapidamente e, se necessario, in modo multifunzionale per effettuare campagne efficaci"
+msgstr ""
+"Dimostrare la capacità di pensare / agire rapidamente in modo "
+"multifunzionale come richiesto, per effettuare campagne efficaci"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:10
 #| msgid "Our servers apply a tick filtering algorithm. The purpose of this filtering algorithm is to strip the feed of stray ticks. Stray ticks are ticks that manifestly fall outside of the current trading range of the market; such ticks are often due to communication delays with the exchanges or banks that provide quotes, human error, or database problems at any point between the originator of the quote and our servers."
@@ -3674,7 +3738,10 @@ msgstr "Descrizione"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Design engaging, visually inspiring content for the company's website and many other forms of media, including both online and offline materials."
-msgstr "Progettare contenuti coinvolgenti e di ispirazione visiva per il sito internet della società e molte altre forme multimediali, compresi materiali online e offline."
+msgstr ""
+"Progettare contenuti coinvolgenti e visivamente stimolanti per il sito "
+"internet della società e per molte altre forme multimediali, compresi "
+"materiali online e offline."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:726
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/reset_passwordws.html.haml:1
@@ -3720,7 +3787,9 @@ msgstr "Sviluppare prezzi dei derivati, modelli di gestione del rischio e algori
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Develop text that promotes the company’s product offerings in a variety of formats"
-msgstr "Sviluppa testi che promuovono l'offerta di prodotti della società in una varietà di formati"
+msgstr ""
+"Sviluppare testi che promuovano l'offerta dei prodotti della società in una "
+"varietà di formati"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/partners.html.haml:1
 msgid "Develop your own trading application with our APIs."
@@ -3827,7 +3896,9 @@ msgstr "Documento di addebiti sul conto"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Document department processes, to enhance the marketing team’s ability to execute repeated tasks efficiently and effectively"
-msgstr "Documentare le procedure del dipartimento per migliorare la capacità dei team addetti al marketing di eseguire attività ripetitive in modo efficiente"
+msgstr ""
+"Documentare le procedure del dipartimento per migliorare la capacità del "
+"team addetto al marketing di eseguire attività ripetitive in modo efficiente"
 
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client/IDAuthentication.pm:197
 msgid "Documents are required to verify your identity"
@@ -4066,7 +4137,10 @@ msgstr "Impegnarsi nel data mining utilizzando database SQL, R/S-Plus, OLAP ed a
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Enhance and proactively manage the company's social-media efforts, using a variety of channels to attract and nurture prospects, clients, partners, and recruits."
-msgstr "Migliorare e gestire in modo proattivo gli sforzi dei social media della società utilizzando una varietà di canali per attirare e promuovere prospect, clienti, partner e reclute."
+msgstr ""
+"Migliorare e gestire in modo dinamico gli sforzi della società sui social "
+"media, utilizzando una varietà di canali per attirare e promuovere clienti "
+"potenziali, attuali, partner e candidati."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ensure compliance with quality control standards governing website content"
@@ -4270,7 +4344,11 @@ msgstr "Prezzo di uscita"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Expand our network of active affiliates in your local market. Contribute your energy, skills, and knowledge of the local business culture to help further our rapid rate of growth worldwide."
-msgstr "Espandere la nostra rete di affiliati attivi nel mercato locale. Contribuire alla tua energia, competenza e conoscenza della cultura commerciale locale per migliorare ulteriormente la nostra rapida crescita a livello mondiale."
+msgstr ""
+"Espandere la nostra rete di affiliati attivi nel mercato locale. "
+"Contribuire, con la tua energia, competenza e conoscenza della cultura "
+"commerciale locale, a migliorare ulteriormente la nostra rapida crescita a "
+"livello mondiale."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Experience in an anti-fraud or risk management role"
@@ -5438,7 +5516,17 @@ msgstr "In caso di un qualsiasi conflitto tra il contenuto del presente document
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:43
 msgid "In the event that the Company is aware of an Affiliate who is in breach of any of the above provisions, the Company shall have the right, in addition to any other right or remedy available to it under this Agreement or applicable law, to immediately block the Affiliate’s access to this Program. The Affiliate hereby irrevocably waives its rights to, and shall indemnify the Company and any member of the Binary group of companies for, any claim or demand made against the Company or any member of the Binary group of companies, their directors, officers, shareholders, employees or against the Binary.com website in respect of such action taken by the Company."
-msgstr "Nel caso in cui la Società sia consapevole del fatto che un Affiliato viola una qualsiasi delle suddette disposizioni, la Società avrà il diritto, oltre agli altri diritti o rimedi disponibili sulla base del presente Accordo o legge applicabile, di bloccare immediatamente l'accesso dell'Affiliato al presente Programma. L'Affiliato rinuncia irrevocabilmente ai suoi diritti e indennizzerà la Società e qualsiasi membro del gruppo di società Binary per qualsiasi reclamo o richiesta fatta nei confronti della Società o di qualsiasi membro del gruppo di società Binary, i suoi direttori, funzionari, azionisti, impiegati o nei confronti del sito internet di Binary.com in merito a tale azione intrapresa dalla Società."
+msgstr ""
+"Nel caso in cui la Società sia consapevole del fatto che un Affiliato viola "
+"una qualsiasi delle suddette disposizioni, la Società avrà il diritto, oltre "
+"agli altri diritti o rimedi disponibili sulla base del presente Accordo o "
+"legge applicabile, di bloccare immediatamente l'accesso dell'Affiliato al "
+"presente Programma. L'Affiliato rinuncia irrevocabilmente ai suoi diritti, e "
+"indennizzerà la Società e qualsiasi membro del gruppo di società Binary, "
+"riguardo qualsiasi reclamo o richiesta fatta nei confronti della Società o "
+"di qualsiasi membro del gruppo di società Binary, i suoi direttori, "
+"funzionari, azionisti, impiegati o nei confronti del sito internet di "
+"Binary.com in merito a tale azione intrapresa dalla Società."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:40
 msgid "In the unlikely event of BIEL suffering an investment default and not being able to meet its obligations, BIEL is a member of the Malta Investor Compensation Scheme which covers the first €20,000 of any claim. Whether you are able to claim depends on the type of business and your personal circumstances."
@@ -7788,7 +7876,10 @@ msgstr "Proprietà"
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:61
 msgid "Ownership and content of the %1 website remains our respective properties and shall not be deemed to have been transferred to you through any act or omission in respect of this Agreement."
-msgstr "La proprietà e il contenuto del sito di %1 rimane di nostra proprietà e non potrà essere considerato trasferito a te attraverso alcun atto o omissione relativa al presente Accordo."
+msgstr ""
+"La proprietà e il contenuto del sito di %1 rimane nostra e non potrà essere "
+"considerata trasferita a te tramite alcun atto o omissione relativa al "
+"presente Accordo."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:62
 msgid "Ownership, content, and liability of the Affiliate's websites are the sole responsibility of the Affiliate. You will be solely responsible for the development, operation, and maintenance of your website and for all materials that appear on your website. You will indemnify and hold us harmless from all claims, damages, and expenses (including, without limitation to, attorneys' fees) relating to the development, operation, maintenance, and contents of your website."
@@ -8376,7 +8467,9 @@ msgstr "Prevedi la direzione<br />e acquista"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Prepare project requirements, as needed to clarify expectations and deliverables"
-msgstr "Preparare i requisiti del progetto, se necessario, per chiarire le aspettative e i risultati attesi"
+msgstr ""
+"Preparare i requisiti del progetto come necessario per chiarire aspettative "
+"e risultati"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Preparing the periodic and special reports required to ensure legal and regulatory compliance in the jurisdictions within which we operate"
@@ -8486,7 +8579,9 @@ msgstr "Continua"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Process website content translations regularly and efficiently, delivering high-quality work on a dependable basis"
-msgstr "Gestire efficacemente e in modo regolare traduzioni dei contenuti del sito internet, consegnando lavori di alta qualità su una base sicura"
+msgstr ""
+"Gestire efficacemente e in modo regolare le traduzioni dei contenuti del "
+"sito internet, consegnando lavori di alta qualità su una base attendibile"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Process website content translations when a full time translator is unavailable"
@@ -8541,7 +8636,10 @@ msgstr "Profitto/Perdita (punti)"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Proofread and correct the content appearing on the company’s website, blog, social media outlets, and marketing materials, from English to the regional language and vice versa"
-msgstr "Revisionare e correggere il contenuto presente sul sito internet, sui blog, sui social media e sui materiali commerciali della società, dall'inglese alla lingua locale e vice versa"
+msgstr ""
+"Revisionare e correggere il contenuto presente sul sito internet, blog, "
+"social media e sui materiali commerciali della società, dall'inglese alla "
+"lingua locale e vice versa"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:618
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
@@ -10262,11 +10360,18 @@ msgstr "La Società non ha alcun obbligo di riservatezza in merito ai Contributi
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:96
 msgid "The Company makes no claims that the %1 website will be uninterrupted or provide an error free service, and will not be liable for the consequences of any such errors or interruptions."
-msgstr "La Società non avanza alcun reclamo affinché il sito internet di %1 interrompa o fornisca un servizio privo di errori e non sarà responsabile per le conseguenze di tali errori o interruzioni."
+msgstr ""
+"La Società non dichiara in alcun modo che il sito internet di %1 fornisca un "
+"servizio privo di errori o interruzioni, e non sarà responsabile per le "
+"conseguenze di tali errori o interruzioni."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:55
 msgid "The Company may change the commission structure at any time at its sole and absolute discretion. We will endeavour to ensure affiliates are notified when changes have been made to the commission structure."
-msgstr "La Società può in qualsiasi momento applicare la struttura delle commissioni a sua esclusiva discrezione. Faremo di tutto per garantire che gli affiliati vengano notificati al momento dell'applicazione della struttura delle commissioni."
+msgstr ""
+"La Società può modificare la struttura delle commissioni in qualsiasi "
+"momento, a sua esclusiva discrezione. Faremo di tutto per garantire che gli "
+"affiliati vengano notificati al momento di tali modifiche alla struttura "
+"delle commissioni."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:149
 msgid "The Company may change, suspend, terminate or discontinue any aspect of the Binary.com API, including the availability of any services, information features or functions accessible by means of the Binary.com API, on no less than seven days advance notice to you."
@@ -10908,7 +11013,9 @@ msgstr "Si è verificato un problema nella procedura di convalida del tuo indiri
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:746
 msgid "There was a problem validating your personal details. Please fix the fields %1here"
-msgstr "Si è verificato un problema nella procedura di convalida del tuo indirizzo. Sistema i campi %1 qui"
+msgstr ""
+"Si è verificato un problema nella procedura di convalida dei tuoi dati "
+"personali. Sistema i campi %1 qui"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:655
 msgid "There was an error"
@@ -11704,7 +11811,8 @@ msgstr "Diploma di laurea in Marketing, Comunicazione, Giornalismo o altre disci
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "University degree, preferably in Graphic Design or a related discipline"
-msgstr "Preferibilmente laurea in Graphic Design o in discipline simili"
+msgstr ""
+"Diploma di laurea, preferibilmente in Graphic Design o in discipline simili"
 
 #: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/v3/Wrapper/Transaction.pm:23
 msgid "Unknown contract proposal"
@@ -12552,7 +12660,18 @@ msgstr "Con %1, i tuoi soldi sono al sicuro."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:52
 msgid "With regards to tracking your referrals accessing Binary.com via the links on your website or by quoting your affiliate IDs during the sign-up process, the Company shall use all reasonable endeavours to ensure that whenever a client is referred to Binary.com through these links or affiliate IDs, and they subsequently place a contract or otherwise transact with the Company, the relevant client is identified as originating from your referral. However, the Company shall not be liable to you in any way if the Company is unable to identify a client as originating from your referral. Only properly tagged clients can be assigned to you. It is your responsibility to ensure that all links are properly tagged."
-msgstr "In relazione al tracciamento dei referenti che accedono a Binary.com attraverso i link presenti sul tuo sito internet oppure indicanti il tuo ID d'affiliazione durante la registrazione, la Società utilizzerà tutti gli sforzi possibili per garantire che quando un cliente si collega a Binary.com tramite questi link o ID d'affiliazione ed effettua successivamente un contratto o una qualsiasi transazione con la Società, il relativo cliente venga identificato come proveniente dal referente. Ad ogni modo, la Società non sarà in alcun modo responsabile nei tuoi confronti qualora la Società non sia in grado di identificare un cliente proveniente dal tuo referente. Soltanto i clienti adeguatamente rilevati possono essere a te assegnati. È tua la responsabilità di garantire che tutti i link vengano adeguatamente rilevati."
+msgstr ""
+"In relazione al tracciamento dei referenti che accedono a Binary.com "
+"attraverso i link presenti sul tuo sito internet oppure indicanti il tuo ID "
+"d'affiliazione durante la registrazione, la Società utilizzerà tutti gli "
+"sforzi possibili per garantire che quando un cliente si collega a Binary.com "
+"tramite questi link o ID d'affiliazione ed effettua successivamente un "
+"contratto o una qualsiasi transazione con la Società, il relativo cliente "
+"venga identificato come proveniente dal referente. Ad ogni modo, la Società "
+"non sarà in alcun modo responsabile nei tuoi confronti qualora non fosse in "
+"grado di identificare un cliente proveniente dal tuo referente. Soltanto i "
+"clienti adeguatamente rilevati possono essere a te assegnati. È tua la "
+"responsabilità di garantire che tutti i link vengano adeguatamente indicati."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/cashier/index.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_methods.html.tt:15
@@ -12601,7 +12720,10 @@ msgstr "Lavora in stretta collaborazione con altri membri del team per sviluppar
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Work directly with members of our marketing and IT teams to produce graphics for the company website, blog, social media outlets, and marketing materials"
-msgstr "Lavorare direttamente con i memrbi dei nostri team addetti al marketing e all'IT per realizzare la grafica del sito internet della società, blog, social media e materiale commerciale"
+msgstr ""
+"Lavorare direttamente con i membri dei nostri team addetti al marketing e "
+"all'IT per realizzare la grafica del sito internet, blog, social media e del "
+"materiale commerciale della società"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Work experience in a similar role"
@@ -12998,7 +13120,11 @@ msgstr "Rappresenti e garantisci la Società che, ad eccezione del Contenuto, ha
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:89
 msgid "You represent, warrant, and undertake that you have obtained and shall maintain all necessary licences and consents to operate within any laws, rules, and regulations applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business."
-msgstr "Rappresenti, garantisci e ti impegni ad ottenere e mantenere tutte le licenze e i consensi necessari per operare all'interno di qualsiasi legge, norma o regolamento applicabile in base all'autorità di qualsiasi ente regolatore di competenza sui cui operi o rivolgi la tua attività."
+msgstr ""
+"Rappresenti, garantisci e ti impegni ad ottenere e mantenere tutte le "
+"licenze e i consensi necessari per operare all'interno di qualsiasi legge, "
+"norma o regolamento applicabile in base all'autorità di qualsiasi ente "
+"regolatore di competenza sui cui operi o cui rivolgi la tua attività."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:90
 msgid "You represent, warrant, and undertake that your website or promotion shall contain no material which is defamatory, pornographic, unlawful, harmful, threatening, obscene, harassing, or racially, ethnically, or otherwise objectionable or discriminatory, violent, politically sensitive, or otherwise controversial or in breach of any third party rights and shall not link to any such material."
@@ -13034,7 +13160,11 @@ msgstr "Non dovrai sviluppare e implementare attività commerciali, pubblicitari
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:36
 msgid "You shall not encourage your referrals to make deposits or place any trades where the purpose of that action is (whether in whole or in part) to increase affiliate commissions rather than to benefit your referrals’ trading performance and profitability."
-msgstr "Non incoraggerai i tuoi referenti a effettuare depositi o alcun trade il cui scopo è (in tutto o in parte) aumentare le commissioni di affiliazione piuttosto che beneficiare delle performance di trading e remuneratività dei tuoi referenti."
+msgstr ""
+"Non incoraggerai i tuoi referenti a effettuare depositi o trade il cui scopo "
+"sia (in tutto o in parte) quello di aumentare le commissioni di "
+"affiliazione, se non per beneficiare delle performance di trading e della "
+"redditività dei tuoi referenti."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:32
 msgid "You shall not encourage your referrals to take out any form of loans to be able to make deposits and/or place trades."
@@ -13043,7 +13173,9 @@ msgstr "Non dovrai incoraggiare i tuoi referenti ad assumersi alcuna forma di pr
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:34
 msgid "You shall not hold or pool your referrals’ funds or third party funds into your own account held with %1."
-msgstr "Non dovrai trattenere o mettere insiemi fondi dei tuoi referenti o fondi di terze parti nel tuo account tenuto con %1."
+msgstr ""
+"Non dovrai trattenere o raccogliere fondi dei tuoi referenti o di terze "
+"parti nel tuo account con %1."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:37
 msgid "You shall not place trades on your referrals’ behalf."
@@ -13061,7 +13193,8 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:35
 msgid "You shall not resort to high-pressure sales tactics or false promises."
-msgstr "Non dovrai ricorrere a tattiche di vendita molto opprimenti o false promesse."
+msgstr ""
+"Non dovrai ricorrere a tattiche di vendita opprimenti o a promesse infondate."
 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:33
@@ -15030,7 +15163,7 @@ msgstr "Indice dell'Arabia Saudita"
 
 #: Underlying Symbol OTC_PSI20
 msgid "Portuguese OTC Index"
-msgstr "Indice Portogallo OTC"
+msgstr "Indice portoghese OTC"
 
 #: Underlying Symbol OTC_IBEX35
 msgid "Spanish OTC Index"
@@ -15114,7 +15247,7 @@ msgstr "Indice belga"
 
 #: Underlying Symbol OTC_OMXS30
 msgid "Swedish OTC Index"
-msgstr "Indice Svezia OTC"
+msgstr "Indice svedese OTC"
 
 #: Underlying Symbol ISEQ
 msgid "Irish Index"
@@ -15146,7 +15279,7 @@ msgstr "Indice Jakarta"
 
 #: Underlying Symbol OTC_KOSPI2
 msgid "Korean OTC Index"
-msgstr "Indice della Corea OTC"
+msgstr "Indice coreano OTC"
 
 #: Underlying Symbol OTC_KWSEIDX
 msgid "Kuwait OTC Index"
@@ -15202,7 +15335,7 @@ msgstr "Indice Smart olandese"
 
 #: Underlying Symbol OTC_OBX
 msgid "Norwegian OTC Index"
-msgstr "Indice della Norvegia OTC"
+msgstr "Indice norvegese OTC"
 
 #: Underlying Symbol OTC_SASEIDX
 msgid "Saudi Arabia OTC Index"
