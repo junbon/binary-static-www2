@@ -13,7 +13,7 @@ var SessionDurationLimit = (function() {
         var limit    = page.client.get_storage_value('session_duration_limit') * 1,
             now      = parseInt(moment().valueOf() / 1000),
             start    = page.client.get_storage_value('session_start') * 1,
-            remained = limit + start - now - 40; // TODO: remove 40
+            remained = limit + start - now;
         if(remained < 0) remained = warning;
 
         window.TimeOut_SessionLimitWarning = setTimeout(displayWarning, (remained - warning) * 1000);
