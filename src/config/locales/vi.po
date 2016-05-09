@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 16:38+0000\n"
+"PO-Revision-Date: 2016-05-09 18:34+0000\n"
 "Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
 "Language-Team: Vietnamese "
 "<https://hosted.weblate.org/projects/binary/static/vi/>\n"
@@ -99,13 +99,13 @@ msgstr "%1 đồng thời cung cấp đường dẫn tới một bài kiểm tra
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/copyright.html.tt:18
 msgid "%1 and the bull/bear logo are registered trademarks."
-msgstr "%1 và logo bò/gấu là nhãn hiệu đã được đăng ký."
+msgstr "Logo %1 và logo bò/gấu là nhãn hiệu đã được đăng ký."
 
 #. ($client->loginid)
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Accounts.pm:404
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Accounts.pm:450
 msgid "%1 cashier password updated"
-msgstr "%1 mật khẩu của thu ngân đã được cập nhật"
+msgstr "Mật khẩu thu ngân %1 đã được cập nhật"
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/paymentagent_withdrawws.html.tt:93
@@ -146,7 +146,10 @@ msgstr "%1 vừa cập nhật %2. Bằng cách nhấn vào OK, bạn xác nh�
 #. (landing_company, tnc_page_url)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_conditions_approval_message.html.tt:11
 msgid "%1 has updated its <a class=\"pjaxload\" href=\"%2\">Terms & Conditions</a>. By clicking OK, you confirm that you have read and accepted the updated <a class=\"pjaxload\" href=\"%2\">Terms & Conditions</a>."
-msgstr "%1 vừa cập nhật <a class=\"pjaxload\" href=\"%2\">Điều khoản & Điều kiện</a>. Bằng cách nhấn vào OK, bạn xác nhận rằng bạn đã đọc và chấp nhận bản cập nhật<a class=\"pjaxload\" href=\"%2\">Điều khoản và Điều kiện</a>."
+msgstr ""
+"%1 vừa cập nhật <a class=\"pjaxload\" href=\"%2\">Điều khoản & Điều kiện</a>"
+". Bằng cách nhấn vào OK, bạn xác nhận rằng bạn đã đọc và chấp nhận bản cập "
+"nhật <a class=\"pjaxload\" href=\"%2\">Điều khoản và Điều kiện</a>."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/careers.html.haml:1
@@ -171,7 +174,9 @@ msgstr "%1 là một trong những tên tuổi lâu đời nhất và đ�
 #. (stash->{website_name}, url_for('/group-history')
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/index.html.haml:1
 msgid "%1 is owned and operated by the Binary Ltd. group of companies. For more information, <a href=\"%2\">visit our history page</a>."
-msgstr "%1 thuộc quyền sở hữu và được điều hành bởi tập đoàn Binary Ltd. Để biết thêm thông tin, <a href=\"%2\">ghé thăm trang lịch sử của chúng tôi</a>."
+msgstr ""
+"%1 thuộc quyền sở hữu và được điều hành bởi tập đoàn Binary Ltd. Để biết "
+"thêm thông tin, <a href=\"%2\">ghé thăm trang lịch sử của chúng tôi</a>."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
@@ -206,7 +211,11 @@ msgstr "%1 là đơn vị hàng đầu với những giải thưởng danh dự 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:62
 msgid "%1 makes efforts that the quoted prices of each underlying asset that a Binary Option refers to will be reasonably related to the actual prices of such asset available in the market. %1 makes no warranty, expressed or implied, that the quoted prices represent prevailing market prices."
-msgstr "%1 sẽ nỗ lực làm cho giá niêm yết của mỗi tài sản của quyền chọn \"Nhị phân\" hợp lý với giá thực tế của tài sản này trên thị trường. %1 giá niêm yết không bảo đảm hay giống với giá thị trường tại thời điểm đó."
+msgstr ""
+"%1 sẽ nỗ lực làm cho giá niêm yết của mỗi tài sản của quyền chọn \"Nhị phân\""
+" hợp lý với giá thực tế của tài sản này trên thị trường. %1 không đảm bảo, "
+"niêm yết hay thể hiện rằng giá được đưa ra thể hiện giá thị trường tại thời "
+"điểm đó."
 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:65
@@ -216,7 +225,12 @@ msgstr "%1 có thể truy cập được thông tin mà bạn không tiế
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 now seeks Affiliate Managers to drive rapid growth and business development in key areas of the world. Successful recruits for this telecommuting role will actively increase %1’s market presence, expanding its network of affiliate partners from particular countries, geographic regions, and / or languages as needed."
-msgstr "%1 đang tìm kiếm những nhà quản lý Chi nhánh có thể tạo nên sự tăng trưởng nhanh chóng và phát triển kinh doanh ở những khu vực trọng yếu của thế giới. Việc tuyển dụng thành công vị trí từ xa này sẽ gia tăng tích cực sự xuất hiện trên thị trường của %1 , mở rộng mạng lưới với các đối tác liên kết từ những quốc gia nhất, vùng địa lý và/ hoặc những ngôn ngữ khác."
+msgstr ""
+"%1 đang tìm kiếm những nhà quản lý Chi nhánh có thể tạo nên sự tăng trưởng "
+"nhanh chóng và phát triển kinh doanh ở những khu vực trọng yếu của thế giới. "
+"Việc tuyển dụng thành công vị trí từ xa này sẽ gia tăng tích cực sự xuất "
+"hiện trên thị trường của %1, mở rộng mạng lưới với các đối tác liên kết từ "
+"những quốc gia nhất, vùng địa lý và/ hoặc những ngôn ngữ khác."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -302,7 +316,12 @@ msgstr "Hợp đồng Chênh lệch của %1 được sinh ra từ hợp �
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/spread_bets.html.haml:1
 msgid "%1's Spread Contracts require a 'stop loss' which limits the maximum losses incurred by a client. This 'stop loss' amount will act as a deposit and may not be used for further trading until that Spread Contract is closed. Spread Contracts are closed when sold by the client, upon hitting the 'stop loss' or 'stop profit' level."
-msgstr "Hợp đồng Chênh lệch yêu cầu một mức 'điểm dừng lỗ' giới hạn mức lỗ cao nhất của khách hàng. Số tiền ở mức 'giới hạn lỗ' này sẽ là số tiền gửi trước và không được sử dụng cho giao dịch trong tương lai cho tới khi Hợp đồng Chênh lệch hết hiệu lực. Hợp đồng này không có giá trị khi khách hàng chạm tới mức 'điểm dừng lỗ' hoặc 'điểm dừng lợi nhuận'."
+msgstr ""
+"Hợp đồng Chênh lệch của %1 yêu cầu một mức 'điểm dừng lỗ' giới hạn mức lỗ "
+"cao nhất của khách hàng. Số tiền ở mức 'giới hạn lỗ' này sẽ là số tiền gửi "
+"trước và không được sử dụng cho giao dịch trong tương lai cho tới khi Hợp "
+"đồng Chênh lệch hết hiệu lực. Hợp đồng này không có giá trị khi khách hàng "
+"chạm tới mức 'điểm dừng lỗ' hoặc 'điểm dừng lợi nhuận'."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/why_us.html.haml:1
@@ -706,10 +725,12 @@ msgid ""
 "        <li>Are over 18.</li>\n"
 "    </ul>"
 msgstr ""
-"<p>Khách hàng là những người được giới thiệu bởi một trong những công cụ marketing của bạn và đã nạp tiền vào tài khoản %1 của họ. Họ phải đáp ứng các yêu cầu sau: </p>\n"
+"<p>Khách hàng là những người được giới thiệu bởi một trong những công cụ "
+"marketing của bạn và đã nạp tiền vào tài khoản %1 của họ. Họ phải đáp ứng "
+"các yêu cầu sau: </p>\n"
 "<ul class='checked'>\n"
 "<li>Trước đây chưa từng là khách hàng của %1</li>\n"
-"<li>Ký quỹ mức thấp nhất.</li>\n"
+"<li>Ký quỹ mức tối thiểu.</li>\n"
 "<li>Hơn 18 tuổi.</li>\n"
 "</ul>"
 
@@ -798,7 +819,9 @@ msgstr "<strong>Kiểm tra Tính tương thích: CẢNH BÁO:</strong> Trong
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/benefits_of_trading_binaries.html.haml:1
 msgid "<strong>Benchmarked prices</strong> - %1 benchmarks its prices daily against inter-bank derivatives markets."
-msgstr "<strong> Giá Chuẩn</strong> - %1 định giá hàng ngày với thị trường phái sinh liên ngân hàng."
+msgstr ""
+"<strong>Giá Chuẩn</strong> - %1 định giá hàng ngày với thị trường phái sinh "
+"liên ngân hàng."
 
 #. (to_monetary_number_format($limit_price)
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Controller/Bet.pm:1715
@@ -854,7 +877,15 @@ msgstr "<strong>TIẾT LỘ QUAN TRỌNG</strong> - %1 không liên kết vớ
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:70
 msgid "<strong>IMPORTANT DISCLAIMER</strong> - %1 is not affiliated with any of the payment agents listed above. Each payment agent operates as an independent service provider and is not endorsed, guaranteed or otherwise approved by %1. CUSTOMERS DEAL WITH PAYMENT AGENTS AT THEIR SOLE RISK AND PERIL. Customers are advised to check the credentials of payment agents before sending them any money. %1 shall not in any circumstance be held responsible for transactions made between customers and payment agents."
-msgstr "<strong> TIẾT LỘ QUAN TRỌNG</strong> - %1 không liên kết với bất kỳ Đại lý Thanh toán nào nêu trên. Từng Đại lý Thanh toán hoạt động với vai trò một nhà cung cấp dịch vụ độc lập và chưa được chứng thực, bảo đảm và chấp thuận bởi %1. KHÁCH HÀNG TỰ GIAO DỊCH VỚI CÁC ĐẠI LÝ THANH TOÁN VÀ CHỊU MỌI RỦI RO PHÁT SINH. Chúng tôi khuyên khách hàng nên tìm hiểu kỹ lịch sử hoạt động của các Đại lý Thanh toán trước khi gửi tiền cho họ. Dưới bất kỳ tình huống nào, %1 đều không chịu trách nhiệm cho những giao dịch giữa khách với các Đại lý Thanh toán nêu trên."
+msgstr ""
+"<strong>TIẾT LỘ QUAN TRỌNG</strong> - %1 không liên kết với bất kỳ Đại lý "
+"Thanh toán nào nêu trên. Từng Đại lý Thanh toán hoạt động với vai trò một "
+"nhà cung cấp dịch vụ độc lập và chưa được chứng thực, bảo đảm và chấp thuận "
+"bởi %1. KHÁCH HÀNG TỰ GIAO DỊCH VỚI CÁC ĐẠI LÝ THANH TOÁN VÀ CHỊU MỌI RỦI RO "
+"PHÁT SINH. Chúng tôi khuyên khách hàng nên tìm hiểu kỹ lịch sử hoạt động của "
+"các Đại lý Thanh toán trước khi gửi tiền cho họ. Dưới bất kỳ tình huống nào, "
+"%1 đều không chịu trách nhiệm cho những giao dịch giữa khách với các Đại lý "
+"Thanh toán nêu trên."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/how_to_trade_binaries.html.haml:1
 msgid "<strong>In/Out</strong> - predict if the market will stay inside two price targets, or end between or outside them."
@@ -2788,7 +2819,9 @@ msgstr "Hàng hóa"
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 msgid "Commodities are resources that are grown or extracted from the ground, such as silver, gold and oil. On %1, they are priced in US dollars."
-msgstr "Hàng hóa là nguồn tài nguyên được hình thành hoặc chiết xuất từ lòng đất như bạc, vàng và dầu. %1 Chúng đều được định giá bằng Đô la Mỹ."
+msgstr ""
+"Hàng hóa là nguồn tài nguyên được hình thành hoặc chiết xuất từ lòng đất như "
+"bạc, vàng và dầu. Trên %1, Chúng đều được định giá bằng Đô la Mỹ."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:671
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/maltainvestws.html.tt:214
@@ -3029,12 +3062,16 @@ msgstr "Hợp đồng không hết hạn vào cuối tuần; vì vậy n
 #. ($self->underlying->translated_display_name)
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2383
 msgid "Contracts on %1 with duration more than 24 hours must expire at the end of a trading day."
-msgstr "Hợp đồng %1 có thời hạn hơn 24 giờ cần phải hết hạn vào cuối ngày giao dịch."
+msgstr ""
+"Các hợp đồng trên %1 có thời hạn hơn 24 giờ cần phải hết hạn vào cuối ngày "
+"giao dịch."
 
 #. ($underlying->translated_display_name()
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2434
 msgid "Contracts on %1 with durations under 24 hours must expire on the same trading day."
-msgstr "Hợp đồng %1 có thời hạn dưới 24 giờ cần phải hết hạn trong cùng ngày giao dịch."
+msgstr ""
+"Các hợp đồng trên %1 có thời hạn dưới 24 giờ cần phải hết hạn trong cùng "
+"ngày giao dịch."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/reality_check_summaryws.html.haml:1
 msgid "Contracts sold"
