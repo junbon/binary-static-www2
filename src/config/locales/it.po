@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Italian (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 19:47+0000\n"
-"Last-Translator: Mauro Piccillo <mauro.piccillo@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 19:49+0000\n"
+"Last-Translator: Annalisa <ligiu@me.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/binary/static/it/>\n"
 "Language: it\n"
@@ -6615,7 +6615,7 @@ msgstr "Livello di istruzione"
 msgid "Leverage social-media tools and channels to identify, engage, and convert potential new customers and partners"
 msgstr ""
 "Fare leva sugli strumenti e sui canali dei social media per identificare, "
-"coinvolgere e convertire nuovi potenziali clienti e partner "
+"coinvolgere e convertire nuovi potenziali clienti e partner"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:157
 msgid "Liability"
@@ -10303,7 +10303,12 @@ msgstr "La Società fornisce l'API di Binary.com sulla base di \"come è\" e \"c
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:117
 msgid "The Company receives a complaint which could have involved the Alternate Dispute Resolution entity, or the Company believes that you, the Affiliate, is in breach of any laws, rules, and regulations that may be relevant or applicable to the jurisdiction(s) in which you operate or target your business;"
-msgstr "La Società riceva un reclamo che avrebbe potuto coinvolgere l'organo di Alternate Dispute Resolution, o in cui la Società ti consideri, in qualità di Affiliato, in violazione di una qualsiasi legge, regola o normativa importante o applicabile secondo la giurisdizione competente in cui opera o si rivolge la tua attività."
+msgstr ""
+"La Società riceva un reclamo che avrebbe potuto coinvolgere l'organo di "
+"Alternate Dispute Resolution, o in cui la Società ti consideri, in qualità "
+"di Affiliato, in violazione di una qualsiasi legge, regola o normativa "
+"importante o applicabile secondo la giurisdizione competente in cui opera o "
+"si rivolge la tua attività;"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:27
 msgid "The Company reserves the right in its sole discretion to refuse and/or cancel services, charge deposit and/or withdrawal fees to anyone for any reasons including, but not limited to:"
@@ -10315,7 +10320,22 @@ msgstr "La Società si riserva il diritto di modificare qualsiasi parte del pres
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:145
 msgid "The Company reserves the right to restrict client trading and/or cancel or reverse transactions in the case that any contracts are acquired or sold at prices that do not reflect fair market prices or that are acquired or sold at an abnormally low level of risk due to an undetected programming error, bug or glitch in our website software, market data feed or contract pricing latency, data feed error, stray quotes, incorrect pricing parameters, or manifest mis-calculation of prices or other manifest error. Clients have a duty to report to the Company any such problems, errors or suspected system inadequacies that they may experience and may not abuse of or arbitrage such system problems or errors for profit. The Company will endeavour to resolve any such difficulties in the shortest time possible. Persons with insider knowledge of any financial market or instrument are prohibited from trading at this website."
-msgstr "La Società si riserva il diritto di limitare il trading dei clienti e/o annullare o opporre le transazioni nel caso in cui un qualsiasi contratto finanziario venga acquisito o venduto a prezzi non conformi ai prezzi equi del mercato oppure acquisiti o venduti a un livello di rischio eccessivamente basso a causa di un errore, bug o glitch di programmazione non rilevato sul nostro software online, flussi di dati del mercato o latenza nei prezzi dei contratti, errore nei flussi dei dati, preventivi smarriti, parametri non corretti per la determinazione dei prezzi oppure errore evidente nel calcolo dei prezzi o altro errore. I Clienti hanno il dovere di segnalare alla Società qualsiasi problema, errore o eventuale inadeguatezza rilevata nel sistema e non possono abusare dei problemi del sistema per trarne un profitto. La Società si impegna a risolvere qualsiasi problema nel minor tempo possibile. Ai soggetti con conoscenze insider su qualsiasi mercato o strumento finanziario è vietato fare trading su questo sito internet. "
+msgstr ""
+"La Società si riserva il diritto di limitare il trading dei clienti e/o "
+"annullare o opporre le transazioni nel caso in cui un qualsiasi contratto "
+"finanziario venga acquisito o venduto a prezzi non conformi ai prezzi equi "
+"del mercato oppure acquisiti o venduti a un livello di rischio "
+"eccessivamente basso a causa di un errore, bug o glitch di programmazione "
+"non rilevato sul nostro software online, flussi di dati del mercato o "
+"latenza nei prezzi dei contratti, errore nei flussi dei dati, preventivi "
+"smarriti, parametri non corretti per la determinazione dei prezzi oppure "
+"errore evidente nel calcolo dei prezzi o altro errore. I Clienti hanno il "
+"dovere di segnalare alla Società qualsiasi problema, errore o eventuale "
+"inadeguatezza rilevata nel sistema e non possono abusare dei problemi del "
+"sistema per trarne un profitto. La Società si impegna a risolvere qualsiasi "
+"problema nel minor tempo possibile. Ai soggetti con conoscenze insider su "
+"qualsiasi mercato o strumento finanziario è vietato fare trading su questo "
+"sito internet."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:116
 msgid "The Company reserves the right to suspend the operation of this site or sections thereof:"
@@ -12852,7 +12872,11 @@ msgstr "Non hai accesso ad alcuna applicazione."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:119
 msgid "You have not obtained and have not maintained all necessary licences and consents to operate within any laws, rules, and regulations applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business;"
-msgstr "Non hai ottenuto e non manterrai tutte le licenze e i consensi necessari per operare all'interno di qualsiasi legge, norma e regolamento applicabile in base all'autorità di qualsiasi ente regolatore della giurisdizione competente su cui operi o rivolgi la tua attività."
+msgstr ""
+"Non hai ottenuto e non manterrai tutte le licenze e i consensi necessari per "
+"operare all'interno di qualsiasi legge, norma e regolamento applicabile in "
+"base all'autorità di qualsiasi ente regolatore della giurisdizione "
+"competente su cui operi o rivolgi la tua attività;"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/email/bonus_reject.html.tt:10
 msgid "You have not yet reached the turnover required to be credited with the bonus."
@@ -13028,7 +13052,12 @@ msgstr "Non dovrai piazzare dei trade nell'interesse dei tuoi referenti."
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:38
 msgid "You shall not purchase or register keywords, search terms or other identifiers for use in any search engine, portal, sponsored advertising service or other search or referral service which are identical or similar to any of the Company's trademarks or trade names that include the word \"%1\" or any variation thereof."
-msgstr "Non dovrai acquistare o registrare parole chiave, termini di ricerca o altri identificatori da utilizzare su qualsiasi motore di ricerca, portale, servizi pubblicitari sponsorizzati o altri servizi di ricerca o di riferimento identici o simile a qualsiasi marchio della Società comprendente la parola \"%1\" o qualsiasi sua variante. "
+msgstr ""
+"Non dovrai acquistare o registrare parole chiave, termini di ricerca o altri "
+"identificatori da utilizzare su qualsiasi motore di ricerca, portale, "
+"servizi pubblicitari sponsorizzati o altri servizi di ricerca o di "
+"riferimento identici o simile a qualsiasi marchio della Società comprendente "
+"la parola \"%1\" o qualsiasi sua variante."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:35
 msgid "You shall not resort to high-pressure sales tactics or false promises."
