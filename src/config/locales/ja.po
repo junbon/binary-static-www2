@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 08:12+0000\n"
-"Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/binary/static/ja/>\n"
+"PO-Revision-Date: 2016-05-09 19:54+0000\n"
+"Last-Translator: Haruna Sekiya <hrnmyrn@gmail.com>\n"
+"Language-Team: Japanese "
+"<https://hosted.weblate.org/projects/binary/static/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -323,7 +324,7 @@ msgstr "入出金の解除に失敗しました"
 #. (stash('broker_name')
 #: /home/git/translations/binary-static-www2/src/templates/haml/home/index.html.haml:1
 msgid "%1: Online Trading platform for binary options on Forex, Indices, Commodities and Smart Indices"
-msgstr "%1:：外国為替のバイナリーオプションオンライン取引プラットフォーム"
+msgstr "%1: 外国為替のバイナリーオプションオンライン取引プラットフォーム"
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
@@ -1788,7 +1789,7 @@ msgstr "「購入」ボタンをクリックすると即座に取引が口座に
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/asian.html.tt:10
 msgid "Asian contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
-msgstr ""
+msgstr "Asianトレードはトレードが5分以内に終了しない場合、購入金額が返金されます。"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/winning/asian.html.tt:1
 msgid "Asian options settle by comparing the <strong>last tick</strong> with the average spot over the period."
@@ -3626,16 +3627,21 @@ msgid "Demonstrate the ability to think / act quickly and multi-task as needed t
 msgstr "効果的なキャンペーンの実施に必要な迅速な試行と行動及びマルチタスク能力の実証"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:10
-#, fuzzy
 #| msgid "Our servers apply a tick filtering algorithm. The purpose of this filtering algorithm is to strip the feed of stray ticks. Stray ticks are ticks that manifestly fall outside of the current trading range of the market; such ticks are often due to communication delays with the exchanges or banks that provide quotes, human error, or database problems at any point between the originator of the quote and our servers."
 msgid "Depending on the quality of the data feeds received from our feed providers, our servers might apply a tick filtering algorithm. The purpose of this filtering algorithm is to strip the feed of stray ticks. Stray ticks are ticks that manifestly fall outside of the current trading range of the market; such ticks are often due to communication delays with the exchanges or banks that provide quotes, human error, or database problems at any point between the originator of the quote and our servers."
-msgstr "当社のサーバは、Tickフィルタリング・アルゴリズムを採用しています。Stray Tickを価格情報から除去する目的でこのフィルタリング・アルゴリズムを採用しています。Stray Tickとは、明らかに市場での取引範囲から外れてしまった価格のことです。Stray Tickは、金融機関が提供する価格に関する配信遅延、人的ミス、または元受業者の価格と当社のサーバとデータベースの不整合に起因します。"
+msgstr ""
+"フィードプロバイダ先から受信したデータフィードによって、Tickフィルタリングアルゴリズムが当サーバーに適用される場合があります。"
+"データフィードをStray Tickを価格情報から除去する目的でこのフィルタリング・アルゴリズムを採用しています。Stray "
+"Tickとは、明らかに市場での取引範囲から外れてしまった価格のことです。Stray "
+"Tickは、金融機関が提供する価格に関する配信遅延、人的ミス、または元受業者の価格と当社のサーバとデータベースの不整合に起因します。"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:17
-#, fuzzy
 #| msgid "Once stray ticks have been removed, a very short-term smoothing algorithm is applied to the data feed. This smoothing algorithm removes a little of the \"random noise\" surrounding the data feed, and ensures that clients who buy path-dependent contracts (such as the one-touch or barrier-range contracts) will not have their contracts knocked-in or knocked-out by random short-term market noise that does not reflect the true market price."
 msgid "Depending on the quality of the feeds received from our feed providers, our servers might also apply a very short-term smoothing algorithm to the data feed. This smoothing algorithm removes a little of the \"random noise\" surrounding the data feed, and ensures that clients who buy path-dependent contracts (such as the one-touch or barrier-range contracts) will not have their contracts knocked-in or knocked-out by random short-term market noise that does not reflect the true market price."
-msgstr "Stray Tickが除去されると、極短期間に高い精度を提供するアルゴリズムがデータフィードに適用されます。このアルゴリズムは、データフィードに存在するノイズを除去し、実際の市場価格を反映しないノイズに惑わされることなく軌跡に依存するトレード（タッチ、またはバリアに依存するトレード）を購入できるようになります。"
+msgstr ""
+"フィードプロバイダ先から受信したフィードの質によって、当サーバーでは非常に短期的な平滑化アルゴリズムをデータフィードに適用する場合があります。このアルゴリ"
+"ズムは、データフィードに存在するノイズを除去し、実際の市場価格を反映しないノイズに惑わされることなく軌跡に依存するトレード（タッチ、またはバリアに依存する"
+"トレード）を購入できるようになります。"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:562
 #: /home/git/regentmarkets/bom-backoffice/f_manager_confodeposit.cgi:273
@@ -3771,7 +3777,7 @@ msgstr "他社が提供するデータフィードとの相違について"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/digits.html.tt:7
 msgid "Digit contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
-msgstr ""
+msgstr "Digitトレードはトレードが5分以内に終了しない場合、購入金額が返金されます。"
 
 #. (@range)
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Pricing/Engine/Digits.pm:57
@@ -4093,13 +4099,9 @@ msgid "Ends Between/Ends Outside trades"
 msgstr "レンジ内で終了/レンジ外で終了・トレード"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/endsinout.html.tt:14
-#, fuzzy
 #| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
 msgid "Ends In/Out contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
-msgstr ""
-"次の条件が発生した場合、トレードの購入価格が返金されます。\n"
-"(1) 開始時間から判定時間までの間にtickが2未満\n"
-"(2) tickの取引時間に関して、トレードが5分以内に終了しなかった場合"
+msgstr "Ends In/Outトレードは開始から終了までの取引期間中にTickが2未満である場合に、購入金額が返金されます。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Engage in data mining using SQL databases, R/S-Plus, OLAP and other analytical tools"
@@ -4187,7 +4189,7 @@ msgstr "偶数/奇数"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/evenodd.html.tt:6
 msgid "Even/Odd contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
-msgstr ""
+msgstr "Even/Oddはトレードが5分以内で終了しない場合、購入金額が返金されます。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/spread_bets.html.haml:1
 msgid "Example:"
@@ -4992,13 +4994,9 @@ msgid "Higher/Lower"
 msgstr "HIGH/LOW"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/higherlower.html.tt:6
-#, fuzzy
 #| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
 msgid "Higher/Lower contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
-msgstr ""
-"次の条件が発生した場合、トレードの購入価格が返金されます。\n"
-"(1) 開始時間から判定時間までの間にtickが2未満\n"
-"(2) tickの取引時間に関して、トレードが5分以内に終了しなかった場合"
+msgstr "Higher/Lowerトレードは開始から終了までの取引期間中にTickが2未満である場合、購入金額が返金されます。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 msgid "Higher/Lower trades"
@@ -7833,7 +7831,7 @@ msgstr "以上/以下"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/overunder.html.tt:6
 msgid "Over/Under contracts will be refunded at the purchase price if the contract doesn't end within 5 minutes."
-msgstr ""
+msgstr "Over/Underトレードは5分以内にトレードが終了しない場合、購入金額が返金されます。"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:427
 msgid "Overlay"
@@ -9057,13 +9055,13 @@ msgid "Rise/Fall contracts of less than 5 minutes duration are only available wh
 msgstr "アップ/ダウンでは開始時間を\"Now\"に指定した場合のみ、５分未満でのトレードが可能です。"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/risefall.html.tt:18
-#, fuzzy
 #| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
 msgid "Rise/Fall contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes, or (3) for contracts starting in the future, if there are no ticks in the 5 minutes before the contract's start time."
 msgstr ""
-"次の条件が発生した場合、トレードの購入価格が返金されます。\n"
-"(1) 開始時間から判定時間までの間にtickが2未満\n"
-"(2) tickの取引時間に関して、トレードが5分以内に終了しなかった場合"
+"Rise/Fallトレードは下記の条件が発生した場合に、購入金額が返金されます。\n"
+"(1) 開始から終了までの取引期間中にTickが2未満である\n"
+"(2) Tick期間のトレードが5分以内で終了しない\n"
+"(3) トレード開始前の5分以内にTickが発生しない"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 msgid "Rise/Fall trades"
@@ -9822,13 +9820,9 @@ msgid "Stays Between/Goes Outside trades"
 msgstr "レンジ内に留まる/レンジ外となる"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/staysinout.html.tt:10
-#, fuzzy
 #| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
 msgid "Stays In/Goes Out Contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
-msgstr ""
-"次の条件が発生した場合、トレードの購入価格が返金されます。\n"
-"(1) 開始時間から判定時間までの間にtickが2未満\n"
-"(2) tickの取引時間に関して、トレードが5分以内に終了しなかった場合"
+msgstr "Stays In/Goesトレードは開始から終了までの取引期間中にTickが2未満である場合、購入金額が返金されます。"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:358
 msgid "Step"
@@ -10756,10 +10750,11 @@ msgid "The expiry price is the price of the underlying when the contract expires
 msgstr "終値とは、トレード終了時の取引対象の価格を指します。"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:13
-#, fuzzy
 #| msgid "The filtering algorithm is based on a mathematical formula similar to the \"Bollinger Bands\" volatility system - i.e., short-term volatility bands are determined around the present market value, and ticks that are manifestly outside of such bands are removed."
 msgid "The filtering algorithm may for example be similar to the \"Bollinger Bands\" volatility system - i.e., short-term volatility bands are determined around the present market value, and ticks that are manifestly outside of such bands are removed."
-msgstr "このフィルタリング・アルゴリズムは、テクニカル指標の一種であるボリンジャーバンドに類似した算出方式に基づいています。ゆえに、直近の極短期間の市場の変動幅が狭まり、明らかにその変動幅から外れるような価格も除外されます。"
+msgstr ""
+"このフィルタリング・アルゴリズムは、例としてテクニカル指標の一種であるボリンジャーバンドに類似した算出方式に基づいています。ゆえに、直近の極短期間の市場の"
+"変動幅が狭まり、明らかにその変動幅から外れるような価格も除外されます。"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:18
 msgid "The financial trading services contained within this site are only suitable for Clients who are able to bear the loss of all the money they invest and who understand and have experience of the risks involved in the acquisition of financial contracts."
@@ -11490,13 +11485,9 @@ msgid "Touch/No Touch"
 msgstr "タッチ"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/explanation/details/touchnotouch.html.tt:11
-#, fuzzy
 #| msgid "Contracts will be refunded at the purchase price if the following conditions occur: (1) there are less than 2 ticks between the start and end times, or (2) for contracts of tick duration, if the contract doesn't end within 5 minutes."
 msgid "Touch/No Touch contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
-msgstr ""
-"次の条件が発生した場合、トレードの購入価格が返金されます。\n"
-"(1) 開始時間から判定時間までの間にtickが2未満\n"
-"(2) tickの取引時間に関して、トレードが5分以内に終了しなかった場合"
+msgstr "Touch/No Touchトレードでは開始から終了までの取引期間中にTickが2未満である場合、購入価格が返金されます。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/types_of_trades.html.haml:1
 msgid "Touch/No touch trades"
