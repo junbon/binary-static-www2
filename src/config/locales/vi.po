@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-08 19:07+0000\n"
+"PO-Revision-Date: 2016-05-09 13:25+0000\n"
 "Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
-"Language-Team: Vietnamese <https://hosted.weblate.org/projects/binary/static/vi/>\n"
+"Language-Team: Vietnamese "
+"<https://hosted.weblate.org/projects/binary/static/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -670,13 +671,19 @@ msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Kính gửi 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:133
 msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Please help us to verify your identity by entering the following verification token into the payment agent withdrawal form:<p><span style=\"background: #f2f2f2; padding: 10px;\">%1</span></p></p>"
 msgstr ""
-"<p style=\"line-height:200%;color:#333333;font-size:15px;\"> 1Kính gửi Quý khách hàng,</p> 2<p> 3Vui lòng giúp chúng tôi xác thực danh tính của bạn bằng cách nhập mã token xác minh sau đây vào mẫu rút tiền đại lý thanh toán:<p> 4\n"
-"<span style=\"background: #f2f2f2; padding: 10px;\"> 5%1</span> 6</p> 7</p> 8"
+"<p style=\"line-height:200%;color:#333333;font-size:15px;\">Kính gửi Quý "
+"khách hàng,</p><p>Vui lòng giúp chúng tôi xác thực danh tính của bạn bằng "
+"cách nhập mã token xác minh sau đây vào mẫu rút tiền đại lý thanh toán:<p><"
+"span style=\"background: #f2f2f2; padding: 10px;\">%1</span></p></p>"
 
 #. ($params->{code})
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:145
 msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Please help us to verify your identity by entering the following verification token into the payment withdrawal form:<p><span style=\"background: #f2f2f2; padding: 10px;\">%1</span></p></p>"
-msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\"> 1Kính gửi Quý khách hàng,</p> 2<p> 3Vui lòng giúp chúng tôi xác thực danh tính của bạn bằng cách nhập mã token xác minh sau đây vào mẫu rút tiền đại lý thanh toán:<p> 4<span style=\"background: #f2f2f2; padding: 10px;\"> 5%1</span> 6</p> 7</p> 8"
+msgstr ""
+"<p style=\"line-height:200%;color:#333333;font-size:15px;\">Kính gửi Quý "
+"khách hàng,</p><p>Vui lòng giúp chúng tôi xác thực danh tính của bạn bằng "
+"cách nhập mã token xác minh sau đây vào mẫu rút tiền đại lý thanh toán:<p><"
+"span style=\"background: #f2f2f2; padding: 10px;\">%1</span></p></p>"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/faq.html.tt:73
 msgid ""
