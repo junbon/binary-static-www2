@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 19:54+0000\n"
-"Last-Translator: Haruna Sekiya <hrnmyrn@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 21:44+0000\n"
+"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Japanese "
 "<https://hosted.weblate.org/projects/binary/static/ja/>\n"
 "Language: ja\n"
@@ -5837,7 +5837,7 @@ msgstr "J. Welles Wilder氏によってAverage Directional Index (ADX)は考案�
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
 msgid "JAPAN ONLY CONTACT TEXT"
-msgstr "JAPAN ONLY CONTACT TEXT"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:80
 msgid "Jan"
@@ -13997,35 +13997,35 @@ msgstr "当社サービスを通じて金融トレードを購入するメリッ
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:520
 msgid "{JAPAN ONLY}%1 %2 payout if %3 does not touch Exercise price through close on %4."
-msgstr "%3が%4までに権利行使価格に達しなかった場合、%1%2のペイアウトをお受け取りいただけます。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:522
 msgid "{JAPAN ONLY}%1 %2 payout if %3 ends on or between low and high values of Exercise price at close on %4."
-msgstr "%3が%4までに権利行使価格の値で終了または上限バリアと下限バリアの範囲内で終了した場合、%1 %2のペイアウトをお受け取りいただけます。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:523
 msgid "{JAPAN ONLY}%1 %2 payout if %3 ends otside low and high values of Exercise price at close on %4."
-msgstr "%3が%4の時点で権利行使価格値の上限バリアと下限バリア外で終了した場合、%1 %2のペイアウトをお受け取りいただけます。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:525
 msgid "{JAPAN ONLY}%1 %2 payout if %3 goes ouside of low and high values of Exercise price through close on %4."
-msgstr "%3が%4までに権利行使価格の値の上限バリアと下限バリアの範囲外にでた場合、%1 %2のペイアウトをお受け取りいただけます。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:518
 msgid "{JAPAN ONLY}%1 %2 payout if %3 is strictly higher or equal than Exercise price at close  on %4."
-msgstr "%3が%4の時点で権利行使価格以上であった場合、%1 %2のペイアウトをお受け取りいただけます。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:519
 msgid "{JAPAN ONLY}%1 %2 payout if %3 is strictly lower than Exercise price at close on %4."
-msgstr "%3が%4の時点で権利行使価格未満であった場合、%1 %2のペイアウトをお受け取りいただけます。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:524
 msgid "{JAPAN ONLY}%1 %2 payout if %3 stays between low and high values of Exercise price through close on %4."
-msgstr "%3が%4まで常に上限バリアと下限バリアの範囲内に留まった場合、%1 %2のペイアウトをお受け取りいただけます。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:521
 msgid "{JAPAN ONLY}%1 %2 payout if %3 touches Exercise price through close on %4."
-msgstr "%3が%4までに権利行使価格に達した場合、%1 %2のペイアウトをお受け取りいただけます。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:415
 msgid "{JAPAN ONLY}A  Net Settlement type of option is one where the underlying asset does not include yen, but the option fee and settlement are paid in yen; it therefore requires some definition of how the settlement amounts will be calculated and converted to yen."
@@ -14121,15 +14121,15 @@ msgstr "時間的価値は、オプションの権利行使期限までの時間
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:526
 msgid "{JAPAN ONLY}BUY price per unit"
-msgstr "単位ごとの価格を購入"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:472
 msgid "{JAPAN ONLY}Because option prices are determined by the probability of being exercised, it cannot be said that cheaper options have any natural advantage over expensive options."
-msgstr "権利行使により利益が得られる確率を踏まえれば、一概にオプション価格が安いものが有利とはいえない。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:473
 msgid "{JAPAN ONLY}Binary options have lower risk than vanilla options for option sellers, because with binary options the maximum loss is fixed."
-msgstr "バイナリーオプションは、売り手の損失が限定されており、プレーンオプションに比べ、ローリスクハイリターンな取引といえる。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:512
 msgid "{JAPAN ONLY}Congratulations, you have pass the test, our Customer Support will contact you shortly."
@@ -14137,7 +14137,7 @@ msgstr "おめでとうございます。テストに合格されましたので
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:514
 msgid "{JAPAN ONLY}Dear customer, you are not allowed to take knowledge test until %1. Last test taken at %2."
-msgstr "知識確認テストの受験は1日1度のみとなっておりますので、%1以降(週末を除く24時間後)に再受験して下さい。前回のテスト受験日%2。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:515
 msgid "{JAPAN ONLY}Dear customer, you've already completed the knowledge test, please proceed to next step."
@@ -14152,7 +14152,7 @@ msgstr "デルタとは、原資産価格の変化に対するオプション価
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/knowledge_test.html.tt:5
 msgid "{JAPAN ONLY}Disclaimer for knowledge test"
-msgstr "知識確認テスト免責事項"
+msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:116
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:131
@@ -14160,7 +14160,7 @@ msgstr "知識確認テスト免責事項"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:199
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:211
 msgid "{JAPAN ONLY}Download"
-msgstr "ダウンロード"
+msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:101
 msgid "{JAPAN ONLY}Email us copies of your Identification Documents and My Number card."
@@ -14180,7 +14180,7 @@ msgstr "権利行使期限が到来し、権利行使が行われないオプシ
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:474
 msgid "{JAPAN ONLY}Even though losses in binary options are limited, it is still necessary to take care not to engage in excessive speculative trading and to moderate your transactions volume."
-msgstr "バイナリーオプションは損失が限定的であるが、投資者自身の資産などを踏まえ、過度の投機的な取引とならぬよう、節度ある取引を心がける必要がある。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:448
 msgid "{JAPAN ONLY}For a call option, if the price of the underlying asset is higher than the option exercise price, it is know as an in-the-money option."
@@ -14268,7 +14268,7 @@ msgstr "オプションの買い手は、権利を放棄することができる
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:469
 msgid "{JAPAN ONLY}If the exercise period passes without the option being exercised by the buyer, the option premium received by the seller will be the profit made on the trade."
-msgstr "権利行使期限が到来し、権利行使が行われないオプションは消滅するため、所有するオプションは価値がなくなる。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:484
 msgid "{JAPAN ONLY}If the exercise prices and exercise times are the same for an American style and European style option, then the American style option will have a higher price."
@@ -14324,7 +14324,7 @@ msgstr "バイナリーオプションの取引期間（満期）は2時間以�
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:456
 msgid "{JAPAN ONLY}In OTC currency binary options trading, if the exchange rate during the trading period moves by more than expected in one direction, and there are no longer any exercise prices which can continue to trade, it is possible under certain conditions to add further exercise prices. However, even when further exercise price have been added, the prices of the original options will not be affected."
-msgstr "店頭通貨バイナリーオプション取引では、取引期間中の為替レートが一方向に想定以上に動き、アットザマネー周辺で適切な取引が継続できる権利行使価格が無くなった場合には、途中で権利行使価格を追加することがある。ただし、権利行使価格が追加された場合であっても、それまで利用した権利行使価格は引き続き取引を行い、またその取引価格が、権利行使価格の追加の影響を受けることはない。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:485
 msgid "{JAPAN ONLY}In case of the right to buy the underlying asset (call option), when the underlying asset price falls, the option price will increase."
@@ -14336,7 +14336,7 @@ msgstr "原資産を売る権利（プットオプション）の場合、原資
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:444
 msgid "{JAPAN ONLY}In contrast to other types of FX options, short positions in FX Binary Options cannot be closed-out as they are not subject to loss-cut regulations."
-msgstr "通貨関連バイナリーオプションのショートポジションは、他の通貨関連オプションのショートポジションとは異なり、ロスカット規制の対象となる金融商品ではないため、ロスカットされることはない。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:497
 msgid "{JAPAN ONLY}In general a binary option price will not exceed the payout amount."
@@ -14352,7 +14352,7 @@ msgstr "取引口座の開設には、バイナリーオプション取引の仕
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:147
 msgid "{JAPAN ONLY}Introduction to Binary Options"
-msgstr "バイナリーオプション概要"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:476
 msgid "{JAPAN ONLY}It cannot be said that binary options trading is unconditionally advanteous over regular spot fx trading, because investors may lose all of their investment whereas in spot fx trading there will still be some value in the trading position."
@@ -14366,7 +14366,7 @@ msgstr ""
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:538
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/knowledge_test.html.tt:11
 msgid "{JAPAN ONLY}It is determined the customers have basic knowledge of option trading by the results of the knowledge test. If the customers start trading, the customers need to agree not have lawsuit despite the customer are shortage of knowledge related to options trading, and it cause damages, we admit to open the trading account."
-msgstr "知識確認テストの結果によってオプション取引の基本知識をお持ちであるかが判断されます。取引を開始された場合、オプション取引に関する知識が不足しているにも関わらず、当社が取引口座の開設を承認したことで生じた損害に対して、訴訟を行わないことに同意いただく必要があります。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:440
 msgid "{JAPAN ONLY}It is possible to use two binary options to make a profit if the asset price settles inbetween the two strikes. It is also possible to buy a single range option that will achieve the same result."
@@ -14379,7 +14379,7 @@ msgstr "２つのオプションを用い、権利行使価格の高いバイナ
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:539
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/knowledge_test.html.tt:12
 msgid "{JAPAN ONLY}It prohibits the copying of the questions . In addition , You agree that you will not leak to third party"
-msgstr "質問の複写を禁止しています。また、第三者へ漏洩しないことに同意するものとします。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:406
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/knowledge_test.html.tt:2
@@ -14393,11 +14393,11 @@ msgstr "知識確認テスト結果"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:30
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:42
 msgid "{JAPAN ONLY}No space between last name and first name"
-msgstr "姓と名の間にスペースを入れないでください"
+msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:169
 msgid "{JAPAN ONLY}Option Pricing"
-msgstr "オプション価格"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:508
 msgid "{JAPAN ONLY}Option prices are normally dependant on elements such as the underlying asset price, the exercise price, the length of time until the exercise point, volatility, and interest rates. Apart from the fixed exercise price, all other elements are changing constantly, so an understanding of the relationships between each element and changes in the options price is necessary for the management of options trading risk."
@@ -14427,7 +14427,7 @@ msgstr "オプションのレバレッジ効果により、買い手はオプシ
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:447
 msgid "{JAPAN ONLY}Options may be European or American style of exercise, and those which can be exercised at only one expiry time are the European style options."
-msgstr "オプション取引にはヨ－ロピアンタイプとアメリカンタイプがあり、権利行使期間の満期時だけに権利行使できるものをヨーロピアンタイプという。"
+msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:112
 msgid "{JAPAN ONLY}Our Customer Support staff will contact you at each stage to guide you through the process. Please also download our full guide to opening an account:"
@@ -14454,7 +14454,7 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:183
 msgid "{JAPAN ONLY}Please download our Full Trading Guide which describes in detail how to use our trading screens and other features of our website:"
-msgstr "取引画面のご利用方法または当サイトで提供している機能の詳細をご覧いただける完全取引ガイドをダウンロードしてご利用ください。"
+msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:142
 msgid "{JAPAN ONLY}Please download our Options Basic Knowledge guides which cover all the essential concepts, terminalogy and required information:"
@@ -14472,7 +14472,7 @@ msgstr "当社の取引タイプ、ルール、条件の全詳細が記載され
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:21
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:77
 msgid "{JAPAN ONLY}Pre-Contract Documents"
-msgstr "契約締結前交付書面"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:479
 msgid "{JAPAN ONLY}Price of OTC currency option is the calculated value based on multiple elements and is determined by relative trading basically."
@@ -14488,11 +14488,11 @@ msgstr "店頭バイナリーオプション取引の場合、金融商品取引
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:530
 msgid "{JAPAN ONLY}Prices for currency options are calculated relative the value of theunderlying spot price, and are dependant on multiple factors which may vary."
-msgstr "店頭通貨オプションの価格は、複数の要素に基づく計算値であり、基本的には相対取引で価格は決定される。"
+msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:152
 msgid "{JAPAN ONLY}Purchase, Settlement & Resale"
-msgstr "購入・決済・転売"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:480
 msgid "{JAPAN ONLY}Regarding to the OTC price of financial instruments, in case that financial instruments business operator suggests both of  bid and ask price (or trading price and cancellation price), generally there is a difference of them. This option will be wider as the expiration approaches."
@@ -14500,11 +14500,11 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:174
 msgid "{JAPAN ONLY}Regulation & Tax"
-msgstr "規制と税"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:527
 msgid "{JAPAN ONLY}SELL price  per unit"
-msgstr "単位ごとの価格を売却"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:407
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/knowledge_test.html.tt:18
@@ -14564,7 +14564,7 @@ msgstr "オプション価格の理論式として、ブラック・ショール
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:453
 msgid "{JAPAN ONLY}The Exercise Price is the level at which the option buyer has the right to trade the underlying, and is also used for binary options to determine whether the buyer should receive a payout."
-msgstr "権利行使価格とは、権利行使により原資産を購入または売却する価格であり、バイナリーオプションの場合には、ペイアウトの発生の有無を判断する基準価格である。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:454
 msgid "{JAPAN ONLY}The Exit Price is the price that is observed at the judgment time, and is used to determine whether a payout should be made."
@@ -14576,11 +14576,11 @@ msgstr "プレーンオプションの買い手は、自分に不利なときに
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:457
 msgid "{JAPAN ONLY}The exit price is important in binary options. In case of handling the OTC currency-related binary options trading for private individuals, the broker company must perform inspections of the exit prices which have been used for determining option payout, and must check whether there is an error in the data in cases where that the company has used rated data provided by third company."
-msgstr "バイナリーオプション取引では、判定価格が重要である。個人向け店頭通貨関連バイナリーオプション取引を取り扱う場合には、自社が決定する判定価格について、ミスや作為的な操作が行われていないか自ら点検するほか、第三者の提供するレートデータを用いる場合でも、データに誤りがないか点検している。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:471
 msgid "{JAPAN ONLY}The maximum loss for the buyer of an option is the price paid, and the maximium loss for the option seller will be the payout amount minus the opion price he received."
-msgstr "バイナリーオプションの買い手の最大損失額はオプション料であり、売り手の最大損失額はペイアウト額からオプション料を差し引いた額となる。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:477
 msgid "{JAPAN ONLY}The particular details of binary options are all the same, no matter which broking company you trade with."
@@ -14588,7 +14588,7 @@ msgstr "店頭バイナリーオプションの金融商品としての内容は
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:455
 msgid "{JAPAN ONLY}The payout is the amount that the option seller must pay to the buyer if the buyer exercises his right when the conditions for a payout have been satisfied."
-msgstr "ペイアウトとは、バイナリーオプションにおいて、あらかじめ定められた権利行使条件を満たし、権利行使が行われた結果、オプションの売り手が買い手にあらかじめ定めた金銭を支払うことをいい、支払われる額をペイアウト額という。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:478
 msgid "{JAPAN ONLY}The price of OTC binary options of the same conditions, (sometimes) the price varies depending on transactions dealers handling financial instruments business."
@@ -14600,7 +14600,7 @@ msgstr "バイナリーオプションの価格は、原資産価格の変化の
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:533
 msgid "{JAPAN ONLY}The price of a vanilla call option will be lower when price of the underlying asset is low, but the price of the put option will be higher when the price of the underlying asset is low."
-msgstr "コールオプションの価格は原資産の金利が低くなると下がるが、プットオプションの価格は、原資産の金利が低くなると上がる。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:482
 msgid "{JAPAN ONLY}The price of an option can be affected by the underlying asset price, by the volatility rate of the underlying asset, or by the time remaining to the exercise time."
@@ -14616,7 +14616,7 @@ msgstr "オプションの売り手は、買い手が権利行使を放棄した
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:517
 msgid "{JAPAN ONLY}The test is unavailable now, test can only be taken again on next business day with respect of most recent test."
-msgstr "｛日本限定｝現在テストを受験いただけません。前回のテストの翌営業日に再度受験いただけます。"
+msgstr "現在テストを受験いただけません。前回のテストの翌営業日に再度受験いただけます。"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:494
 msgid "{JAPAN ONLY}The time-value of an option represents the expected value of the option at the exercise point, and may be positive, even when the intrinsic-value is zero."
@@ -14637,12 +14637,12 @@ msgstr "オプションには、権利行使によって、実際に原資産を
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:534
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/knowledge_test.html.tt:7
 msgid "{JAPAN ONLY}This knowledge test is required by law. As we provide the test, we know customers better whether the customers are suitable investors to be carried out the binary options trading, and customers can start trading with us."
-msgstr "知識確認テストは法律により定められています。このテストを提供することで、お客様がバイナリーオプション取引の投資者に適しているか、当社と取引を行うことができるか把握することができます。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:536
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/knowledge_test.html.tt:9
 msgid "{JAPAN ONLY}This test is for the purpose of confirming if the customers have basic knowledge related to options trading ."
-msgstr "このテストは、お客様がオプション取引に関した基本知識をお持ちかどうか確認させていただくことを目的としています。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:428
 msgid "{JAPAN ONLY}To avoid or hedge the future price of an underlying asset which you hold, you should buy a call option."
@@ -14655,11 +14655,11 @@ msgstr "将来取得する予定の原資産の値上がりを補うため、原
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:535
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/knowledge_test.html.tt:8
 msgid "{JAPAN ONLY}To invest a binary options investment accurately, the customer are required knowledge and experience related to derivative transactions."
-msgstr "正確にバイナリーオプションで投資いただくには、デリバティブ取引に関した知識と経験が必要となります。"
+msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:164
 msgid "{JAPAN ONLY}Trading & Hedging"
-msgstr "取引とヘッジ"
+msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:15
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:181
@@ -14681,7 +14681,7 @@ msgstr "バイナリーオプションの場合、プレーンオプションと
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:439
 msgid "{JAPAN ONLY}Using binary options for hedging a position in the underlying asset means that only part of the loss or gain can be hedged, because the payout amount is fixed."
-msgstr "ペイアウトは固定されているので、バイナリーオプションを利用したヘッジは、ヘッジ対象資産の損失の一部を補うものとして行う必要がある。"
+msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:124
 msgid "{JAPAN ONLY}We are required to request copies of your My Number Card as well as proof of registered address. Your details will be kept secure and only used for the specific purposes of verifying your credentials, as required by law."
@@ -14691,11 +14691,11 @@ msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:437
 msgid "{JAPAN ONLY}When buying a vanilla call option, the break-even price at the exercise point is the strike price plus the option price paid in units of the underlying."
-msgstr "コールオプションの買いでは、権利行使価格に原資産１単位当たりのオプション料を加算した価格が損益分岐点である。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:438
 msgid "{JAPAN ONLY}When buying a vanilla put option, the break-even price at the exercise point is the strike price minus the option price paid in units of the underlying."
-msgstr "プットオプションの買いでは、権利行使価格に原資産1単位当たりのオプション料を減算した価格が損益分岐点である。"
+msgstr ""
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:531
 msgid "{JAPAN ONLY}Where broking companies show bid and offer prices for purchasing and sell-back of positions, these prices may become further apart the nearer you are to the exercise time."
