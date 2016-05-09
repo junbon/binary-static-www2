@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 13:25+0000\n"
-"Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 13:48+0000\n"
+"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Vietnamese "
 "<https://hosted.weblate.org/projects/binary/static/vi/>\n"
 "Language: vi\n"
@@ -715,7 +715,11 @@ msgstr ""
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:118
 msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system. If it was not you, simply ignore this email, or contact our customer support if you have any concerns.</p>"
-msgstr "<p> 1Kính gửi Quý khách hàng,</p> 2<p> 3Có vẻ như bạn vừa cố gắng đăng kí với một địa chỉ email đã tồn tại trên hệ thống của chúng tôi. Nếu đó không phải bạn, bạn chỉ cần bỏ qua email này, hoặc liên hệ với nhân viên hỗ trợ khách hàng của chúng tôi nếu bạn có bất kỳ thắc mắc nào.</p> 4"
+msgstr ""
+"<p>Kính gửi Quý khách hàng,</p><p>Có vẻ như bạn vừa cố gắng đăng kí với một "
+"địa chỉ email đã tồn tại trên hệ thống của chúng tôi. Nếu đó không phải bạn, "
+"bạn chỉ cần bỏ qua email này, hoặc liên hệ với nhân viên hỗ trợ khách hàng "
+"của chúng tôi nếu bạn có bất kỳ thắc mắc nào.</p>"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/faq.html.tt:89
 msgid ""
