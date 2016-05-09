@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Italian (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 19:31+0000\n"
-"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 19:47+0000\n"
+"Last-Translator: Mauro Piccillo <mauro.piccillo@gmail.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/binary/static/it/>\n"
 "Language: it\n"
@@ -6613,7 +6613,9 @@ msgstr "Livello di istruzione"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Leverage social-media tools and channels to identify, engage, and convert potential new customers and partners"
-msgstr "Fare leva sugli strumenti e sui canali dei social media per identificare, coinvolgere e convertire i nuovi potenziali clienti e i partner "
+msgstr ""
+"Fare leva sugli strumenti e sui canali dei social media per identificare, "
+"coinvolgere e convertire nuovi potenziali clienti e partner "
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:157
 msgid "Liability"
