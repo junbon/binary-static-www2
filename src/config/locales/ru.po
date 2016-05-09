@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: BOM\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 06:43+0000\n"
-"Last-Translator: Alina Demidova <alinademidova1@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 08:05+0000\n"
+"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Russian "
 "<https://hosted.weblate.org/projects/binary/static/ru/>\n"
 "Language: ru\n"
@@ -10223,7 +10223,6 @@ msgid "Strong attention to detail"
 msgstr "Отличное внимание к деталям"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "Excellent English language skills, both oral and written"
 msgid "Strong command of the English language, in both oral and written form"
 msgstr "Отличное знание английского языка: устного и письменного"
@@ -10245,7 +10244,6 @@ msgid "Strong, passionate interest in Graphic Design, Marketing, and Advertising
 msgstr "Высокий интерес к графическому дизайну, маркетингу и рекламе"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
-#, fuzzy
 #| msgid "A strong and passionate interest in marketing and advertising"
 msgid "Strong, passionate interest in Marketing and Advertising"
 msgstr "Высокий интерес к маркетингу и рекламе"
@@ -14493,10 +14491,11 @@ msgid "{JAPAN ONLY}Congratulations, you have pass the test, our Customer Support
 msgstr "{JAPAN ONLY}Congratulations, you have pass the test, our Customer Support will contact you shortly."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:514
-#, fuzzy
 #| msgid "{JAPAN ONLY}Dear customer, you are not allowed to take knowledge test until %1.\\nLast test taken at %2."
 msgid "{JAPAN ONLY}Dear customer, you are not allowed to take knowledge test until %1. Last test taken at %2."
-msgstr "{JAPAN ONLY}Dear customer, you are not allowed to take knowledge test until %1.\\nLast test taken at %2."
+msgstr ""
+"{JAPAN ONLY}Dear customer, you are not allowed to take knowledge test until %"
+"1. Last test taken at %2."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:515
 msgid "{JAPAN ONLY}Dear customer, you've already completed the knowledge test, please proceed to next step."
