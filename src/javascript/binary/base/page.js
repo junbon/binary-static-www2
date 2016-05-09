@@ -1081,6 +1081,8 @@ Page.prototype = {
             return $('#language_select').attr('class').toUpperCase(); //Required as mojo still provides lower case lang codes and most of our system expects upper case.
         } else if(page.url.param('l')) {
             return page.url.param('l');
+        } else if($.cookie('language')) {
+            return $.cookie('language');
         } else {
             return 'EN';
         }
