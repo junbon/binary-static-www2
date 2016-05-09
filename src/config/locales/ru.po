@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: BOM\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 16:02+0000\n"
-"Last-Translator: Ruslan <ruslan.mukhametdinov.90@gmail.com>\n"
+"PO-Revision-Date: 2016-05-09 19:33+0000\n"
+"Last-Translator: Alina Demidova <alinademidova1@gmail.com>\n"
 "Language-Team: Russian "
 "<https://hosted.weblate.org/projects/binary/static/ru/>\n"
 "Language: ru\n"
@@ -14176,7 +14176,12 @@ msgstr "{JAPAN ONLY}It is determined that proper by the results of this test, if
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:538
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/knowledge_test.html.tt:11
 msgid "{JAPAN ONLY}It is determined the customers have basic knowledge of option trading by the results of the knowledge test. If the customers start trading, the customers need to agree not have lawsuit despite the customer are shortage of knowledge related to options trading, and it cause damages, we admit to open the trading account."
-msgstr "{JAPAN ONLY}It is determined the customers have basic knowledge of option trading by the results of the knowledge test. If the customers start trading, the customers need to agree not have lawsuit despite the customer are shortage of knowledge related to options trading, and it cause damages, we admit to open the trading account."
+msgstr ""
+"{JAPAN ONLY}It is determined the customers have basic knowledge of option "
+"trading by the results of the knowledge test. If the customers start "
+"trading, the customers need to agree not have lawsuit despite the customer "
+"are shortage of knowledge related to options trading, and it cause damages, "
+"we admit to open the trading account."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:440
 msgid "{JAPAN ONLY}It is possible to use two binary options to make a profit if the asset price settles inbetween the two strikes. It is also possible to buy a single range option that will achieve the same result."
