@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 00:57+0000\n"
-"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
+"PO-Revision-Date: 2016-05-10 03:46+0000\n"
+"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -212,7 +212,13 @@ msgstr "A %1 poderá ter acesso a informações que não estão disponíveis a v
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 now seeks Affiliate Managers to drive rapid growth and business development in key areas of the world. Successful recruits for this telecommuting role will actively increase %1’s market presence, expanding its network of affiliate partners from particular countries, geographic regions, and / or languages as needed."
-msgstr "A %1 procura agora gestores de afiliados para impulsionar o crescimento e desenvolvimento do negócio em áreas principais do mundo. Recrutas bem-sucedidas nesta função de teletrabalho irão aumentar de forma ativa a presença no mercado da %1, expandindo a sua rede de parceiros de afiliação de países, regiões geográficas e / ou idiomas específicos, conforme necessário."
+msgstr ""
+"A %1 procura agora gestores de afiliados para impulsionar o crescimento e "
+"desenvolvimento do negócio nas principais áreas do mundo. Recrutas bem-"
+"sucedidos nesta função de trabalho remoto irão aumentar de forma ativa a "
+"presença no mercado da %1, expandindo a sua rede de parceiros de afiliação "
+"de países, regiões geográficas e / ou idiomas específicos, conforme "
+"necessário."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -7974,7 +7980,7 @@ msgstr "O pagamento deve ser entre %1 e %2."
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:702
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/maltainvestws.html.tt:365
 msgid "Pension"
-msgstr "Pensão de aposentação"
+msgstr "Aposentadoria"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:571
 msgid "Performance"
@@ -7987,7 +7993,7 @@ msgstr "Período"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Perl knowledge and/or readiness to learn is a must"
-msgstr "Conhecimentos de Perl e/ou vontade de aprender é obrigatório"
+msgstr "Conhecimentos de Perl e/ou vontade de aprender são obrigatórios"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/open_source_projects.html.haml:1
 msgid "Perl modules"
@@ -8014,11 +8020,11 @@ msgstr "Informações Pessoais"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:433
 msgid "Pick workspace file"
-msgstr "Selecionar ficheiro de área de trabalho"
+msgstr "Selecionar arquivo da área de trabalho"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 msgid "Pip"
-msgstr "Ponto"
+msgstr "Porcentagem em Ponto"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 msgid "Pip stands for ‘percentage in point’ which is generally the fourth decimal place (i.e. 0.0001)."
