@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: German (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 08:10+0000\n"
-"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
+"PO-Revision-Date: 2016-05-10 08:16+0000\n"
+"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -36,7 +36,10 @@ msgstr "\"Ich arbeite mit vielen Partnerunternehmen zusammen und habe festgestel
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:12
 msgid "\"Third Party Provider(s)\" means the third party (non-affiliated) entity that makes available features and functions through use of the Binary.com API."
-msgstr "\"Drittanbieter\" bezeichnet den/die Dritten (nicht verbunden(en)) Unternehmen, die Eigenschaften und Funktionen unter Verwendung des Binary.com API zur Verfügung stellen."
+msgstr ""
+"\"Drittanbieter\" bezeichnet das/die Dritte(n) (nicht verbunden(e)(en)) "
+"Unternehmen, das/die Eigenschaften und Funktionen unter Verwendung des "
+"Binary.com API zur Verfügung stellen."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:708
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/maltainvestws.html.tt:394
@@ -161,7 +164,10 @@ msgstr "%1 ist vollständig web-basiert und benötigt keine Softwareinstallation
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 is looking to recruit highly skilled, experienced designers who are passionate about developing attractive visuals for both online and offline applications."
-msgstr "%1 möchte gerne äußerst fähige und erfahrene Designer einstellen, die eine Leidenschaft für die Entwicklung von attraktiven Bildmaterialien sowohl für online wie auch offline Anwendungen haben."
+msgstr ""
+"%1 möchte gerne äußerst fähige und erfahrene Designer einstellen, die eine "
+"Leidenschaft für die Entwicklung von attraktiven Bildmaterialien sowohl für "
+"online als auch offline Anwendungen haben."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/index.html.haml:1
@@ -191,7 +197,10 @@ msgstr "%1 sucht qualifizierte Übersetzer, die mit den spezifischen Zielmärkte
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 is seeking several highly skilled Marketing Executives, eager to contribute their energy, passion, and specialised strengths in connecting with prospects and clients based throughout the globe."
-msgstr "%1 sucht mehrere überaus fähige Marketingmitarbeiter, die bereitwillig Ihre Energie, Leidenschaft und besonderen Stärken einsetzen, mit denen Sie sich mit Interessenten und Kunden aus der ganzen Welt verbinden."
+msgstr ""
+"%1 sucht mehrere überaus fähige Marketingmitarbeiter, die bereitwillig ihre "
+"Energie, Leidenschaft und besonderen Stärken einsetzen, um sich mit "
+"Interessenten und Kunden aus der ganzen Welt zu verbinden."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/benefits_of_trading_binaries.html.haml:1
@@ -216,7 +225,13 @@ msgstr "%1 kann Zugang zu Informationen haben, die Ihnen nicht zur Verfügung st
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 now seeks Affiliate Managers to drive rapid growth and business development in key areas of the world. Successful recruits for this telecommuting role will actively increase %1’s market presence, expanding its network of affiliate partners from particular countries, geographic regions, and / or languages as needed."
-msgstr "%1 sucht derzeit Geschäftspartnermanager, um das rasche Wachstum und die Geschäftsentwicklung in wichtigen Weltregionen voranzutreiben. Die erfolgreichen Bewerber für diese Telecommuting Stellung werden die Marktpräsenz von %1 aktiv verstärken, das Netzwerk aus Geschäftspartnern aus bestimmten Ländern, geographischen Regionen und/oder Sprachen erweitern."
+msgstr ""
+"%1 sucht derzeit Geschäftspartnermanager, um das rasche Wachstum und die "
+"Geschäftsentwicklung in wichtigen Weltregionen voranzutreiben. Die "
+"erfolgreichen Bewerber für diese Telecommuting Stellung werden die "
+"Marktpräsenz von %1 aktiv verstärken, indem sie das Netzwerk aus "
+"Geschäftspartnern aus bestimmten Ländern, geographischen Regionen und/oder "
+"Sprachen erweitern."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -256,17 +271,27 @@ msgstr "%1 bietet Ihnen die Möglichkeit Ihre Handelstätigkeiten auf dieser Web
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 seeks a Project Coordinator to help drive the production of promotional content and rollout of marketing campaigns, designed to engage new prospects and current customers based throughout the globe."
-msgstr "%1 sucht einen Projektkoordinator, der die Produktion von Werbeinhalten und das Rollout von Werbekampagnen vorantreibt, die dazu gedacht sind, neue Interessenten und bestehende Kunden aus der ganzen Welt zu binden."
+msgstr ""
+"%1 sucht einen Projektkoordinator, der die Produktion von Werbeinhalten und "
+"das Rollout von Werbekampagnen vorantreibt, die dazu gedacht sind, neue "
+"Interessenten und bestehende Kunden aus der ganzen Welt zu begeistern."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 seeks a Social Media Executive to enhance and proactively manage the company's social-media efforts. This role requires effective utilisation of a variety of social media channels to attract and nurture prospects, clients, partners, and recruits based throughout the world."
-msgstr "%1 sucht einen Mitarbeiter im Bereich der Sozialen Medien, um die Aktivitäten des Unternehmens in den Sozialen Medien zu verstärken und proaktiv zu steuern. Diese Position erfordert die effektive Nutzung einer Vielzahl von Sozialen Medien, um Interessenten, Kunden, Partner und Bewerber aus der ganzen Welt zu interessieren und zu pflegen."
+msgstr ""
+"%1 sucht einen Mitarbeiter im Bereich der Sozialen Medien, um die "
+"Aktivitäten des Unternehmens in den Sozialen Medien zu verstärken und "
+"proaktiv zu steuern. Diese Position erfordert die effektive Nutzung einer "
+"Vielzahl von Sozialen Medien, um Interessenten, Kunden, Partner und Bewerber "
+"aus der ganzen Welt anzuziehen und zu pflegen."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 seeks a sharp Copywriter to produce content that actively engages new prospects and current customers based throughout the world."
-msgstr "%1 sucht einen starken Copywriter, um Inhalte zu produzieren, die neue Interessenten und bestehende Kunden aus der ganzen Welt aktiv einzubinden."
+msgstr ""
+"%1 sucht einen starken Copywriter, um Inhalte zu produzieren, die neue "
+"Interessenten und bestehende Kunden aus der ganzen Welt aktiv einbinden."
 
 #. ($currency)
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:116
@@ -277,17 +302,28 @@ msgstr "Mit diesem Konto können keine %1 Transaktionen vorgenommen werden."
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/payment_agent.html.haml:1
 msgid "%1 would like to team up with potential payment agents worldwide so we can offer local payment processing services to our clients in their respective regions."
-msgstr "%1 würde gerne mit potentiellen Zahlungsagent auf der Welt zusammenarbeiten, damit wir unseren Kunden in ihren entsprechenden Regionen nationale Zahlungsabwicklungsdienste anbieten können."
+msgstr ""
+"%1 würde gerne mit potentiellen Zahlungsagenten auf der Welt "
+"zusammenarbeiten, damit wir unseren Kunden in ihren entsprechenden Regionen "
+"nationale Zahlungsagentendienste anbieten können."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/volidx_markets.html.haml:1
 msgid "%1's Continuous Indices are the Volatility 25 Index, Volatility 50 Index, Volatility 75 Index and Volatility 100 Index. These indices correspond to simulated markets with constant volatilities of 25%, 50%, 75% and 100%."
-msgstr "%1s Laufenden Indizes sind der Volatilität 25 Index, Volatilität 50 Index, Volatilität 75 Index und der Volatilität 100 Index. %2, %3, %4 und %5. Diese Indizes entsprechen den simulierten Kursen mit konstanten Volatilitäten von 25%, 50%, 75% und 100%."
+msgstr ""
+"%1s Laufende Indizes sind der Volatilität 25 Index, Volatilität 50 Index, "
+"Volatilität 75 Index und der Volatilität 100 Index. Diese Indizes "
+"entsprechen den simulierten Kursen mit konstanten Volatilitäten von 25%, 50%"
+", 75% und 100%."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
 msgid "%1's OTC Indices and stocks are sourced from the over-the-counter market and provide you with an alternative means of trading stock indices and stocks - available from sources outside of the centralised exchanges."
-msgstr "Die OTC Indizes und Aktien von %1 stammen aus dem Freiverkehsmarkt und stellen Ihnen ein alternatives Mittel zum Handel von Aktienindizes und Aktien bereit, die aus Quellen außerhalb der zentralisierten Börsen stammen."
+msgstr ""
+"Die OTC Indizes und Aktien von %1 stammen aus dem Freiverkehrsmarkt und "
+"stellen Ihnen ein alternatives Mittel zum Handel von Aktienindizes und "
+"Aktien zur Verfügung, die aus Quellen außerhalb der zentralisierten Börsen "
+"stammen."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
@@ -327,12 +363,24 @@ msgstr "%1: Online Handelsplattform für Binäre Optionen für Devisen, Indizes,
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1’s IT Operations Group is responsible for the design, development and operation of the company’s high-traffic networks. Its responsibilities include hardware and software deployment, up-time and reliability testing, incident response reporting, network security, intrusion detection, and load balancing."
-msgstr "Die IT-Betriebsgruppe von %1 ist für die Konzeption, Entwicklung und den Betrieb des Hochverkehrsnetzwerks des Unternehmens verantwortlich. Seine Zuständigkeiten umfassen Hardware- und Software-Deployment, Uptime- und Zuverlässigkeitstests, Störungsreaktionsberichterstattung, Netzwerksicherheit, Entdeckung von Eindringlingen und Lastausgleich."
+msgstr ""
+"Die IT-Betriebsgruppe von %1 ist für die Konzeption, Entwicklung und den "
+"Betrieb des Hochverkehrsnetzwerks des Unternehmens verantwortlich. Ihre "
+"Zuständigkeiten umfassen Hardware- und Software-Deployment, Uptime- und "
+"Zuverlässigkeitstests, Störungsreaktionsberichterstattung, "
+"Netzwerksicherheit, Entdeckung von Eindringlingen und Lastausgleich."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1’s Quantitative Analytics group is responsible for the pricing of binary options offered on its website, as well as the risk management and profitability of its options book. Since all dealing on the company’s website is fully automated, our pricing and risk management algorithms must take full account of real-time pricing parameters, data feeds irregularities and latencies."
-msgstr "Die Quantitative Analytik Gruppe von %1 ist für die Preisgestaltung der auf seiner Website angebotenen Binären Optionen sowie das Risikomanagement und die Rentabilität ihres Optionenportfolios verantwortlich. Da alle Handelstransaktion auf der Unternehmens-Website automatisiert sind, müssen unsere Kursgestaltungs- und Risikomanagement-Algorithmen die Echtzeit-Kursparameter, Unregelmäßigkeiten von Data-Feeds und Verzögerungen einbeziehen."
+msgstr ""
+"Die Quantitative Analytik Gruppe von %1 ist für die Preisgestaltung der auf "
+"seiner Website angebotenen Binären Optionen sowie das Risikomanagement und "
+"die Rentabilität seines Optionenportfolios verantwortlich. Da alle "
+"Handelstransaktionen auf der Unternehmens-Website automatisiert sind, müssen "
+"unsere Kursgestaltungs- und Risikomanagement-Algorithmen die Echtzeit-"
+"Kursparameter, Unregelmäßigkeiten von Data-Feeds und Verzögerungen "
+"einbeziehen."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/smart_indices.html.haml:1
@@ -347,7 +395,15 @@ msgstr "Die exklusiven Smart-Märkte von %1 sind so aufgebaut, dass sie sich auf
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1’s principal Anti-Fraud Officer is responsible for the exercise of exceptional client relationship management skills applied to the prevention of fraudulent activities in payments processing and business transactions. He or she will be expected to partner with our payments and compliance teams in resolving payment queries; administering chargebacks; conducting anti-money laundering audits, and implement a broad array of fraud prevention measures."
-msgstr "Der Chef-Betrugsbekämpfungsbeauftragte von %1 ist für das Training der außergewöhnlichen Kundenbeziehungsmanagement-Fähigkeit zur Verhinderung von betrügerischen Handlungen bei der Zahlungsbearbeitung und Handelstransaktionen zuständig. Von ihr oder ihm wird die Zusammenarbeit mit unseren Zahlungs- und Compliance-Teams bei der Auflösung von Zahlungsanfragen, der Verwaltung von Rückbelastungen, der Durchführung von Anti-Geldwäsche Prüfungen und der Umsetzung einer großen Reihe von Betrugsverhinderungsmaßnahmen erwartet."
+msgstr ""
+"Der Chef-Betrugsbekämpfungsbeauftragte von %1 ist für die Ausführung einer "
+"außergewöhnlichen Kundenbeziehungsmanagement-Fähigkeit zur Verhinderung von "
+"betrügerischen Handlungen bei der Zahlungsbearbeitung und "
+"Handelstransaktionen zuständig. Von ihr oder ihm wird die Zusammenarbeit mit "
+"unseren Zahlungs- und Compliance-Teams bei der Auflösung von "
+"Zahlungsanfragen, der Verwaltung von Rückbelastungen, der Durchführung von "
+"Anti-Geldwäsche Prüfungen und der Umsetzung einer großen Reihe von "
+"Betrugsverhinderungsmaßnahmen erwartet."
 
 #. (url_for('/')
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -839,12 +895,28 @@ msgstr "<strong>Höher/Tiefer</strong> - hier können Sie davon profitieren, wen
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/paymentagent_withdrawws.html.tt:100
 msgid "<strong>IMPORTANT DISCLAIMER</strong> - %1 is not affiliated with any of the Payment Agents listed above. Each Payment Agent operates as an independent service provider and is not endorsed, guaranteed or otherwise approved by %1. CUSTOMERS DEAL WITH PAYMENT AGENTS AT THEIR SOLE RISK AND PERIL. Customers are advised to check the credentials of Payment Agents before sending them any money. %1 shall not in any circumstance be held responsible for transactions made between customers and Payment Agents."
-msgstr "<strong>WICHTIGE AUSSCHLUSSKLAUSEL</strong> - %1 ist kein Geschäftspartner einer der oben aufgeführten Zahlungsagent Jeder Zahlunsabwickler arbeitet als eigenständiger Dienstleister und wird nicht von %1 empfohlen, garantiert oder anderweitig genehmigt. DIE KUNDEN HANDELN MIT ZAHLUNGSABWICKLERN AUF IHR EIGENES RISIKO UND IHRE EIGENE GEFAHR. Den Kunden wird empfohlen, die Angaben der Zahlungsabwickler zu überprüfen, bevor sie Geld überweisen. %1 kann für Transaktionen zwischen Kunden und Zahlungsabwicklern nicht haftbar gemacht werden."
+msgstr ""
+"<strong>WICHTIGE AUSSCHLUSSKLAUSEL</strong> - %1 ist kein Geschäftspartner "
+"einer der oben aufgeführten Zahlungsagenten Jeder Zahlungsagent arbeitet als "
+"eigenständiger Dienstleister und wird nicht von %1 empfohlen, garantiert "
+"oder anderweitig genehmigt. DIE KUNDEN HANDELN MIT ZAHLUNGSAGENTEN AUF IHR "
+"EIGENES RISIKO UND IHRE EIGENE GEFAHR. Den Kunden wird empfohlen, die "
+"Angaben der Zahlungsagenten zu überprüfen, bevor sie Geld überweisen. %1 "
+"kann für Transaktionen zwischen Kunden und Zahlungsagenten nicht haftbar "
+"gemacht werden."
 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:70
 msgid "<strong>IMPORTANT DISCLAIMER</strong> - %1 is not affiliated with any of the payment agents listed above. Each payment agent operates as an independent service provider and is not endorsed, guaranteed or otherwise approved by %1. CUSTOMERS DEAL WITH PAYMENT AGENTS AT THEIR SOLE RISK AND PERIL. Customers are advised to check the credentials of payment agents before sending them any money. %1 shall not in any circumstance be held responsible for transactions made between customers and payment agents."
-msgstr "<strong>WICHTIGE AUSSCHLUSSKLAUSEL</strong> - %1 ist kein Geschäftspartner einer der oben aufgeführten Zahlungsagent. Jeder Zahlunsabwickler arbeitet als eigenständiger Dienstleister und wird nicht von %1 empfohlen, garantiert oder anderweitig genehmigt. DIE KUNDEN HANDELN MIT ZAHLUNGSABWICKLERN AUF IHR EIGENES RISIKO UND EIGENE GEFAHR. Den Kunden wird empfohlen, die Angaben der Zahlungsabwickler zu überprüfen, bevor sie Geld überweisen. %1 kann für Transaktionen zwischen Kunden und Zahlungsabwicklern nicht haftbar gemacht werden."
+msgstr ""
+"<strong>WICHTIGE AUSSCHLUSSKLAUSEL</strong> - %1 ist kein Geschäftspartner "
+"einer der oben aufgeführten Zahlungsagenten. Jeder Zahlungsagent arbeitet "
+"als eigenständiger Dienstleister und wird nicht von %1 empfohlen, garantiert "
+"oder anderweitig genehmigt. DIE KUNDEN HANDELN MIT ZAHLUNGSAGENTEN AUF IHR "
+"EIGENES RISIKO UND EIGENE GEFAHR. Den Kunden wird empfohlen, die Angaben der "
+"Zahlungsagenten zu überprüfen, bevor sie Geld überweisen. %1 kann für "
+"Transaktionen zwischen Kunden und Zahlungsagenten nicht haftbar gemacht "
+"werden."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/how_to_trade_binaries.html.haml:1
 msgid "<strong>In/Out</strong> - predict if the market will stay inside two price targets, or end between or outside them."
@@ -1026,7 +1098,13 @@ msgstr "<ul><li> Gehen Sie ins Menü <strong>Tools</strong> und wählen Sie <str
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/logintrouble.html.tt:23
 msgid "<ul><li><strong> Open menu</strong> and select <strong>Preferences</strong>.</li><li>Click on the <strong>Privacy</strong> tab.</li><li>Set \"<strong>Firefox will</strong>\" to \"<strong>Remember history</strong>\".</li><li>Click on the <strong>OK</strong> button to save your settings.</li></ul>"
-msgstr "<ul><li><strong> Öffnen Sie das Menü</strong> und wählen Sie <strong>Präferenzen</strong> aus.</li><li>Klicken Sie auf den <strong>Datenschutz</strong> Reiter.</li><li>Stellen Sie  \"<strong>in Firefox </strong>\" zu \"<strong>Verlauf speichern</strong> ein\".</li><li>Zum Speichern Ihrer Einstellung klicken Sie auf die <strong>OK</strong> Schaltfläche.</li></ul>"
+msgstr ""
+"<ul><li><strong> Öffnen Sie das Menü</strong> und wählen Sie "
+"<strong>Präferenzen</strong> aus.</li><li>Klicken Sie auf den "
+"<strong>Datenschutz</strong> Reiter.</li><li>Stellen Sie  \"<strong> Firefox "
+"</strong>\" auf \"<strong>Verlauf speichern</strong> ein\".</li><li>Zum "
+"Speichern Ihrer Einstellung klicken Sie auf die <strong>OK</strong> "
+"Schaltfläche.</li></ul>"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/logintrouble.html.tt:15
 msgid "<ul><li>Go to \"<strong>Chrome Menu (Customize and control Google Chrome)</strong>\" dropdown and select <strong>Settings</strong>.</li><li>Click on the <strong>Show advanced settings</strong>.</li><li>Click on the <strong>Content settings</strong> button under <strong>Privacy</strong> menu.</li><li>Select <strong>Allow local data to be set (recommended)</strong>.</li><li>Click on the <strong>Done</strong> button to save your settings.</li></ul>"
