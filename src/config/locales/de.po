@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: German (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 08:39+0000\n"
-"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
+"PO-Revision-Date: 2016-05-10 08:41+0000\n"
+"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -10186,7 +10186,7 @@ msgstr "Ergänzende Allgemeine Geschäftsbedingunen für von Binary Investments 
 
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:682
 msgid "Supported banks"
-msgstr "Unterstützten Banken"
+msgstr "Unterstützte Banken"
 
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:698
 msgid "Supported banks list is invalid"
@@ -10281,7 +10281,9 @@ msgstr "Laufzeit & Kündigung"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:224
 msgid "Terminate this Agreement by giving a minimum of seven days written notice to you."
-msgstr "Kündigung dieses Vertrags innerhalb von mindestens sieben Tagen mit schriftlicher Kündigung an Sie."
+msgstr ""
+"Kündigung dieses Vertrags per schriftlicher Kündigung, innerhalb von "
+"mindestens sieben Tagen, an Sie."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:223
 msgid "Terminate your use of the Binary.com API; or"
@@ -10331,7 +10333,7 @@ msgstr "Terms and conditions"
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:80
 msgid "Terms and conditions approval is required."
-msgstr "Sie müssen den Allgemeine Geschäftsbedingungen zustimmen."
+msgstr "Sie müssen den Allgemeinen Geschäftsbedingungen zustimmen."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:698
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/maltainvestws.html.tt:350
@@ -10349,7 +10351,9 @@ msgstr "Do"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/virtualws.html.tt:4
 msgid "Thank you for signing up! Please check your email to retrieve the verification token."
-msgstr "Vielen Dank, dass Sie sich angemeldet haben! Bitte sehen Sie bei Ihren E-Mails nach, um den Verfikationstoken abzurufen."
+msgstr ""
+"Vielen Dank, dass Sie sich angemeldet haben! Bitte überprüfen Sie Ihre E-"
+"Mail, um den Verfikationstoken abzurufen."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/email_verified.html.haml:1
 msgid "Thank you for verifying your email."
@@ -10434,7 +10438,7 @@ msgstr "Das Binary.com API hat zwingende Verwendungsbeschränkungen, um den Miss
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:97
 msgid "The Binary.com Order Execution Policy."
-msgstr "Die Regeln von Binary.com zur Orderausführung"
+msgstr "Die Regeln von Binary.com zur Orderausführung."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:96
 msgid "The Binary.com Privacy and Security Policy;"
@@ -10475,7 +10479,11 @@ msgstr "Das Unternehmen hat das Recht und behält sich vor, jeden Vorgang oder H
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:159
 msgid "The Company is not liable for loss or damage of any kind whatsoever arising as a result of information or prices published on or furnished through the Binary.com API, or any errors or omissions of the Binary.com API;"
-msgstr "Das Unternehmen ist für Verluste oder Schäden jeglicher Art, die sich aus den Informationen oder Kursen, die über das Binary.com API veröffentlicht oder zur Verfügung gestellt werden oder Fehlern oder Auslassungen des Binary.com API nicht haftbar;"
+msgstr ""
+"Das Unternehmen ist für Verluste oder Schäden jeglicher Art, die sich aus "
+"den Informationen oder Kursen, die über das Binary.com API veröffentlicht "
+"oder zur Verfügung gestellt werden oder Fehlern oder Auslassungen des "
+"Binary.com API, nicht haftbar;"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:132
 msgid "The Company is not under any obligation of confidentiality with respect to the Contributions;"
@@ -10488,7 +10496,11 @@ msgstr "Das Unternehmen sichert nicht zu, dass die %1 Website einen ununterbroch
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:55
 msgid "The Company may change the commission structure at any time at its sole and absolute discretion. We will endeavour to ensure affiliates are notified when changes have been made to the commission structure."
-msgstr "Das Unternehmen kann jederzeit die Provisionsstruktur im eigenen absoluten Ermessen verändern. Wir werden und bemühen sicherzustellen, dass die Geschäftspartner unterrichtet werden, wenn Änderungen an der Provisionsstruktur vorgenommen wurden."
+msgstr ""
+"Das Unternehmen kann jederzeit die Provisionsstruktur im eigenen absoluten "
+"Ermessen verändern. Wir werden und bemühen uns sicherzustellen, dass die "
+"Geschäftspartner unterrichtet werden, wenn Änderungen an der "
+"Provisionsstruktur vorgenommen werden."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:149
 msgid "The Company may change, suspend, terminate or discontinue any aspect of the Binary.com API, including the availability of any services, information features or functions accessible by means of the Binary.com API, on no less than seven days advance notice to you."
@@ -10508,7 +10520,10 @@ msgstr "Das Unternehmen darf im eigenen Ermessen für Kundenkonten Beschränkung
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:133
 msgid "The Company may use or disclose (or choose not to use or disclose) such Contributions for any purpose, in any way, in any media worldwide;"
-msgstr "Das Unternehmen darf dies Beiträge für jeden Zweck, in jeglicher Weise in jedem weltweiten Medium verwenden oder veröffentlichen (oder wählen diese nicht zu verwenden oder zu veröffentlichen);"
+msgstr ""
+"Das Unternehmen darf diese Beiträge für jeden Zweck, in jeglicher Weise in "
+"jedem weltweiten Medium verwenden oder veröffentlichen (oder auswählen diese "
+"nicht zu verwenden oder zu veröffentlichen);"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:104
 msgid "The Company may, from time to time, at its sole discretion, or as required by regulations in place to conduct appropriate \"Know Your Customer\" procedures and require a Client to provide proof of identity (such as notarized copy of passport or other means of identity verification as the Company deems required under the circumstances) and may at its sole discretion suspend an account until such proof has been provided to its satisfaction. Know Your Customer documentation will be required when a Client deposits money in the account. In the case of a client opening an account with Binary (Europe) Ltd, the threshold for verifying clients is on cumulative withdrawals of EUR 2,300."
