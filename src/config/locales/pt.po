@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 04:24+0000\n"
-"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
+"PO-Revision-Date: 2016-05-10 04:25+0000\n"
+"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -9982,7 +9982,7 @@ msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Strong, passionate interest in Marketing and Advertising"
-msgstr "Um interesse forte e apaixonado em Marketing e Publicidade"
+msgstr "Um interesse forte e intenso por Marketing e Publicidade"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:272
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:71
@@ -10338,7 +10338,10 @@ msgstr "A empresa não se encontra sob qualquer obrigação de confidencialidade
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:96
 msgid "The Company makes no claims that the %1 website will be uninterrupted or provide an error free service, and will not be liable for the consequences of any such errors or interruptions."
-msgstr "A Empresa não afirma que a o site %1 permanecerá ininterrupta, ou que fornecerá um serviço isento de erros, nem será responsável pelas consequências de tais erros ou interrupções."
+msgstr ""
+"A Empresa não afirma que o site %1 permanecerá ininterrupto, ou que "
+"fornecerá um serviço isento de erros, nem será responsável pelas "
+"consequências de tais erros ou interrupções."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:55
 msgid "The Company may change the commission structure at any time at its sole and absolute discretion. We will endeavour to ensure affiliates are notified when changes have been made to the commission structure."
@@ -10387,7 +10390,14 @@ msgstr "A Empresa reserva-se o direito ao seu exclusivo critério de recusar e/o
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:9
 msgid "The Company reserves the right to change any part of this Agreement at any time. We will endeavour to ensure affiliates are notified when changes have been made to this Agreement, but it is ultimately your responsibility to check these terms and conditions regularly. Your continued participation in our affiliate program after we have posted the changes will constitute binding acceptance of such changes."
-msgstr "A Empresa reserva-se o direito de alterar qualquer parte do presente Acordo em qualquer momento. Faremos o possível para certificar que os afiliados sejam notificados quando alterações tiverem sido feitas a este Acordo, mas, em última análise, será a sua responsabilidade para consultar estes termos e condições com regularidade. A sua participação contínua no nosso programa de afiliados, depois de publicarmos as alterações, irá constituir aceitação vinculativa de tais alterações."
+msgstr ""
+"A Empresa reserva-se no direito de alterar qualquer parte do presente Acordo "
+"em qualquer momento. Faremos o possível para certificar que os afiliados "
+"sejam notificados quando alterações tiverem sido feitas a este Acordo, mas, "
+"em última análise, será de sua responsabilidade consultar estes termos e "
+"condições com regularidade. A sua participação contínua no nosso programa de "
+"afiliados, depois de publicarmos as alterações, irá constituir aceitação "
+"vinculativa de tais alterações."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:145
 msgid "The Company reserves the right to restrict client trading and/or cancel or reverse transactions in the case that any contracts are acquired or sold at prices that do not reflect fair market prices or that are acquired or sold at an abnormally low level of risk due to an undetected programming error, bug or glitch in our website software, market data feed or contract pricing latency, data feed error, stray quotes, incorrect pricing parameters, or manifest mis-calculation of prices or other manifest error. Clients have a duty to report to the Company any such problems, errors or suspected system inadequacies that they may experience and may not abuse of or arbitrage such system problems or errors for profit. The Company will endeavour to resolve any such difficulties in the shortest time possible. Persons with insider knowledge of any financial market or instrument are prohibited from trading at this website."
