@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 04:26+0000\n"
-"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
+"PO-Revision-Date: 2016-05-10 04:29+0000\n"
+"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -10463,7 +10463,10 @@ msgstr "A Empresa irá notificá-lo por e-mail se a sua candidatura for bem suce
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:51
 msgid "The Company will provide advertising collaterals with links containing affiliate IDs which may be modified by us from time to time."
-msgstr "A Empresa irá fornecer garantias adicionais publicitárias através de links que contêm as IDs de afiliados que podem ser modificadas por nós de vez em quando."
+msgstr ""
+"A Empresa irá fornecer garantias adicionais publicitárias através de links "
+"que contêm as IDs de afiliados que podem ser modificadas por nós "
+"periodicamente."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:16
 msgid "The Company will, at its sole discretion, determine whether or not your application has been successful. The Company's decision is final and is not open to appeal."
@@ -10551,11 +10554,15 @@ msgstr "A capacidade de adquirir conhecimentos sobre assuntos relacionados com a
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "The ability to communicate effectively in English, in both oral and written form"
-msgstr "A capacidade de comunicar de forma eficaz em inglês, tanto na forma oral como na escrita"
+msgstr ""
+"A capacidade de se comunicar de forma eficaz em inglês, tanto na forma oral "
+"como na escrita"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "The ability to communicate fluently in English, in both oral and written form"
-msgstr "A capacidade de comunicar fluentemente em inglês, tanto na forma oral como na escrita"
+msgstr ""
+"A capacidade de se comunicar fluentemente em inglês, tanto na forma oral "
+"como na escrita"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "The ability to multi-task, balance deadlines, and reliably deliver high-quality content"
@@ -12641,7 +12648,18 @@ msgstr "Com %1, o seu dinheiro está seguro."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:52
 msgid "With regards to tracking your referrals accessing Binary.com via the links on your website or by quoting your affiliate IDs during the sign-up process, the Company shall use all reasonable endeavours to ensure that whenever a client is referred to Binary.com through these links or affiliate IDs, and they subsequently place a contract or otherwise transact with the Company, the relevant client is identified as originating from your referral. However, the Company shall not be liable to you in any way if the Company is unable to identify a client as originating from your referral. Only properly tagged clients can be assigned to you. It is your responsibility to ensure that all links are properly tagged."
-msgstr "No que diz respeito ao acompanhamento dos clientes que acedem à Binary.com através dos links no seu site ou ao citar as suas IDs de afiliado durante o processo a inscrição, a Empresa deverá usar todos os esforços razoáveis para assegurar que sempre que um Cliente se conecta a Binary.com através desses links ou IDs de afiliado e, posteriormente, firma um contrato, ou efetua transações com a Empresa, o cliente em questão seja identificado como sendo proveniente da sua indicação. No entanto, a empresa não será responsável perante você, de forma nenhuma, caso a Empresa seja incapaz de identificar um Cliente como sendo proveniente da sua indicação. Apenas clientes devidamente etiquetados podem lhe ser atribuídos. É a sua responsabilidade certificar que todos os links são corretamente etiquetados."
+msgstr ""
+"No que diz respeito ao acompanhamento dos clientes que acedem à Binary.com "
+"através dos links no seu site ou ao citar as suas IDs de afiliado durante o "
+"processo a inscrição, a Empresa deverá usar todos os esforços razoáveis para "
+"assegurar que sempre que um Cliente se conecta a Binary.com através desses "
+"links ou IDs de afiliado e, posteriormente, firma um contrato, ou efetua "
+"transações com a Empresa, o cliente em questão seja identificado como sendo "
+"proveniente da sua indicação. No entanto, a empresa não será responsável "
+"perante você, de forma nenhuma, caso a Empresa seja incapaz de identificar "
+"um Cliente como sendo proveniente da sua indicação. Apenas clientes "
+"devidamente etiquetados podem lhe ser atribuídos. É a sua responsabilidade "
+"certificar que todos os links estejam corretamente etiquetados."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/cashier/index.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_methods.html.tt:15
@@ -12690,7 +12708,10 @@ msgstr "Trabalhar em estreita colaboração com outros membros da equipe para de
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Work directly with members of our marketing and IT teams to produce graphics for the company website, blog, social media outlets, and marketing materials"
-msgstr "Trabalhar diretamente com membros das nossas equipes de marketing e TI para produzir gráficos para o site, o blog, os meios de mídia social e os materiais de marketing da empresa"
+msgstr ""
+"Trabalhar diretamente com membros das nossas equipes de marketing e TI para "
+"produzir gráficos para o site, blog, meios de mídia social e materiais de "
+"marketing da empresa"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Work experience in a similar role"
