@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-05-10 08:16+0000\n"
-"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
+"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -1527,7 +1527,12 @@ msgstr "Alle"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:25
 msgid "All affiliate activities must be conducted in a professional and proper manner. You shall be expected to act with good faith and integrity in your relationships with your referrals, and always act in the best interests of your referrals."
-msgstr "Alle Aktivitäten müssen von den Geschäftsparnter müssen einer professionellen und korrekten Weise durchgeführt werden. Es wird von Ihnen erwartet, dass Sie bei Ihren Beziehungen zu Ihren Empfohlenen nach Treu und Glauben und mit Seriosität handeln und immer zum besten Interesse Ihrer Empfohlenen zu ageren."
+msgstr ""
+"Alle Aktivitäten müssen von den Geschäftsparnter müssen einer "
+"professionellen und korrekten Weise durchgeführt werden. Es wird von Ihnen "
+"erwartet, dass Sie bei Ihren Beziehungen zu Ihren Empfohlenen nach Treu und "
+"Glauben und mit Seriosität handeln und immer zum besten Interesse Ihrer "
+"Empfohlenen zu agieren."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
 msgid "All calls are recorded for training and monitoring purposes"
