@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Italian (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 21:17+0000\n"
+"PO-Revision-Date: 2016-05-10 05:06+0000\n"
 "Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/binary/static/it/>\n"
@@ -690,7 +690,12 @@ msgstr "<option value=\"\"></option><option value=\"01\">Gen</option><option val
 #. ($params->{code})
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:106
 msgid "<p style=\"font-weight: bold;\">Thanks for signing up for a virtual account!</p><p>Enter the following verification token into the form to create an account: <p><span style=\"background: #f2f2f2; padding: 10px;\">%1</span></p></p><p>Enjoy trading with us on Binary.com.</p>"
-msgstr "<p style=\"font-weight: bold;\">Grazie per esserti registrato e per aver aperto un account virtuale!</p><p>Inserisci il seguente token di verifica nel modulo per creare un account:<p><span style=\"background: #f2f2f2; padding: 10px;\">%1</span></p></p><p> 9Goditi il trading con noi su Binary.com.</p> 0"
+msgstr ""
+"<p style=\"font-weight: bold;\">Grazie per esserti registrato e per aver "
+"aperto un account virtuale!</p><p>Inserisci il seguente token di verifica "
+"nel modulo per creare un account:<p><span style=\"background: #f2f2f2; "
+"padding: 10px;\">%1</span></p></p><p>Goditi il trading con noi su "
+"Binary.com.</p>"
 
 #. ($params->{code})
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:93
