@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 04:02+0000\n"
-"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
+"PO-Revision-Date: 2016-05-10 04:05+0000\n"
+"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -8353,7 +8353,7 @@ msgstr "Use uma senha diferente daquela do login."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:56
 msgid "Please wait.<br />Your request is being processed."
-msgstr "Por favor aguarde.<br />O seu pedido está a ser processado."
+msgstr "Por favor aguarde.<br />O seu pedido está sendo processado."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:189
 msgid "Points"
@@ -8378,7 +8378,7 @@ msgstr "Portfólio"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/settings_detailsws.html.tt:118
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/settings_detailsws.html.tt:140
 msgid "Postal Code / ZIP"
-msgstr "Código Postal"
+msgstr "Código Postal / CEP"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:84
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/maltainvestws.html.tt:105
@@ -8429,7 +8429,10 @@ msgstr "Preparar os relatórios periódicas e especiais necessários para assegu
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:240
 msgid "Presents the maximum aggregate payouts on outstanding contracts in your portfolio. If the maximum is attained, you may not purchase additional contracts without first closing out existing positions."
-msgstr "Apresenta os pagamentos agregados máximos referentes aos contratos pendente do seu portfólio. Se o máximo for atingido, você não poderá comprar contratos adicionais sem primeiro fechar as posições existentes."
+msgstr ""
+"Apresenta os pagamentos agregados máximos referentes aos contratos pendentes "
+"do seu portfólio. Se o máximo for atingido, você não poderá comprar "
+"contratos adicionais sem primeiro fechar as posições existentes."
 
 #: /home/git/regentmarkets/bom-web/lib/BOM/Web/Trade.pm:146
 msgid "Prevailing market price cannot be determined at this time."
@@ -8437,7 +8440,7 @@ msgstr "Não é possível determinar corretamente o valor do mercado neste momen
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:119
 msgid "Previous"
-msgstr "Prévia"
+msgstr "Anterior"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:195
 msgid "Previous Day"
@@ -8480,7 +8483,7 @@ msgstr "O preço mudou a seu favor de %1 para %2."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/types_of_trades.html.haml:1
 msgid "Price the trade."
-msgstr "Preço da negociação."
+msgstr "Fixe o valor da negociação."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:223
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Controller/Bet.pm:1779
