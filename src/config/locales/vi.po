@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 19:51+0000\n"
-"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
+"PO-Revision-Date: 2016-05-10 10:52+0000\n"
+"Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
 "Language-Team: Vietnamese "
 "<https://hosted.weblate.org/projects/binary/static/vi/>\n"
 "Language: vi\n"
@@ -7000,7 +7000,9 @@ msgstr "Số dư tài khoản tiền mặt tối đa"
 #. ($client->currency, $self_exclusion->max_balance)
 #: /home/git/regentmarkets/bom-backoffice/f_setting_selfexclusion.cgi:46
 msgid "Maximum account cash balance is currently set to <strong>%1 %2</strong>"
-msgstr "Số dư tài khoản tối đa hiện đang được thiết lập tới<strong>%1 %2</strong>"
+msgstr ""
+"Số dư tài khoản tối đa hiện đang được thiết lập tới <strong>%1 "
+"%2</strong>"
 
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:223
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/self_exclusionws.html.tt:69
@@ -7658,7 +7660,7 @@ msgstr "Mở"
 #. ($calendar->opening_on($when)
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Contract/Offerings.pm:167
 msgid "Opens late (at %1)"
-msgstr "Mở muộn (vào lúc  %1)"
+msgstr "Mở muộn (vào lúc %1)"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/reality_check_frequencyws.html.haml:1
 msgid "Options trading can become a real addiction, as can any other activity pushed to its limits. To avoid the danger of such an addiction, we provide a reality-check that gives you a summary of your trades and accounts on a regular basis."
@@ -8248,7 +8250,12 @@ msgstr "Vui lòng chú ý rằng yết giá cuối tuần bị bỏ qua 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/privacy.html.tt:12
 msgid "Please note that you may update your personal information at any time by logging into the \"Settings\" section of your account. It is your responsibility to ensure that %1 is promptly and continually informed of any change in your personal information."
-msgstr "Vui lòng chú ý rằng bạn có thể cập nhật thông tin cá nhân của mình bất kì lúc nào bằng cách đăng nhập vào khu vực \"Cài đặt\" trong tài khoản của bạn. Bạn phải có trách nhiệm đảm bảo rằng bạn sẽ phải thông báo kịp thời và liên tục nếu có bất cứ sự thay đổi nào về thông tin cá nhân của mình."
+msgstr ""
+"Vui lòng chú ý rằng bạn có thể cập nhật thông tin cá nhân của mì"
+"nh bất kì lúc nào bằng cách đăng nhập vào khu vực \"Cài đặt\" trong "
+"tài khoản của bạn. Bạn phải có trách nhiệm đảm bảo rằng %1 sẽ được "
+"thông báo liên tục và kịp thời nếu có bất cứ sự thay đổi nào về "
+"thông tin cá nhân của bạn."
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Accounts.pm:662
 msgid "Please note that your settings have been updated as follows:"
@@ -8862,7 +8869,10 @@ msgstr "Regent Markets thiết lập trung tâm lập trình ở Cyberjaya,
 #. (('http://www.regentpac.com/ICMServlet/download/13-1907-3066/EAnnt-ThirdPartiesSale(04Mar2015)
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Regent Pacific Group Ltd., the Hong Kong-listed founding shareholder of Binary.com, <a href=\"%1\" target=\"_blank\">disposes of its stake</a> at a valuation of US$ 50.5 million."
-msgstr "Công ty TNHH Regent Pacific Group, cổ đông sáng lập Binary. com tại Hồng Kong, <a href=\"%1\" target=\"_blank\"> có vốn góp</a> trị giá  50.5 triệu Đô la Mỹ."
+msgstr ""
+"Công ty TNHH Regent Pacific Group, cổ đông sáng lập Binary. com tại Hồng "
+"Kong, <a href=\"%1\" target=\"_blank\">có vốn góp</a> trị giá  50.5 triệ"
+"u Đô la Mỹ."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Regent Pacific transaction"
@@ -9024,7 +9034,9 @@ msgstr "Doanh thu trên 100% dựa trên hợp đồng <a href='%1' class='pj
 #. (url_for('trading?market=forex&formname=higherlower')
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/why_us.html.haml:1
 msgid "Returns above 1000% on <a href='%1' class='pjaxload'>higher/lower</a> and <a href='%2' class='pjaxload'>touch/no-touch</a> trades."
-msgstr "Doanh thu trên 1000% dựa trên <a href='%1' class='pjaxload'> giao dịch</a> cao hơn/thấp hơn và <a href='%2' class='pjaxload'> chạm/không</a> chạm."
+msgstr ""
+"Doanh thu trên 1000% dựa trên <a href='%1' class='pjaxload'>giao dịch</a> "
+"cao hơn/thấp hơn và <a href='%2' class='pjaxload'>chạm/không chạm</a> ."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Review suspicious account transactions"
@@ -9320,7 +9332,9 @@ msgstr "Giới hạn thời hạn phiên không thể nhiều hơn 6 tuần
 #. ($self_exclusion->session_duration_limit)
 #: /home/git/regentmarkets/bom-backoffice/f_setting_selfexclusion.cgi:75
 msgid "Session duration limit is currently set to <strong>%1 minutes.</strong>"
-msgstr "Giới hạn thời gian phiên hiện tại được thiết lập tới<strong>%1 phút.</strong>"
+msgstr ""
+"Giới hạn thời gian phiên hiện tại được thiết lập tới <strong>%1 "
+"phút.</strong>"
 
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:277
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/self_exclusionws.html.tt:94
@@ -9390,7 +9404,10 @@ msgstr "Nếu tiền của bạn gửi vào tài khoản không đủ bù 
 #. (url_for('contact')
 #: /home/git/translations/binary-static-www2/src/templates/haml/exception.html.haml:1
 msgid "Should you need help or support, please contact our <a href=\"%1\">Customer Service department</a> and one of our representatives will assist you as soon as possible."
-msgstr "Nếu bạn cần giúp đỡ hoặc hỗ trợ, vui lòng liên hệ với <a href=\"%1\"> phòng Chăm sóc Khách hàng </a>và một trong những đại diện của chúng tôi sẽ hỗ trợ bạn sớm ngay khi có thể."
+msgstr ""
+"Nếu bạn cần giúp đỡ hoặc hỗ trợ, vui lòng liên hệ với <a href=\"%"
+"1\">phòng Chăm sóc Khách hàng</a> và một trong những đại diện của "
+"chúng tôi sẽ hỗ trợ bạn sớm ngay khi có thể."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:15
 msgid "Show payment agents for:"
@@ -9645,7 +9662,7 @@ msgstr "Xin lỗi, bạn không thể rút tiền. Số dư tài khoản của b
 msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2. Please contact <a href=\"%3\">customer support</a> to authenticate your account."
 msgstr ""
 "Xin lỗi, bạn không thể rút tiền. Số tiền rút %1 của bạn vượt quá giới hạn "
-"tiền rút%2. Vui lòng liên hệ<a href=\"%3\"> bộ phận hỗ trợ khách hàng</a> để "
+"tiền rút%2. Vui lòng liên hệ <a href=\"%3\">bộ phận hỗ trợ khách hàng</a> để "
 "xác thực tài khoản của bạn."
 
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/User.pm:69
@@ -10779,7 +10796,11 @@ msgstr "Thị trường phải được mở vào thời gian bắt đầu."
 #. (SITENAME)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/copyright.html.tt:9
 msgid "The materials comprising the %1 website (including without limitation all articles, text, images, logos, compilation, systems, code and design) are Copyright 1999-<span class='currentYear'></span> Binary Group of companies. All rights reserved."
-msgstr "Các tài liệu bao gồm trang web %1 (bao gồm nhưng không giới hạn tất cả các bài viết, văn bản, hình ảnh, logo, biên soạn, hệ thống, mã và thiết kế) đều là Bản quyền 1999--<span class='currentYear'></span> của tập đoàn Binary. Tất cả quyền được bảo vệ."
+msgstr ""
+"Các tài liệu bao gồm trang web %1 (bao gồm nhưng không giới hạn tất cả các "
+"bài viết, văn bản, hình ảnh, logo, biên soạn, hệ thống, mã và thiết kế) đều "
+"là Bản quyền 1999-<span class='currentYear'></span> của tập đoàn "
+"Binary. Tất cả quyền được bảo vệ."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:24
 msgid "The maximum loss that may be incurred by any Client is the amount of money paid by oneself to the Company."
@@ -10835,7 +10856,7 @@ msgstr "Lợi nhuận USD 294 là phần chênh lệch giữa mức giá đi r
 #. ($currency)
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Transaction.pm:1028
 msgid "The provided currency %1 is invalid."
-msgstr "Đồng tiền được cung câp %` không hợp lệ."
+msgstr "Đồng tiền %1 được cung cấp không hợp lệ."
 
 #. ($currency)
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Accounts.pm:1061
@@ -11264,7 +11285,23 @@ msgstr "Trang web này không thu thập thông tin cá nhân về bạn trừ
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:189
 msgid "This website is marketed in the UK and Isle of Man by Binary (IOM) Ltd., First Floor, Millennium House, Victoria Road, Douglas, IM2 4RW, Isle of Man, British Isles, licenced and regulated by (1) the Gambling Supervision Commission in the Isle of Man, British Isles, current online gambling licence issued on 31 August 2012, and for UK clients by (2) the UK Gambling Commission - <a href='%1' target='_blank'>view license</a>. This website is marketed in the rest of the EU, for investment products by Binary Investments (Europe) Ltd., Mompalao Building, Suite 2, Tower Road, Msida MSD1825, Malta, licenced and regulated as a Category 3 Investment Services provider by the Malta Financial Services Authority (license no. IS/70156), and for gaming products by Binary (Europe) Ltd., Mompalao Building, Suite 2, Tower Road, Msida MSD1825, Malta, licenced and regulated by (1) the Malta Gaming Authority in Malta, licence no MGA/CL2/118/2000, 26th May 2015 and for UK clients by (2) the UK Gambling Commission - <a href='%2' target='_blank'>view license</a>, and for Irish clients by (3) the Revenue Commissioners in Ireland, current remote bookmaker's licence issued on 29 September 2015 (licence no 1010285). This website's services are not made available in the USA, Japan, Costa Rica or Hong Kong, or to persons under age 18."
-msgstr "Trang web này được giới thiệu trên thị trường Anh và Đảo Man bởi công ty TNHH Binary (IOM), tầng 1, Tòa nhà Millennium, Đường Victoria, Douglas, IM2 4RW, Đảo Man, Anh, được cấp phép và quy định bởi (1) Ủy ban Giám sát Cá cược tại Đảo Man, Anh, giấy phép cá cược trực tuyến hiện ban hành ngày 31 Tháng Tám năm 2012, và (2) Ủy ban Cá cược Anh cấp cho khách hàng nước Anh- <a href='%1' target='_blank'> xem giấy phép </a>. Trang web này được giới thiệu trên thị trường EU còn lại bởi công ty TNHH Binary Investments (Châu Âu) , Tòa nhà Mompalao, Khu 2, Đường Tower, Msida MSD1825, Malta, được cấp phép và quy định bởi (1) Ủy ban quản lý Cá cược Malta ở Malta, Giấy phép số MGA / CL2 / 118/2000, 26 tháng 5 năm 2015 và (2) Ủy ban quản lý Cá cược UK cấp cho khách hàng của Anh  - <a href='%2' target='_blank'> xem giấy phép </a>, và Các ủy viên Cục thuế Ai-len cấp cho khách hàng Ai-len, giấy phép hiện tại có hiệu lực được ban hành vào ngày 29 tháng 9 năm 2015 (giấy phép số 1010285). Các dịch vụ của trang web này không có tại Hoa Kỳ, Nhật Bản,  Costa Rica hay Hong Kong, và không cấp phép cho người dưới 18 tuổi."
+msgstr ""
+"Trang web này được giới thiệu trên thị trường Anh và Đảo Man bởi công ty "
+"TNHH Binary (IOM), tầng 1, Tòa nhà Millennium, Đường Victoria, Douglas, "
+"IM2 4RW, Đảo Man, Anh, được cấp phép và quy định bởi (1) Ủy ban Giám sát "
+"Cá cược tại Đảo Man, Anh, giấy phép cá cược trực tuyến hiện ban hành "
+"ngày 31 Tháng Tám năm 2012, và (2) Ủy ban Cá cược Anh cấp cho khách hàng "
+"nước Anh- <a href='%1' target='_blank'>xem giấy phép</a>. Trang web này "
+"được giới thiệu trên thị trường EU còn lại bởi công ty TNHH Binary "
+"Investments (Châu Âu) , Tòa nhà Mompalao, Khu 2, Đường Tower, Msida "
+"MSD1825, Malta, được cấp phép và quy định bởi (1) Ủy ban quản lý Cá cượ"
+"c Malta ở Malta, Giấy phép số MGA / CL2 / 118/2000, 26 tháng 5 năm 2015 và "
+"(2) Ủy ban quản lý Cá cược UK cấp cho khách hàng của Anh - <a href='%2' "
+"target='_blank'>xem giấy phép</a>, và Các ủy viên Cục thuế Ai-len cấp cho "
+"khách hàng Ai-len, giấy phép hiện tại có hiệu lực được ban hành vào ngày 29 "
+"tháng 9 năm 2015 (giấy phép số 1010285). Các dịch vụ của trang web này không "
+"có tại Hoa Kỳ, Nhật Bản,  Costa Rica hay Hong Kong, và không cấp phép cho "
+"người dưới 18 tuổi."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Thorough knowledge of bash scripting, as well as experience with scripting languages such as Perl and PHP"
@@ -11511,12 +11548,42 @@ msgstr "Giao dịch nhị phân rất dễ, và chỉ yêu cầu 3 bước 
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:206
 msgid "Trading binary options may not be suitable for everyone, so please ensure that you fully understand the risks involved. Your losses can exceed your initial deposit and you do not own or have any interest in the underlying asset. In regards to binary options which are gambling products, remember that gambling can be addictive - please play responsibly. <span class=\"ja-hide\">Read about <a href=\"%1\" class=\"pjaxload\">Responsible Trading</a>.</span>"
-msgstr "Giao dịch quyền chọn nhị phân có thể không thích hợp cho tất cả mọi người, vì vậy vui lòng bảo đảo rằng bạn đã hiểu hoàn toàn về rủi ro có liên quan. Thất thoát của bạn có thể vượt quá số tiền gửi ban đầu và bạn sẽ không được sở hữu hay có bất kì tiền lãi nào trong tài sản cơ sở. Liên quan tới quyền chọn nhị phân, là sản phẩm cá cược, hãy nhớ rằng chơi cá cược có thể bị nghiện - vui lòng chơi một cách có trách nhiệm. <span class=\"ja-hide\">Đọc về<a href=\"%1\" class=\"pjaxload\">Giao dịch có Trách nhiệm</a>.</span>"
+msgstr ""
+"Giao dịch quyền chọn nhị phân có thể không thích hợp cho tất cả mọi "
+"người, vì vậy vui lòng bảo đảo rằng bạn đã hiểu hoàn toàn về rủ"
+"i ro có liên quan. Thất thoát của bạn có thể vượt quá số tiền gử"
+"i ban đầu và bạn sẽ không được sở hữu hay có bất kì tiền lãi nà"
+"o trong tài sản cơ sở. Liên quan tới quyền chọn nhị phân, là sản "
+"phẩm cá cược, hãy nhớ rằng chơi cá cược có thể bị nghiện - vui "
+"lòng chơi một cách có trách nhiệm. <span class=\"ja-hide\">Đọc về <a "
+"href=\"%1\" class=\"pjaxload\">Giao dịch có Trách nhiệm</a>.</span>"
 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:50
 msgid "Trading in Binary Options is speculative and involves a high degree of risk that can result in the loss of your entire investment. Therefore, trading in Binary Options is appropriate only for persons that understand and are willing to assume the economic, legal and other risks involved in such transactions. You should be satisfied that Binary Options trading is suitable for you in light of your investment circumstances and attitude towards risk before trading. You should not engage in speculative Binary Options trading unless you understand the basic aspects of such trading and its risks. If you are in any doubt as to whether Binary Option trading is appropriate and suitable for you, please seek independent advice from a investment consulting professional. %1 does not provide such advice. It is your responsibility, taking into account your personal circumstances and investment resources, to take particular care and make careful considerations independently, both prior to applying to engage in Binary Options with %1, as well as prior to making any individual order. Where you do not understand the risks involved in applying for a trading account with %1 or in making any individual order, you should seek advice and consultation from an independent investment advisor. If you continue to not understand the risks involved in trading in Binary Options, you should not trade at all."
-msgstr "Giao dịch Quyền chọn Nhị phân là hoạt động đầu cơ và có rủi ro cao có thể gây ra thua lỗ cho toàn bộ vốn đầu tư của bạn. Vì vậy, giao dịch Quyền chọn Nhị phân chỉ thích hợp với người đã hiểu biết đầy đủ và sẵn sàng chấp nhận rủi ro kinh tế, pháp lý và những rủi ro khác có liên quan tới những giao dịch này. Bạn nên biết rằng giao dịch Quyền chọn Nhị phân thích hợp với bạn trong điều kiện bạn sẵn sàng về vốn đầu tư và thái độ đối với những rủi ro xảy ra trước khi giao dịch. Bạn không nên thực hiện các giao dịch Quyền chọn Nhị phân trừ khi bạn hiểu những thành phần cơ bản của những giao dịch này và các rủi ro của nó. Nếu bạn còn nghi ngờ về giao dịch Quyền chọn Nhị phân có thích hợp với bạn hay không, vui lòng tìm nguồn tư vấn độc lập với các đội ngũ chuyên gia tư vấn đầu tư.  %1 không cung cấp cho bạn những tư vấn này. Đó là trách nhiệm của bạn, đặt các điều kiện cá nhân và nguồn lực đầu tư vào tài khoản của bạn, đặt mối quan tâm thực sự và cân nhắc cẩn thận một cách độc lập, vừa ưu tiên cho việc tham gia vào Quyền chọn Nhị phân thông qua %1, cùng với ưu tiên đặt lệnh cá nhân. Bạn còn chưa hiểu rủi ro có liên quan trong việc tham gia mở tài khoản giao dịch với %1 hoặc trong việc đặt lệnh cá nhân ở chỗ nào, bạn nên tìm kiếm tư vấn và lời khuyên từ nhà tư vấn đầu tư độc lập. Nếu bạn vẫn tiếp tục không hiểu về những rủi ro có liên quan tới giao dịch Quyền chọn Nhị phân, thì bạn không nên giao dịch."
+msgstr ""
+"Giao dịch Quyền chọn Nhị phân là hoạt động đầu cơ và có rủi ro "
+"cao có thể gây ra thua lỗ cho toàn bộ vốn đầu tư của bạn. Vì vậy, "
+"giao dịch Quyền chọn Nhị phân chỉ thích hợp với người đã hiểu biế"
+"t đầy đủ và sẵn sàng chấp nhận rủi ro kinh tế, pháp lý và những "
+"rủi ro khác có liên quan tới những giao dịch này. Bạn nên biết rằ"
+"ng giao dịch Quyền chọn Nhị phân thích hợp với bạn trong điều kiện "
+"bạn sẵn sàng về vốn đầu tư và thái độ đối với những rủi ro xảy "
+"ra trước khi giao dịch. Bạn không nên thực hiện các giao dịch Quyền chọn Nhị "
+"phân trừ khi bạn hiểu những thành phần cơ bản của những giao dịch này và các "
+"rủi ro của nó. Nếu bạn còn nghi ngờ về giao dịch Quyền chọn Nhị "
+"phân có thích hợp với bạn hay không, vui lòng tìm nguồn tư vấn độc "
+"lập với các đội ngũ chuyên gia tư vấn đầu tư. %1 không cung cấp cho "
+"bạn những tư vấn này. Đó là trách nhiệm của bạn, đặt các điều "
+"kiện cá nhân và nguồn lực đầu tư vào tài khoản của bạn, đặt mối "
+"quan tâm thực sự và cân nhắc cẩn thận một cách độc lập, vừa ưu "
+"tiên cho việc tham gia vào Quyền chọn Nhị phân thông qua %1, cùng với "
+"ưu tiên đặt lệnh cá nhân. Bạn còn chưa hiểu rủi ro có liên quan "
+"trong việc tham gia mở tài khoản giao dịch với %1 hoặc trong việc đặt "
+"lệnh cá nhân ở chỗ nào, bạn nên tìm kiếm tư vấn và lời khuyên từ "
+"nhà tư vấn đầu tư độc lập. Nếu bạn vẫn tiếp tục không hiểu về "
+"những rủi ro có liên quan tới giao dịch Quyền chọn Nhị phân, thì bạ"
+"n không nên giao dịch."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Controller/Bet.pm:500
 msgid "Trading is Suspended"
@@ -11567,7 +11634,15 @@ msgstr "Giao dịch trên %1 đang bị tạm ngừng do mất dữ liệu th
 #. (request.url_for("contact"))
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/self_exclusionws.html.tt:4
 msgid "Trading the financial markets can become addictive. Fill in the form below to limit your participation on the website or send a signed letter or fax to our customer support team. Once set, you can only tighten your limits. Limits will only be removed or loosened after 7 days with the exception of the self-exclusion date, which cannot be removed or altered once you have confirmed it. To remove or increase your limits, please contact <a href=\"%1\">customer support</a>."
-msgstr "Giao dịch trên thị trường tài chính có thể bị nghiện. Điền thông tin vào mẫu dưới đây để giới hạn mức chơi trên trang web hoặc gửi thư đã được kí hoặc fax cho nhóm hỗ trợ khách hàng của chúng tôi. Khi được thiết lập, bạn có thể thắt chặt giới hạn của mình. Giới hạn này sẽ chỉ bị loại bỏ hoặc nới lỏng sau 7 ngày ngày tự loại trừ, không thể bị loại bỏ hoặc thay thế từ khi bạn đã xác nhận chúng. Để loại bỏ hoặc tăng giới hạn của bạn, vui lòng liên hệ với<a href=\"%1\">đội ngũ chăm sóc khách hàng</a>."
+msgstr ""
+"Giao dịch trên thị trường tài chính có thể bị nghiện. Điền thông "
+"tin vào mẫu dưới đây để giới hạn mức chơi trên trang web hoặc gửi "
+"thư đã được kí hoặc fax cho nhóm hỗ trợ khách hàng của chúng tôi. "
+"Khi được thiết lập, bạn có thể thắt chặt giới hạn của mình. Giớ"
+"i hạn này sẽ chỉ bị loại bỏ hoặc nới lỏng sau 7 ngày ngày tự loạ"
+"i trừ, không thể bị loại bỏ hoặc thay thế từ khi bạn đã xác nhận "
+"chúng. Để loại bỏ hoặc tăng giới hạn của bạn, vui lòng liên hệ vớ"
+"i <a href=\"%1\">đội ngũ chăm sóc khách hàng</a>."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Menu.pm:191
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
@@ -11908,7 +11983,7 @@ msgstr "Xác thực mật khẩu mới"
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Account/Virtual.pm:96
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:102
 msgid "Verify your email address - %1"
-msgstr "Xác nhận địa chỉ email của bạn- %1"
+msgstr "Xác nhận địa chỉ email của bạn - %1"
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:160
 msgid "Verify your withdraw request."
@@ -12147,7 +12222,14 @@ msgstr "Chúng tôi có một bản theo dõi đã được chứng nhận tư�
 #. (affiliate_email)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/faq.html.tt:83
 msgid "We have a tested and proven selection of banners, links, reviews, newsletters, videos, and text ads for your use. Additionally, we have flash banners which you can grab through your affiliate account. If you would like customized tools, or an item currently not offered on the site, please contact your account manager at: <a href=\"mailto:%1\">%1</a>."
-msgstr "Chúng tôi có một bộ sưu tập đã được thử nghiệm và chứng minh về các biểu ngữ, liên kết, đánh giá, bản tin, video, và các quảng cáo văn bản để cho bạn sử dụng. Ngoài ra, chúng tôi có các biểu ngữ flash mà bạn có thể lấy thông từ tài khoản liên kết của mình. Nếu bạn muốn công cụ tùy chỉnh, hoặc một công cụ hiện đang không được cung cấp trên trang web, xin vui lòng liên hệ với người quản lý tài khoản của bạn tại: <a href=\"mailto:%1\">%1 </a>."
+msgstr ""
+"Chúng tôi có một bộ sưu tập đã được thử nghiệm và chứng minh về các "
+"biểu ngữ, liên kết, đánh giá, bản tin, video, và các quảng cáo văn bản để "
+"cho bạn sử dụng. Ngoài ra, chúng tôi có các biểu ngữ flash mà bạn có thể "
+"lấy thông từ tài khoản liên kết của mình. Nếu bạn muốn công cụ tùy chỉnh, "
+"hoặc một công cụ hiện đang không được cung cấp trên trang web, xin vui "
+"lòng liên hệ với người quản lý tài khoản của bạn tại: <a href=\"mailto:%1\""
+">%1</a>."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/conflicts_policy.html.tt:14
 msgid "We have in place adequate internal procedures to ensure that you are in all cases treated fairly and that the risk of damage to client interests will be mitigated."
@@ -13192,7 +13274,10 @@ msgstr "Khách hàng của bạn sẽ nhận được một email thông báo r�
 #. (broker_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/main.html.tt:70
 msgid "Your ID will be stored in a cookie and identified every time a prospect clicks on your affiliate link and lands on %1 and in that event, opens an account with us."
-msgstr "ID của bạn sẽ được lưu giữ trong cookie và được nhận diện mọi lúc khi bạn nhấp chuột vào đường dẫn liên kết của mình và truy cập vào %1 và lúc đó, hãy mở một tài khoản với chúng tôi."
+msgstr ""
+"ID của bạn sẽ được lưu giữ trong cookie và được nhận diện mọi lúc "
+"khi bạn nhấp chuột vào đường dẫn liên kết của mình và truy cập và"
+"o %1 và lúc đó, mở một tài khoản với chúng tôi."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/email/common_email.html.tt:619
 msgid "Your Login ID"
@@ -13247,7 +13332,9 @@ msgstr "Tài khoản của bạn rất quan trọng với chúng tôi. Vui l
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:748
 msgid "Your account is not fully authenticated. Please visit the <a href=\"%1\">authentication</a> page for more information."
-msgstr "Tài khoản của bạn không được chứng thực đầy đủ. Vui lòng tuy cập trang <a href=\"%1\">authentication</a> để biết thêm thông tin."
+msgstr ""
+"Tài khoản của bạn không được chứng thực đầy đủ. Vui lòng tuy cập trang <a "
+"href=\"%1\">xác thực</a> để biết thêm thông tin."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/my_accountws.html.tt:17
 msgid "Your account is registered as a Payment Agent."
@@ -13420,7 +13507,12 @@ msgstr "Số điện thoại của bạn"
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:302
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Locale.pm:214
 msgid "Your provided email address is already in use by another Login ID. According to our terms and conditions, you may only register once through our site. If you have forgotten the password of your existing account, please <a href=\"%1\">try our password recovery tool</a> or contact customer service."
-msgstr "Địa chỉ email bạn cung cấp đã được sử dụng bởi Tên Đăng nhập khác. Theo điều kiện và điều khoản của chúng tôi, bạn chỉ có thể đăng ký một lần trên trang của chúng tôi. Nếu bạn quên mật khẩu của tài khoản đã có, vui lòng  <a href=\"%21\">thử công cụ phục hồi mật khẩu của chúng tôi</a> hoặc liên hệ với đội ngũ chăm sóc khách hàng."
+msgstr ""
+"Địa chỉ email bạn cung cấp đã được sử dụng bởi Tên Đăng nhập khác. Theo "
+"điều kiện và điều khoản của chúng tôi, bạn chỉ có thể đăng ký một lần trên "
+"trang của chúng tôi. Nếu bạn quên mật khẩu của tài khoản đã có, vui lòng "
+"<a href=\"%21\">thử công cụ phục hồi mật khẩu của chúng tôi</a> hoặ"
+"c liên hệ với đội ngũ chăm sóc khách hàng."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:576
 msgid "Your request to transfer %1 %2 from %3 to %4 has been successfully processed."
