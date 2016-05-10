@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: German (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 08:22+0000\n"
-"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
+"PO-Revision-Date: 2016-05-10 08:23+0000\n"
+"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -3290,7 +3290,9 @@ msgstr "Kredit-/Debitkarte"
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:478
 msgid "Cross-company payment agent transfers are not allowed."
-msgstr "Unternehmensübergreifende Überweisungen über Zahlungsagent sind nicht gestattet."
+msgstr ""
+"Unternehmensübergreifende Überweisungen über Zahlungsagenten sind nicht "
+"gestattet."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:436
 msgid "Crosshair"
@@ -3708,7 +3710,9 @@ msgstr "Wegen Verstoß löschen"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Demonstrate the ability to think / act quickly and multi-task as needed to execute effective campaigns"
-msgstr "Nachgewiesene Denkfähigkeit/schnelle Reaktion und, wenn erforderlich Multitasking, um Kampagnen effektiv durchzuführen"
+msgstr ""
+"Nachweislich schnelle Denkfähigkeit/schnelle Reaktion und, wenn erforderlich "
+"Multitasking, um Kampagnen effektiv durchzuführen"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:10
 #| msgid "Our servers apply a tick filtering algorithm. The purpose of this filtering algorithm is to strip the feed of stray ticks. Stray ticks are ticks that manifestly fall outside of the current trading range of the market; such ticks are often due to communication delays with the exchanges or banks that provide quotes, human error, or database problems at any point between the originator of the quote and our servers."
@@ -3728,13 +3732,13 @@ msgstr ""
 msgid "Depending on the quality of the feeds received from our feed providers, our servers might also apply a very short-term smoothing algorithm to the data feed. This smoothing algorithm removes a little of the \"random noise\" surrounding the data feed, and ensures that clients who buy path-dependent contracts (such as the one-touch or barrier-range contracts) will not have their contracts knocked-in or knocked-out by random short-term market noise that does not reflect the true market price."
 msgstr ""
 "Je nach der Qualität der Datenfeeds, die wir von unseren Feedlieferanten "
-"erhalten, werden unsere Server einen eine sehr kurzfristigen "
-"Glättungsalgorithmus auf den Datafeed anwenden. Dieser glättende Algorithmus "
-"entfernt ein wenig die \"Zufallsausschläge\", die bei einer Dateneinspeisung "
-"auftreten und stellt sicher, dass die Kunden, die pfadabhängige Verträge "
-"kaufen (wie die Ziel- oder Schwellenbereichskontrakte), ihre Verträge nicht "
-"durch kurzfristige Marktausschläge gefährdet sehen (Knock-in, Knock-out), "
-"die den echten Marktpreis nicht widerspiegeln."
+"erhalten, werden unsere Server einen sehr kurzfristigen Glättungsalgorithmus "
+"auf den Datafeed anwenden. Dieser glättende Algorithmus entfernt ein wenig "
+"die \"Zufallsausschläge\", die bei einer Dateneinspeisung auftreten und "
+"stellt sicher, dass die Kunden, die pfadabhängige Verträge kaufen (wie die "
+"Ziel- oder Schwellenbereichskontrakte), ihre Verträge nicht durch "
+"kurzfristige Marktausschläge gefährdet sehen (Knock-in, Knock-out), die den "
+"echten Marktpreis nicht widerspiegeln."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:562
 #: /home/git/regentmarkets/bom-backoffice/f_manager_confodeposit.cgi:273
@@ -3812,7 +3816,10 @@ msgstr "Beschreibung"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Design engaging, visually inspiring content for the company's website and many other forms of media, including both online and offline materials."
-msgstr "Entwurf von ansprechendem, visuell inspirierenden Inhalten auf der Unternehmenswebsite und vielen weiteren Medienformen, einschließlich sowohl online als auch offline Materialien."
+msgstr ""
+"Entwurf von ansprechendem, visuell inspirierenden Inhalten auf der "
+"Unternehmenswebsite und vielen weiteren Medienformen, einschließlich von "
+"sowohl online als auch offline Materialien."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:726
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/reset_passwordws.html.haml:1
