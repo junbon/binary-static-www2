@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: German (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 08:42+0000\n"
-"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
+"PO-Revision-Date: 2016-05-10 08:45+0000\n"
+"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -10532,11 +10532,23 @@ msgstr "Das Unternehmen kann zu gegebener Zeit nach eigenem Ermessen, oder wie d
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:97
 msgid "The Company provides the %1 website on an “as is” and “as available” basis, and gives no warranty that the %1 website will be free of errors, or that errors will be corrected, or that our website is free of any third party interferences such as hackers or any other harmful components that arise outside of the Company’s control."
-msgstr "Das Unternehmen stellt die %1 Website auf einer \"wie besehen\" und \"wie verfügbar\" Basis zur Verfügung und gibt keine Garantie, dass die %1 Website korrigiert wird oder dass unsere Webseite frei von Eingriffen Dritter, wie Hacker oder andere schädlichen Komponenten, die außerhalb der Kontrolle des Unternehmens auftreten, ist."
+msgstr ""
+"Das Unternehmen stellt die %1 Website auf einer \"wie besehen\" und \"wie "
+"verfügbar\" Basis zur Verfügung und gibt keine Garantie, dass die %1 Website "
+"fehlerfrei ist, von Fehlern korrigiert wird oder dass unsere Website frei "
+"von Eingriffen Dritter, wie Hacker oder anderen schädlichen Komponenten, die "
+"außerhalb der Kontrolle des Unternehmens auftreten, ist."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:171
 msgid "The Company provides the Binary.com API on an \"as is\" and \"as available\" basis with no warranties, either express or implied, of any kind. To the fullest extent permissible under applicable law, the Company disclaim any and all warranties and representations, including, without limitation, any implied warranties of merchantability, fitness for a particular purpose, title, accuracy of data, and non-infringement."
-msgstr "Das Unternehmen stellt das Binary.com API auf der Basis \"wie vorliegend\" und wie \"verfügbar\" an und übernimmt keine Garantien, weder ausdrückliche noch angenommene, jeglicher Art. Das Unternehmen schließt, bis zum höchsten Ausmaß des nach anwendbaren Gesetzen Erlaubten jegliche Garantien und Zusicherungen, einschließlich ohne Einschränkung auf angenommene Garantie oder die Verkehrsfähigkeit, Eignung für einen bestimmten Zweck, Rechtsanspruch, Datengenauigkeit und Nichtverletzung aus."
+msgstr ""
+"Das Unternehmen stellt das Binary.com API auf der Basis \"wie vorliegend\" "
+"und wie \"verfügbar\" zur Verfügung und übernimmt keine Garantien, weder "
+"ausdrückliche noch angenommene, jeglicher Art. Das Unternehmen schließt, bis "
+"zum höchsten Ausmaß des nach anwendbaren Gesetzen Erlaubten, jegliche "
+"Garantien und Zusicherungen, einschließlich ohne Einschränkung auf "
+"angenommene Garantien oder die Verkehrsfähigkeit, Eignung für einen "
+"bestimmten Zweck, Rechtsanspruch, Datengenauigkeit und Nichtverletzung aus."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:117
 msgid "The Company receives a complaint which could have involved the Alternate Dispute Resolution entity, or the Company believes that you, the Affiliate, is in breach of any laws, rules, and regulations that may be relevant or applicable to the jurisdiction(s) in which you operate or target your business;"
@@ -10563,9 +10575,9 @@ msgstr ""
 "solche Transaktionen zu stornieren oder rückgängig zu machen. Der Kunde ist "
 "verpflichtet, das Unternehmen über derartige Fehler zu unterrichten und darf "
 "den Kursunterschied, der sich aus sochlen Systemfehlern ergibt, zum eigenen "
-"Profit ausnutzen oder missbrauchen. Das Unternehmen wird sich bemühen, "
-"derartige Probleme soll schnell wie möglich zu beheben. Personen mit Insider-"
-"Wissen über einen Finanzmakrt oder ein Wertpapier ist der Handel auf dieser "
+"Profit nicht ausnutzen oder missbrauchen. Das Unternehmen wird sich bemühen, "
+"derartige Probleme so schnell wie möglich zu beheben. Personen mit Insider-"
+"Wissen über einen Finanzmarkt oder ein Wertpapier ist der Handel auf dieser "
 "Website untersagt. "
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:116
@@ -10574,7 +10586,11 @@ msgstr "Das Unternehmen behält sich das Recht vor, den Betrieb dieser Site oder
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:54
 msgid "The Company reserves the right to void, delay, or withhold payment of commission fees to you in situations including a suspected breach of a law or a breach of the terms and conditions of this Agreement."
-msgstr "Das Unternehmen behält sich vor, die Provisionsauszahlung an Sie in besonderen Fällen, einschließlich eines vermuteten Rechtsbruch oder ener Verletzung der Bedingungen dieses Vertrags, zu verweigern, zu verzögern oder einzubehalten."
+msgstr ""
+"Das Unternehmen behält sich vor, die Provisionsauszahlung an Sie in "
+"besonderen Fällen, einschließlich eines vermuteten Rechtsbruchs oder ener "
+"Verletzung der Bedingungen dieses Vertrags, zu verweigern, zu verzögern oder "
+"einzubehalten."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:53
 msgid "The Company shall be entitled to exercise any of its rights or fulfill any of its obligations hereunder (including, but not limited to, its payment obligations) through any member of the Binary group of companies."
@@ -10586,7 +10602,12 @@ msgstr "Das Unternehmen übernimmt keinerlei Haftung für Order, Anlageentscheid
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:104
 msgid "The Company shall not be liable to you in contract, or otherwise (including liability for negligence) for any loss, whether direct or indirect, of the Affiliate's business, revenue or profits, anticipated savings, or wasted expenditure, corruption, or destruction of data or for any indirect or consequential loss whatsoever."
-msgstr "Das Unternehmen haftet Ihnen gegenüber weder vertraglich noch anderweitig (einschließlich Haftung wegen Fahrlässigkeit) für direkte oder indirekte Verluste des Geschäftspartnerunternehmens,, Umsatz oder Gewinne, erwartete Einsparungen oder unnötige Ausgaben, Beschädigung oder Vernichtung von Daten oder für andere indirekte oder Folgeschäden."
+msgstr ""
+"Das Unternehmen haftet Ihnen gegenüber weder vertraglich noch anderweitig ("
+"einschließlich Haftung wegen Fahrlässigkeit) für direkte oder indirekte "
+"Verluste des Geschäftspartnerunternehmens, für Umsatz oder Gewinne, "
+"erwartete Einsparungen oder unnötige Ausgaben, Beschädigung oder Vernichtung "
+"von Daten oder für andere indirekte oder Folgeschäden."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:76
 msgid "The Company shall pay you the currently published percentage of net revenues (as detailed on the commission page of your affiliate account) received during the term of the Agreement. The affiliate commission payments due shall only be for bona fide client referrals and the Company reserves the right to disregard duplicate accounts or nominee accounts that the Company sees as non-bona fide clients, at its sole discretion."
@@ -10594,7 +10615,19 @@ msgstr "Das Unternehmen zahlt Ihnen den aktuell veröffentlichten Prozentsatz vo
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:77
 msgid "The Company shall provide you with statements accessible through an electronic system detailing the revenues generated by clients you have referred, if any, which have accrued to you over the course of the calendar month. Such statements shall be updated daily. At the end of a calendar month, the Company shall record your total share of Net Revenues, if any, during the previous calendar month. In the event that a revenue share in any calendar month is a negative amount, the Company shall be entitled but not obliged to carry forward and set off such negative amount against future revenue shares which would otherwise be payable to you. However, the Company shall also be entitled but not obliged to zerorise the negative balance that would otherwise be carried forward."
-msgstr "Das Unternehmen muss Ihnen Kontoauszüge mit Angaben über die vorhandenen Umsätze, die die von Ihnen empfohlenen Kunden generiert wurden, über ein elektronisches System zur Verfügung stellen, die sich für Sie über einen Kalendermonat angesammelt haben. Diese Auszüge müssen täglich aktualisiert werden. Das Unternehmen muss zum Ende eines Kalendermonats Ihren Gesamtanteil an vorhandenen Nettoumsätzen aus dem vorherigen Kalendermonat ausweisen. Für den Fall, dass in einem Kalendermonat der Umsatzanteil ein negativer Betrag ist, darf das Unternehmen diesen, ohne dazu verpflichtet zu sein, vortragen und diesen Negativbetrag mit zukünftigen Umsatzanteilen verrechnen, die an Sie zu zahlen wären. Allerdings ist das Unternehmen auch berechtigt, aber nicht verpflichtet, den Negativbetrag zu streichen, der ansonsten vorgetragen würde."
+msgstr ""
+"Das Unternehmen muss Ihnen Kontoauszüge mit Angaben über die vorhandenen "
+"Umsätze, die von von Ihnen empfohlenen Kunden generiert wurden, und die sich "
+"für Sie über einen Kalendermonat angesammelt haben, über ein elektronisches "
+"System zur Verfügung stellen. Diese Auszüge müssen täglich aktualisiert "
+"werden. Das Unternehmen muss zum Ende eines Kalendermonats Ihren "
+"Gesamtanteil an vorhandenen Nettoumsätzen aus dem vorherigen Kalendermonat "
+"ausweisen. Für den Fall, dass in einem Kalendermonat der Umsatzanteil ein "
+"negativer Betrag ist, darf das Unternehmen diesen, ohne dazu verpflichtet zu "
+"sein, vortragen und diesen Negativbetrag mit zukünftigen Umsatzanteilen "
+"verrechnen, die an Sie zu zahlen wären. Allerdings ist das Unternehmen auch "
+"berechtigt, aber nicht dazu verpflichtet, den Negativbetrag zu streichen, "
+"der ansonsten vorgetragen werden würde."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:159
 msgid "The Company will not be liable in any way to any persons in the event of force majeure, or for the act of any Government or legal authority or for the failure of or damage or destruction to, its computer systems, data or records or any part thereof, or for delays, losses, errors or omissions resulting from the failure or mismanagement of any telecommunications or computer equipment or software. The Company shall not be responsible for any damages or losses deemed or alleged to have resulted from or been caused by this site or its content. This includes any client's use or misuse of its content, the inability of any client to connect with or use the site, delay in operations or transmission, failure of communication lines, or any errors or omissions in content."
@@ -10608,8 +10641,8 @@ msgstr "Das Unternehmen wird Sie per E-Mail benachrichtigen, ob Ihre Bewerbung p
 msgid "The Company will provide advertising collaterals with links containing affiliate IDs which may be modified by us from time to time."
 msgstr ""
 "Das Unternehmen wird Ihnen Werbematerial mit Links, die die Partner-IDs "
-"enthalten, zur Verfügung stellen, die von uns jederzeit verändert  werden "
-"dürfen."
+"enthalten, zur Verfügung stellen, die von uns von Zeit zu Zeit verändert "
+"werden können."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:16
 msgid "The Company will, at its sole discretion, determine whether or not your application has been successful. The Company's decision is final and is not open to appeal."
