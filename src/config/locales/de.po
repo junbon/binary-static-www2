@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-05-10 08:36+0000\n"
-"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
+"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -8137,7 +8137,10 @@ msgstr "Zahlungsmethoden"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:78
 msgid "Payment of commission earned for the previous calendar month will be made monthly, on or around the 15th day of each month, and may be credited to any payment method as agreed between the Company and the Affiliate."
-msgstr "Die Auszahlung der im Vormonat verdiente Provision erfolgt monatlich um den 15. eines jeden Monats und wird der Zahlungsmethode gutgeschriebendie zwischen dem Unternehmen und dem Geschäftspartner vereinbart wurde."
+msgstr ""
+"Die Auszahlung der im Vormonat verdiente Provision erfolgt monatlich um den "
+"15. eines jeden Monats und wird der Zahlungsmethode gutgeschrieben, die "
+"zwischen dem Unternehmen und dem Geschäftspartner vereinbart wurde."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/api_tokenws.html.tt:34
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:74
