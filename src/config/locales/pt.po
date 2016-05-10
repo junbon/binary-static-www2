@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-05-10 04:02+0000\n"
-"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
+"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -8299,7 +8299,7 @@ msgstr "Por favor selecione a opção \"Pagamento\" ou \"Aposta\"."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:337
 msgid "Please select a payment agent"
-msgstr "Selecione um Agente de Pagamentos"
+msgstr "Selecione um agente de pagamentos"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:376
 msgid "Please select a valid date"
