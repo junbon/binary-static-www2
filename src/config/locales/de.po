@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: German (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 08:37+0000\n"
-"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
+"PO-Revision-Date: 2016-05-10 08:38+0000\n"
+"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -9213,8 +9213,8 @@ msgstr ""
 "Steigen/Fallen Kontrakte werden zum Kaufkurs erstattet, wenn folgende "
 "Bedingungen vorliegen: (1) Es existieren weniger als 2 Ticks zwischen der "
 "Start- und der Endzeit oder (2) bei Kontrakten mit Tick-Laufzeiten, wenn der "
-"Kontrakt nicht innerhalb 5 Minuten ausläuft oder (3) wenn der Kontrakt in "
-"der Zukunft beginnt und in den 5 Minuten vor der Startzeit des Kontrakts "
+"Kontrakt nicht innerhalb von 5 Minuten ausläuft oder (3) wenn der Kontrakt "
+"in der Zukunft beginnt und in den 5 Minuten vor der Startzeit des Kontrakts "
 "keine Ticks vorhanden sind."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
@@ -9302,7 +9302,7 @@ msgstr "Geltungsbereich und Absicht"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:402
 msgid "Score"
-msgstr "Punktzahl"
+msgstr "Score"
 
 #. (broker_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/faq.html.tt:26
@@ -9463,7 +9463,9 @@ msgstr "Die Sitzungsdauer kann nicht mehr als 6 Wochen betragen."
 #. ($self_exclusion->session_duration_limit)
 #: /home/git/regentmarkets/bom-backoffice/f_setting_selfexclusion.cgi:75
 msgid "Session duration limit is currently set to <strong>%1 minutes.</strong>"
-msgstr "Das Limit für die Sitzungslaufzeit liegt derzeit bei <strong>%1 Minute(n).</strong>"
+msgstr ""
+"Das Limit für die Sitzungslaufzeit liegt derzeit bei <strong>%1 "
+"Minuten.</strong>"
 
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:277
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/self_exclusionws.html.tt:94
@@ -9516,7 +9518,7 @@ msgstr "Kurz"
 
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:505
 msgid "Short summary of your Payment Agent service"
-msgstr "Kurze Zusammenfassung Ihres Zahlungsagent-Service"
+msgstr "Kurze Zusammenfassung Ihres Zahlungsagenten-Service"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/betting_rules.html.tt:54
 msgid "Should a disruption occur in the data feeds which cannot be readily rectified by the Company, the Company reserves the right to refund the contract purchase."
