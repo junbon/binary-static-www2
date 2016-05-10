@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-05-10 08:16+0000\n"
-"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
+"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -1247,7 +1247,9 @@ msgstr "Ein Tick ist die minimalste Aufwärts- oder Abwärtsbewegung eines Markt
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "A university degree in Marketing, Communication, Business Administration, or related discipline"
-msgstr "Ein Universitätsabschluss in Marketing, Kommunikation, Betriebswirtschaft oder glelichgelagerten Disziplin"
+msgstr ""
+"Ein Universitätsabschluss in Marketing, Kommunikation, Betriebswirtschaft "
+"oder gleichgelagerten Disziplin"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "A university degree in Marketing, Journalism, Communications, or other business-related discipline"
@@ -1295,7 +1297,9 @@ msgstr "ZUGELASSENER ZAHLUNGSAGENT?"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ability to communicate fluently in the English language, in both oral and written forms"
-msgstr "Die Fähigkeit, fließend inder englischen Sprache zu kommunizieren, sowohl in mündlichen als auch schriftlichen Formen"
+msgstr ""
+"Die Fähigkeit, fließend in der englischen Sprache zu kommunizieren, sowohl "
+"in mündlichen als auch schriftlichen Formen"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ability to speak multiple languages"
