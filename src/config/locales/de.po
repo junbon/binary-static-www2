@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: German (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 08:21+0000\n"
-"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
+"PO-Revision-Date: 2016-05-10 08:22+0000\n"
+"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -2507,7 +2507,10 @@ msgstr "Kann zur Anzeige der Kontenaktivität, einschließlich Einstellungen, Li
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/api_tokenws.html.tt:36
 msgid "Can be used to withdraw to payment agents, transfer funds between accounts, and set / clear cashier passwords."
-msgstr "Kann verwendet werden, um Auszahlungen an Zahlungsagenten zu machen, Geld zwischen Konten zu transferieren und Kassenpasswörter einzurichten oder zu löschen."
+msgstr ""
+"Kann verwendet werden, um Auszahlungen an Zahlungsagenten zu machen, Geld "
+"zwischen Konten zu transferieren und um Kassenpasswörter einzurichten oder "
+"zu löschen."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/faq.html.tt:88
 msgid "Can you customize a banner for my site?"
@@ -2631,7 +2634,9 @@ msgstr "Bevor Sie beginnen, sollten Sie sich einige technische Begriffe ansehen.
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:8
 msgid "Check out the payment methods accepted by the payment agents in the list below."
-msgstr "Sehen Sie sich in der nachfolgenden Liste die Zahlungsmethoden an, die von den Zahlungsagent angenommen werden."
+msgstr ""
+"Sehen Sie sich in der nachfolgenden Liste die Zahlungsmethoden an, die von "
+"den Zahlungsagenten angenommen werden."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/types_of_trades.html.haml:1
 msgid "Choose Asian Rise/Fall when you want to profit from the market ending higher or lower than the average price."
@@ -2757,7 +2762,7 @@ msgstr "Kunden-E-Mail nicht eingerichtet."
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:89
 msgid "Client is not fully authenticated."
-msgstr "Kunde ist nicht vollständige authentifiziert."
+msgstr "Kunde ist nicht vollständig authentifiziert."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:59
 msgid "Client's Liability"
@@ -3010,7 +3015,9 @@ msgstr "Kontaktieren Sie uns"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:10
 msgid "Contact the payment agent directly for more information on how to transfer money to them."
-msgstr "Setzen Sie sich mit dem Zahlungsagent in Verbindung, wenn Sie mehr Informationen zur Geldüberweisung an ihn benötigen."
+msgstr ""
+"Setzen Sie sich mit dem Zahlungsagenten in Verbindung, wenn Sie mehr "
+"Informationen zur Geldüberweisung an ihn benötigen."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/open_source_projects.html.haml:1
