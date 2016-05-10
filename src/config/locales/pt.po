@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 04:14+0000\n"
+"PO-Revision-Date: 2016-05-10 04:20+0000\n"
 "Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
@@ -8760,7 +8760,7 @@ msgstr "Saiba mais sobre os cinco tipos de negociações oferecidos pela %1."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/index.html.haml:1
 msgid "Read the answers to some common questions."
-msgstr "Leia as respostas às pergunta frequentes."
+msgstr "Leia as respostas às perguntas frequentes."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:142
 msgid "Real Account"
@@ -8776,7 +8776,7 @@ msgstr "Abertura de conta de dinheiro real"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/why_us.html.haml:1
 msgid "Real-time prices, benchmarked against interbank options markets."
-msgstr "Preços executáveis, referenciados em comparação com mercados interbancários de opções."
+msgstr "Preços em tempo real, comparados com mercados interbancários de opções."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/reality_check_frequencyws.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/reality_check_summaryws.html.haml:1
@@ -8806,11 +8806,13 @@ msgstr "ID de referência"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Regent Markets Group Ltd. renames to Binary Ltd."
-msgstr "Regent Markets Group Limited, muda seu nome para  Binary Ltd."
+msgstr "Regent Markets Group Limited, muda seu nome para Binary Ltd."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Regent Markets Group Ltd. renames to Binary Ltd., harmonising company and website branding throughout the organisation."
-msgstr "Regent Markets Group Ltd. foi renomeada  Binary Ltd., harmonizando a marca da empresa e do website em toda a organização."
+msgstr ""
+"Regent Markets Group Ltd. foi renomeada Binary Ltd., harmonizando a marca da "
+"empresa e do website em toda a organização."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Regent Markets acquires BetsForTraders client base"
@@ -8818,11 +8820,16 @@ msgstr "A Regent Markets adquiriu a base de clientes da BestForTrade"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Regent Markets files for a patent in March 2000 on the basis of our unique position as the sole serious competitor in the business of fixed-odds financial betting. In May, we register the trading name BetOnMarkets and move to Malta to receive an internet betting licence."
-msgstr "A Regent Markets se inscreve para uma patente em Março de 2000 baseada na nossa posição única como o único concorrente sério no negócio de apostas financeiras em probabilidades fixas. Em maio, registramos o nome de marca BetOnMarkets e mudamos para Malta para receber um certificado de apostas pela internet."
+msgstr ""
+"A Regent Markets se inscreve para uma patente em Março de 2000, baseada na "
+"nossa posição exclusiva como o único concorrente sério no negócio de apostas "
+"financeiras em probabilidades fixas. Em maio, registramos o nome de marca "
+"BetOnMarkets e mudamos para Malta para receber um certificado de apostas "
+"pela internet."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Regent Markets files for patent, and registers BetOnMarkets trading name"
-msgstr "O nome de mercado patenteado é Regent Markets, e BetOnMarket é o nome da marca registrado"
+msgstr "A Regent Markets solicita patente e registra o nome BetOnMarket"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Regent Markets granted US patent for ‘Betting system and method’"
@@ -8838,7 +8845,7 @@ msgstr "A Regent Markets foi fundada por Jean-Yves Sireau"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Regent Markets obtains a licence in the Isle of Man"
-msgstr "A Regent Markets obteve a licença da Ilha de Man"
+msgstr "A Regent Markets obtém a licença da Ilha de Man"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Regent Markets receives funding to provide on-line financial betting services"
@@ -8878,11 +8885,17 @@ msgstr "Índice de Força Relativa"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Relevant experience in the use of Quant programming libraries and frameworks (Quantlib, PricingPartners, FINCAD, and NumeriX), and quant pricing platforms (SuperDerivatives and FENICS) would be a plus"
-msgstr "Experiência relevante no uso de biblioteca e quadrados de linguagens de análise quantitativa (Quantlib, PricingPartners, FINCAD e  NumeriX) e plataformas de apreçamento de análise quantitativa (SuperDerivatives e FENICS) seria uma mais-valia"
+msgstr ""
+"Experiência relevante no uso de biblioteca e quadrados de linguagens de "
+"análise quantitativa (Quantlib, PricingPartners, FINCAD e  NumeriX) e "
+"plataformas de tarifação de análise quantitativa (SuperDerivatives e FENICS) "
+"seria um adicional"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Relevant work experience in a related field (financial services preferred)"
-msgstr "Experiência profissional numa área relacionada (serviços financeiros preferidos)"
+msgstr ""
+"Experiência profissional numa área relacionada (preferencialmente em "
+"serviços financeiros)"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/session_expired.html.tt:12
 msgid "Reload Cashier"
@@ -9964,7 +9977,8 @@ msgstr "Fortes capacidades de comunicação oral e escrita, tanto no idioma regi
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Strong, passionate interest in Graphic Design, Marketing, and Advertising"
-msgstr "Um interesse forte e apaixonado em Desenho Gráfico, Marketing e Publicidade"
+msgstr ""
+"Um interesse forte e intendo por Desenho Gráfico, Marketing e Publicidade"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Strong, passionate interest in Marketing and Advertising"
