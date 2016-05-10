@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: German (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 08:50+0000\n"
-"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
+"PO-Revision-Date: 2016-05-10 08:52+0000\n"
+"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -12711,7 +12711,15 @@ msgstr "Wo neue Ideen alte übertrumpfen. Und Sie wählen Ihre Arbeitsweise, fre
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/conflicts_policy.html.tt:22
 msgid "Where our arrangements to manage conflicts are not or cannot be sufficient to be reasonably confident that risks of damage to a client’s interest will be prevented we aim to disclose the general nature or sources of conflicts. This is aimed at allowing the client the opportunity to consider whether to ask for more information by sending an email to compliance<b></b>@<i></i>binary.com, or to continue with the service; we do not aim to provide detailed, highly specific or comprehensive information."
-msgstr "Wo unsere Verfahren zur Vermeindung von Konflikten nicht ausreichen oder ausreichend sind, um entsprechend sicher zu gehen, dass Schadensrisiken für Kundeninteressen vermieden werden können, veröffentlichen wir die Art oder Quelle des Konflikts. Dies zielt darauf ab, dem Kunden die Möglichkeit zu geben, zu überlegen, ober er um mehr Informationen bitten,indem Sie eine E-Mail an compliance<b></b>@<i></i>binary.com senden  oder die Dienstleistung weiter in Anspruch nehmen soll. Wir beabsichtigen nicht, detaillierte, hoch spezifische oder umfassende Informationen zur Verfügung zu stellen."
+msgstr ""
+"Wo unsere Verfahren zur Vermeindung von Konflikten nicht ausreichen oder "
+"ausreichend sind, um entsprechend sicher zu gehen, dass Schadensrisiken für "
+"Kundeninteressen vermieden werden können, veröffentlichen wir die Art oder "
+"Quelle des Konflikts. Dies zielt darauf ab, dem Kunden die Möglichkeit zu "
+"geben, zu überlegen, ober er um mehr Informationen bitten, indem er/sie eine "
+"E-Mail an compliance<b></b>@<i></i>binary.com senden oder die Dienstleistung "
+"weiter in Anspruch nehmen soll. Wir beabsichtigen nicht, detaillierte, hoch "
+"spezifische oder umfassende Informationen zur Verfügung zu stellen."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/careers.html.haml:1
 msgid "Where supportive colleagues are like a second family."
@@ -12883,18 +12891,18 @@ msgstr "Bei %1 ist Ihr Geld sicher."
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:52
 msgid "With regards to tracking your referrals accessing Binary.com via the links on your website or by quoting your affiliate IDs during the sign-up process, the Company shall use all reasonable endeavours to ensure that whenever a client is referred to Binary.com through these links or affiliate IDs, and they subsequently place a contract or otherwise transact with the Company, the relevant client is identified as originating from your referral. However, the Company shall not be liable to you in any way if the Company is unable to identify a client as originating from your referral. Only properly tagged clients can be assigned to you. It is your responsibility to ensure that all links are properly tagged."
 msgstr ""
-"Hinsichtlich des Tracking Ihrer Empfehlungen, die  über die Links auf Ihrer "
-"Website oder unter Nennung Ihrer Partner-IDs während des des "
-"Anmeldeprozesses zugreifen, wird das Unternehmen alle zumutbaren "
-"Anstrengungen unternehmen um sicherzustellen, dass, wenn ein Kunde über "
-"diese Links oder Partner-IDs zu Binary.com empfohlen wird und anschließend "
-"einen Vertrag mit dem Unternehmen abschließt oder andere Transaktionen mit "
-"dem Unternehmen tätigt, dieser Kunde auch als von Ihnen oder Ihrer Site "
-"empfohlen identifiziert wird. Allerdings ist das Unternehmen in keiner Weise "
-"gegenüber Ihnen haftbar, wenn das Unternehmen nicht in der Lage ist zu "
-"erkennen, ob ein Kunde von Ihnen empfohlen wurde. Nur ordentlich "
-"gekennzechten Kunden können IIhnen zugeordnet werden. Sie sind dafür "
-"zuständig dafür zu sorgen, dass alle Links korrekt gekennzeichnet sind."
+"Hinsichtlich des Tracking Ihrer Empfehlungen, die über die Links auf Ihrer "
+"Website zugreifen oder Ihre Partner-IDs während des Anmeldeprozesses nennen, "
+"wird das Unternehmen alle zumutbaren Anstrengungen unternehmen um "
+"sicherzustellen, dass, wenn ein Kunde über diese Links oder Partner-IDs zu "
+"Binary.com empfohlen wird und anschließend einen Vertrag mit dem Unternehmen "
+"abschließt oder andere Transaktionen mit dem Unternehmen tätigt, dieser "
+"Kunde auch als von Ihnen oder von Ihrer Site empfohlen identifiziert wird. "
+"Allerdings ist das Unternehmen in keiner Weise gegenüber Ihnen haftbar, wenn "
+"das Unternehmen nicht in der Lage ist zu erkennen, ob ein Kunde von Ihnen "
+"empfohlen wurde. Nur ordentlich gekennzeichnete Kunden können Ihnen "
+"zugeordnet werden. Sie sind dafür zuständig dafür zu sorgen, dass alle Links "
+"korrekt gekennzeichnet sind."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/cashier/index.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_methods.html.tt:15
@@ -12943,7 +12951,10 @@ msgstr "Enge Zusammenarbeit mit weiteren Teammitgliedern, um Software zu entwick
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Work directly with members of our marketing and IT teams to produce graphics for the company website, blog, social media outlets, and marketing materials"
-msgstr "Direkte Zusammenarbeit mit den Mitgliedern unserer Marketing- und IT-Teams, um Grafiken für unsere Unternehmenswebsite, Blogs, Soziale Medien Konten und Werbematerial zu erstellen"
+msgstr ""
+"Direkte Zusammenarbeit mit den Mitgliedern unserer Marketing- und IT-Teams, "
+"um Grafiken für unsere Unternehmenswebsite, Blogs, Soziale Medien Kanälen "
+"und um Werbematerial zu erstellen"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Work experience in a similar role"
