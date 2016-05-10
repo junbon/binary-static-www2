@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-05-10 08:49+0000\n"
-"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
+"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -12600,7 +12600,7 @@ msgstr "Wir sind auf diese Auszeichnung wirklich sehr stolz. Wir engagieren uns 
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
 msgid "What are OTC indices and stocks?"
-msgstr "Was sind OTC (Freiverkehr) Indizes und Aktien"
+msgstr "Was sind OTC (Freiverkehr) Indizes und Aktien?"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/smart_indices.html.haml:1
 msgid "What are Smart Markets?"
@@ -12650,7 +12650,11 @@ msgstr "Wenn es Zeit zur Erholung ist, werden Sie wunderbare Strände, Inseln un
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:63
 msgid "When the Affiliate’s referred clients open an account with any member of the Binary group, we assume ownership of the database of names and contact information and any other data of the Affiliates’ referred clients."
-msgstr "Wenn von dem Geschäftspartner empfohlenen Kunden ein Konto bei einem Mitglied der Binary Unternehmensgruppe eröffnen, übernehmen wir das Eigentum an der Datenbank mit Namen und Kontaktinformation und anderer Daten des vom Geschäftspartner empfohlenen Kunden."
+msgstr ""
+"Wenn von dem Geschäftspartner empfohlenen Kunden ein Konto bei einem "
+"Mitglied der Binary Unternehmensgruppe eröffnet wird, übernehmen wir das "
+"Eigentum an der Datenbank mit Namen und Kontaktinformation und anderer Daten "
+"des vom Geschäftspartner empfohlenen Kunden."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:122
 msgid "When there is a breakdown in the means of communication normally employed in determining the price or value of any of the financial contracts or where the price or value of any of the financial contracts cannot be promptly or accurately ascertained."
