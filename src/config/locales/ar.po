@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arabic (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 03:41+0000\n"
-"Last-Translator: Ahmed Kotb <ahmedmohamedkotp@gmail.com>\n"
+"PO-Revision-Date: 2016-05-10 04:13+0000\n"
+"Last-Translator: Raunak Kathuria <raunakkathuria@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/binary/static/ar/>"
 "\n"
 "Language: ar\n"
@@ -9702,7 +9702,7 @@ msgstr "عفواً، لديك معاملات مفتوحة. يرجى إقفال �
 #. ($lim)
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Controller/Bet.pm:1889
 msgid "Sorry, you have reached your session duration limit of %plural(%1,%d minute,%d minutes)."
-msgstr "عفوا، لقد وصلت لحد مدة الدورة البالغ %plural(%1,%d دقيقة،%d دقائق)."
+msgstr "عفوا، لقد وصلت لحد مدة الدورة البالغ %plural(%1,%d دقيقة,%d دقائق)."
 
 #. (request()
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Locale.pm:218
