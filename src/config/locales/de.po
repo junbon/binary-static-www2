@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-05-10 08:31+0000\n"
-"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
+"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -5654,7 +5654,7 @@ msgstr "Innerhalb/Außerhalb"
 msgid "In/Out (ends between/outside and stays between/goes outside)"
 msgstr ""
 "Innerhalb/Außerhalb (schließt zwischen/ausserhalb und bleibt "
-"zwischen/ausserhalb)"
+"zwischen/außerhalb)"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/types_of_trades.html.haml:1
