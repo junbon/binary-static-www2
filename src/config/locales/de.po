@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-05-10 08:18+0000\n"
-"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
+"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -1626,7 +1626,9 @@ msgstr "Ein höherer Universitätsabschluss in Mathematik, Physik oder Ingenieur
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "An assertive, sales-driven personality, able to adapt quickly and achieve powerful results"
-msgstr "Eine durchsetzungsfähige und verkaufsorientierte Persönlichkeit, die sich schnell anpasst und starke Ergebnisse erreicht"
+msgstr ""
+"Eine durchsetzungsfähige und verkaufsorientierte Persönlichkeit, die "
+"Fähigkeit sich schnell anzupassen und starke Ergebnisse zu erreichen"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:346
 msgid "An error occured."
