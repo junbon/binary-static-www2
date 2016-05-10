@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: German (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 08:52+0000\n"
-"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
+"PO-Revision-Date: 2016-05-10 08:56+0000\n"
+"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -12974,11 +12974,18 @@ msgstr "Zusammenarbeit mit den Mitgliedern des QS-Teams, um die Integrität von 
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Work with senior staff to coordinate project delivery; develop and update schedules; document processes; and push initiatives to successful completion."
-msgstr "Zusammenarbeit mit unseren Führungskräften, um die Projektabwicklung zu koordinieren, Zeitpläen zu entwickeln und zu aktualisieren; Dokumentenverarbeitung und Initiativen zu einer erfolgreichen Beendigung zu führen."
+msgstr ""
+"Zusammenarbeit mit unseren Führungskräften, um die Projektabwicklung zu "
+"koordinieren, Zeitpläne zu entwickeln und zu aktualisieren; "
+"Dokumentenverarbeitung und Initiativen zu einer erfolgreichen Beendigung zu "
+"führen."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Work with senior staff to coordinate project delivery; develop and update schedules; maintain task lists; and hold team members accountable for assigned deliverables"
-msgstr "Zusammenarbeit mit Führungskräften, um die Projektabwicklung zu koordinieren, Zeitpläne entwickeln und aktualsieren, Aufgabenlisten pflegen und die Teammitglieder für die übertragenen Leistungen begeistern"
+msgstr ""
+"Zusammenarbeit mit Führungskräften, um die Projektabwicklung zu "
+"koordinieren, Zeitpläne entwickeln und aktualsieren, Aufgabenlisten pflegen "
+"und die Teammitglieder für die übertragenen Leistungen verantwortlich machen"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Working closely with the Head of Compliance to implement Know your Client (KYC), Anti-Money Laundering (AML), and data protection regulations"
@@ -13025,7 +13032,20 @@ msgstr "Sie dürfen Token speichern"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:178
 msgid "You acknowledge and agree that you are solely and exclusively responsible for the control, operation and security of transactions and communications made through its access to or use of the Binary.com API. You acknowledge that there are risks associated with utilizing an internet-based deal execution trading system including, but not limited to, the failure of hardware, software, and internet connections. You acknowledge that the Company does not control signal power, its reception or routing via the internet, configuration of your equipment or reliability of its connection, and the Company shall not be responsible for any communication failures, disruptions, errors, distortions or delays you may experience when trading via the internet using the Binary.com API."
-msgstr "Sie bestätigen und sind damit einverstanden, dass Sie einzig und alleine für die Steuerung, die Ausführung und Sicherheit der Transaktionen sowie Kommunikationen, die durch den Zugriff oder die Verwendung des Binary.com API verantwortlich sind. Sie erkennen an, dass mit der Nutzung des auf das Internet basierenden Geschäftsausführungssystem, einschließlich aber nicht einschließlich Versagen von Hardware, Software und Internetverbndungen Risiken verbunden sind. Sie erkennen an, dass das Unternehmer die Signalstärke, den Empfang oder das Routing über das Internet, die Konfiguration Ihres Geräts oder die Zuverlässigkeit seiner Verbindung beherrschen kann und dass das Unternehmen für keine Kommunikationsfehler, Unterbrechungen, Fehler, Störungen oder Verzögerungen verantwortlich ist, die Sie beim Handel über das Internet unter Verwendung des Binary.com API erfahren können."
+msgstr ""
+"Sie bestätigen und sind damit einverstanden, dass Sie einzig und alleine für "
+"die Steuerung, die Ausführung und Sicherheit der Transaktionen sowie "
+"Kommunikationen, die durch den Zugriff oder die Verwendung des Binary.com "
+"API, verantwortlich sind. Sie erkennen an, dass mit der Nutzung des auf das "
+"Internet basierenden Geschäftsausführungssystems, einschließlich aber nicht "
+"ausschließlich Versagen von Hardware, Software und Internetverbindungen, "
+"Risiken verbunden sind. Sie erkennen an, dass das Unternehmen die "
+"Signalstärke, den Empfang oder das Routing über das Internet, die "
+"Konfiguration Ihres Geräts oder die Zuverlässigkeit seiner Verbindung "
+"beherrschen kann und dass das Unternehmen für keine Kommunikationsfehler, "
+"Unterbrechungen, Fehler, Störungen oder Verzögerungen verantwortlich ist, "
+"die Sie beim Handel über das Internet unter Verwendung des Binary.com API "
+"erfahren können."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:201
 msgid "You acknowledge that, in the course of dealing under these Terms, you may obtain confidential information relating to the Company and its parent, subsidiaries, affiliates or other third party. Such confidential information shall belong solely to the Company."
@@ -13051,7 +13071,25 @@ msgstr "Sie sagen zu, dass Sie nicht:"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:142
 msgid "You also acknowledge that Binary.com may continue to make changes to and enhance the Binary.com API and that those changes and enhancements will be owned by Binary.com. You hereby assign and transfer to the Company all of your right, title and interest in and to any modifications or derivative works of the Binary.com API created by or for you, regardless of whether they were created in accordance with these Terms; such assignment being effective upon creation of such works, and shall include, without limitation, all rights under any intellectual property laws, including copyright. You shall not take any action to jeopardise, encumber, limit or interface in any manner with Binary.com’s ownership of and rights with respect to the Binary.com API, or any derivative works or updates thereof or thereto. Any components, parts, or mechanics of any system or API program derived from the Binary.com API, or Binary.com’s business practices shall belong solely to Binary.com. Further, you will not, at any time, contest or assist any other third party in contesting the rights of Binary.com in the Binary.com API or any other intellectual property provided in these Terms."
-msgstr "Sie stimmen ebenfalls zu, dass Binary.com das Binary.com API laufend verändern und verbessern kann, und das dieses Änderungen und Verbesserungen Eigentum von Binary.com sind. Hiermit treten sie jegliche Rechte, jegliches Eigentum und Ansprüche an Veränderungen oder abgeleiteten Werken des für Sie oder von Ihnen erstellten Binary.com API ab und übertragen diese dem Unternehmen, ungeachtet dessen, ob sie gemäß diesen Bedingungen ertellt wurden. Diese Abtretung wird mit der Erstellung derartiger Werke wirksam und enthält unbeschränkt alle Rechte am geistigen Eigentum, einschließlich des Urheberrechts. Sie dürfen keine Handlung unternehmen, um in irgendeiner Weise das Eigentum und die Rechte von Binary.com an dem Binary.com API oder jeglichen abgeleiteten Werken oder Aktualisierungen zu gefährden, behindern, beschränken oder beeinträchtigen. Alle Bestandteile, Teile oder Mechaniken eines jeglichen Systems oder API-Programms, die von dem Binary.com API oder den Geschäftspraktiken von Binary.com abgeleitet wurden, sind alleiniges Eigentum von Binary.com. Darüber hinaus dürfen Sie zu keiner Zeit Dritte bei der Anfechtung von Rechten von Binary.com an dem Binary.com oder jegliche anderen in diesen Bedingungen geregelten Rechten am geistigen Eigentum unterstützen oder diese selbst anfechten."
+msgstr ""
+"Sie stimmen ebenfalls zu, dass Binary.com das Binary.com API laufend "
+"verändern und verbessern kann, und dass diese Änderungen und Verbesserungen "
+"Eigentum von Binary.com sind. Hiermit treten Sie jegliche Rechte, jegliches "
+"Eigentum und Ansprüche an Veränderungen oder abgeleiteten Werken des für Sie "
+"oder von Ihnen erstellten Binary.com API ab und übertragen diese dem "
+"Unternehmen, ungeachtet dessen, ob sie gemäß diesen Bedingungen erstellt "
+"wurden. Diese Abtretung wird mit der Erstellung derartiger Werke wirksam und "
+"enthält unbeschränkt alle Rechte am geistigen Eigentum, einschließlich des "
+"Urheberrechts. Sie dürfen keine Handlung unternehmen, um in irgendeiner "
+"Weise das Eigentum und die Rechte von Binary.com an dem Binary.com API oder "
+"jeglichen abgeleiteten Werken oder Aktualisierungen zu gefährden, behindern, "
+"beschränken oder beeinträchtigen. Alle Bestandteile, Teile oder Mechaniken "
+"eines jeglichen Systems oder API-Programms, die von dem Binary.com API oder "
+"den Geschäftspraktiken von Binary.com abgeleitet wurden, sind alleiniges "
+"Eigentum von Binary.com. Darüber hinaus dürfen Sie zu keiner Zeit Dritte bei "
+"der Anfechtung von Rechten von Binary.com an dem Binary.com API oder "
+"jegliche andere in diesen Bedingungen geregelten Rechte am geistigen "
+"Eigentum unterstützen oder diese selbst anfechten."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/privacy.html.tt:37
 msgid "You also have the right to request from us to inform you about the personal data that we process about you and to request its correction where necessary. This request must be made in writing to us and signed by you as the data subject."
@@ -13059,7 +13097,14 @@ msgstr "Sie können von uns verlangen, dass wir Sie darüber informieren, wie wi
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:49
 msgid "You and the Company are independent contractors, and nothing in this Agreement will create any partnership, joint venture, agency, franchise, sales representative, or employment relationship between us. You will have no authority to make or accept any offers or representations on our behalf. You will not make any statement, whether on your website or otherwise, that reasonably would contradict anything in this paragraph."
-msgstr "Sie und das Unternehmen sind unabhängige Auftragnehmer. Dieser Vertrag begründet keine Partnerschaft, kein Joint Venture, keine Vertretung, Franchise oder eine arbeitsvertragliche Beziehung zwischen uns. Sie sind nicht befugt, Angebote oder Erklärungen in unserem Namen abzugeben oder anzunehmen. Sie dürfen auch keine Erklärungen auf Ihrer Website oder auf andere Weise abgeben, die den Bestimmungen dieses Absatzes einigermaßen widersprechen."
+msgstr ""
+"Sie und das Unternehmen sind unabhängige Auftragnehmer. Dieser Vertrag "
+"begründet keine Partnerschaft, kein Joint Venture, keine Vertretung, "
+"Franchise oder eine arbeitsvertragliche Beziehung zwischen uns. Sie sind "
+"nicht befugt, Angebote oder Erklärungen in unserem Namen abzugeben oder "
+"anzunehmen. Sie dürfen auch keine Erklärungen auf Ihrer Website oder auf "
+"andere Weise abgeben, die den Bestimmungen dieses Absatzes in irgend einer "
+"Weise widersprechen."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:93
 msgid "You and your Application must also comply with the following, which are hereby incorporated by reference:"
@@ -13091,7 +13136,7 @@ msgstr "Ihnen wurde der bessere Kurs gewährt."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:548
 msgid "You are currently logged in to your real money account with %1 (%2)."
-msgstr "Sie sind derzeit in Ihr Echtgeldkonto bei %1 (2%) eingeloggt."
+msgstr "Sie sind derzeit in Ihr Echtgeldkonto bei %1 (%2) eingeloggt."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:549
 msgid "You are currently logged in to your virtual money account (%2)."
@@ -13107,7 +13152,11 @@ msgstr "Sie haben sich schon eingetragen oder Sie haben das Limit für die Vorsc
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:234
 msgid "You are in default or breach of any covenant, obligation or condition contained in this Agreement, and if such default is not cured within seven days of receipt of written notice from the Company;"
-msgstr "Sie versäumen oder verletzen eine Vereinbarung, Verpflichtung oder Bestimmung dieses Vertrags. Wenn solcher Verstoß nicht innerhalb von sieben Tagen nach Erhalt der schriftlichen Aufforderung des Unternehmens nicht geheilt wird;"
+msgstr ""
+"Sie versäumen oder verletzen eine Vereinbarung, Verpflichtung oder "
+"Bestimmung dieses Vertrags. Wenn ein solcher Verstoß nicht innerhalb von "
+"sieben Tagen nach Erhalt der schriftlichen Aufforderung des Unternehmens "
+"geheilt wird;"
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:456
 msgid "You are not a Payment Agent"
@@ -13231,7 +13280,11 @@ msgstr "Sie haben keinen Zugriff auf Apps gewährt."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:119
 msgid "You have not obtained and have not maintained all necessary licences and consents to operate within any laws, rules, and regulations applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business;"
-msgstr "Sie haben nicht alle erforderlichen Lizenzen und Bewilligungen, die zum Betrieb nach den Gesetzen, Regeln und Vorschriften von Behörden oder Aufsichtsbehörend in dem Land/den Ländern in dem/denen Sie aktiv sind oder auf die Ihre Aktivitäten zielen, eingeholt oder aufrecht erhalten;"
+msgstr ""
+"Sie haben nicht alle erforderlichen Lizenzen und Bewilligungen, die zum "
+"Betrieb nach den Gesetzen, Regeln und Vorschriften von Behörden oder "
+"Aufsichtsbehörden in dem Land/den Ländern in dem/denen Sie aktiv sind oder "
+"auf die Ihre Aktivitäten zielen, eingeholt oder aufrecht erhalten;"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/email/bonus_reject.html.tt:10
 msgid "You have not yet reached the turnover required to be credited with the bonus."
@@ -13304,7 +13357,11 @@ msgstr "Sie können die anwendungsspezifischen alphanumerischen Benutzer-IDs, di
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:227
 msgid "You may terminate this Agreement at any time, but only by giving the Company a minimum of seven days written notice. \"Written notice\" here includes notice delivered by regular letter mail or by email."
-msgstr "Sie können diesen Vertrag jederzeit kündigen, aber nur mit einer schriftlichen Kündigung mit einer Frist von sieben Tagen. \"Schriftliche Kündigung\" bedeutet in diesem Fall, eine Kündigung über den normalen Postweg oder per E-Mail."
+msgstr ""
+"Sie können diese Vereinbarung jederzeit kündigen, aber nur mit einer "
+"schriftlichen Kündigung mit einer Mindestfrist von sieben Tagen. \""
+"Schriftliche Kündigung\" bedeutet in diesem Fall, eine Kündigung über den "
+"normalen Postweg oder per E-Mail."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/promocode.html.tt:55
 msgid "You may withdraw the bonus amount once you have exceeded an account turnover of 25 times the bonus amount value."
@@ -13337,7 +13394,17 @@ msgstr "Sie dürfen keinen Inhalt kopieren oder speichern oder Informationen, di
 #. ("<a href=\"https://hackerone.com/binary\" target=\"_blank\">Hackerone</a>", "<a href=\"https://binary.vanillacommunity.com\" target=\"_blank\">Vanilla Community</a>")
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:207
 msgid "You must promptly report any security deficiencies in, or intrusions to, your Application that you discover to Binary.com by writing in to %1 or by raising a discussion  thread on %2 which is part of our Developer Site. You will work with Binary.com to immediately correct any security deficiency, and will immediately disconnect any intrusions or intruder. In the event of any security deficiency or intrusion involving the Application, APIs or Content, you will make no public statements (e.g. press, blogs, social media, bulletin boards, etc.) without prior written and express permission from Binary.com in each instance."
-msgstr "Sie müssen von Ihnen erkannte Sicherheitsmängel oder das Eindringen in Ihre Anwendung umgehend schriftlich an Binary.com auf %1 melden, oder indem Sie einen Diskussionsthread auf %2 eröffnen, was ein Bestandteil Ihrer Entwicklersite ist. Sie müssen mit Binary.com zusammenarbeiten, um jeden Sicherheitsmangel umgehend zu beheben, und Sie müssen jedes Eindringen unterbinden oder jeden Eindringling trennen. Für den Fall eines Sicherheitsmangels oder eines Eindringens in eine Anwendung, APIs oder Inhalte, werden Sie ohne ausdrückliche schriftliche Genehmigung in jedem Einzelfall keine öffentliche Stellungnahme (z. B. gegenüber der Presse, in Blogs, Sozialen Medien, Bulletin Boards, usw.) abgeben."
+msgstr ""
+"Sie müssen von Ihnen erkannte Sicherheitsmängel oder das Eindringen in Ihre "
+"Anwendung umgehend schriftlich an Binary.com auf %1 melden, oder indem Sie "
+"einen Diskussionsthread auf %2 eröffnen, welcher ein Bestandteil unserer "
+"Entwicklersite ist. Sie müssen mit Binary.com zusammenarbeiten, um jeden "
+"Sicherheitsmangel umgehend zu beheben, und Sie müssen jedes Eindringen "
+"unterbinden oder jeden Eindringling trennen. Für den Fall eines "
+"Sicherheitsmangels oder eines Eindringens in eine Anwendung, APIs oder "
+"Inhalte, werden Sie ohne ausdrückliche schriftliche Genehmigung in jedem "
+"Einzelfall keine öffentliche Stellungnahme (z. B. gegenüber der Presse, in "
+"Blogs, Sozialen Medien, Bulletin Boards, usw.) abgeben."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/binary_options_basics.html.haml:1
 msgid "You only need to make four decisions to execute a binary contract."
@@ -13345,7 +13412,10 @@ msgstr "Sie müssen nur vier Entscheidungen treffen, um einen Binären Kontrakt 
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:188
 msgid "You or your employees’ or agents’ acts or omissions, including yours or their breach or alleged breach of these Terms;"
-msgstr "Ihre Handlungen oder Versäumnisse oder die Ihrer Angestellten oder Vertrter oder deren oder Ihres Verstoßes oder vermuteten Verstoßes gegen diese Bedingungen;"
+msgstr ""
+"Ihre Handlungen oder Versäumnisse oder die Ihrer Angestellten oder "
+"Vertreter, einschließlich Ihres oder deren Verstoßes, oder vermuteten "
+"Verstoßes gegen diese Bedingungen;"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:82
 msgid "You represent and warrant to the Company that, excluding the Content, you have the right to use, reproduce, transmit, copy, publicly display, publicly perform, and distribute your Application, and that use or promotion of your Application will not violate the rights of any third party (e.g., copyright, patent, trademark, privacy, publicity or other proprietary right of any person or entity), or any applicable regulation or law, and the laws of any country in which your Application is made available."
@@ -13353,7 +13423,12 @@ msgstr "Mit Ausnahme für den Inhalt, gewährleisten Sie gegenüber dem Unterneh
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:89
 msgid "You represent, warrant, and undertake that you have obtained and shall maintain all necessary licences and consents to operate within any laws, rules, and regulations applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business."
-msgstr "Sie garantieren, erklären und versichern, dass Sie alle Lizenzen und Bewlligungen, die von den Behörden oder Aufsichtsbehörden nach den in dem Land/den Ländern, in dem/denen Sie aktiv sind oder auf das/die Ihre Aktivitäten zielt/zielen für den Betrieb nach geltenden Gesetzen, Regeln und Vorschriften erforderlich sind."
+msgstr ""
+"Sie garantieren, erklären und versichern, dass Sie alle Lizenzen und "
+"Bewilligungen eingeholt haben, die von den Behörden oder Aufsichtsbehörden "
+"nach den in dem Land/den Ländern, in dem/denen Sie aktiv sind oder auf das/"
+"die Ihre Aktivitäten zielen für den Betrieb nach geltenden Gesetzen, Regeln "
+"und Vorschriften erforderlich sind."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:90
 msgid "You represent, warrant, and undertake that your website or promotion shall contain no material which is defamatory, pornographic, unlawful, harmful, threatening, obscene, harassing, or racially, ethnically, or otherwise objectionable or discriminatory, violent, politically sensitive, or otherwise controversial or in breach of any third party rights and shall not link to any such material."
@@ -13369,7 +13444,10 @@ msgstr "Sie setzen die Schwelle(n) und definieren Ihre Position."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:26
 msgid "You shall avoid disclosure or unauthorized use of any confidential information that may come to your knowledge or possession to third persons or external parties."
-msgstr "Sie müssen die Weitergabe oder ungenehmigte Verwendung von vertraulichen Information, die Ihnen bekannt werden oder in Ihren Besitz kommen, an Dritte verhindern."
+msgstr ""
+"Sie müssen die Weitergabe oder ungenehmigte Verwendung von vertraulichen "
+"Informationen, die Ihnen bekannt werden oder in Ihren Besitz kommen, an "
+"Dritte verhindern."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:186
 msgid "You shall be solely responsible for, and shall indemnify and hold the Company free and harmless from, any and all third party claims, damages or lawsuits (including, but not limited to, consequential losses and loss of profit, the Company’s reasonable legal costs and expenses if applicable):"
@@ -13377,23 +13455,50 @@ msgstr "Im Fall von Ansprüchen Dritter, Schadensersatzansprüchen oder Gerichts
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:148
 msgid "You shall discontinue your use of all prior versions of the Binary.com API in favour of the revised Binary.com API. While it is the Company’s intention that the revised Binary.com API shall be backward compatible with the immediately prior version of the Binary.com API, the Company does not guarantee or warrant that this shall be so, and the Company shall have no liability whatsoever to you for any failure of the revised Binary.com API to be backward compatible with any prior version of the Binary.com API."
-msgstr "Sie müssen die Verwendung aller früheren Versionen des Binary.com API zugunsten des überarbeiteten Binary.com API beenden. Obwohl das Unternehmen beabsichtig, dass das überarbeitete Binary.com API abwärtskompatibel zu den unmittelbaren Vorgängerversionen des Binary.com API sein soll, garantiert oder gewährleistet das Unternehmen nicht, hierzu verpflichtet zu sein und das Unternehmen ist Ihnen gegenüber für ein Fehlen der Abwärtskompatibilität des überarbeiteten Binary.com API zu einer früheren Version des Binary.com API haftbar."
+msgstr ""
+"Sie müssen die Verwendung aller früheren Versionen des Binary.com API "
+"zugunsten des überarbeiteten Binary.com API beenden. Obwohl das Unternehmen "
+"beabsichtigt, dass das überarbeitete Binary.com API abwärtskompatibel zu der "
+"unmittelbaren Vorgängerversion des Binary.com API sein soll, garantiert oder "
+"gewährleistet das Unternehmen nicht, hierzu verpflichtet zu sein und das "
+"Unternehmen ist Ihnen gegenüber für ein Fehlen der Abwärtskompatibilität des "
+"überarbeiteten Binary.com API zu einer früheren Version des Binary.com API "
+"nicht haftbar."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:103
 msgid "You shall indemnify on demand and hold the Company harmless from, and against any and all losses, demands, claims, damages, costs, expenses (including, but not limited to, consequential losses, loss of profit, and reasonable legal costs, if applicable), and liabilities suffered or incurred, directly, or indirectly, by the Company in consequence of any breach, non-performance, or non-observance by you of any of your obligations or warranties under this Agreement."
-msgstr "Sie müssen auf Verlangen das Unternehmen vor allen Verlusten, Forderungen, Ansprüchen, Schäden, Kosten, Auslagen (und vor Folgeschäden und Gewinnausfall, angemessene Gerichts- und Anwaltskosten und darauf anfallende Mehrwertsteuern) und Haftungen entschädigen und schadlos halten, die dem Unternehmen infolge Verletzung, Nichterfüllung oder Nichtbeachtung Iher Pflichten oder Zusicherungen aus diesem Vertrag direkt oder indirekt durch Sie entstehen."
+msgstr ""
+"Sie müssen auf Verlangen das Unternehmen vor allen Verlusten, Forderungen, "
+"Ansprüchen, Schäden, Kosten, Auslagen (und vor Folgeschäden und "
+"Gewinnausfall, angemessenen Gerichts- und Anwaltskosten und darauf "
+"anfallende Mehrwertsteuern) und Haftungen entschädigen und schadlos halten, "
+"die dem Unternehmen infolge von Verletzung, Nichterfüllung oder "
+"Nichtbeachtung Ihrer Pflichten oder Zusicherungen aus diesem Vertrag direkt "
+"oder indirekt durch Sie entstehen."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:40
 msgid "You shall not develop and implement marketing, advertising, and promotional activities which infringe any applicable laws, rules, regulations, or codes of practice relating to marketing, advertising, and promotional activities applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business."
-msgstr "Sie dürfen keine Marketing-, Werbe- und Verkaufsförderungsaktivitäten entwickeln und durchführen, die geltende Gesetze, Regeln, Vorschriften oder Verfahrensregel in Bezug auf Marketing-, Werbe- und Verkaufsförderungen, die von Behörden oder Aufsichtsbehörden in dem Land/den Ländern, in denen Sie aktiv sind oder auf das/die Ihre Aktivitäten zielen, verletzen."
+msgstr ""
+"Sie dürfen keine Marketing-, Werbe- und Verkaufsförderungsaktivitäten "
+"entwickeln oder durchführen, die geltende Gesetze, Regeln, Vorschriften oder "
+"Verfahrensregeln in Bezug auf Marketing-, Werbe- und Verkaufsförderungen, "
+"die von Behörden oder Aufsichtsbehörden in dem Land/den Ländern, in dem/"
+"denen Sie aktiv sind oder auf das/die Ihre Aktivitäten abzielen, verletzen."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:36
 msgid "You shall not encourage your referrals to make deposits or place any trades where the purpose of that action is (whether in whole or in part) to increase affiliate commissions rather than to benefit your referrals’ trading performance and profitability."
-msgstr "Sie dürfen Empfohlenen nicht dazu ermutigen, Einzahlungen vorzunehmen oder Geschäfte in Auftrag zu geben, bei denen der Zweck (ganz oder teilweise) lediglich der ist, die Geschäftspartnerprovision zu erhöhen, statt dem Handelsinteresse und der Rentabilität des Kunden zu dienen."
+msgstr ""
+"Sie dürfen empfohlene Klienten nicht dazu ermutigen, Einzahlungen "
+"vorzunehmen oder Geschäfte in Auftrag zu geben, bei denen der Zweck (ganz "
+"oder teilweise) lediglich der ist, die Geschäftspartnerprovision zu erhöhen, "
+"statt dem Handelsinteresse und der Rentabilität des Kunden zu dienen."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:32
 msgid "You shall not encourage your referrals to take out any form of loans to be able to make deposits and/or place trades."
-msgstr "Sie dürfen die von Ihnen Empfohlenen nicht dazu ermuntern, jegliche Art von Kredit aufzunehmen, um in der Lage zu sein, Einzahlungen zu tätigen und/oder Geschäfte zu platzieren."
+msgstr ""
+"Sie dürfen die von Ihnen empfohlenen Klienten nicht dazu ermuntern, jegliche "
+"Art von Kredit aufzunehmen, um in der Lage zu sein, Einzahlungen zu tätigen "
+"und/oder Geschäfte zu platzieren."
 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:34
