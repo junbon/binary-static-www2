@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-05-10 08:23+0000\n"
-"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
+"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -3857,7 +3857,9 @@ msgstr "Entwicklung und Pflege einer konsistenten, ansprechenden Markenbotschaft
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Develop content as necessary to promote the company through social media"
-msgstr "Entwicklung von Inhalten, die nötig sind, um überSoziale Medien für das Unternehmen zu werben"
+msgstr ""
+"Entwicklung von Inhalten, die nötig sind, um über Soziale Medien für das "
+"Unternehmen zu werben"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Develop derivatives pricing, risk management models and algorithms using C/C++, R, MATLAB, Perl, Python and Java"
