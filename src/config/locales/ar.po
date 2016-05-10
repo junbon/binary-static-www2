@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arabic (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 04:13+0000\n"
-"Last-Translator: Raunak Kathuria <raunakkathuria@gmail.com>\n"
+"PO-Revision-Date: 2016-05-10 08:59+0000\n"
+"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/binary/static/ar/>"
 "\n"
 "Language: ar\n"
@@ -21,7 +21,7 @@ msgstr "الخيارات \"الثنائية\" أو \"الرقمية\" هي ال�
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:10
 msgid "\"Binary.com API\" means the Binary.com proprietary set of programmatic routines, protocols, tools and resources created and maintained by Binary.com that allows you to use a registered Application to interface with the Binary.com trading platform."
-msgstr "test"
+msgstr ""
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:11
 msgid "\"Content\" means any data or content from our Website or accessed via the API. Our \"Website\" means Binary.com’s website at www.binary.com and any other website or service owned or operated by Binary.com."
@@ -58,11 +58,11 @@ msgstr "$250,000 - $1,000,000"
 #. (website, "<a href=\"https://developers.binary.com\" target=\"_blank\"> Application Program Interface</a>")
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:3
 msgid "%1 %2 (\"API\") Terms and Conditions"
-msgstr "1% % 2  (\"API\") الشروط  والأحكام"
+msgstr "%1 %2  (\"API\") الشروط  والأحكام"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:368
 msgid "%1 %2 has been credited to your Virtual money account %3"
-msgstr " تم إضافة %1 %2 لحساب أموالك الإفتراضي %3"
+msgstr "%3 تم إضافة 1% 2% لحساب أموالك الإفتراضي"
 
 #. (client.loginid)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/betting_limits.html.tt:2
@@ -72,7 +72,7 @@ msgstr "%1 - حدودالتداول"
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:3
 msgid "%1 Affiliate Program Terms and Conditions"
-msgstr "أحكام وشروط برنامج الإنتساب الخاص بـ %1"
+msgstr "%1 أحكام وشروط برنامج الإنتساب الخاص بـ"
 
 #. ($params->{website_name})
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:89
@@ -81,12 +81,14 @@ msgstr "%1 طلب كلمة مرور جديدة"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:725
 msgid "%1 Please click the link below to restart the password recovery process. If you require further assistance, please contact our Customer Support."
-msgstr "% 1 يرجى النقر على الرابط أدناه لإعادة تشغيل عملية استرداد كلمة المرور. إذا كنت تتطلب مزيدا من المساعدة، الرجاء الاتصال \"دعم العملاء\"."
+msgstr ""
+"%1 يرجى النقر على الرابط أدناه لإعادة تشغيل عملية استرداد كلمة المرور. إذا "
+"كنت تتطلب مزيدا من المساعدة، الرجاء الاتصال \"دعم العملاء\"."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/payment_agent.html.haml:1
 msgid "%1 affiliate partners who wish to support a big group of Clients"
-msgstr "شركاء انتساب %1 الذين يرغبون في دعم مجموعة كبيرة من العملاء"
+msgstr "شركاء انتساب 1% الذين يرغبون في دعم مجموعة كبيرة من العملاء"
 
 #. ('<a target="_blank" href="http://www.gambleaware.co.uk/">GambleAware</a>')
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/responsible_trading.html.haml:1
@@ -102,24 +104,28 @@ msgstr "%1 وbull/bear هما علامتان تجاريتان مسجلتان."
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Accounts.pm:404
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Accounts.pm:450
 msgid "%1 cashier password updated"
-msgstr "% 1 تحديث كلمة مرور الصراف"
+msgstr "%1 تحديث كلمة مرور الصراف"
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/paymentagent_withdrawws.html.tt:93
 msgid "%1 does not charge any transfer fees."
-msgstr "لا تتقاضى %1 أى رسوم تحويل."
+msgstr "لا تتقاضى 1% أى رسوم تحويل."
 
 #. (stash('website_name')
 #. (broker_name)
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/head.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/head.html.tt:7
 msgid "%1 gives everyone an easy and exciting way to participate in the financial markets. Trade with as little as $1 USD on major currencies, indices and commodities."
-msgstr "تعطى %1 الجميع وسيلة سهلة ومثيرة للمشاركة فى الأسواق المالية. يمكنك أن تتداول بداية من دولار أمريكى واحد، فى العملات الرئيسية والمؤشرات والسلع."
+msgstr ""
+"تعطى 1% الجميع وسيلة سهلة ومثيرة للمشاركة فى الأسواق المالية. يمكنك أن "
+"تتداول بداية من دولار أمريكى واحد، فى العملات الرئيسية والمؤشرات والسلع."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/volidx_markets.html.haml:1
 msgid "%1 has created Volatility Indices that you can trade 24/7. You can trade these on all types of contract:"
-msgstr "أنشأت %1 مؤشرات تمكنك من التداول 24 ساعة فى اليوم وطوال أيام الأسبوع. يمكنك أن تتداول المؤشرات على كل أنواع العقود:"
+msgstr ""
+"أنشأت 1% مؤشرات تمكنك من التداول 24 ساعة فى اليوم وطوال أيام الأسبوع. يمكنك "
+"أن تتداول المؤشرات على كل أنواع العقود:"
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/index.html.haml:1
@@ -134,7 +140,9 @@ msgstr "%1 بها عدة فرص استثنائية للعمل بخدمة الع�
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
 msgid "%1 has thousands of clients taking a variety of positions on the financial markets at any one time, and earns a small margin on these trades."
-msgstr "لدى %1 آلاف العملاء الذين يشترون العديد من العقود فى الأسواق المالية فى أى وقت. وتربح هامش ربح قليل من هذه المعاملات."
+msgstr ""
+"لدى 1% آلاف العملاء الذين يشترون العديد من العقود فى الأسواق المالية فى أى "
+"وقت. وتربح هامش ربح قليل من هذه المعاملات."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:556
 msgid "%1 has updated its %2. By clicking OK, you confirm that you have read and accepted the updated %2."
@@ -158,7 +166,9 @@ msgstr "%1 تعمل كلياً على شبكة الانترنت ولا تتطل�
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 is looking to recruit highly skilled, experienced designers who are passionate about developing attractive visuals for both online and offline applications."
-msgstr "1 % تتطلع لتوظيف مصممين من ذوي الخبرة والمهارات العالية, المتحمسين لتطوير تطبيقات مرئية جذابة سواء كانت متصلة أو غير متصلة بالأنترنت على حد سواء."
+msgstr ""
+"%1 تتطلع لتوظيف مصممين من ذوي الخبرة والمهارات العالية, المتحمسين لتطوير "
+"تطبيقات مرئية جذابة سواء كانت متصلة أو غير متصلة بالأنترنت على حد سواء."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/index.html.haml:1
@@ -188,7 +198,10 @@ msgstr "%1 تبحث عن مترجمين محترفين مؤهلين يألفون
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 is seeking several highly skilled Marketing Executives, eager to contribute their energy, passion, and specialised strengths in connecting with prospects and clients based throughout the globe."
-msgstr "1% تبحث عن العديد من مدراء التسويق التنفيذيين, الحريصون على مشاركة طاقاتهم وحماستهم ونقاط قوتهم المتخصصة في التواصل مع الآفاق والعملاء في جميع أنحاء العالم."
+msgstr ""
+"%1 تبحث عن العديد من مدراء التسويق التنفيذيين, الحريصون على مشاركة طاقاتهم "
+"وحماستهم ونقاط قوتهم المتخصصة في التواصل مع الآفاق والعملاء في جميع أنحاء "
+"العالم."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/benefits_of_trading_binaries.html.haml:1
@@ -203,17 +216,29 @@ msgstr "%1 رائدة صناعة تداول الثنائيات عبر الانت
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:62
 msgid "%1 makes efforts that the quoted prices of each underlying asset that a Binary Option refers to will be reasonably related to the actual prices of such asset available in the market. %1 makes no warranty, expressed or implied, that the quoted prices represent prevailing market prices."
-msgstr "%1 تبذل جهودا لأن تكون الأسعار المتداولة لكل أصل والتي يشار إليها كخيار ثنائي سترتبط بشكل معقول بالأسعار الفعلية لتلك الأصول المتاحة في السوق. %1 لا تقدم أي ضمانات، صريحة أو ضمنية، أن الأسعار المتداولة تمثل الأسعار السائدة في السوق."
+msgstr ""
+"%1 تبذل جهودا لأن تكون الأسعار المتداولة لكل أصل والتي يشار إليها كخيار "
+"ثنائي سترتبط بشكل معقول بالأسعار الفعلية لتلك الأصول المتاحة في السوق. 1% لا "
+"تقدم أي ضمانات، صريحة أو ضمنية، أن الأسعار المتداولة تمثل الأسعار السائدة في "
+"السوق."
 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:65
 msgid "%1 may have access to information that is not available to you, may have acquired trading positions at prices that are not available to you, and may have interests different from your interests. %1 does not undertake any obligation to provide you with market or other information we possess, nor to alter or refrain from our own trading."
-msgstr "%1 قد يكون لها نفاذ إلى معلومات غير متاحة لك، وقد تكون مراكز التداول المكتسبة عند أسعار غير متوفرة لك، كما قد يكون لها مصالح مختلفة عن مصالحك. %1 لا تقوم بأي التزام لإمدادكم بأي معلومات عن أي سوق أو غيرها من المعلومات التي نملكها، ولا إلى التغيير أو الامتناع عن التداول من جهتنا."
+msgstr ""
+"%1 قد يكون لها نفاذ إلى معلومات غير متاحة لك، وقد تكون مراكز التداول "
+"المكتسبة عند أسعار غير متوفرة لك، كما قد يكون لها مصالح مختلفة عن مصالحك. 1% "
+"لا تقوم بأي التزام لإمدادكم بأي معلومات عن أي سوق أو غيرها من المعلومات التي "
+"نملكها، ولا إلى التغيير أو الامتناع عن التداول من جهتنا."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 now seeks Affiliate Managers to drive rapid growth and business development in key areas of the world. Successful recruits for this telecommuting role will actively increase %1’s market presence, expanding its network of affiliate partners from particular countries, geographic regions, and / or languages as needed."
-msgstr "1% تبحث الأن عن مدراء تابعين لدفع عملية النمو السريع وتطوير الأعمال في المناطق الرئيسية حول العالم. المجندين الناجحين لهذا الدور عن بعد سيزيدون بنشاط من نسبة حضورالسوق1 %,  ويوسعون شبكتهم من الشركاء التابعين من بلدان معينة ومناطق جغرافية و / أو لغات أخرى حسب الحاجة."
+msgstr ""
+"%1 تبحث الأن عن مدراء تابعين لدفع عملية النمو السريع وتطوير الأعمال في "
+"المناطق الرئيسية حول العالم. المجندين الناجحين لهذا الدور عن بعد سيزيدون "
+"بنشاط من نسبة حضورالسوق 1% , ويوسعون شبكتهم من الشركاء التابعين من بلدان "
+"معينة ومناطق جغرافية و / أو لغات أخرى حسب الحاجة."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -223,12 +248,12 @@ msgstr "%1 تقدم مجموعة من طرق السحب والإيداع الش�
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/binary_options_basics.html.haml:1
 msgid "%1 offers five ways to trade your chosen asset:"
-msgstr "تقدم %1 خمسة طرق للتداول فى الأصل المالى الذى اخترته:"
+msgstr "تقدم 1% خمسة طرق للتداول فى الأصل المالى الذى اخترته:"
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/why_us.html.haml:1
 msgid "%1 offers the world's financial markets in a simple, user-friendly platform."
-msgstr "تقدم %1 أسواق المال العالمية فى منصة تداول بسيطة وسهلة الاستخدام."
+msgstr "تقدم 1% أسواق المال العالمية فى منصة تداول بسيطة وسهلة الاستخدام."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/how_to_trade_binaries.html.haml:1
@@ -238,12 +263,14 @@ msgstr "يتم قياس أسعار %1 مقارنة بأسعار سوق الخي�
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/charting/index.html.haml:1
 msgid "%1 provides a variety of charts to help you determine what markets to trade on. Try them out."
-msgstr "تقدم %1 مجموعة متنوعة من الرسوم البيانية التى تساعدك على تحديد الأسواق التى يمكن أن تتداول فيها. جربهم."
+msgstr ""
+"تقدم 1% مجموعة متنوعة من الرسوم البيانية التى تساعدك على تحديد الأسواق التى "
+"يمكن أن تتداول فيها. جربهم."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/partners.html.haml:1
 msgid "%1 provides business partnership services via the following programs."
-msgstr "تقدم %1 خدمات شراكة تجارية عن طريق البرامج التالية."
+msgstr "تقدم 1% خدمات شراكة تجارية عن طريق البرامج التالية."
 
 #. (stash->{website_name}, url_for('/user/self_exclusionws')
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/responsible_trading.html.haml:1
@@ -657,7 +684,11 @@ msgstr "<option value=\"\"></option><option value=\"01\">يناير</option><opt
 #. ($params->{code})
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:106
 msgid "<p style=\"font-weight: bold;\">Thanks for signing up for a virtual account!</p><p>Enter the following verification token into the form to create an account: <p><span style=\"background: #f2f2f2; padding: 10px;\">%1</span></p></p><p>Enjoy trading with us on Binary.com.</p>"
-msgstr "<p style=\"font-weight: bold;\">شكراً لتسجيلكم من أجل الحصول على حساب إفتراضي!</p><p>أدخل رمز التحقق التالي في النموذج لإنشاء حساب<p><p><span style=\"background: #f2f2f2; padding: 10px;\">1%</span></p></p><p>استمتع بالتداول معنا في Binary.com.</p>"
+msgstr ""
+"<p style=\"font-weight: bold;\">شكراً لتسجيلكم من أجل الحصول على حساب "
+"إفتراضي!</p><p>أدخل رمز التحقق التالي في النموذج لإنشاء حساب<p><p><span "
+"style=\"background: #f2f2f2; padding: 10px;\">%1</span></p></p><p>استمتع "
+"بالتداول معنا في Binary.com.</p>"
 
 #. ($params->{code})
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:93
