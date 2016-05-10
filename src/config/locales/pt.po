@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 04:13+0000\n"
-"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
+"PO-Revision-Date: 2016-05-10 04:14+0000\n"
+"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -8678,7 +8678,7 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:373
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/settings_detailsws.html.tt:324
 msgid "Purpose of trading"
-msgstr "Finalidade de negociação"
+msgstr "Purpose of trading"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/responsible_trading.html.haml:1
 msgid "Put a limit on your winnings. Once you have reached it put some aside and trade with the rest of the money."
@@ -8686,7 +8686,13 @@ msgstr "Atribua um limite aos seus ganhos. Depois de atingi-lo, guarde uma parte
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Qualified applicants should have global experience in recruitment administration, excellent administrative skills, and the ability to work in a fast-paced entrepreneurial environment. We are seeking a true professional capable of making an impact by supporting and advancing HR best practices throughout the company’s global operations."
-msgstr "Candidatos qualificados deveriam ter experiência internacional na administração de recrutamento, competências administrativas excelentes e a habilidade de trabalhar num ambiente empreendedor acelerado. Procuramos um verdadeiro profissional com capacidade para ter um impacto ao apoiar e melhorar as melhores práticas do departamento de RH em todas as operações globais da empresa."
+msgstr ""
+"Candidatos qualificados devem ter experiência internacional na administração "
+"de recrutamento, competências administrativas excelentes e a habilidade de "
+"trabalhar num ambiente empreendedor acelerado. Procuramos um verdadeiro "
+"profissional com capacidade para ter um impacto ao apoiar e melhorar as "
+"melhores práticas do departamento de RH em todas as operações globais da "
+"empresa."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:605
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
@@ -8706,11 +8712,11 @@ msgstr "Análise quantitativa"
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:609
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Quantitative Analyst"
-msgstr "Análise quantitativa"
+msgstr "Analista quantitativo"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/careers.html.haml:1
 msgid "Quantitative Analytics"
-msgstr "Análise quantitativa"
+msgstr "Análises quantitativas"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:608
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
