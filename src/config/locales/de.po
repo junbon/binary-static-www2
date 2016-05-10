@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: German (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 08:19+0000\n"
-"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
+"PO-Revision-Date: 2016-05-10 08:20+0000\n"
+"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
 "\n"
 "Language: de\n"
@@ -1705,7 +1705,14 @@ msgstr "Auf dieser Seite werden alle Änderungen unserer Datenschutzrichtlinien 
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:134
 msgid "Any disputes, controversy, or claims that arise out of or relating to this Agreement against the Company will be referred to and finally determined by an arbitration firm selected by the Company. The language to be used in the arbitral proceedings will be English. Judgement upon the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof. You are also responsible for any and all costs related to such arbitration."
-msgstr "Streitigkeiten, Auseinandersetzungen oder Ansprüche, die sich aus oder in Bezug dieses Vertrags gegen das Unternehmen ergeben, werden zur endgültigen Entscheidung an eine vom Unternehmen bestimmten Schiedskanzlei weitergeleitet. Die im Schiedsvefahren verwendete Sprache ist Englisch. Der Entscheid des/der Schiedsperson/en kann von jedem zuständigen Gericht überprüft werden. Sie müssen auch die Kosten eines derartigen Schiedsverfahrens tragen."
+msgstr ""
+"Streitigkeiten, Auseinandersetzungen oder Ansprüche, die sich aus oder in "
+"Bezug zu diesem Vertrag gegen das Unternehmen ergeben, werden zur "
+"endgültigen Entscheidung an eine vom Unternehmen bestimmte Schiedskanzlei "
+"weitergeleitet. Die im Schiedsverfahren verwendete Sprache ist Englisch. Der "
+"Entscheid des/der Schiedsperson/en kann von jedem zuständigen Gericht "
+"überprüft werden. Sie müssen auch die Kosten eines derartigen "
+"Schiedsverfahrens tragen."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:191
 msgid "Any failure on your part to maintain the security of any security devices or procedures used in or in association with the Binary.com API;"
@@ -1727,7 +1734,9 @@ msgstr "Alle Mitteilungen bezüglich dieser Vereinbarung an das Unternehmen müs
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:193
 msgid "Any third party claims arising out of, or relating to, your use of, or inability to use, the Binary.com API."
-msgstr "Jegliche Ansprüche Dritter, die sich aus Ihrer Verwendung oder Unmöglichkeit der Verwendung des Binary.com API ergebenoder damit in Verbindung stehen können."
+msgstr ""
+"Jegliche Ansprüche Dritter, die sich aus Ihrer Verwendung oder Unmöglichkeit "
+"der Verwendung des Binary.com API ergeben oder damit in Verbindung stehen."
 
 #. (broker_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/faq.html.tt:14
@@ -1853,7 +1862,12 @@ msgstr "Wie zwischen Ihnen und uns vereinbart, besitzen wir alle Rechte, Titel u
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:23
 msgid "As long as you follow these Terms, we grant you a limited, non-exclusive, non-assignable, non-transferable, terminable license to use the Binary.com API to develop, test, and support your Application, and to let your customers use your integration of the Binary.com API within your Application."
-msgstr "So lange Sie sich an diese Bedingungen halten, räumen wir Ihnen eine beschränkte, nicht aussschließliche, nicht abtretbare, unübertragbare, kündbare Lizenz für das Binary.com API ein, um Ihre Anwendung entwickeln, testen und unterstützen zu können, und Ihre Kunden das in Ihre Anwendung integrierte Binary.com API nutzen zu lassen."
+msgstr ""
+"So lange Sie sich an diese Bedingungen halten, räumen wir Ihnen eine "
+"beschränkte, nicht ausschließliche, nicht abtretbare, unübertragbare, "
+"kündbare Lizenz für das Binary.com API ein, um Ihre Anwendung entwickeln, "
+"testen und unterstützen zu können, und um Ihre Kunden das in Ihre Anwendung "
+"integrierte Binary.com API nutzen zu lassen."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "As our DevOps Manager/Team Lead, you'll be responsible for the training, development and direction of a world class Linux-based Systems Administration team."
@@ -1923,7 +1937,9 @@ msgstr "%1 hält die Stärke und Sicherheit unserer Handelsplattform für äuße
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:221
 msgid "At any time and for any reason or no reason, the Company, in its sole discretion, may:"
-msgstr "Das Unternehmen ist jederzeit begründet oder unbegründet berechtigt, in eigenem Ermessen:"
+msgstr ""
+"Das Unternehmen ist jederzeit begründet oder unbegründet berechtigt, im "
+"eigenen Ermessen:"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "At least 1 year working experience is required for this position"
@@ -1931,7 +1947,9 @@ msgstr "Für diese Position ist eine Berufserfahrung von mindestens 1 Jahr erfor
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "At least five years of experience with affiliate marketing, growth hacking, business development, and other closely related skills"
-msgstr "Mindestens fünf Jahre Erfahrung im Geschätspartner Marketing, Growth Hacking, Geschäftsentwicklung und anderen eng verwandten Fähigkeiten"
+msgstr ""
+"Mindestens fünf Jahre Erfahrung im Geschätspartner Marketing, Growth "
+"Hacking, in Geschäftsentwicklung und andere eng verwandte Fähigkeiten"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Audit deposit patterns and take action on fraud or abuse"
@@ -2391,7 +2409,9 @@ msgstr "Wenn diese Art von Werbeaktion angeboten wird, werden die Einzahlung und
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Brainstorm new ways of using social media to connect meaningfully with prospects, clients, and partners"
-msgstr "Neue Wege der Verwendung von Sozialen Medien finden, um aussagekräftig Interessenten, Kunden und Partner zu binden"
+msgstr ""
+"Neue Wege der Verwendung von Sozialen Medien finden, um aussagekräftig "
+"Interessenten, Kunden und Partner zu verbinden"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:167
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/maltainvestws.html.tt:137
