@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-05-11 07:20+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Indonesian "
-"<https://hosted.weblate.org/projects/binary/static/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/binary/static/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -155,12 +154,10 @@ msgstr "%1 selalu mencari profesional berpengalaman untuk bergabung di dalam tim
 
 #. (request.website.display_name, "//developers.binary.com")
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:75
-msgid "%1 is an active proponent of the open-source movement. you can suggest your enhancements and activity take part in the development of our applications. You can find more information for developers on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
-msgstr ""
-"%1 adalah proponen aktif dari pergerakan open-source. Anda dapat "
-"menyampaikan saran dan peningkatan serta ikut beraktifitas dalam "
-"pengembangan aplikasi kami. Informasi lebih lanjut mengenai pengembang "
-"terdapat pada <a href=\"%2\" target=\"_blank\">Portal Pengembang</a> kami."
+#, fuzzy
+#| msgid "%1 is an active proponent of the open-source movement. you can suggest your enhancements and activity take part in the development of our applications. You can find more information for developers on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
+msgid "%1 is an active proponent of the open-source movement. Suggest enhancements, and take part in the development of our powerful applications. You can find more information on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
+msgstr "%1 adalah proponen aktif dari pergerakan open-source. Anda dapat menyampaikan saran dan peningkatan serta ikut beraktifitas dalam pengembangan aplikasi kami. Informasi lebih lanjut mengenai pengembang terdapat pada <a href=\"%2\" target=\"_blank\">Portal Pengembang</a> kami."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -249,11 +246,8 @@ msgstr "Harga %1 mengacu kepada pasar antar bank pilihan, dimana Anda selalu aka
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:3
-#| msgid "%1 provides a variety of charts to help you determine what markets to trade on. Try them out."
 msgid "%1 provides a variety of applications to help you trade efficiently."
-msgstr ""
-"%1 menyediakan berbagai aplikasi yang bisa membantu Anda bertrading secara "
-"efisien."
+msgstr "%1 menyediakan berbagai aplikasi yang bisa membantu Anda bertrading secara efisien."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/partners.html.haml:1
@@ -2127,7 +2121,6 @@ msgid "Binary Ltd, with registered office address situated at <span itemprop='lo
 msgstr "Binary Ltd, dengan alamat di <span itemprop='location'>47 Esplanade, St. Helier, Jersey, JE 0BD Channel Islands</span>, adalah perusahaan utama untuk group Binary."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:58
-#| msgid "Binary option"
 msgid "Binary Next Gen"
 msgstr "Binary Next Gen"
 
@@ -2264,11 +2257,8 @@ msgid "Binary.com supports the <a target=\"_blank\" href=\"http://www.responsibl
 msgstr " "
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
-#| msgid "Binary.com took home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London."
 msgid "Binary.com takes home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London."
-msgstr ""
-"Binary.com membawa pulang hadiah utama pada acara EGR Operator Awards 2015, "
-"yang diadakan di London."
+msgstr "Binary.com membawa pulang hadiah utama pada acara EGR Operator Awards 2015, yang diadakan di London."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/open_source_projects.html.haml:1
 msgid "Binary.com’s CPAN contributions"
@@ -2833,7 +2823,6 @@ msgstr "Hak Perusahaan"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:133
-#| msgid "Compliance"
 msgid "Complaints"
 msgstr "Keluhan"
 
@@ -4378,7 +4367,7 @@ msgid "Explanation"
 msgstr "Penjelasan"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:60
-msgid "Explore Binary.com’s most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
+msgid "Explore our most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
 msgstr ""
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:491
@@ -4633,15 +4622,6 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "For the third straight year, BetOnMarkets.com is voted 'Best Fixed-Odds Financial Trading Provider' by Shares Magazine UK. It’s the last time we win it because Shares Magazine stops awarding in this category."
 msgstr "Tiga kali berturut-turut, BetOnMarkets.com dinobatkan sebagai 'Penyedia Trading Financial Fixed-Odds Terbaik' oleh Shares Magazine UK."
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:59
-msgid "For those on the cutting edge"
-msgstr ""
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:9
-#| msgid "Start trading"
-msgid "For ultra fast trading"
-msgstr "Untuk trading extra cepat"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:293
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:288
@@ -5593,7 +5573,7 @@ msgstr "Informasi tentang kutipan data yang digunakan oleh Perusahaan kami dan b
 msgid "Information of the previous performance of any underlying instrument or asset does not guarantee its current and/or future performance. Past performance is not a reliable indicator of future results."
 msgstr "Informasi dari kinerja sebelumnya untuk setiap instrumen dasar atau aset tidak dapat menjamin kinerja saat ini dan/atau masa depan. Kinerja masa lalu bukan merupakan indikator yang dapat diandalkan untuk hasil di masa mendatang."
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:425
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:424
 msgid "Input validation failed: "
 msgstr "Validasi input gagal:"
 
@@ -6717,8 +6697,9 @@ msgid "Links"
 msgstr "Berbagai Link"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:83
-#| msgid "Binary.com open-source projects"
-msgid "List of all our open source projects"
+#, fuzzy
+#| msgid "List of all our open source projects"
+msgid "List of All Open-Source Projects"
 msgstr "Daftar proyek open source Binary.com"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
@@ -6778,7 +6759,7 @@ msgstr "Login ID (%1) tidak tersedia."
 msgid "Login time:"
 msgstr "Waktu login:"
 
-#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:836
+#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:838
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/User.pm:64
 msgid "Login to this account has been temporarily disabled due to system maintenance. Please try again in 30 minutes."
 msgstr "Maaf, Transfer Agen Pembayaran dihentikan untuk sementara berhubung perbaikan sistem. Silahkan coba kembali 30 menit lagi."
@@ -7327,8 +7308,10 @@ msgid "Next Day"
 msgstr "Hari Berikutnya"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:82
-msgid "Next-Gen on GitHub"
-msgstr ""
+#, fuzzy
+#| msgid "Webtrader on GitHub"
+msgid "Next Gen on GitHub"
+msgstr "Webtrader pada GitHub"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:415
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:819
@@ -7772,7 +7755,7 @@ msgstr " "
 msgid "Our site does not charge any transfer fees."
 msgstr "Situs kami tidak membebankan biaya transfer."
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:455
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:454
 msgid "Output validation failed: "
 msgstr "Validasi output gagal:"
 
@@ -7872,7 +7855,7 @@ msgstr "Halaman tidak ditemukan"
 msgid "Parabolic SAR"
 msgstr "Parabola SAR"
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:644
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:643
 msgid "Parameters sanity check failed."
 msgstr "Pemeriksaan parameter sanity gagal."
 
@@ -8050,7 +8033,7 @@ msgid "Perl modules"
 msgstr "Modul perl"
 
 #. ($descriptor->{require_scope})
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:439
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:438
 msgid "Permission denied, requiring %1"
 msgstr "Izin ditolak, memerlukan %1"
 
@@ -8086,7 +8069,6 @@ msgid "Platform Tour"
 msgstr "Panduan Platform"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:313
-#| msgid "Please log in to use this feature"
 msgid "Please %1 to view this page"
 msgstr "Silahkan %1 untuk melihat halaman ini"
 
@@ -8225,7 +8207,7 @@ msgstr "Masukkan tanggal yang benar"
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Transaction.pm:29
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Utility.pm:118
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:434
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:433
 msgid "Please log in."
 msgstr "Silahkan log in."
 
@@ -8970,7 +8952,7 @@ msgid "Respond to client queries using our state of the art telephone, electroni
 msgstr "Menjawab pertanyaan pelanggan menggunakan telpon, email dan sistem chatting online"
 
 #: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:124
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:593
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:592
 msgid "Response too large."
 msgstr "Respon terlalu besar."
 
@@ -9543,8 +9525,8 @@ msgstr "Maaf, error terjadi ketika memproses rekening Anda."
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/MarketDiscovery.pm:49
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/MarketDiscovery.pm:79
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount/Japan.pm:181
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:549
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:568
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:548
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:567
 msgid "Sorry, an error occurred while processing your request."
 msgstr "Maaf, error terjadi ketika memproses permohonan Anda."
 
@@ -9684,7 +9666,7 @@ msgstr "Maaf, Anda telah mengecualikan diri dari website hingga %1."
 #. ($client->get_self_exclusion->exclude_until)
 #. ($limit_excludeuntil)
 #. ($lim)
-#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:843
+#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:845
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/User.pm:100
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Authorize.pm:37
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Utility.pm:132
@@ -10228,13 +10210,8 @@ msgstr "Website %1 dilindungi oleh hak cipta."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/group-information.html.haml:1
-#| msgid "The <span itemprop=\"brand\">%1</span> service (formerly known as BetOnMarkets.com) is owned and operated by Binary Ltd. Fully licensed and regulated, %1 has been providing financial trading to a worldwide audience of over 1,000,000 clients since <span itemprop=\"foundingdate\">1999</span>"
 msgid "The <span itemprop=\"brand\">%1</span> service (formerly known as BetOnMarkets.com) is owned and operated by Binary Ltd. Fully licensed and regulated, %1 has been providing financial trading to a worldwide audience of over 1,000,000 accounts since <span itemprop=\"foundingdate\">1999</span>"
-msgstr ""
-"Layanan <span itemprop=\"brand\">%1</span> dimiliki dan dioperasikan oleh "
-"perusahaan Binary Ltd. Berlisensi penuh dan diatur. %1 telah menyediakan "
-"platform trading kepada lebih dari 1.000.000 akun di seluruh dunia sejak "
-"tahun <span itemprop=\"foundingdate\">1999</span>"
+msgstr "Layanan <span itemprop=\"brand\">%1</span> dimiliki dan dioperasikan oleh perusahaan Binary Ltd. Berlisensi penuh dan diatur. %1 telah menyediakan platform trading kepada lebih dari 1.000.000 akun di seluruh dunia sejak tahun <span itemprop=\"foundingdate\">1999</span>"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/home/index.html.haml:1
 msgid "The <strong>Premier Platform</strong> for Binary Options Trading"
@@ -10758,6 +10735,13 @@ msgstr "Tik awal adalah tik pertama setelah kontrak diproses oleh server kami"
 msgid "The first tick is the first tick after the contract is processed by our servers."
 msgstr "Tik awal adalah tik pertama setelah kontrak diproses oleh server kami."
 
+#. (request.website.display_name)
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:59
+#, fuzzy
+#| msgid "Purpose of trading"
+msgid "The future of trading on %1"
+msgstr "Purpose of trading"
+
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:118
 msgid "The information provided during the sign-up process warranted by yourself to be true and correct is determined by the Company to be false or incorrect during the term of this Agreement;"
 msgstr "Informasi yang disediakan selama proses pendaftaran adalah terjamin asli dan lengkap adalah ditentukan oleh Perusahaan sebagai palsu atau tidak benar selama jangka waktu Perjanjian ini;"
@@ -11080,7 +11064,7 @@ msgstr "Akun ini tidak tersedia."
 msgid "This account is unavailable. For any questions please contact <a href=\"%1\">Customer Support</a>."
 msgstr "Akun ini untuk sementara dibatalkan, silahkan hubungi <a href=\"%1\">Customer Support</a>."
 
-#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:838
+#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:840
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/User.pm:84
 msgid "This account is unavailable. For any questions please contact Customer Support."
 msgstr "Akun ini untuk sementara dibatalkan, silahkan hubungi Customer Support."
@@ -11282,12 +11266,12 @@ msgid "Tick"
 msgstr "Tik"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:8
-#| msgid "Tick Trades:"
-msgid "Tick Trade"
+#, fuzzy
+#| msgid "Tick Trade"
+msgid "Tick Trade App"
 msgstr "Trading Tik"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:80
-#| msgid "Tick Trade Up/Down"
 msgid "Tick Trade on GitHub"
 msgstr "Trading Tik pada GitHub"
 
@@ -11640,7 +11624,6 @@ msgstr "Kepercayaan"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:33
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:49
-#| msgid "Try it now"
 msgid "Try It"
 msgstr "Cobalah"
 
@@ -11717,6 +11700,12 @@ msgstr "Pengalaman UX/UI"
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:617
 msgid "Ultimate Oscillator"
 msgstr "Oskilator Gabungan"
+
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:9
+#, fuzzy
+#| msgid "For ultra fast trading"
+msgid "Ultra-fast trading"
+msgstr "Untuk trading extra cepat"
 
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Locale.pm:205
 msgid "Unable to price the contract."
@@ -11797,7 +11786,7 @@ msgstr "Kecuali disarankan, kami memperlakukan Anda sebagai Klien Ritel. Anda ju
 msgid "Unlock Cashier"
 msgstr "Buka Kasir"
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:468
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:467
 msgid "Unrecognised request."
 msgstr "Permintaan tidak dikenal."
 
@@ -12282,7 +12271,6 @@ msgid "Webtrader"
 msgstr "Webtrader"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:81
-#| msgid "Webtrader"
 msgid "Webtrader on GitHub"
 msgstr "Webtrader pada GitHub"
 
@@ -12934,7 +12922,6 @@ msgid "You have exceeded your daily limit on losses of %1%2."
 msgstr "Anda telah melampaui batas harian kerugian Anda %1%2."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:718
-#| msgid "You have not granted access to any apps."
 msgid "You have not granted access to any applications."
 msgstr "Anda belum diberikan akses ke dalam aplikasi apapun."
 
@@ -12955,7 +12942,7 @@ msgid "You have purchased the following contract:"
 msgstr "Anda telah membeli kontrak berikut:"
 
 #. ($descriptor->{category})
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:412
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:411
 msgid "You have reached the rate limit for %1."
 msgstr "Anda telah mencapai batasan sebesar %1."
 
@@ -13440,7 +13427,6 @@ msgid "Your risks are known"
 msgstr "Risiko Anda jelas"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:315
-#| msgid "Session duration limit, in minutes"
 msgid "Your session duration limit will end in %1 seconds."
 msgstr "Batas durasi sesi Anda akan berakhir dalam %1 detik."
 
@@ -13674,7 +13660,6 @@ msgid "loading..."
 msgstr "pemuatan..."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:314
-#| msgid "Login"
 msgid "login"
 msgstr "login"
 

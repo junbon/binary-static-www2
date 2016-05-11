@@ -155,7 +155,7 @@ msgstr "%1 está en búsqueda constante de profesionales con experiencia que pue
 
 #. (request.website.display_name, "//developers.binary.com")
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:75
-msgid "%1 is an active proponent of the open-source movement. you can suggest your enhancements and activity take part in the development of our applications. You can find more information for developers on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
+msgid "%1 is an active proponent of the open-source movement. Suggest enhancements, and take part in the development of our powerful applications. You can find more information on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
 msgstr ""
 
 #. (stash->{website_name})
@@ -4380,7 +4380,7 @@ msgid "Explanation"
 msgstr "Explicación"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:60
-msgid "Explore Binary.com’s most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
+msgid "Explore our most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
 msgstr ""
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:491
@@ -4635,16 +4635,6 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "For the third straight year, BetOnMarkets.com is voted 'Best Fixed-Odds Financial Trading Provider' by Shares Magazine UK. It’s the last time we win it because Shares Magazine stops awarding in this category."
 msgstr "Por tercer año consecutivo, BetOnMarkets.com es votado como \"Mejor Proveedor de Opciones Financieras con Probabilidades Fijas\" por la revista Shares Magazine UK. Es la última vez que ganamos porque Shares Magazine ya no ofrece premios en esta categoría."
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:59
-msgid "For those on the cutting edge"
-msgstr ""
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:9
-#, fuzzy
-#| msgid "Start trading"
-msgid "For ultra fast trading"
-msgstr "Operar ahora"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:293
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:288
@@ -5594,7 +5584,7 @@ msgstr "Información acerca de los flujos de datos usados por nuestra compañía
 msgid "Information of the previous performance of any underlying instrument or asset does not guarantee its current and/or future performance. Past performance is not a reliable indicator of future results."
 msgstr "Información de la actuación previa de cualquier instrumento o activo subyacente no garantiza su rendimiento actual y / o futuro. La rentabilidad pasada no es un indicador fiable de los resultados futuros."
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:425
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:424
 msgid "Input validation failed: "
 msgstr "Fallo de validación de entrada:"
 
@@ -6720,7 +6710,7 @@ msgstr "Enlaces"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:83
 #, fuzzy
 #| msgid "Binary.com open-source projects"
-msgid "List of all our open source projects"
+msgid "List of All Open-Source Projects"
 msgstr "Los proyectos de Binary.com de código abierto"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
@@ -6780,7 +6770,7 @@ msgstr "Su identificación de acceso (%1) no existe."
 msgid "Login time:"
 msgstr "Tiempo de ingreso:"
 
-#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:836
+#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:838
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/User.pm:64
 msgid "Login to this account has been temporarily disabled due to system maintenance. Please try again in 30 minutes."
 msgstr "El acceso a esta cuenta está temporalmente desactivado por cuestiones de mantenimiento.  Inténtelo nuevamente dentro de 30 minutos."
@@ -7326,8 +7316,10 @@ msgid "Next Day"
 msgstr "Día siguiente"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:82
-msgid "Next-Gen on GitHub"
-msgstr ""
+#, fuzzy
+#| msgid "Webtrader"
+msgid "Next Gen on GitHub"
+msgstr "Webtrader"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:415
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:819
@@ -7771,7 +7763,7 @@ msgstr "Nuestra página web se puede filtrar utilizando una serie de sistemas de
 msgid "Our site does not charge any transfer fees."
 msgstr "Nuestro sitio no cobra ninguna tarifa de transferencia."
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:455
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:454
 msgid "Output validation failed: "
 msgstr "Fallo de la validación del rendimiento:"
 
@@ -7871,7 +7863,7 @@ msgstr "Página no encontrada"
 msgid "Parabolic SAR"
 msgstr "SAR parabólico"
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:644
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:643
 msgid "Parameters sanity check failed."
 msgstr "La comprobación de los parámetros de validez falló."
 
@@ -8049,7 +8041,7 @@ msgid "Perl modules"
 msgstr "Módulos Perl"
 
 #. ($descriptor->{require_scope})
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:439
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:438
 msgid "Permission denied, requiring %1"
 msgstr "Permiso denegado, se requiere %1"
 
@@ -8225,7 +8217,7 @@ msgstr "Ingrese una fecha válida"
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Transaction.pm:29
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Utility.pm:118
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:434
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:433
 msgid "Please log in."
 msgstr "Por favor inicie sesión."
 
@@ -8970,7 +8962,7 @@ msgid "Respond to client queries using our state of the art telephone, electroni
 msgstr "Responder a las consultas de clientes utilizando nuestros sistemas de última generación de telefonía, correo electrónico y chat en línea"
 
 #: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:124
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:593
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:592
 msgid "Response too large."
 msgstr "Respuesta demasiado larga."
 
@@ -9543,8 +9535,8 @@ msgstr "Lo sentimos, ha ocurrido un error mientras se procesaba su cuenta."
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/MarketDiscovery.pm:49
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/MarketDiscovery.pm:79
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount/Japan.pm:181
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:549
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:568
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:548
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:567
 msgid "Sorry, an error occurred while processing your request."
 msgstr "Lo sentimos, ha ocurrido un error mientras se procesaba su petición."
 
@@ -9684,7 +9676,7 @@ msgstr "Lo sentimos, estará excluido del sitio web hasta %1."
 #. ($client->get_self_exclusion->exclude_until)
 #. ($limit_excludeuntil)
 #. ($lim)
-#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:843
+#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:845
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/User.pm:100
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Authorize.pm:37
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Utility.pm:132
@@ -10752,6 +10744,13 @@ msgstr "El primer intervalo es el primer intervalo después de que el contrato h
 msgid "The first tick is the first tick after the contract is processed by our servers."
 msgstr "El primer intervalo es el primer intervalo después de que el contrato haya sido procesado por nuestros servidores."
 
+#. (request.website.display_name)
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:59
+#, fuzzy
+#| msgid "Purpose of trading"
+msgid "The future of trading on %1"
+msgstr "Purpose of trading"
+
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:118
 msgid "The information provided during the sign-up process warranted by yourself to be true and correct is determined by the Company to be false or incorrect during the term of this Agreement;"
 msgstr "La Compañía ha determinado durante la vigencia del presente acuerdo que la información proporcionada durante el proceso de registro que usted garantiza que es verdadera y correcta es falsa o incorrecta;"
@@ -11074,7 +11073,7 @@ msgstr "Esta cuenta no está disponible."
 msgid "This account is unavailable. For any questions please contact <a href=\"%1\">Customer Support</a>."
 msgstr "Esta cuenta no está disponible. Ante cualquier duda comuníquese con el <a href=\"%1\">servicio de atención al cliente</a>."
 
-#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:838
+#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:840
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/User.pm:84
 msgid "This account is unavailable. For any questions please contact Customer Support."
 msgstr "Esta cuenta no está disponible. Ante alguna duda comuníquese con el servicio de atención al cliente."
@@ -11278,7 +11277,7 @@ msgstr "Intervalo"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:8
 #, fuzzy
 #| msgid "Tick Trades:"
-msgid "Tick Trade"
+msgid "Tick Trade App"
 msgstr "Contratos instantáneos:"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:80
@@ -11715,6 +11714,12 @@ msgstr "Experiencia UX / UI"
 msgid "Ultimate Oscillator"
 msgstr "Mejor oscilador"
 
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:9
+#, fuzzy
+#| msgid "Start trading"
+msgid "Ultra-fast trading"
+msgstr "Operar ahora"
+
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Locale.pm:205
 msgid "Unable to price the contract."
 msgstr "No se puede estimar el precio del contrato."
@@ -11794,7 +11799,7 @@ msgstr "A menos que esté indicado lo contrario, vamos a tratarlo como un client
 msgid "Unlock Cashier"
 msgstr "Desbloquear cajero"
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:468
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:467
 msgid "Unrecognised request."
 msgstr "Solicitud no reconocida."
 
@@ -12957,7 +12962,7 @@ msgid "You have purchased the following contract:"
 msgstr "Usted ha adquirido el siguiente contrato:"
 
 #. ($descriptor->{category})
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:412
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:411
 msgid "You have reached the rate limit for %1."
 msgstr "Ha alcanzado el límite para %1."
 
