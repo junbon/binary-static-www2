@@ -7,9 +7,10 @@ msgstr ""
 "Project-Id-Version: I 18N\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-11 07:20+0000\n"
+"PO-Revision-Date: 2016-05-11 08:32+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/binary/static/id/>\n"
+"Language-Team: Indonesian "
+"<https://hosted.weblate.org/projects/binary/static/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -154,10 +155,13 @@ msgstr "%1 selalu mencari profesional berpengalaman untuk bergabung di dalam tim
 
 #. (request.website.display_name, "//developers.binary.com")
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:75
-#, fuzzy
 #| msgid "%1 is an active proponent of the open-source movement. you can suggest your enhancements and activity take part in the development of our applications. You can find more information for developers on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
 msgid "%1 is an active proponent of the open-source movement. Suggest enhancements, and take part in the development of our powerful applications. You can find more information on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
-msgstr "%1 adalah proponen aktif dari pergerakan open-source. Anda dapat menyampaikan saran dan peningkatan serta ikut beraktifitas dalam pengembangan aplikasi kami. Informasi lebih lanjut mengenai pengembang terdapat pada <a href=\"%2\" target=\"_blank\">Portal Pengembang</a> kami."
+msgstr ""
+"%1 adalah proponen aktif dari pergerakan open-source. Beri saran peningkatan "
+"dan ikut beraktifitas dalam pengembangan aplikasi kami. Informasi lebih "
+"lanjut mengenai pengembang terdapat pada <a href=\"%2\" target=\"_blank\">"
+"Portal Pengembang</a> kami."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -2227,6 +2231,9 @@ msgstr "Binary.com membuka peluang kearah open-source dan sedang dalam proses me
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Binary.com is honoured as the world's \"Best Binary Options Broker\" at the 16th annual MENA International Financial Conference and Exhibition, hosted in Dubai."
 msgstr ""
+"Binary.com dianugerahkan sebagai \"Broker Opsi Binary Terbaik\" dunia pada "
+"Konfrensi dan Pameran Keuangan International MENA ke 16, diselenggarakan di "
+"Dubai."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/group-information.html.haml:1
 msgid "Binary.com is not available in Costa Rica and is not regulated or supervised by any regulatory body in the Costa Rican financial system."
@@ -4080,6 +4087,9 @@ msgstr "Meningkatkan dan secara proaktif mengelola usaha sosial-media perusahaan
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:10
 msgid "Enjoy our fastest type of trading on your mobile phone or tablet. Place tick trades anytime, anywhere – even while you’re on the move."
 msgstr ""
+"Nikmati jenis trading tercepat yang kami sediakan pada mobile phone atau "
+"tablet. Trading tik kapan saja, dimana saja – bahkan saat Anda sedang "
+"berpergian."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ensure compliance with quality control standards governing website content"
@@ -4164,6 +4174,8 @@ msgstr "Kontrak Even/Odd akan memperoleh pengembalian harga beli jika kontrak ti
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:46
 msgid "Examine the history of a particular instrument to plot your next move. This advanced charting platform offers a wide range of technical indicators."
 msgstr ""
+"Meneliti sejarah instrumen tertentu untuk merencanakan langkah selanjutnya. "
+"Platform charting canggih ini menawarkan berbagai indikator teknis."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/spread_bets.html.haml:1
 msgid "Example:"
@@ -4369,6 +4381,8 @@ msgstr "Penjelasan"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:60
 msgid "Explore our most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
 msgstr ""
+"Jelajahi platform mutakhir kami yang terbaru, sekarang tersedia dalam bentuk "
+"beta. Coba beli kontrak menggunakan akun virtual Anda."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:491
 msgid "Exponential Moving Average"
@@ -6428,7 +6442,7 @@ msgstr "Ikuti analis kami secara LIVE dua kali seminggu untuk memperoleh analisa
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:69
 msgid "Join our developer community"
-msgstr ""
+msgstr "Bergabung dengan komunitas pengembang kami"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Join our team of bright, talented professionals. Work collaboratively with us to enhance and promote a high-tech platform that has been one of the most recognised in the binary options trading industry for over 15 years."
@@ -6697,10 +6711,9 @@ msgid "Links"
 msgstr "Berbagai Link"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:83
-#, fuzzy
 #| msgid "List of all our open source projects"
 msgid "List of All Open-Source Projects"
-msgstr "Daftar proyek open source Binary.com"
+msgstr "Daftar Semua Proyek Open-Source"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
 msgid "Live chat:"
@@ -6821,7 +6834,7 @@ msgstr "Sinyal MACD"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "MENA FFXPO Award"
-msgstr ""
+msgstr "Penghargaan MENA FFXPO"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Maintain accurate system pricing parameters"
@@ -7108,6 +7121,9 @@ msgstr "Memonitor pengembangan hardware dan software dan mengelola jaringan serv
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:30
 msgid "Monitor the movements of all of your favourite assets and markets at the same time. This flexible charting platform provides a variety of customisable features."
 msgstr ""
+"Memantau pergerakan semua aset dan pasar favorit Anda pada waktu yang sama. "
+"Platform charting fleksibel ini menyediakan berbagai fitur yang dapat "
+"disesuaikan."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Monitor website trading activity and minimize abuse"
@@ -7308,10 +7324,9 @@ msgid "Next Day"
 msgstr "Hari Berikutnya"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:82
-#, fuzzy
 #| msgid "Webtrader on GitHub"
 msgid "Next Gen on GitHub"
-msgstr "Webtrader pada GitHub"
+msgstr "Next Gen pada GitHub"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:415
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:819
@@ -8424,7 +8439,7 @@ msgstr "Kuat & sederhana"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:45
 msgid "Powerful charting and technical analysis"
-msgstr ""
+msgstr "Charting lengkap dan analisis teknis"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal_jp/contract.html.tt:2
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal_jp/tacjp.html.tt:10
@@ -8616,7 +8631,7 @@ msgstr "Batasan tepat tidak dapat ditentukan."
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:136
 msgid "Prospectus"
-msgstr ""
+msgstr "Prospektus"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Proven knowledge of auditing standards, procedures, laws, rules and regulations are an added advantage"
@@ -10737,10 +10752,9 @@ msgstr "Tik awal adalah tik pertama setelah kontrak diproses oleh server kami."
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:59
-#, fuzzy
 #| msgid "Purpose of trading"
 msgid "The future of trading on %1"
-msgstr "Purpose of trading"
+msgstr "Masa depan trading pada %1"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:118
 msgid "The information provided during the sign-up process warranted by yourself to be true and correct is determined by the Company to be false or incorrect during the term of this Agreement;"
@@ -11266,10 +11280,9 @@ msgid "Tick"
 msgstr "Tik"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:8
-#, fuzzy
 #| msgid "Tick Trade"
 msgid "Tick Trade App"
-msgstr "Trading Tik"
+msgstr "App Trading Tik"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:80
 msgid "Tick Trade on GitHub"
@@ -11702,10 +11715,9 @@ msgid "Ultimate Oscillator"
 msgstr "Oskilator Gabungan"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:9
-#, fuzzy
 #| msgid "For ultra fast trading"
 msgid "Ultra-fast trading"
-msgstr "Untuk trading extra cepat"
+msgstr "Trading super cepat"
 
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Locale.pm:205
 msgid "Unable to price the contract."
