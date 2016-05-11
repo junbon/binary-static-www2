@@ -3,9 +3,10 @@ msgstr ""
 "Project-Id-Version: French (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 00:11+0000\n"
+"PO-Revision-Date: 2016-05-11 17:41+0000\n"
 "Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/binary/static/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/binary/static/fr/>"
+"\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -192,11 +193,25 @@ msgstr "%1 recherche un professionnel en début ou milieu de carrière, doté d'
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 is seeking a qualified proofreader with a flair for language and a meticulous eye for detail. You must be able to interact with our staff using a web-based translator interface. You’ll work with colleagues in IT, Customer Support and Marketing to provide localised text and translation services."
 msgstr ""
+"%1 recrute un relecteur qualifié et méticuleux maîtrisant parfaitement sa "
+"langue. Vous devez être en mesure d'interagir avec les membres de notre "
+"personnel par le biais d'une plateforme de traduction en ligne. En "
+"collaboration avec des informaticiens, des membres du service clientèle et "
+"des professionnels du marketing, vous fournirez des services de localisation "
+"et de traduction."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "%1 is seeking qualified translation professionals familiar with specific target markets, languages, and cultures. By delivering high-quality translation to support our customers in a particular language, you will serve as the company’s voice to clients in certain key areas of the world. You’ll work with colleagues in IT, Customer Support, and Marketing to provide localised text and translation services through a web-based tool. This position will report to our Translation Project Manager."
 msgstr ""
+"%1 recherche des traducteurs professionnels ayant une bonne connaissance des "
+"marchés, des langues et des cultures cibles. Vous fournirez une traduction "
+"efficace de nos services vers la langue cible et deviendrez le porte-parole "
+"de la société auprès de ses clients internationaux. En collaboration avec "
+"des informaticiens, des membres du service clientèle et des professionnels "
+"du marketing, vous prendrez en charge la traduction et la localisation de "
+"documents et de différents contenus par le biais d’un outil de traduction en "
+"ligne. Ce poste est supervisé par notre chef de projet traduction."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
@@ -1149,6 +1164,8 @@ msgstr "Un indicateur dynamique montrant le pourcentage de taux de variation d'u
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "A native speaker with strong command of the English language, in both oral and written form"
 msgstr ""
+"Traduction vers votre langue maternelle et bonne maîtrise orale et écrite de "
+"l'anglais"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "A panel featuring industry leaders awards BetOnMarkets.com ‘Financial Betting Operator of the Year’ over two other finalists. It’s a major victory for our brand and further recognition of our world-beating service. Ten years on, and going from strength to strength."
@@ -1263,6 +1280,7 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ability to work with a simple web-based translation tool"
 msgstr ""
+"Capacité à travaille sur un outil de traduction en ligne simple d'utilisation"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:519
 msgid "About"
@@ -1709,6 +1727,9 @@ msgstr "Nom de l'Application"
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Apply a meticulous eye for detail in proofreading the content that appears on the company’s website, blog, social media outlets, and marketing materials."
 msgstr ""
+"Relecture méticuleuse du contenu existant diffusé sur le site Web et le blog "
+"de la société ainsi que sur les réseaux sociaux ; relecture de contenus "
+"marketing."
 
 #. (website, apply_payment_agent_url)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/payment_agent_listws.html.tt:67
@@ -8800,7 +8821,9 @@ msgstr "Expérience des services de courtage en ligne dans le domaine des instru
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Previous experience with financial and/or binary options trading websites"
-msgstr "Expérience préalable du courtage en ligne sur instruments financiers/options binaires"
+msgstr ""
+"Expérience des services de courtage en ligne dans le domaine des instruments "
+"financiers/options binaires"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Previous knowledge and experience in Marketing or Advertising"
@@ -8879,6 +8902,8 @@ msgstr "Continuer"
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Process website content translations regularly and efficiently, delivering high-quality work on a dependable basis"
 msgstr ""
+"Traduction régulière et efficace des contenus Web ; livraison de contenus de "
+"haute qualité et fiables"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Process website content translations when a full time translator is unavailable"
@@ -8934,6 +8959,9 @@ msgstr "Bénéfice/Perte (points)"
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Proofread and correct the content appearing on the company’s website, blog, social media outlets, and marketing materials, from English to the regional language and vice versa"
 msgstr ""
+"Relecture et correction des contenus diffusés sur le site Web et le blog de "
+"la société ainsi que sur les réseaux sociaux, de l'anglais vers la langue "
+"cible et vice-versa"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:620
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
@@ -13222,6 +13250,10 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Work with senior staff to coordinate project delivery; develop and update schedules; maintain task lists; and hold team members accountable for assigned deliverables"
 msgstr ""
+"Coordonner la livraison des projets en collaboration avec les cadres "
+"supérieurs ; concevoir et mettre à jour les emplois du temps et les listes "
+"de tâches ; veiller au respect des objectifs fixés pour chaque membre de "
+"l'équipe"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Working closely with the Head of Compliance to implement Know your Client (KYC), Anti-Money Laundering (AML), and data protection regulations"
