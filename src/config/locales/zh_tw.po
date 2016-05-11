@@ -2,9 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Chinese (Taiwan) (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 21:52+0000\n"
-"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) <https://hosted.weblate.org/projects/binary/static/zh_TW/>\n"
+"PO-Revision-Date: 2016-05-11 06:32+0000\n"
+"Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) "
+"<https://hosted.weblate.org/projects/binary/static/zh_TW/>\n"
 "Language: zh_tw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -151,6 +152,8 @@ msgstr "%1 不斷為系統管理員、技術參與者和主管人才團隊新增
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:75
 msgid "%1 is an active proponent of the open-source movement. you can suggest your enhancements and activity take part in the development of our applications. You can find more information for developers on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
 msgstr ""
+"%1 是活躍的開源移動支援者。 您可為您的增強功能和參與開發我們的應用程式活動提出建議。 您可在我們的<a href=\"%2\" target=\""
+"_blank\">程式師門戶</a>獲取程式師的詳細資訊。"
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -239,10 +242,9 @@ msgstr "%1 的報價基於銀行間二元期權市場，讓您可在交易中始
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:3
-#, fuzzy
 #| msgid "%1 provides a variety of charts to help you determine what markets to trade on. Try them out."
 msgid "%1 provides a variety of applications to help you trade efficiently."
-msgstr "%1 提供多種圖表，以幫助您決定在哪些市場上交易。趕緊試試吧。"
+msgstr "%1 提供多種應用程式，以幫助您高效交易。"
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/partners.html.haml:1
@@ -1408,7 +1410,7 @@ msgstr "先進的軟體設計原則知識"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:29
 msgid "Advanced tool for active traders"
-msgstr ""
+msgstr "活躍交易員專用的高級工具"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Advising senior managers regarding salary negotiations and job offers"
@@ -1888,7 +1890,7 @@ msgstr "可用支付方式"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:62
 msgid "Available soon..."
-msgstr ""
+msgstr "很快即可啟用..."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:642
 msgid "Avg Directional Index"
@@ -2116,10 +2118,9 @@ msgid "Binary Ltd, with registered office address situated at <span itemprop='lo
 msgstr "Binary Ltd 的註冊辦事處地址為 <span itemprop='location'> 47 Esplanade, St. Helier, Jersey, JE 0BD Channel Islands</span>，為Binary Group 的控股公司。"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:58
-#, fuzzy
 #| msgid "Binary option"
 msgid "Binary Next Gen"
-msgstr "二元期權"
+msgstr "Binary 下一代"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/binary_options_basics.html.haml:1
 msgid "Binary Options Basics"
@@ -2223,7 +2224,7 @@ msgstr "Binary.com是開源運動的積極倡導者，並正在開啓一批程�
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Binary.com is honoured as the world's \"Best Binary Options Broker\" at the 16th annual MENA International Financial Conference and Exhibition, hosted in Dubai."
-msgstr ""
+msgstr "在迪拜主辦的第16 屆年度中東和北非國際金融會議和展覽會中，Binary.com 被譽為世界上「最佳二元期權經紀商」。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/group-information.html.haml:1
 msgid "Binary.com is not available in Costa Rica and is not regulated or supervised by any regulatory body in the Costa Rican financial system."
@@ -2254,7 +2255,6 @@ msgid "Binary.com supports the <a target=\"_blank\" href=\"http://www.responsibl
 msgstr "Binary.com 支持<a target=\"_blank\" href=\"http://www.responsiblegamblingtrust.org.uk/\">負責任博彩信託基金</a> (RGT) 。這是英國一家領先的慈善機構，致力於消除跟賭博有關的危害。該機構撥款資助教育活動、疾病預防和治療服務，並受委託協助人們進一步了解與賭博危害有關的研究專案。它也建立了一個全國性電話服務專線，向尋求幫助的賭徒提供保密性諮詢和情緒上的支持。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
-#, fuzzy
 #| msgid "Binary.com took home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London."
 msgid "Binary.com takes home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London."
 msgstr "Binary.com 在久負盛名的倫敦EGR操作員頒獎儀式中榮獲2015年金融搏彩操作員第一獎。"
@@ -2822,10 +2822,9 @@ msgstr "公司權利"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:133
-#, fuzzy
 #| msgid "Compliance"
 msgid "Complaints"
-msgstr "法律事務"
+msgstr "投訴"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/complaints_disputes.html.tt:2
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/tac.html.tt:19
@@ -4080,7 +4079,7 @@ msgstr "加強並主動管理公司的社交媒體宣傳，利用各種管道吸
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:10
 msgid "Enjoy our fastest type of trading on your mobile phone or tablet. Place tick trades anytime, anywhere – even while you’re on the move."
-msgstr ""
+msgstr "用您的手機或平板電腦享受我們速度最快的交易。 隨時隨地 — 甚至當您在旅途中也可參與跳動價格交易。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ensure compliance with quality control standards governing website content"
@@ -4164,7 +4163,7 @@ msgstr "奇/偶合約如果沒在 5 分鐘內結束，將退還購入價格。"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:46
 msgid "Examine the history of a particular instrument to plot your next move. This advanced charting platform offers a wide range of technical indicators."
-msgstr ""
+msgstr "研究某項工具的歷史，為下一步行動制定計畫。 此先進的製圖平台提供廣泛的技術指標。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/spread_bets.html.haml:1
 msgid "Example:"
@@ -4369,7 +4368,7 @@ msgstr "說明"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:60
 msgid "Explore Binary.com’s most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
-msgstr ""
+msgstr "探討 Binary.com 的最前沿新平台，目前 Beta 版本已啟用。 請用您的虛擬帳戶交易。"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:491
 msgid "Exponential Moving Average"
@@ -4626,13 +4625,12 @@ msgstr "BetOnMarkets.com 連續三年被英國股票雜誌《Shares Magazine》�
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:59
 msgid "For those on the cutting edge"
-msgstr ""
+msgstr "處於最前沿者專用"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:9
-#, fuzzy
 #| msgid "Start trading"
 msgid "For ultra fast trading"
-msgstr "開始交易"
+msgstr "超快交易專用"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:293
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:288
@@ -6437,7 +6435,7 @@ msgstr "加入我們每週兩次的分析師「即時線上分析」(LIVE)，對
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:69
 msgid "Join our developer community"
-msgstr ""
+msgstr "加入我們的程式師社區"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Join our team of bright, talented professionals. Work collaboratively with us to enhance and promote a high-tech platform that has been one of the most recognised in the binary options trading industry for over 15 years."
@@ -6706,10 +6704,9 @@ msgid "Links"
 msgstr "連結"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:83
-#, fuzzy
 #| msgid "Binary.com open-source projects"
 msgid "List of all our open source projects"
-msgstr "Binary.com 開源專案"
+msgstr "所有開源專案列表"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
 msgid "Live chat:"
@@ -6830,7 +6827,7 @@ msgstr "MACD訊號"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "MENA FFXPO Award"
-msgstr ""
+msgstr "中東和北非地區 FFXPO 獎"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Maintain accurate system pricing parameters"
@@ -7114,7 +7111,7 @@ msgstr "監管硬體和軟體，管理全球伺服器網絡和辦公網絡"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:30
 msgid "Monitor the movements of all of your favourite assets and markets at the same time. This flexible charting platform provides a variety of customisable features."
-msgstr ""
+msgstr "同時監測您最喜愛的所有資產和市場變動。 此靈活的圖表平台提供各種可定制的功能。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Monitor website trading activity and minimize abuse"
@@ -7315,7 +7312,7 @@ msgstr "第二天"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:82
 msgid "Next-Gen on GitHub"
-msgstr ""
+msgstr "GitHub 的下一代"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:415
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:819
@@ -8074,7 +8071,7 @@ msgstr "平台導覽"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:313
 msgid "Please %1 to view this page"
-msgstr ""
+msgstr "要查看此頁面，請 %1 t"
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:96
 msgid "Please accept Funds Protection."
@@ -8428,7 +8425,7 @@ msgstr "強大而簡單"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:45
 msgid "Powerful charting and technical analysis"
-msgstr ""
+msgstr "功能強大的圖表和技術分析"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal_jp/contract.html.tt:2
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal_jp/tacjp.html.tt:10
@@ -8620,7 +8617,7 @@ msgstr "無法確定合適的障礙。"
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:136
 msgid "Prospectus"
-msgstr ""
+msgstr "章程"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Proven knowledge of auditing standards, procedures, laws, rules and regulations are an added advantage"
@@ -10211,10 +10208,12 @@ msgstr "%1網站受版權保護。"
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/group-information.html.haml:1
-#, fuzzy
 #| msgid "The <span itemprop=\"brand\">%1</span> service (formerly known as BetOnMarkets.com) is owned and operated by Binary Ltd. Fully licensed and regulated, %1 has been providing financial trading to a worldwide audience of over 1,000,000 clients since <span itemprop=\"foundingdate\">1999</span>"
 msgid "The <span itemprop=\"brand\">%1</span> service (formerly known as BetOnMarkets.com) is owned and operated by Binary Ltd. Fully licensed and regulated, %1 has been providing financial trading to a worldwide audience of over 1,000,000 accounts since <span itemprop=\"foundingdate\">1999</span>"
-msgstr "<span itemprop=\"brand\">%1</span> 服務（前稱為 BetOnMarkets.com）由 Binary Ltd. 所有並運營。 %1 自<span itemprop=\"foundingdate\">1999</span> 年開始運營，得到全面的許可和監管，向全世界超過100,000 名客戶提供金融交易服務"
+msgstr ""
+"<span itemprop=\"brand\">%1</span> 服務（前稱為 BetOnMarkets.com）由 Binary Ltd. "
+"所有並運營。 %1 自<span itemprop=\"foundingdate\">1999</span> 年開始運營，得到全面的許可和監管，"
+"向全世界超過100,000 帳戶提供金融交易服務"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/home/index.html.haml:1
 msgid "The <strong>Premier Platform</strong> for Binary Options Trading"
@@ -11262,14 +11261,13 @@ msgid "Tick"
 msgstr "跳動點"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:8
-#, fuzzy
 #| msgid "Bulk Trader"
 msgid "Tick Trade"
-msgstr "批量交易者"
+msgstr "跳動交易"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:80
 msgid "Tick Trade on GitHub"
-msgstr ""
+msgstr "GitHub的跳動價格交易"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/commission_table.html.tt:3
 msgid "Tier"
@@ -11620,10 +11618,9 @@ msgstr "信任"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:33
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:49
-#, fuzzy
 #| msgid "Try it now"
 msgid "Try It"
-msgstr "立即嘗試"
+msgstr "嘗試使用"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:305
 msgid "Try adding more letters or numbers."
@@ -12263,10 +12260,9 @@ msgid "Webtrader"
 msgstr "Webtrader"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:81
-#, fuzzy
 #| msgid "Webtrader"
 msgid "Webtrader on GitHub"
-msgstr "Webtrader"
+msgstr "GitHub的Webtrader"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:76
 msgid "Wednesday"
@@ -12916,7 +12912,6 @@ msgid "You have exceeded your daily limit on losses of %1%2."
 msgstr "您已超出%1%2的每日損失限額。"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:718
-#, fuzzy
 #| msgid "You have not granted access to any apps."
 msgid "You have not granted access to any applications."
 msgstr "您未獲權限存取任何應用程式。"
@@ -13423,10 +13418,9 @@ msgid "Your risks are known"
 msgstr "您的風險是已知的"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:315
-#, fuzzy
 #| msgid "Session duration limit, in minutes"
 msgid "Your session duration limit will end in %1 seconds."
-msgstr "交易期持續時間限制，以分鐘作單位"
+msgstr "交易期持續時間限制將於%1秒內結束。"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:263
 msgid "Your settings have been updated successfully."
@@ -13658,7 +13652,6 @@ msgid "loading..."
 msgstr "載入中……"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:314
-#, fuzzy
 #| msgid "Login"
 msgid "login"
 msgstr "登入"
