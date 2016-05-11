@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 10:52+0000\n"
+"PO-Revision-Date: 2016-05-11 18:00+0000\n"
 "Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
-"Language-Team: Vietnamese <https://hosted.weblate.org/projects/binary/static/vi/>\n"
+"Language-Team: Vietnamese "
+"<https://hosted.weblate.org/projects/binary/static/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -156,6 +157,10 @@ msgstr "%1 luôn tìm kiếm các chuyên gia có kinh nghiệm để bổ sung
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:75
 msgid "%1 is an active proponent of the open-source movement. Suggest enhancements, and take part in the development of our powerful applications. You can find more information on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
 msgstr ""
+"%1 là một người khởi xướng nhiệt tình phong trào nguồn mở. Để gợi ý những "
+"cải tiến và góp phần vào sự phát triển những ứng dụng mạnh mẽ của chúng tôi. "
+"Bạn có thể tìm thấy nhiều thông tin hơn trên <a href=\"%2\" target=\"_blank\""
+">Cổng thông tin phát triểnl</a> của chúng tôi."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -244,10 +249,9 @@ msgstr "Giá %1 được quy chuẩn so với thị trường liên ngân hàng 
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:3
-#, fuzzy
 #| msgid "%1 provides a variety of charts to help you determine what markets to trade on. Try them out."
 msgid "%1 provides a variety of applications to help you trade efficiently."
-msgstr "%1 cung cấp nhiều dạng biểu đồ giúp bạn xác định thị trường giao dịch. Hãy thử ngay nào."
+msgstr "%1 cung cấp nhiều ứng dụng đa dạng để giúp bạn giao dịch hiệu quả."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/partners.html.haml:1
@@ -1412,7 +1416,7 @@ msgstr "Nắm vững kiến thức về nguyên tắc thiết kế phần mềm"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:29
 msgid "Advanced tool for active traders"
-msgstr ""
+msgstr "Công cụ tiên tiến cho những nhà giao dịch năng động"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Advising senior managers regarding salary negotiations and job offers"
@@ -1892,7 +1896,7 @@ msgstr "Phương thức thanh toán có sẵn"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:62
 msgid "Available soon..."
-msgstr ""
+msgstr "Sớm ra mắt..."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:642
 msgid "Avg Directional Index"
@@ -2120,10 +2124,9 @@ msgid "Binary Ltd, with registered office address situated at <span itemprop='lo
 msgstr "Công ty TNHH Binary, địa chỉ văn phòng được đăng ký tại <span itemprop='location'>47 Esplanade, St. Helier, Jersey, Đảo Channel JE 0BD</span>, là công ty được sở hữu bởi tập đoàn Binary."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:58
-#, fuzzy
 #| msgid "Binary option"
 msgid "Binary Next Gen"
-msgstr "Quyền chọn nhị phân"
+msgstr "Binary Next Gen"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/binary_options_basics.html.haml:1
 msgid "Binary Options Basics"
@@ -2228,6 +2231,9 @@ msgstr "Binary.com là người đề xướng trong phong trào nguồn-mở v�
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Binary.com is honoured as the world's \"Best Binary Options Broker\" at the 16th annual MENA International Financial Conference and Exhibition, hosted in Dubai."
 msgstr ""
+"Binary.com vinh dự là \"Nhà môi giới Các quyền chọn Nhị phân tốt nhất\" trên "
+"thế giới tại Hội nghị và Triển lãm Tài chính Quốc tế thường niên MENA lần "
+"thứ 16, được tổ chức tại Dubai."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/group-information.html.haml:1
 msgid "Binary.com is not available in Costa Rica and is not regulated or supervised by any regulatory body in the Costa Rican financial system."
@@ -2258,10 +2264,12 @@ msgid "Binary.com supports the <a target=\"_blank\" href=\"http://www.responsibl
 msgstr "Binary.com hỗ trợ <a target=\"_blank\" href=\"http://www.responsiblegamblingtrust.org.uk/\">Responsible Gambling Trust</a> (RGT) chính là tổ chức từ thiện hàng đầu tại Anh với nhiệm vụ hạn chế những thiệt hại từ việc cá cược. RGT gây quỹ cho giáo dục, dịch vụ chữa trị và dự phòng, nghiên cứu hội đồng nhằm giúp mọi người hiểu thêm về thiệt hại do cá cược. Tổ chức này còn cung cấp dịch vụ hỗ trợ cá cược cấp quốc gia nhằm đưa ra những lời khuyên bảo mật và ủng hộ tinh thần cho những người cần giúp đỡ khi gặp rắc rối từ việc cá cược."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
-#, fuzzy
 #| msgid "Binary.com took home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London."
 msgid "Binary.com takes home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London."
-msgstr "Binary.com đoạt giải nhất với giải thưởng cho \"Nhà điều hành cá cược tài chính\" tại lễ trao giải thưởng uy tín 2015 EGR Operator Awards được tổ chức ở Luân Đôn."
+msgstr ""
+"Binary.com đoạt giải nhất với giải thưởng cho \"Nhà điều hành cá cược tài "
+"chính\" tại lễ trao giải thưởng uy tín 2015 EGR Operator Awards được tổ chức "
+"ở Luân Đôn."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/open_source_projects.html.haml:1
 msgid "Binary.com’s CPAN contributions"
@@ -2826,10 +2834,9 @@ msgstr "Quyền của công ty"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:133
-#, fuzzy
 #| msgid "Compliance"
 msgid "Complaints"
-msgstr "Pháp Chế"
+msgstr "Các khiếu nại"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/complaints_disputes.html.tt:2
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/tac.html.tt:19
@@ -4086,6 +4093,9 @@ msgstr "Nâng cao và chủ động quản lý những dự án truyền thông 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:10
 msgid "Enjoy our fastest type of trading on your mobile phone or tablet. Place tick trades anytime, anywhere – even while you’re on the move."
 msgstr ""
+"Trải nghiệm phương thức giao dịch nhanh nhất trên điện thoại hoặc máy tính "
+"bảng của bạn. Bạn có thể đặt giá giao dịch bất cứ lúc nào, bất cứ đâu - thậm "
+"chí cả khi bạn đang di chuyển."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ensure compliance with quality control standards governing website content"
@@ -4170,6 +4180,9 @@ msgstr "Các hợp đồng chẵn/ lẻ sẽ được hoàn tiền tại giá mu
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:46
 msgid "Examine the history of a particular instrument to plot your next move. This advanced charting platform offers a wide range of technical indicators."
 msgstr ""
+"Kiểm tra lịch sử của một công cụ tài chính nhất định để xác định hoạt động "
+"tiếp theo của bạn. Nền tảng biểu đồ tiên tiến này mang đến một mức độ lớn "
+"các chỉ số kỹ thuật."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/spread_bets.html.haml:1
 msgid "Example:"
@@ -4375,6 +4388,8 @@ msgstr "Giải thích"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:60
 msgid "Explore our most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
 msgstr ""
+"Khám phá nền tảng tiên tiến mới nhất của chúng tôi, hiện đã ra mắt ở dạng "
+"beta. Đặt giao dịch từ tài khoản ảo của bạn."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:491
 msgid "Exponential Moving Average"
@@ -6432,7 +6447,7 @@ msgstr "Hãy tham gia gặp gỡ TRỰC TIẾP với đội ngũ phân ti�
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:69
 msgid "Join our developer community"
-msgstr ""
+msgstr "Hãy tham gia vào cộng động các nhà phát triển của chúng tôi"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Join our team of bright, talented professionals. Work collaboratively with us to enhance and promote a high-tech platform that has been one of the most recognised in the binary options trading industry for over 15 years."
@@ -6701,10 +6716,9 @@ msgid "Links"
 msgstr "Các liên kết"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:83
-#, fuzzy
 #| msgid "Binary.com open-source projects"
 msgid "List of All Open-Source Projects"
-msgstr "Những dự án nguồn-mở của Binary.com"
+msgstr "Danh sách tất cả các dự án có nguồn mở"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
 msgid "Live chat:"
@@ -6825,7 +6839,7 @@ msgstr "Tín hiệu của đường Đường Trung Bình Di Động Đồng 
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "MENA FFXPO Award"
-msgstr ""
+msgstr "Giải thưởng MENA FFXPO"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Maintain accurate system pricing parameters"
@@ -7110,6 +7124,9 @@ msgstr "Giám sát quá trình triển khai phần cứng, phần mềm và qu�
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:30
 msgid "Monitor the movements of all of your favourite assets and markets at the same time. This flexible charting platform provides a variety of customisable features."
 msgstr ""
+"Giám sát các hoạt động của tất cả các tài sản và thị trường yêu thích của "
+"bạn cùng một lúc. Nền tảng biểu đồ linh hoạt này mang lại rất nhiều các tính "
+"năng đa dạng có thể tuỳ chỉnh."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Monitor website trading activity and minimize abuse"
@@ -7309,10 +7326,9 @@ msgid "Next Day"
 msgstr "Ngày tiếp theo"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:82
-#, fuzzy
 #| msgid "Webtrader"
 msgid "Next Gen on GitHub"
-msgstr "Webtrader"
+msgstr "Next Gen trên GitHub"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:415
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:819
@@ -8071,7 +8087,7 @@ msgstr "Ghé thăm Sàn giao dịch"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:313
 msgid "Please %1 to view this page"
-msgstr ""
+msgstr "VII lòng %1 để xem trang này"
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:96
 msgid "Please accept Funds Protection."
@@ -8425,7 +8441,7 @@ msgstr "Mạnh mẽ và đơn giản"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:45
 msgid "Powerful charting and technical analysis"
-msgstr ""
+msgstr "Phân tích biểu đồ và kỹ thuật mạnh mẽ"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal_jp/contract.html.tt:2
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal_jp/tacjp.html.tt:10
@@ -8617,7 +8633,7 @@ msgstr "Không thể xác định được rào cản thích hợp."
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:136
 msgid "Prospectus"
-msgstr ""
+msgstr "Bản cáo bạch"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Proven knowledge of auditing standards, procedures, laws, rules and regulations are an added advantage"
@@ -10208,10 +10224,13 @@ msgstr "Trang web %1 được bảo vệ bởi bản quyền tác giả nh�
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/group-information.html.haml:1
-#, fuzzy
 #| msgid "The <span itemprop=\"brand\">%1</span> service (formerly known as BetOnMarkets.com) is owned and operated by Binary Ltd. Fully licensed and regulated, %1 has been providing financial trading to a worldwide audience of over 1,000,000 clients since <span itemprop=\"foundingdate\">1999</span>"
 msgid "The <span itemprop=\"brand\">%1</span> service (formerly known as BetOnMarkets.com) is owned and operated by Binary Ltd. Fully licensed and regulated, %1 has been providing financial trading to a worldwide audience of over 1,000,000 accounts since <span itemprop=\"foundingdate\">1999</span>"
-msgstr "Dịch vụ<span itemprop=\"brand\">%1</span> (được biết đến là BetOnMarkets.com) được công ty Binary sở hữu và vận hành. Đã được cấp phép đầy đủ, %1 đã cung cấp giao dịch tài chính cho hơn 1,000,000 khách hàng trên thế giới từ năm<span itemprop=\"foundingdate\">1999</span>"
+msgstr ""
+"Dịch vụ <span itemprop=\"brand\">%1</span> (được biết đến là "
+"BetOnMarkets.com) được công ty Binary sở hữu và vận hành. Đã được cấ"
+"p phép đầy đủ, %1 đã cung cấp giao dịch tài chính cho hơn 1,000,000 "
+"tài khoản trên thế giới từ năm <span itemprop=\"foundingdate\">1999</span>"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/home/index.html.haml:1
 msgid "The <strong>Premier Platform</strong> for Binary Options Trading"
@@ -10737,10 +10756,9 @@ msgstr "Điểm đầu tiên là giây đầu tiên sau khi hợp đồng 
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:59
-#, fuzzy
 #| msgid "Purpose of trading"
 msgid "The future of trading on %1"
-msgstr "Purpose of trading"
+msgstr "Hợp đồng tương lai của giao dịch trên %1"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:118
 msgid "The information provided during the sign-up process warranted by yourself to be true and correct is determined by the Company to be false or incorrect during the term of this Agreement;"
@@ -11266,14 +11284,13 @@ msgid "Tick"
 msgstr "Giây"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:8
-#, fuzzy
 #| msgid "Bulk Trader"
 msgid "Tick Trade App"
-msgstr "Nhà giao dịch số lượng lớn"
+msgstr "Ứng dụng bước giá giao dịch"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:80
 msgid "Tick Trade on GitHub"
-msgstr ""
+msgstr "Tick Trade trên GitHub"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/commission_table.html.tt:3
 msgid "Tier"
@@ -11624,10 +11641,9 @@ msgstr "Sự tin tưởng"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:33
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:49
-#, fuzzy
 #| msgid "Try it now"
 msgid "Try It"
-msgstr "Thử ngay bây giờ"
+msgstr "Trải nghiệm ngay"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:305
 msgid "Try adding more letters or numbers."
@@ -11704,10 +11720,9 @@ msgid "Ultimate Oscillator"
 msgstr "Chỉ báo Ultimate Oscillator"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:9
-#, fuzzy
 #| msgid "Start trading"
 msgid "Ultra-fast trading"
-msgstr "Bắt đầu giao dịch"
+msgstr "Giao dịch cực nhanh"
 
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Locale.pm:205
 msgid "Unable to price the contract."
@@ -12273,10 +12288,9 @@ msgid "Webtrader"
 msgstr "Webtrader"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:81
-#, fuzzy
 #| msgid "Webtrader"
 msgid "Webtrader on GitHub"
-msgstr "Webtrader"
+msgstr "Webtrader trên GitHub"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:76
 msgid "Wednesday"
@@ -12926,7 +12940,6 @@ msgid "You have exceeded your daily limit on losses of %1%2."
 msgstr "Bạn đã vượt quá giới hạn thua lỗ cho phép trong ngày của %1%2."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:718
-#, fuzzy
 #| msgid "You have not granted access to any apps."
 msgid "You have not granted access to any applications."
 msgstr "Bạn không được phép truy cập bất kỳ một ứng dụng nào."
@@ -13435,10 +13448,9 @@ msgid "Your risks are known"
 msgstr "Rủi ro của bạn đã được biết đến"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:315
-#, fuzzy
 #| msgid "Session duration limit, in minutes"
 msgid "Your session duration limit will end in %1 seconds."
-msgstr "Giới hạn thời gian phiên, trong vài phút"
+msgstr "Giới hạn phiên giao dịch của bạn sẽ kết thúc trong %1 giây nữa."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:263
 msgid "Your settings have been updated successfully."
@@ -13670,10 +13682,9 @@ msgid "loading..."
 msgstr "đang tải..."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:314
-#, fuzzy
 #| msgid "Login"
 msgid "login"
-msgstr "Đăng nhập"
+msgstr "đăng nhập"
 
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2105
 msgid "low barrier"
@@ -14011,7 +14022,9 @@ msgstr "{JAPAN ONLY}Congratulations, you have pass the test, our Customer Suppor
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:516
 msgid "{JAPAN ONLY}Dear customer, you are not allowed to take knowledge test until %1. Last test taken at %2."
-msgstr "{RIÊNG VỚI NHẬT BẢN} Quý khách hàng thân mến, bạn sẽ không được làm bải kiểm tra kiến thức cho tới %1. Bài kiểm tra gần đây nhất đã diễn ra vào %2."
+msgstr ""
+"{JAPAN ONLY}Dear customer, you are not allowed to take knowledge test until %"
+"1. Last test taken at %2."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:517
 msgid "{JAPAN ONLY}Dear customer, you've already completed the knowledge test, please proceed to next step."
@@ -14556,7 +14569,11 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #. (request.url_for("/", { 'l' => 'JA'  }))
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:89
 msgid "{JAPAN ONLY}You can apply to open an account online. Simply click <a class=\"pjaxload\" href=\"%1\">here</a> to begin the process by opening a demo account.  Once you are familiar with our site and comfortable in your knowledge of binary options we invite you to upgrade to a Real Money Account."
-msgstr "{JAPAN ONLY}You can apply to open an account online. Simply click <a class=\"pjaxload\" href=\"%1\"> 1here</a> 2 to begin the process by opening a demo account.  Once you are familiar with our site and comfortable in your knowledge of binary options we invite you to upgrade to a Real Money Account."
+msgstr ""
+"{JAPAN ONLY}You can apply to open an account online. Simply click <a class=\""
+"pjaxload\" href=\"%1\">here</a> to begin the process by opening a demo "
+"account.  Once you are familiar with our site and comfortable in your "
+"knowledge of binary options we invite you to upgrade to a Real Money Account."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "‘Best Customer Communication Firm’ award by Investors Chronicle"
@@ -16673,7 +16690,9 @@ msgstr "xuống kiểu châu Á"
 #. %7 - Low barrier (when present)
 #: Translation for contract type description (ASIAND - tick)
 msgid "%1 %2 payout if the last tick of %3 is strictly lower than the average of the %plural(%5,%d tick,%d ticks)."
-msgstr "%1 %2 tiền lãi nếu giây cuối cùng của %3 bắt buộc thấp hơn trung bình của %plural(%5,%d giây,%d nhiều giây)."
+msgstr ""
+"%1 %2 tiền lãi nếu giây cuối cùng của %3 bắt buộc thấp hơn trung bì"
+"nh của %plural(%5,%d tick,%d ticks)."
 
 #: Translation for contract type "ASIANU"
 msgid "asian up"
@@ -16688,7 +16707,9 @@ msgstr "lên kiểu châu Á"
 #. %7 - Low barrier (when present)
 #: Translation for contract type description (ASIANU - tick)
 msgid "%1 %2 payout if the last tick of %3 is strictly higher than the average of the %plural(%5,%d tick,%d ticks)."
-msgstr "%1 %2 tiền thưởng nếu giây cuối cùng của %3 bắt buộc cao hơn trung bình của %plural(%5,%d giây,%d nhiều giây)."
+msgstr ""
+"%1 %2 tiền thưởng nếu giây cuối cùng của %3 bắt buộc cao hơn trung bì"
+"nh của %plural(%5,%d tick,%d ticks)."
 
 #: Translation for contract type "CALL"
 msgid "higher"
@@ -16725,7 +16746,9 @@ msgstr "%1 %2 tiền thưởng nếu %3 bắt buộc cao hơn %6 tại %5 sau
 #. %7 - Low barrier (when present)
 #: Translation for contract type description (CALL - tick)
 msgid "%1 %2 payout if %3 after %plural(%5,%d tick,%d ticks) is strictly higher than %6."
-msgstr "%1 %2 tiền thưởng nếu %3 sau %plural(%5,%d tick,%d ticks) bắt buộc cao hơn %6."
+msgstr ""
+"%1 %2 tiền thưởng nếu %3 sau %plural(%5,%d tick,%d ticks) bắt buộc cao "
+"hơn %6."
 
 #: Translation for contract type "DIGITDIFF"
 msgid "differs"
@@ -16755,7 +16778,9 @@ msgstr "đồng đều"
 #. %7 - Low barrier (when present)
 #: Translation for contract type description (DIGITEVEN - tick)
 msgid "%1 %2 payout if the last digit of %3 is even after %5 ticks."
-msgstr "%1 %2 tiền thưởng nếu chữ số cuối cùng của %3 đồng đều sau %5 ticks."
+msgstr ""
+"%1 %2 tiền thưởng nếu chữ số cuối cùng của %3 đồng đều sau %5 bước "
+"giá."
 
 #: Translation for contract type "DIGITMATCH"
 msgid "matches"
@@ -16785,7 +16810,9 @@ msgstr "Số lẻ"
 #. %7 - Low barrier (when present)
 #: Translation for contract type description (DIGITODD - tick)
 msgid "%1 %2 payout if the last digit of %3 is odd after %5 ticks."
-msgstr "%1 %2 tiền thưởng nếu chữ số cuối cùng của %3 là số lẻ sau %5 ticks."
+msgstr ""
+"%1 %2 tiền thưởng nếu chữ số cuối cùng của %3 là số lẻ sau %5 bước "
+"giá."
 
 #: Translation for contract type "DIGITOVER"
 msgid "over"
@@ -16800,7 +16827,9 @@ msgstr "Vượt quá"
 #. %7 - Low barrier (when present)
 #: Translation for contract type description (DIGITOVER - tick)
 msgid "%1 %2 payout if the last digit of %3 is strictly higher than %6 after %5 ticks."
-msgstr "%1 %2 tiền thưởng nếu chữ số cuối cùng của %3 bắt buộc cao hơn %6 sau %5 ticks."
+msgstr ""
+"%1 %2 tiền thưởng nếu chữ số cuối cùng của %3 bắt buộc cao hơn %6 sau %5 "
+"bước giá."
 
 #: Translation for contract type "DIGITUNDER"
 msgid "under"
@@ -16815,7 +16844,9 @@ msgstr "ở dưới"
 #. %7 - Low barrier (when present)
 #: Translation for contract type description (DIGITUNDER - tick)
 msgid "%1 %2 payout if the last digit of %3 is strictly lower than %6 after %5 ticks."
-msgstr "%1 %2 tiền thưởng nếu chữ số cuối cùng của %3 bắt buộc thấp hơn %6 sau %5 ticks."
+msgstr ""
+"%1 %2 tiền thưởng nếu chữ số cuối cùng của %3 bắt buộc thấp hơn %6 sau %"
+"5 bước giá."
 
 #: Translation for contract type "EXPIRYMISS"
 msgid "ends outside"
@@ -16908,7 +16939,7 @@ msgstr "chạm"
 #. %7 - Low barrier (when present)
 #: Translation for contract type description (ONETOUCH - daily)
 msgid "%1 %2 payout if %3 touches %6 through %5."
-msgstr "%1 %2 tiền thưởng nếu %3 chạm%6 qua %5."
+msgstr "%1 %2 tiền thưởng nếu %3 chạm %6 qua %5."
 
 #. %1 - Payout Currency (example USD)
 #. %2 - Payout value (example 100)
