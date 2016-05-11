@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-11 18:00+0000\n"
+"PO-Revision-Date: 2016-05-11 18:14+0000\n"
 "Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
 "Language-Team: Vietnamese "
 "<https://hosted.weblate.org/projects/binary/static/vi/>\n"
@@ -160,7 +160,7 @@ msgstr ""
 "%1 là một người khởi xướng nhiệt tình phong trào nguồn mở. Để gợi ý những "
 "cải tiến và góp phần vào sự phát triển những ứng dụng mạnh mẽ của chúng tôi. "
 "Bạn có thể tìm thấy nhiều thông tin hơn trên <a href=\"%2\" target=\"_blank\""
-">Cổng thông tin phát triểnl</a> của chúng tôi."
+">Cổng thông tin phát triển</a> của chúng tôi."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -1486,7 +1486,12 @@ msgstr "Cho phép Khách hàng sử dụng ví điện tử, mà không 
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/complaints_disputes.html.tt:19
 msgid "Alternatively, clients who are registered with both Binary (IOM) Ltd and Binary (Europe) Ltd, instead of submitting their dispute to IBAS, they can make use of the European Commission’s Online Dispute Resolution (ODR) platform available <a href='http://ec.europa.eu/odr' target='_blank'>here</a>."
-msgstr "Như một sự lựa chọn, các khách hàng đang đăng ký tài khoản tại công ty TNHH Binary (IOM) và công ty TNHH Binary (Europe), thay vì phải gửi  tranh chấp của họ tới IBAS, họ có thể sử dụng Cơ quan Giải quyết Tranh chấp trực tuyến khả dụng của Ủy ban Châu Âu<a href='http://ec.europa.eu/odr' target='_blank'>tại đây</a>."
+msgstr ""
+"Như một sự lựa chọn, các khách hàng đang đăng ký tài khoản tại công ty TNHH "
+"Binary (IOM) và công ty TNHH Binary (Europe), thay vì phải gửi  tranh chấp "
+"của họ tới IBAS, họ có thể sử dụng Cơ quan Giải quyết Tranh chấp trực tuyến "
+"khả dụng của Ủy ban Châu Âu <a href='http://ec.europa.eu/odr' "
+"target='_blank'>tại đây</a>."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:142
 msgid "Although the Company has and retains all rights to refuse or to close a Client’s account, the Company does warrant that all contractual obligations already made, shall be honoured."
@@ -4856,7 +4861,10 @@ msgstr "Thuật ngữ"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/faq.html.tt:57
 msgid "Go to the <a href=\"https://login.binary.com/password-retrieve.php\">password retrieval page</a>, and enter your username and e-mail address in the form fields provided to have your password e-mailed to you."
-msgstr "Đi tới <a href=\"https://login.binary.com/password-retrieve.php\"> trang khôi phục mật khẩu</a>, và nhập tên tài khoản và địa chỉ email vào mẫu được cung cấp để chúng tôi có thể gửi mail khôi phục mật khẩu cho bạn."
+msgstr ""
+"Đi tới <a href=\"https://login.binary.com/password-retrieve.php\">trang khôi "
+"phục mật khẩu</a>, và nhập tên tài khoản và địa chỉ email vào mẫu được cung "
+"cấp để chúng tôi có thể gửi mail khôi phục mật khẩu cho bạn."
 
 #. (broker_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/faq.html.tt:54
