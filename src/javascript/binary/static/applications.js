@@ -1,4 +1,4 @@
-pjax_config_page_require_auth("user/authorised_appsws", function(){
+pjax_config_page_require_auth("user/applicationsws", function(){
     return {
         onLoad: function() {
             BinarySocket.init({
