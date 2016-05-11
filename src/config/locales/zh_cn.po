@@ -5,8 +5,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-05-11 06:32+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
-"Language-Team: Chinese (China) "
-"<https://hosted.weblate.org/projects/binary/static/zh_CN/>\n"
+"Language-Team: Chinese (China) <https://hosted.weblate.org/projects/binary/static/zh_CN/>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -152,10 +151,10 @@ msgstr "%1 不断为系统管理员、技术参与者和主管人才团队添加
 
 #. (request.website.display_name, "//developers.binary.com")
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:75
-msgid "%1 is an active proponent of the open-source movement. you can suggest your enhancements and activity take part in the development of our applications. You can find more information for developers on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
-msgstr ""
-"%1 是活跃的开源移动支持者。您可为您的增强功能和参与开发我们的应用程序活动提出建议。您可在我们的<a href=\"%2\" target=\""
-"_blank\">程序员门户</a>获取程序员的详细信息。"
+#, fuzzy
+#| msgid "%1 is an active proponent of the open-source movement. you can suggest your enhancements and activity take part in the development of our applications. You can find more information for developers on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
+msgid "%1 is an active proponent of the open-source movement. Suggest enhancements, and take part in the development of our powerful applications. You can find more information on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
+msgstr "%1 是活跃的开源移动支持者。您可为您的增强功能和参与开发我们的应用程序活动提出建议。您可在我们的<a href=\"%2\" target=\"_blank\">程序员门户</a>获取程序员的详细信息。"
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -244,7 +243,6 @@ msgstr "%1 的报价基于银行间二元期权市场，让您可在交易中始
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:3
-#| msgid "%1 provides a variety of charts to help you determine what markets to trade on. Try them out."
 msgid "%1 provides a variety of applications to help you trade efficiently."
 msgstr "%1 提供多种应用程序，以帮助您高效交易。"
 
@@ -2120,7 +2118,6 @@ msgid "Binary Ltd, with registered office address situated at <span itemprop='lo
 msgstr "Binary Ltd 的注册办事处地址为 <span itemprop='location'>47 Esplanade, St. Helier, Jersey, JE 0BD Channel Islands</span>，为 Binary Group 的控股公司。"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:58
-#| msgid "Binary option"
 msgid "Binary Next Gen"
 msgstr "Binary 下一代"
 
@@ -2257,7 +2254,6 @@ msgid "Binary.com supports the <a target=\"_blank\" href=\"http://www.responsibl
 msgstr "Binary.com 支持 <a target=\"_blank\" href=\"http://www.responsiblegamblingtrust.org.uk/\">负责任博采信托基金</a> (RGT) 。这是英国一家领先的慈善机构，致力于消除与赌博有关的危害。该机构拨款资助教育活动、疾病预防和治疗服务，并接受委托进行各种相关研究项目，协助人们进一步了解赌博的危害。它也创立了一个全国性电话服务专线，向寻求帮助的赌博者提供机密性咨询和情绪上的支持。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
-#| msgid "Binary.com took home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London."
 msgid "Binary.com takes home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London."
 msgstr "Binary.com 在久负盛名的伦敦EGR操作员颁奖仪式中荣获2015年金融博彩操作员第一奖。"
 
@@ -2828,7 +2824,6 @@ msgstr "公司权利"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:133
-#| msgid "Compliance"
 msgid "Complaints"
 msgstr "投诉"
 
@@ -4373,7 +4368,9 @@ msgid "Explanation"
 msgstr "说明"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:60
-msgid "Explore Binary.com’s most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
+#, fuzzy
+#| msgid "Explore Binary.com’s most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
+msgid "Explore our most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
 msgstr "探讨 Binary.com 的最前沿新平台，目前 beta 版本已启用。请用您的虚拟账户交易。"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:491
@@ -4628,15 +4625,6 @@ msgstr ""
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "For the third straight year, BetOnMarkets.com is voted 'Best Fixed-Odds Financial Trading Provider' by Shares Magazine UK. It’s the last time we win it because Shares Magazine stops awarding in this category."
 msgstr "连续第三年，BetOnMarkets.com被英国财经杂志《Shares Magazine》评为“最佳固定赔率金融交易提供商”。这是我们最后一次获奖，因为该杂志已停止颁发这一类奖项。"
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:59
-msgid "For those on the cutting edge"
-msgstr "处于最前沿者专用"
-
-#: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:9
-#| msgid "Start trading"
-msgid "For ultra fast trading"
-msgstr "超快交易专用"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:293
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:288
@@ -5586,7 +5574,7 @@ msgstr "我们公司所用数据源的相关信息，以及数据在导入系统
 msgid "Information of the previous performance of any underlying instrument or asset does not guarantee its current and/or future performance. Past performance is not a reliable indicator of future results."
 msgstr "任何标的工具或资产上一次的表现不可保证其当前或未来的表现。以前的表现并不能作为未来结果的可靠指标。"
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:425
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:424
 msgid "Input validation failed: "
 msgstr "输入验证失败： "
 
@@ -6710,8 +6698,9 @@ msgid "Links"
 msgstr "链接"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:83
-#| msgid "Binary.com open-source projects"
-msgid "List of all our open source projects"
+#, fuzzy
+#| msgid "List of all our open source projects"
+msgid "List of All Open-Source Projects"
 msgstr "所有开源项目列表"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
@@ -6771,7 +6760,7 @@ msgstr "登录 ID (%1) 不存在。"
 msgid "Login time:"
 msgstr "登录时间:"
 
-#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:836
+#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:838
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/User.pm:64
 msgid "Login to this account has been temporarily disabled due to system maintenance. Please try again in 30 minutes."
 msgstr "由于系统维护，账户暂时不能登录。请30分钟后重试。"
@@ -7319,7 +7308,9 @@ msgid "Next Day"
 msgstr "第二天"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:82
-msgid "Next-Gen on GitHub"
+#, fuzzy
+#| msgid "Next-Gen on GitHub"
+msgid "Next Gen on GitHub"
 msgstr "GitHub 的下一代"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:415
@@ -7764,7 +7755,7 @@ msgstr "我们的网站可以使用市场上多个过滤系统进行过滤，以
 msgid "Our site does not charge any transfer fees."
 msgstr "我们网站不收取任何转账费用。"
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:455
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:454
 msgid "Output validation failed: "
 msgstr "输出验证失败： "
 
@@ -7864,7 +7855,7 @@ msgstr "无法找到页面"
 msgid "Parabolic SAR"
 msgstr "抛物线状止损和反转指标"
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:644
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:643
 msgid "Parameters sanity check failed."
 msgstr "参数完整性检查失败。"
 
@@ -8042,7 +8033,7 @@ msgid "Perl modules"
 msgstr "Perl 模块"
 
 #. ($descriptor->{require_scope})
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:439
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:438
 msgid "Permission denied, requiring %1"
 msgstr "权限不足，需有%1"
 
@@ -8078,7 +8069,6 @@ msgid "Platform Tour"
 msgstr "平台指南"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:313
-#| msgid "Please log in to use this feature"
 msgid "Please %1 to view this page"
 msgstr "要查看此页面请%1"
 
@@ -8217,7 +8207,7 @@ msgstr "请输入有效日期"
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Transaction.pm:29
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Utility.pm:118
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:434
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:433
 msgid "Please log in."
 msgstr "请登录。"
 
@@ -8962,7 +8952,7 @@ msgid "Respond to client queries using our state of the art telephone, electroni
 msgstr "通过电话、电子邮件和在线聊天系统对客户的咨询作出反馈"
 
 #: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:124
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:593
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:592
 msgid "Response too large."
 msgstr "反应太大。"
 
@@ -9535,8 +9525,8 @@ msgstr "对不起，您的账户处理发生错误。"
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/MarketDiscovery.pm:49
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/MarketDiscovery.pm:79
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount/Japan.pm:181
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:549
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:568
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:548
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:567
 msgid "Sorry, an error occurred while processing your request."
 msgstr "对不起，您的请求处理发生错误。"
 
@@ -9676,7 +9666,7 @@ msgstr "对不起，您已禁止自己访问本网站，直到%1。"
 #. ($client->get_self_exclusion->exclude_until)
 #. ($limit_excludeuntil)
 #. ($lim)
-#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:843
+#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:845
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/User.pm:100
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Authorize.pm:37
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Utility.pm:132
@@ -10219,12 +10209,8 @@ msgstr "%1网站受版权保护。"
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/group-information.html.haml:1
-#| msgid "The <span itemprop=\"brand\">%1</span> service (formerly known as BetOnMarkets.com) is owned and operated by Binary Ltd. Fully licensed and regulated, %1 has been providing financial trading to a worldwide audience of over 1,000,000 clients since <span itemprop=\"foundingdate\">1999</span>"
 msgid "The <span itemprop=\"brand\">%1</span> service (formerly known as BetOnMarkets.com) is owned and operated by Binary Ltd. Fully licensed and regulated, %1 has been providing financial trading to a worldwide audience of over 1,000,000 accounts since <span itemprop=\"foundingdate\">1999</span>"
-msgstr ""
-"<span itemprop=\"brand\">%1</span> 服务（前身为 BetOnMarkets.com）由 Binary Ltd. "
-"所有并运营。%1 自 <span itemprop=\"foundingdate\">1999</span> 年开始运营，并获得全面的许可和监管，"
-"向全世界超过 100,000 账户提供金融交易服务"
+msgstr "<span itemprop=\"brand\">%1</span> 服务（前身为 BetOnMarkets.com）由 Binary Ltd. 所有并运营。%1 自 <span itemprop=\"foundingdate\">1999</span> 年开始运营，并获得全面的许可和监管，向全世界超过 100,000 账户提供金融交易服务"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/home/index.html.haml:1
 msgid "The <strong>Premier Platform</strong> for Binary Options Trading"
@@ -10748,6 +10734,13 @@ msgstr "首个跳动点指在我们服务器处理合约后的第一个跳动点
 msgid "The first tick is the first tick after the contract is processed by our servers."
 msgstr "首个跳动点指在我们服务器处理合约后的第一个跳动点。"
 
+#. (request.website.display_name)
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:59
+#, fuzzy
+#| msgid "Purpose of trading"
+msgid "The future of trading on %1"
+msgstr "Purpose of trading"
+
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:118
 msgid "The information provided during the sign-up process warranted by yourself to be true and correct is determined by the Company to be false or incorrect during the term of this Agreement;"
 msgstr "您保证注册过程中所提供的信息是真实和正确的。在本协议期限内公司确定该信息虚假或不正确；"
@@ -11070,7 +11063,7 @@ msgstr "此账户不可用。"
 msgid "This account is unavailable. For any questions please contact <a href=\"%1\">Customer Support</a>."
 msgstr "此账户不可用。如有问题，请联系<a href=\"%1\">客服人员</a>。"
 
-#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:838
+#: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Client.pm:840
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/User.pm:84
 msgid "This account is unavailable. For any questions please contact Customer Support."
 msgstr "此账户不可用。如有问题，请联系客服人员。"
@@ -11272,12 +11265,12 @@ msgid "Tick"
 msgstr "跳动点"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:8
-#| msgid "Tick Trades:"
-msgid "Tick Trade"
+#, fuzzy
+#| msgid "Tick Trade"
+msgid "Tick Trade App"
 msgstr "跳动交易"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:80
-#| msgid "Tick Trade Up/Down"
 msgid "Tick Trade on GitHub"
 msgstr "GitHub 的跳动交易"
 
@@ -11630,7 +11623,6 @@ msgstr "信任"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:33
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:49
-#| msgid "Try it now"
 msgid "Try It"
 msgstr "试用"
 
@@ -11707,6 +11699,12 @@ msgstr "UX / UI 经验"
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:617
 msgid "Ultimate Oscillator"
 msgstr "终极摆动指标"
+
+#: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:9
+#, fuzzy
+#| msgid "For ultra fast trading"
+msgid "Ultra-fast trading"
+msgstr "超快交易专用"
 
 # 87%
 # 100%
@@ -11789,7 +11787,7 @@ msgstr "除非另行通知，我们将视您为零售客户。您也可通过书
 msgid "Unlock Cashier"
 msgstr "解锁收银台"
 
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:468
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:467
 msgid "Unrecognised request."
 msgstr "无法识别的请求。"
 
@@ -12274,7 +12272,6 @@ msgid "Webtrader"
 msgstr "Webtrader"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:81
-#| msgid "Webtrader"
 msgid "Webtrader on GitHub"
 msgstr "GitHub的Webtrader"
 
@@ -12928,7 +12925,6 @@ msgid "You have exceeded your daily limit on losses of %1%2."
 msgstr "您已超出%1%2的每日损失限额。"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:718
-#| msgid "You have not granted access to any apps."
 msgid "You have not granted access to any applications."
 msgstr "您没有访问任何应用程序的权限。"
 
@@ -12949,7 +12945,7 @@ msgid "You have purchased the following contract:"
 msgstr "您已经买入以下合约："
 
 #. ($descriptor->{category})
-#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:412
+#: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:411
 msgid "You have reached the rate limit for %1."
 msgstr "您已达 %1的最高限率。"
 
@@ -13434,7 +13430,6 @@ msgid "Your risks are known"
 msgstr "您的风险是已知的"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:315
-#| msgid "Session duration limit, in minutes"
 msgid "Your session duration limit will end in %1 seconds."
 msgstr "交易期持续时间限制将于%1秒内结束。"
 
@@ -13668,7 +13663,6 @@ msgid "loading..."
 msgstr "加载中……"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:314
-#| msgid "Login"
 msgid "login"
 msgstr "登录"
 
@@ -17057,6 +17051,9 @@ msgstr "如果%3一直到%5时处于%7至%6之外，将获得%1%2的赔付额。
 #: Translation for contract type description (UPORDOWN - intraday)
 msgid "%1 %2 payout if %3 goes outside %7 and %6 through %5 after %4."
 msgstr "如果%3在%4过后一直到%5时处于%7与%6之外，将获得%1%2的赔付额。"
+
+#~ msgid "For those on the cutting edge"
+#~ msgstr "处于最前沿者专用"
 
 #~ msgid "Advanced charting platform with a wide range of technical indicators."
 #~ msgstr "带有很多技术指标之高级图表平台。"
