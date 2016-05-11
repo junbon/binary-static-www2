@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arabic (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 22:05+0000\n"
+"PO-Revision-Date: 2016-05-11 23:16+0000\n"
 "Last-Translator: Ahmed Kotb <ahmedmohamedkotp@gmail.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/binary/static/ar/>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/binary/static/ar/>"
+"\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 2.7-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -152,6 +154,9 @@ msgstr "%1 تتطلع دائما إلى إضافة المحترفين ذوي ا�
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:75
 msgid "%1 is an active proponent of the open-source movement. Suggest enhancements, and take part in the development of our powerful applications. You can find more information on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
 msgstr ""
+"1% مؤيدين نشطين من الحركة مفتوحة المصدر. يقترحون التحسينات, ويشاركون في "
+"تطوير تطبيقاتنا القوية. يمكنك العثور على مزيد من المعلومات على<a href=\"%2\" "
+"target=\"_blank\"> بوابة المطورين</a>."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -1409,7 +1414,7 @@ msgstr "معرفة متقدمة في أساسيات تصميم البرمجيا�
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:29
 msgid "Advanced tool for active traders"
-msgstr ""
+msgstr "آداة متقدمة للمتداولين النشطين"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Advising senior managers regarding salary negotiations and job offers"
@@ -1889,7 +1894,7 @@ msgstr "طرق الدفع المتاحة"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:62
 msgid "Available soon..."
-msgstr ""
+msgstr "متاحة قريباً..."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:642
 msgid "Avg Directional Index"
@@ -2225,6 +2230,9 @@ msgstr "Binary.com مؤيد نشط لاتجاه المصدر المفتوح و �
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Binary.com is honoured as the world's \"Best Binary Options Broker\" at the 16th annual MENA International Financial Conference and Exhibition, hosted in Dubai."
 msgstr ""
+"تتشرف Binary.com بحضور المعرض المالي الدولي للمؤتمرات والمعارض السنوي 16 "
+"للشرق الأوسط وشمال أفريقيا \"كأفضل وسيط للخيارات الثنائية\" في العالم, "
+"والمستضاف في دبي."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/group-information.html.haml:1
 msgid "Binary.com is not available in Costa Rica and is not regulated or supervised by any regulatory body in the Costa Rican financial system."
@@ -4129,6 +4137,8 @@ msgstr "تعزيز وإدارة جهود وسائل التواصل الإجتم�
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:10
 msgid "Enjoy our fastest type of trading on your mobile phone or tablet. Place tick trades anytime, anywhere – even while you’re on the move."
 msgstr ""
+"استمتع بأسرع نوع من التداول على الهاتف الجوال أو الكمبيوتر اللوحي الخاص بك. "
+"ضع علامة على تداول في أي وقت, وأي مكان - حتى في أثناء حركتك وتنقلك."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ensure compliance with quality control standards governing website content"
@@ -4213,6 +4223,8 @@ msgstr "حتى العقود الغريبة سيتم ردها عند سعر ال�
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:46
 msgid "Examine the history of a particular instrument to plot your next move. This advanced charting platform offers a wide range of technical indicators."
 msgstr ""
+"تدارس تاريخ أداة معينة لرسم خطوتك القادمة. هذه منصة بيانات متقدمة تقدم "
+"مجموعة واسعة من المؤشرات الفنية."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/spread_bets.html.haml:1
 msgid "Example:"
@@ -4422,6 +4434,8 @@ msgstr "شرح"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:60
 msgid "Explore our most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
 msgstr ""
+"اكتشف منصتنا الجديدة الأكثر تطوراً وحداثة, متوفرة الآن بشكل تجريبي. ضع علامة "
+"على تداول من حسابك الإفتراضي."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:491
 msgid "Exponential Moving Average"
@@ -6489,7 +6503,7 @@ msgstr "انضم لتحليلنا المباشر مرتين فى الأسبوع 
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:69
 msgid "Join our developer community"
-msgstr ""
+msgstr "انضم إلى مجتمع المطورين لدينا"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Join our team of bright, talented professionals. Work collaboratively with us to enhance and promote a high-tech platform that has been one of the most recognised in the binary options trading industry for over 15 years."
@@ -6888,7 +6902,7 @@ msgstr "إشارة ماكد"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "MENA FFXPO Award"
-msgstr ""
+msgstr "جائزة مؤتمر ومعرض الشرق الأوسط وشمال أفريقيا للتداول الذكي"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Maintain accurate system pricing parameters"
@@ -7175,6 +7189,8 @@ msgstr "مراقبة توزيع الأجهزة والبرامج وإدارة ش�
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:30
 msgid "Monitor the movements of all of your favourite assets and markets at the same time. This flexible charting platform provides a variety of customisable features."
 msgstr ""
+"أرصد تحركات كلاً من الأصول والأسواق المفضلة لديك في نفس الوقت. تقدم منصة "
+"الرسم المرنة هذه مجموعة متنوعة من المميزات القابلة للتخصيص."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Monitor website trading activity and minimize abuse"
@@ -7350,7 +7366,7 @@ msgstr "طلب كلمة مرور جديدة"
 
 #: /home/git/regentmarkets/bom-oauth/lib/BOM/OAuth/O.pm:269
 msgid "New Sign-In Activity Detected"
-msgstr ""
+msgstr "اكتشاف تسجيل دخول جديد نشط"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/change_passwordws.html.tt:25
 msgid "New password"
@@ -8502,7 +8518,7 @@ msgstr "القوة والبساطة"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:45
 msgid "Powerful charting and technical analysis"
-msgstr ""
+msgstr "رسوم بيانية وتحليل فني قوي"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal_jp/contract.html.tt:2
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal_jp/tacjp.html.tt:10
@@ -8712,7 +8728,7 @@ msgstr "تعذر تحديد الحواجز المناسبة."
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:136
 msgid "Prospectus"
-msgstr ""
+msgstr "نشرة تمهيدية"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Proven knowledge of auditing standards, procedures, laws, rules and regulations are an added advantage"
@@ -13203,10 +13219,17 @@ msgstr "يمكنك أن تفتح حساب على هذا الموقع شريطة 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:56
 msgid "You may store the Application-specific alphanumeric user IDs that we provide to you for identifying users of your Application (\"API Tokens\") or the tokens that we provide to you when Binary.com authenticates your Application via Open Authorisation Standard (\"OAuth Tokens\")."
 msgstr ""
+"تستطيع تخزين أبجدية تطبيق خاص بهويات المستخدمين والتي نقدمها لك للتحقق من "
+"هوية مستخدمي التطبيق الخاص بك (\"رموز واجهة برمجة التطبيقات\") أو الرموز "
+"التي نقدمها لك عندما يتم توثيق التطبيق الخاص بك من قبل Binary.com بواسطة "
+"تفويض قياسي مفتوح (\"OAuth Tokens ==> تفويض مفتوح\")."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:227
 msgid "You may terminate this Agreement at any time, but only by giving the Company a minimum of seven days written notice. \"Written notice\" here includes notice delivered by regular letter mail or by email."
 msgstr ""
+"بإمكانك إنهاء هذه الإتفاقية في أي وقت, ولكن فقط عن طريق إعطاء الشركة إشعار "
+"خطي في مدة لا تقل عن سبعة أيام. \"الإشعار الخطي\" هنا يتضمن إشعار مسلم عن "
+"طريق خطاب عادي بالبريد الإلكتروني أو عن طريق البريد الإلكتروني."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/promocode.html.tt:55
 msgid "You may withdraw the bonus amount once you have exceeded an account turnover of 25 times the bonus amount value."
@@ -13223,10 +13246,15 @@ msgstr "يجب عليك تسجيل الدخول لاستخدام ميزة مسا
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:87
 msgid "You must comply with these Terms in order to use the Binary.com API."
 msgstr ""
+"يجب عليك الإلتزام بهذه الشروط من أجل استخدام واجهة برمجة التطبيقات الخاصة ب "
+"Binary.com."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:66
 msgid "You must immediately delete all Content if we terminate your use of the Binary.com API for breach of these Terms, except when doing so would cause you to violate any law or obligation imposed by a governmental authority."
 msgstr ""
+"يجب عليك فوراً حذف جميع المحتويات إذا ما قمنا بإنهاء استخدامك لواجهة برمجة "
+"التطبيقات الخاصة ب Binary.com بسبب خرق هذه الشروط, إلا إذا ما كان ذلك سيتسبب "
+"في إنتهاكك لأي قانون أو إلتزام مفروض من قبل سلطة حكومية."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:194
 msgid "You must not be a USA resident, citizen, or have any tax reporting to the USA"
@@ -13235,11 +13263,21 @@ msgstr "You must not be a USA resident, citizen, or have any tax reporting to th
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:51
 msgid "You must not copy or store any Content or capture or store any information expressed by the Content (such as feed data), except to the extent permitted by these Terms."
 msgstr ""
+"لا يجب عليك نسخ أو تخزين أي محتوى أو إلتقاط أو تخزين أية معلومات أعرب عنها "
+"المحتوى (مثل تغذية البيانات), إلا بالقدر المسموح به من قبل هذه الشروط."
 
 #. ("<a href=\"https://hackerone.com/binary\" target=\"_blank\">Hackerone</a>", "<a href=\"https://binary.vanillacommunity.com\" target=\"_blank\">Vanilla Community</a>")
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:207
 msgid "You must promptly report any security deficiencies in, or intrusions to, your Application that you discover to Binary.com by writing in to %1 or by raising a discussion  thread on %2 which is part of our Developer Site. You will work with Binary.com to immediately correct any security deficiency, and will immediately disconnect any intrusions or intruder. In the event of any security deficiency or intrusion involving the Application, APIs or Content, you will make no public statements (e.g. press, blogs, social media, bulletin boards, etc.) without prior written and express permission from Binary.com in each instance."
 msgstr ""
+"يجب عليك الإبلاغ فوراً عن أي أوجه في القصور الفني, أو اقتحام للتطبيق الخاص "
+"بك الذي قمت باكتشافه ل Binary.com عن طريق الكتابة ل 1% أو من خلال رفع "
+"الموضوع للمناقشة على 2% والتي تعد جزءاً من موقعنا الخاص بالمطورين. سوف تعمل "
+"مع Binary.com على تصحيح أي نقص أمنى فورياً, وقطع الإتصال فورياً عن أي "
+"اختراقات أو تطفل. وفي حال وجود أي نقص أمني أو اختراق يشمل التطبيق, واجهات "
+"برمجة التطبيقات أو المحتويات, فأنت لن تدلي بأي تصريحات علنية (على سبيل "
+"المثال الصحافة, المدونات, وسائل التواصل الإجتماعي, لوحات الإعلانات, وما إلى "
+"ذلك.) دون الحصول على إذن خطي مسبق وصريح من Binary.com في كل حالة."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/binary_options_basics.html.haml:1
 msgid "You only need to make four decisions to execute a binary contract."
@@ -13248,14 +13286,25 @@ msgstr "تحتاج لاتخاذ 4 قرارات فقط لتنفذ عقد ثنائ
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:188
 msgid "You or your employees’ or agents’ acts or omissions, including yours or their breach or alleged breach of these Terms;"
 msgstr ""
+"أعمالك أنت أو موظفيك أو وكلائك أو أخطائك, بما في ذلك خروقاتك أو خروقاتهم أو "
+"الإنتهاك المزعوم لهذه الشروط;"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:82
 msgid "You represent and warrant to the Company that, excluding the Content, you have the right to use, reproduce, transmit, copy, publicly display, publicly perform, and distribute your Application, and that use or promotion of your Application will not violate the rights of any third party (e.g., copyright, patent, trademark, privacy, publicity or other proprietary right of any person or entity), or any applicable regulation or law, and the laws of any country in which your Application is made available."
 msgstr ""
+"أنت تقر وتضمن للشركة أنه باستثناء المحتوى, بأن لديك الحق في استخدام, إعادة "
+"انتاج, نقل, نسخ, العرض العلني, الآداء العلني, وتوزيع التطبيق الخاص بك, وأن "
+"هذا الإستخدام أو الترويج للتطبيق الخاص بك لن ينتهك حقوق أي طرف ثالث (على "
+"سبيل المثال حقوق التأليف والنشر, براءات الإختراع, العلامات التجارية, "
+"الخصوصية, الدعاية, أوغيرها من حقوق الملكية الفكرية لأي شخص أو كيان), أو أي "
+"نظام معمول به أو قانون, وقوانين أي بلد يتاح فيها استخدام التطبيق الخاص بك."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:89
 msgid "You represent, warrant, and undertake that you have obtained and shall maintain all necessary licences and consents to operate within any laws, rules, and regulations applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business."
 msgstr ""
+"أنت تقر وتضمن وتتعهد بأنك حصلت على وسوف تحتفظ بكافة التراخيص والموافقات "
+"اللازمة للعمل ضمن أي قونين أو قواعد أو لوائح معمول بها تحت أي سلطة لأي هيئة "
+"تنظيمية قضائية, والتي كنت تعمل أو تستهدفها في عملك."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:90
 #, fuzzy
@@ -13274,6 +13323,8 @@ msgstr "أنت تقوم بتحديد الحاجز لتحدد عقدك."
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:26
 msgid "You shall avoid disclosure or unauthorized use of any confidential information that may come to your knowledge or possession to third persons or external parties."
 msgstr ""
+"يجب عليك عدم الكشف أو الاستخدام غير المصرح به لأي معلومات سرية قد تصل إلى "
+"علمك أو حيازتك لأي طرف ثالث أو أطراف خارجية."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:186
 #, fuzzy
@@ -13284,6 +13335,14 @@ msgstr "يجب عليك أن تعوض الشركة عند الطلب وتجنب 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:148
 msgid "You shall discontinue your use of all prior versions of the Binary.com API in favour of the revised Binary.com API. While it is the Company’s intention that the revised Binary.com API shall be backward compatible with the immediately prior version of the Binary.com API, the Company does not guarantee or warrant that this shall be so, and the Company shall have no liability whatsoever to you for any failure of the revised Binary.com API to be backward compatible with any prior version of the Binary.com API."
 msgstr ""
+"يجب عليك التوقف عن استخدام جميع الإصدارات السابقة لواجهة برمجة التطبيقات "
+"الخاصة ب Binary.com لصالح الإصدار المعدل من واجهة برمجة التطبيقات الخاصة ب "
+"Binary.com. في حين أن نية الشركة بأن يكون الإصدار المعدل لواجهة برمجة "
+"التطبيقات الخاصة ب Binary.com متوافق فورياً مع الإصدار السابق لواجهة برمجة "
+"التطبيقات الخاصة ب Binary.com, فإن الشركة لا تضمن بأن يكون الأمر كذلك, "
+"والشركة لن تتحمل أي مسئولية تجاهك أياً كانت بسبب فشل توافق الإصدار المعدل "
+"لواجهة برمجة التطبيقات الخاصة ب Binary.com مع أي من الإصدارات السابق لواجهة "
+"برمجة التطبيقات الخاصة ب Binary.com."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:103
 #, fuzzy
@@ -13294,6 +13353,10 @@ msgstr "يجب عليك أن تعوض الشركة عند الطلب وتجنب 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:40
 msgid "You shall not develop and implement marketing, advertising, and promotional activities which infringe any applicable laws, rules, regulations, or codes of practice relating to marketing, advertising, and promotional activities applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business."
 msgstr ""
+"لا يحق لك تطوير وتنفيذ أعمال تسويقية, أو إعلانية, وأنشطة ترويجية تخرق أي "
+"قوانين معمول بها, قواعد, لوائح, أو أكواد الممارسة أو التدريب المتعلقة "
+"بالتسويق, الإعلان, والأنشطة الترويجية المعمول بها تحت سلطة أي هيئة تنظيمية "
+"قضائية والتي تعمل أو تستهدف أعمالك."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:36
 #, fuzzy
@@ -13304,6 +13367,8 @@ msgstr "يجب عليك أن تتصرف كما تقتضي مصلحة العمي�
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:32
 msgid "You shall not encourage your referrals to take out any form of loans to be able to make deposits and/or place trades."
 msgstr ""
+"لا يجوز لك تشجيع الإحالات الخاصة بك لإخراج أي شكل من أشكال القروض لتكون "
+"قادرة على جعل الودائع و/أو مكان التداولات."
 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:34
@@ -13314,7 +13379,7 @@ msgstr "لا يجوز لك أن تضع أو تجمع أموال العملاء �
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:37
 msgid "You shall not place trades on your referrals’ behalf."
-msgstr ""
+msgstr "لا يجوز لك وضع التداولات بالنيابة عن الإحالات الخاصة بك."
 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:38
@@ -13325,12 +13390,14 @@ msgstr "لا يجوز لك شراء أو تسجيل الكلمات الرئيس�
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:35
 msgid "You shall not resort to high-pressure sales tactics or false promises."
-msgstr ""
+msgstr "يجب عليك ألا تلجأ إلى تكتيكات الضغط العالي للمبيعات أو الوعود الكاذبة."
 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:33
 msgid "You shall not target any of your marketing, advertising, and promotional activities to any persons under the age of 18 years old."
 msgstr ""
+"يجب عليك عدم استهداف أي شخص تحت سن 18 في أعمال التسويق والإعلان والأنشطة "
+"الترويجية الخاصة بك."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:255
 msgid "You should enter between %1 characters."
@@ -13473,6 +13540,8 @@ msgstr "حسابك مهم لنا. يرجى أن <a href=\"%1\">تتصل بنا</
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:750
 msgid "Your account is not fully authenticated. Please visit the <a href=\"%1\">authentication</a> page for more information."
 msgstr ""
+"الحساب الخاص بك غير موثق بشكل كامل. يرجى زيارة صفحة<a href=\"%1\"> التوثيق "
+"</a>لمزيد من المعلومات."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/my_accountws.html.tt:17
 msgid "Your account is registered as a Payment Agent."
@@ -13506,7 +13575,7 @@ msgstr "طلب المكافأة الخاص بك - %1"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:189
 msgid "Your breach of any of Binary.com’s rights;"
-msgstr ""
+msgstr "انتهاكك لأي حقوق خاصة ب Binary.com;"
 
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Cashier.pm:110
 msgid "Your cashier is locked"
@@ -13706,14 +13775,23 @@ msgstr "الرقم المرجعي لمعاملتك هو %1"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:235
 msgid "Your use of the Binary.com API causes damage to the Binary.com trading platform, then Binary.com may, at its option, forthwith suspend your use of the Binary.com API and/or terminate this Agreement without further written notice."
 msgstr ""
+"استخدامك لواجهة برمجة التطبيقات الخاصة ب Binary.com يسبب ضرراً لمنصة تداول "
+"Binary.com, ومن ثم فإن Binary.com قد تعلق استخدامك لواجهة برمجة التطبيقات "
+"الخاصة ب Binary.com وفقاً لخيارها, و/أو قد تنهي هذه الإتفاقية دون إشعار خطي "
+"آخر."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:112
 msgid "Your use of the Binary.com API will not confer to you any title, ownership interest or intellectual property rights that otherwise belongs to the Company. Our trading platform is protected under patent and our website, including its content, is protected by copyright laws, and will remain our exclusive property, as applicable."
 msgstr ""
+"استخدمك لواجهة برمجة التطبيقات الخاصة ب Binary.com لا يمنح لك أي ملكية, أو "
+"مصلحة ملكية أو حقوق الملكية الفكرية التي تعود بشكل أو بأخر للشركة. منصة "
+"التداول الخاصة بنا محمية تحت براءة اختراع وموقعنا على الأنترنت, بما في ذلك "
+"محتوياته محمي بموجب قوانين حقوق التأليف والنشر, وسوف تظل ملكية حصرية لنا حسب "
+"مقتضى الحال."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:190
 msgid "Your violation of any applicable law, rule or regulation;"
-msgstr ""
+msgstr "خرقك لأي قانون, قاعدة, أو نظام معمول به;"
 
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:590
 msgid "Your website URL"
@@ -14034,6 +14112,8 @@ msgstr "يبدأ في"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:30
 msgid "sublicense any of the rights granted under these Terms, other than as permitted by these Terms;"
 msgstr ""
+"إعادة ترخيص أي من الحقوق الممنوحة بموجب هذه الشروط, بخلاف ما هو مسموح به "
+"بموجب هذه الشروط;"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/maltainvestws.html.tt:415
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/realws.html.tt:176
@@ -14069,10 +14149,16 @@ msgstr "اليوم"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:31
 msgid "use or reproduce the Binary.com API other than as permitted by these Terms or"
 msgstr ""
+"استخدام أو إعادة انتاج واجهة برمجة التطبيقات الخاصة ب Binary.com بخلاف ما هو "
+"مسموح به بموجب هذه الشروط أو"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:32
 msgid "use the Binary.com API for any purpose that violates any law or regulation, any right of any person, including but not limited to intellectual property rights, rights of privacy or rights of personality, or in any manner inconsistent with these Terms or privacy policy."
 msgstr ""
+"استخدام واجهة برمجة التطبيقات الخاصة ب Binary.com لأي غرض ينتهك أي قانون أو "
+"نظام, أي حق لأي شخص, بما في ذلك ولكن ليس على سبيل الحصر لحقوق الملكية "
+"الفكرية, حقوق خصوصية أو حقوق شخصية, أو بأي طريقة لا تنسجم مع هذه الشروط أو "
+"سياسة الخصوصية."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:297
 #, fuzzy
@@ -14288,6 +14374,8 @@ msgstr "{JAPAN ONLY}Enter your personal information, and acknowledge our terms a
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:531
 msgid "{JAPAN ONLY}Even if all details of the binary options match perfectly, there may still be differences in the prices shown by different broking companies."
 msgstr ""
+"{اليابان فقط} حتى إذا ما كانت جميع تفاصيل الخيارات الثنائية متطابقة تماماً, "
+"قد تكون هناك اختلافات في الأسعار المعروضة من قبل شركات الوساطة المختلفة."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:472
 msgid "{JAPAN ONLY}Even if the option is exercise or not exercised, the original option premium remains with the option seller."
@@ -14476,10 +14564,18 @@ msgstr "{JAPAN ONLY}It cannot be said that binary options trading is uncondition
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:539
 msgid "{JAPAN ONLY}It is determined that proper by the results of this test, if you want to start the transaction, and then also as a trouble on the transaction occurred between the Company , the Company despite missing is knowledge related to options trading trading cause of action and you agree that you will not is that it has admitted ."
 msgstr ""
+"ثبت أن الصحيح من قبل نتائج هذا الإختبار, إذا كنت تريد أن تبدأ هذه الصفقة, "
+"ومن ثم كمشكلة وقعت على الصفقة بين الشركة, الشركة على الرغم من المفقود على "
+"علم أن مرجعيتها لخيارات التداول التداول سبب الفعل وأنت توافق على أنك لن هو "
+"أنه معترف به."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:540
 msgid "{JAPAN ONLY}It is determined the customers have basic knowledge of option trading by the results of the knowledge test. If the customers start trading, the customers need to agree not have lawsuit despite the customer are shortage of knowledge related to options trading, and it cause damages, we admit to open the trading account."
 msgstr ""
+"{اليابان فقط} ثبت أن العملاء لديهم معرفة أساسية بتداول الخيارات من خلال "
+"نتائج اختبار المعرفة. إذا بدأ العملاء التداول, فإن العملاء بحاجة للموافقة "
+"بأن لا يكون لديهم شكوى على الرغم من نقص معرفة العملاء المتعلقة بتداول "
+"الخيارات, وأنها تسبب أضرار, علينا أن نعترف بفتح حساب تداول."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:442
 msgid "{JAPAN ONLY}It is possible to use two binary options to make a profit if the asset price settles inbetween the two strikes. It is also possible to buy a single range option that will achieve the same result."
@@ -14492,6 +14588,8 @@ msgstr "{JAPAN ONLY}It is possible to use two binary options to make a profit if
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:541
 msgid "{JAPAN ONLY}It prohibits the copying of the questions . In addition , You agree that you will not leak to third party"
 msgstr ""
+"{اليابان فقط} يحظر نسخ الأسئلة, بالإضافة إلى, أنك توافق على أنك لن تسرب إلى "
+"طرف ثالث"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:408
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/knowledge_test.html.tt:2
@@ -14505,7 +14603,7 @@ msgstr "{JAPAN ONLY}Knowledge Test Result"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:30
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:42
 msgid "{JAPAN ONLY}No space between last name and first name"
-msgstr ""
+msgstr "{اليابان فقط} لا مسافة بين الأسم الأخير والأسم الأول"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:169
 msgid "{JAPAN ONLY}Option Pricing"
@@ -14522,6 +14620,8 @@ msgstr "{JAPAN ONLY}Option prices are normally dependant on elements such as the
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:534
 msgid "{JAPAN ONLY}Option prices depend on the spot price, the time to expiry, the volatility of the spot rate and interest rates."
 msgstr ""
+"{اليابان فقط} خيار الأسعار يعتمد على السعر الفوري, وقت الإنقضاء, معدل تقلب "
+"السعر الفوري, وأسعار الفائدة."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:12
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:137
@@ -14748,10 +14848,15 @@ msgstr "{JAPAN ONLY}There are two types of option delivery: One requires exchang
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:536
 msgid "{JAPAN ONLY}This knowledge test is required by law. As we provide the test, we know customers better whether the customers are suitable investors to be carried out the binary options trading, and customers can start trading with us."
 msgstr ""
+"{اليابان فقط} اختبار المعرفة هذا مطلوب من قبل القانون. ولأننا نقدم الإختبار, "
+"فنحن نعلم أن العملاء أفضل إذا ما كان العملاء مناسبين للمستثمرين لتنفيذ تداول "
+"الخيارات الثنائية, وبإمكان العملاء البدء في التداول معنا."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:538
 msgid "{JAPAN ONLY}This test is for the purpose of confirming if the customers have basic knowledge related to options trading ."
 msgstr ""
+"{اليابان فقط} هذا الإختبار لغرض التأكد إذا ما كان للعملاء معرفة أساسية "
+"متعلقة بتداول الخيارات."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:430
 msgid "{JAPAN ONLY}To avoid or hedge the future price of an underlying asset which you hold, you should buy a call option."
@@ -14764,6 +14869,8 @@ msgstr "{JAPAN ONLY}To compensate for any rise in the price of an underlying ass
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:537
 msgid "{JAPAN ONLY}To invest a binary options investment accurately, the customer are required knowledge and experience related to derivative transactions."
 msgstr ""
+"{اليابان فقط} لإستثمار استثمار دقيق في الخيارت الثنائية, يتطلب من العملاء "
+"المعرفة والخبرة المتعلقة بالمعاملات المالية المشتقة."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:164
 msgid "{JAPAN ONLY}Trading & Hedging"
@@ -14806,6 +14913,9 @@ msgstr "{JAPAN ONLY}When buying a vanilla put option, the break-even price at th
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:533
 msgid "{JAPAN ONLY}Where broking companies show bid and offer prices for purchasing and sell-back of positions, these prices may become further apart the nearer you are to the exercise time."
 msgstr ""
+"{اليابان فقط} أينما تظهر شركت الوساطة أسعار العرض والطلب للشراء وإعادة بيع "
+"المواقف, فقد تصبح هذه الأسعار علاوة على ذلك بعيدة كلما اقتربت أنت من وقت "
+"التمرين."
 
 #. (request.url_for("/", { 'l' => 'JA'  }))
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:89
@@ -15739,7 +15849,7 @@ msgstr "Novartis AG"
 
 #: Underlying Symbol USBRKSHR
 msgid "Berkshire Hathaway Inc."
-msgstr ""
+msgstr "شركة بيركشاير هاثاواي المتحدة."
 
 #: Underlying Symbol AUCBA
 msgid "Commbank (Australia)"
@@ -15983,7 +16093,7 @@ msgstr ".Pfizer Inc"
 
 #: Underlying Symbol AUORI
 msgid "Orica Limited"
-msgstr ""
+msgstr "أوريكا المحدودة"
 
 #: Underlying Symbol DEGGQ
 msgid "GOOGLE INC. A DL"
@@ -16081,7 +16191,7 @@ msgstr "Renault"
 
 #: Underlying Symbol USDANG
 msgid "E-Commerce China Dangdang Inc."
-msgstr ""
+msgstr "شركة دانج دانج الصينية للتجارة الإلكترونية المتحدة"
 
 #: Underlying Symbol DEADS
 msgid "ADIDAS AG"
@@ -16131,7 +16241,7 @@ msgstr "GlaxoSmithKline plc"
 
 #: Underlying Symbol AUWES
 msgid "WESFARMERS LIMITED"
-msgstr ""
+msgstr "ويز فارمر المحدودة"
 
 #: Underlying Symbol USWRKD
 msgid "Workday Inc."
@@ -16139,7 +16249,7 @@ msgstr "Workday Inc."
 
 #: Underlying Symbol AUAMC
 msgid "Amcor Ltd"
-msgstr ""
+msgstr "أمكور المحدودة"
 
 #: Underlying Symbol USCHMO
 msgid "China Mobile Limited"
@@ -16247,7 +16357,7 @@ msgstr "Apple Inc."
 
 #: Underlying Symbol USVIPSHP
 msgid "Vipshop Holdings Limited"
-msgstr ""
+msgstr "في أي بي شوب القابضة المحدودة"
 
 #: Underlying Symbol DETKAG
 msgid "Thyssenkrupp SS"
@@ -16561,7 +16671,7 @@ msgstr "إجراءات الشركات"
 
 #: Underlying Symbol USMS
 msgid "Morgan Stanley"
-msgstr ""
+msgstr "مورجان ستانلي"
 
 #: Underlying Symbol NAUNA
 msgid "Unilever"
@@ -16964,6 +17074,8 @@ msgstr "تمثل الفوركس (أو العملات الأجنبية) النس�
 #: Explanation for market Volatility Indices
 msgid "The volatility indices simulate various real market situations and provide an ideal platform for getting used to trading and testing strategies under various market conditions."
 msgstr ""
+"مؤشرات التقلب تحاكي مختلف أوضاع السوق الحقيقي وتقدم منصة مثالية للتعود على "
+"تداول واختبار الإستراتيجيات في ظل ظروف السوق المختلفة."
 
 #: Explanation for market Indices
 msgid "Indices represent the weighted value of a basket of companies, typically traded on the same exchange."
