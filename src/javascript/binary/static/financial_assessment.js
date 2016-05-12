@@ -9,6 +9,10 @@ var FinancialAssessmentws = (function(){
             submitForm();
             return false;
         });
+        if (sessionStorage.getItem('risk_classification') === 'high') {
+          $('#high_risk_classification').text(text.localize('Please complete the following financial assessment form before continuing.'))
+                                        .removeClass('invisible');
+        }
         BinarySocket.send(JSON.parse("{\"get_financial_assessment\" : 1}"));
     };
 
@@ -100,9 +104,18 @@ var FinancialAssessmentws = (function(){
 
     var responseOnSuccess = function(){
         $("#heading").hide();
+        $('#high_risk_classification').hide();
         hideLoadingImg(false);
         $("#response_on_success").text(text.localize("Your details have been updated."))
             .removeClass("invisible");
+        sessionStorage.removeItem('risk_classification');
+        if (sessionStorage.getItem('risk_redirect') && !sessionStorage.getItem('check_tnc')) {
+          var redirectUrl = sessionStorage.getItem('risk_redirect');
+          sessionStorage.removeItem('risk_redirect');
+          window.location.href = redirectUrl;
+        } else if (sessionStorage.getItem('check_tnc')) {
+          page.client.check_tnc();
+        }
     };
 
     var apiResponse = function(response){
