@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arabic (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-11 23:16+0000\n"
+"PO-Revision-Date: 2016-05-12 23:55+0000\n"
 "Last-Translator: Ahmed Kotb <ahmedmohamedkotp@gmail.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/binary/static/ar/>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/binary/static/ar/>"
+"\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 2.7-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -8172,7 +8174,7 @@ msgstr "رجاء قم باختيار العملة التى تود أن تتعا�
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:715
 msgid "Please complete the following financial assessment form before continuing."
-msgstr ""
+msgstr "يرجى ملء استمارة التقييم المالي التالية قبل المتابعة."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:138
 msgid "Please confirm the trade on your statement before proceeding."
@@ -13844,7 +13846,7 @@ msgstr "شرح"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:265
 msgid "f"
-msgstr ""
+msgstr "أف"
 
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:810
 msgid "first tick"
