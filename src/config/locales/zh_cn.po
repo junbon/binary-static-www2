@@ -3,9 +3,10 @@ msgstr ""
 "Project-Id-Version: Chinese (China) (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-11 06:32+0000\n"
+"PO-Revision-Date: 2016-05-12 03:06+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
-"Language-Team: Chinese (China) <https://hosted.weblate.org/projects/binary/static/zh_CN/>\n"
+"Language-Team: Chinese (China) "
+"<https://hosted.weblate.org/projects/binary/static/zh_CN/>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -151,10 +152,11 @@ msgstr "%1 不断为系统管理员、技术参与者和主管人才团队添加
 
 #. (request.website.display_name, "//developers.binary.com")
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:75
-#, fuzzy
 #| msgid "%1 is an active proponent of the open-source movement. you can suggest your enhancements and activity take part in the development of our applications. You can find more information for developers on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
 msgid "%1 is an active proponent of the open-source movement. Suggest enhancements, and take part in the development of our powerful applications. You can find more information on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
-msgstr "%1 是活跃的开源移动支持者。您可为您的增强功能和参与开发我们的应用程序活动提出建议。您可在我们的<a href=\"%2\" target=\"_blank\">程序员门户</a>获取程序员的详细信息。"
+msgstr ""
+"%1 是活跃的开源移动支持者。请提出增强功能的建议，并参与开发我们强大的应用程序。您可在我们的<a href=\"%2\" target=\""
+"_blank\">程序员门户</a>获取详细信息。"
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -4368,10 +4370,9 @@ msgid "Explanation"
 msgstr "说明"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:60
-#, fuzzy
 #| msgid "Explore Binary.com’s most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
 msgid "Explore our most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
-msgstr "探讨 Binary.com 的最前沿新平台，目前 beta 版本已启用。请用您的虚拟账户交易。"
+msgstr "探讨我们的最前沿新平台，目前 beta 版本已启用。请用您的虚拟账户交易。"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:491
 msgid "Exponential Moving Average"
@@ -6698,7 +6699,6 @@ msgid "Links"
 msgstr "链接"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:83
-#, fuzzy
 #| msgid "List of all our open source projects"
 msgid "List of All Open-Source Projects"
 msgstr "所有开源项目列表"
@@ -7308,7 +7308,6 @@ msgid "Next Day"
 msgstr "第二天"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:82
-#, fuzzy
 #| msgid "Next-Gen on GitHub"
 msgid "Next Gen on GitHub"
 msgstr "GitHub 的下一代"
@@ -10736,10 +10735,9 @@ msgstr "首个跳动点指在我们服务器处理合约后的第一个跳动点
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:59
-#, fuzzy
 #| msgid "Purpose of trading"
 msgid "The future of trading on %1"
-msgstr "Purpose of trading"
+msgstr "%1的交易前景"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:118
 msgid "The information provided during the sign-up process warranted by yourself to be true and correct is determined by the Company to be false or incorrect during the term of this Agreement;"
@@ -11265,10 +11263,9 @@ msgid "Tick"
 msgstr "跳动点"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:8
-#, fuzzy
 #| msgid "Tick Trade"
 msgid "Tick Trade App"
-msgstr "跳动交易"
+msgstr "跳动交易应用程序"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:80
 msgid "Tick Trade on GitHub"
@@ -11701,10 +11698,9 @@ msgid "Ultimate Oscillator"
 msgstr "终极摆动指标"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:9
-#, fuzzy
 #| msgid "For ultra fast trading"
 msgid "Ultra-fast trading"
-msgstr "超快交易专用"
+msgstr "超快交易"
 
 # 87%
 # 100%
