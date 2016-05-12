@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-11 07:35+0000\n"
+"PO-Revision-Date: 2016-05-12 10:51+0000\n"
 "Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/binary/static/ja/>\n"
+"Language-Team: Japanese "
+"<https://hosted.weblate.org/projects/binary/static/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -680,7 +681,7 @@ msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued C
 msgstr ""
 "<p style=\"line-height:200%;color:#333333;font-size:15px;\">お客さまへ</p>\n"
 "<p>新しい認証コードを発行いたしました。パスワード再設定ページ上で下記認証コードをご入力頂き、新しいパスワードを再設定してください。<p>\n"
-"<span style=\"background: #f2f2f2; padding: 10px;\">%1</span> 6</p> 7</p> 8"
+"<span style=\"background: #f2f2f2; padding: 10px;\">%1</span> </p> </p>"
 
 #. ($params->{code})
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/NewAccount.pm:133
@@ -5872,7 +5873,7 @@ msgstr "J. Welles Wilder氏によってAverage Directional Index (ADX)は考案�
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
 msgid "JAPAN ONLY CONTACT TEXT"
-msgstr "お問い合わせの受付は、メールのみとなっております。"
+msgstr "メールのみでの対応となっております。"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:80
 msgid "Jan"
@@ -10943,7 +10944,7 @@ msgstr "お客さまの口座のパスワード%1 は変更されました。こ
 #. ($email)
 #: /home/git/regentmarkets/bom-rpc/lib/BOM/RPC/v3/Accounts.pm:521
 msgid "The password for your account %1 has been reset. If this request was not performed by you, please immediately contact Customer Support."
-msgstr "%1のパスワードはリセットされました。本メールにお心当たりがない場合は、お手数ですがカスタマーサポートまでご連絡ください。"
+msgstr "%1のパスワードは再設定されました。本メールにお心当たりがない場合は、お手数ですがカスタマーサポートまでご連絡ください。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "The patent means Regent Markets is the recognised pioneer of binary betting. The patent helps protect our innovations."
@@ -14663,7 +14664,7 @@ msgstr "通貨関連バイナリーオプションのショートポジション
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:515
 msgid "{JAPAN ONLY}Sorry, you have failed the test, please try again after 24 hours."
-msgstr "残念ながら、合格点に達しませんでした。24時間以降（週末を除く）に再受験して下さい。"
+msgstr "残念ながら、合格点に達しませんでした。24時間以降（週末を除く）に再受験してください。"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:18
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/get_started_jp/get_started.html.tt:193
