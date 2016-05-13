@@ -7,14 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-09 18:06+0000\n"
+"PO-Revision-Date: 2016-05-13 22:46+0000\n"
 "Last-Translator: Ewelina Bruździak <e.bruzdziak@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/binary/static/pl/>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/binary/static/pl/>"
+"\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.7-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -157,6 +159,9 @@ msgstr "%1 jest zawsze otwarte na przyjęcie doświadczonych specjalistów do sw
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:75
 msgid "%1 is an active proponent of the open-source movement. Suggest enhancements, and take part in the development of our powerful applications. You can find more information on our <a href=\"%2\" target=\"_blank\">Developers Portal</a>."
 msgstr ""
+"%1 popiera ruch wolnego oprogramowania. Zasugeruj ulepszenia i weź udział w "
+"tworzeniu naszych zaawansowanych aplikacji. Więcej informacji znajdziesz na "
+"naszym <a href=\"%2\" target=\"_blank\">portalu dla programistów</a> 2."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/beginners_faq.html.haml:1
@@ -245,10 +250,11 @@ msgstr "Ceny %1 są zestawiane z cenami na rynku opcji międzybankowych, co ozna
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:3
-#, fuzzy
 #| msgid "%1 provides a variety of charts to help you determine what markets to trade on. Try them out."
 msgid "%1 provides a variety of applications to help you trade efficiently."
-msgstr "%1 proponuje różne typy wykresów, które pomogą Ci ustalić, na których rynkach handlować. Wypróbuj je."
+msgstr ""
+"%1 dostarcza różne aplikacje, aby pomóc Ci handlować w jeszcze prostszy i "
+"wygodniejszy sposób."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/partners.html.haml:1
@@ -1409,7 +1415,7 @@ msgstr "Zaawansowana znajomość zasad projektowania oprogramowania"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:29
 msgid "Advanced tool for active traders"
-msgstr ""
+msgstr "Zaawansowane narzędzia dla aktywnych graczy"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Advising senior managers regarding salary negotiations and job offers"
@@ -1889,7 +1895,7 @@ msgstr "Dostępne metody płatności"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:62
 msgid "Available soon..."
-msgstr ""
+msgstr "Dostępne wkrótce..."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:642
 msgid "Avg Directional Index"
@@ -2117,10 +2123,9 @@ msgid "Binary Ltd, with registered office address situated at <span itemprop='lo
 msgstr "Binary Ltd, z siedzibą zarejestrowaną pod adresem: <span itemprop='location'>47 Esplanade, St. Helier, Jersey, JE 0BD Channel Islands</span>, jest spółką holdingową grupy Binary."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:58
-#, fuzzy
 #| msgid "Binary option"
 msgid "Binary Next Gen"
-msgstr "Opcja binarna"
+msgstr "Binary Next Gen"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/binary_options_basics.html.haml:1
 msgid "Binary Options Basics"
@@ -2225,6 +2230,9 @@ msgstr "Binary.com aktywnie wspiera i promuje oprogramowanie open source i obecn
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Binary.com is honoured as the world's \"Best Binary Options Broker\" at the 16th annual MENA International Financial Conference and Exhibition, hosted in Dubai."
 msgstr ""
+"Podczas 16. edycji corocznego wydarzenia MENA International Financial "
+"Conference and Exhibition w Dubaju firma Binary.com zostaje uznana za „"
+"Najlepszego brokera opcji binarnych”."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/group-information.html.haml:1
 msgid "Binary.com is not available in Costa Rica and is not regulated or supervised by any regulatory body in the Costa Rican financial system."
@@ -2255,10 +2263,12 @@ msgid "Binary.com supports the <a target=\"_blank\" href=\"http://www.responsibl
 msgstr "Binary.com wspiera fundację <a target=\"_blank\" href=\"http://www.responsiblegamblingtrust.org.uk/\">Responsible Gambling Trust</a> (RGT), która jest najpopularniejszą organizacją charytatywną w Wielkiej Brytanii skupiającą się na minimalizowaniu szkód związanych z hazardem. RGT zajmuje się sponsorowaniem kształcenia dot. problemów związanych z hazardem oraz usług mających na celu zapobieganie tym problemom i zwalczanie ich. Zleca również różnego rodzaju badania, aby pomóc ludziom zrozumieć szkody, jaki może wyrządzić hazard. Prowadzi także krajowy telefon zaufania dla osób szukających pomocy w związku z problemami z hazardem, oferując poufne porady i wsparcie emocjonalne."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
-#, fuzzy
 #| msgid "Binary.com took home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London."
 msgid "Binary.com takes home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London."
-msgstr "Binary.com zdobywa pierwszą nagrodę w kategorii „Operator finansowy roku” na prestiżowej ceremonii wręczenia nagród EGR Operator Awards, która odbyła się w Londynie w 2015 r."
+msgstr ""
+"Binary.com zdobywa pierwszą nagrodę w kategorii „Operator finansowy roku” na "
+"prestiżowej ceremonii wręczenia nagród EGR Operator Awards, która odbyła się "
+"w Londynie w 2015 r."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/open_source_projects.html.haml:1
 msgid "Binary.com’s CPAN contributions"
@@ -2823,10 +2833,9 @@ msgstr "Prawo firmy"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:133
-#, fuzzy
 #| msgid "Compliance"
 msgid "Complaints"
-msgstr "Zgodność"
+msgstr "Skargi"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/complaints_disputes.html.tt:2
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/tac.html.tt:19
@@ -4082,6 +4091,9 @@ msgstr "Usprawniać działania firmy prowadzone w mediach społecznościowych i 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:10
 msgid "Enjoy our fastest type of trading on your mobile phone or tablet. Place tick trades anytime, anywhere – even while you’re on the move."
 msgstr ""
+"Korzystaj z najszybszego sposobu handlowania na swoim telefonie komórkowym "
+"lub tablecie. Zawieraj zakłady oparte na zmianach ceny gdzie chcesz i kiedy "
+"chcesz – nawet gdy jesteś w drodze."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ensure compliance with quality control standards governing website content"
@@ -4166,6 +4178,9 @@ msgstr "Kwota zakupu kontraktu typu „parzysta/nieparzysta” zostanie zwrócon
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:46
 msgid "Examine the history of a particular instrument to plot your next move. This advanced charting platform offers a wide range of technical indicators."
 msgstr ""
+"Przeanalizuj historię zachowania określonego instrumentu na rynku, aby "
+"zaplanować swój następny ruch. Ta zaawansowana platforma z wykresami oferuje "
+"szeroką gamę wskaźników technicznych."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/spread_bets.html.haml:1
 msgid "Example:"
@@ -4371,6 +4386,8 @@ msgstr "Wyjaśnienie"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:60
 msgid "Explore our most cutting-edge new platform, now available in beta form. Place trades from your virtual account."
 msgstr ""
+"Poznaj naszą nową, najnowocześniejszą platformę – dostępną teraz w wersji "
+"beta. Zawieraj zakłady, korzystając z konta wirtualnego."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:491
 msgid "Exponential Moving Average"
@@ -6428,7 +6445,7 @@ msgstr "Dołącz NA ŻYWO do naszych analityków dwa razy w tygodniu, aby uzyska
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:69
 msgid "Join our developer community"
-msgstr ""
+msgstr "Dołącz do społeczności naszych programistów"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Join our team of bright, talented professionals. Work collaboratively with us to enhance and promote a high-tech platform that has been one of the most recognised in the binary options trading industry for over 15 years."
@@ -6697,10 +6714,9 @@ msgid "Links"
 msgstr "Łącza"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:83
-#, fuzzy
 #| msgid "Binary.com open-source projects"
 msgid "List of All Open-Source Projects"
-msgstr "Projekty open source na Binary.com"
+msgstr "Lista wszystkich projektów open source"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
 msgid "Live chat:"
@@ -6821,7 +6837,7 @@ msgstr "Sygnał MACD"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "MENA FFXPO Award"
-msgstr ""
+msgstr "Nagroda MENA FFXPO"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Maintain accurate system pricing parameters"
@@ -7106,6 +7122,9 @@ msgstr "Monitorowanie wdrażania sprzętu i oprogramowania oraz zarządzanie nas
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:30
 msgid "Monitor the movements of all of your favourite assets and markets at the same time. This flexible charting platform provides a variety of customisable features."
 msgstr ""
+"Monitoruj zachowanie wszystkich Twoich ulubionych aktywów i rynków "
+"jednocześnie. Ta elastyczna platforma z wykresami oferuje różnorodne "
+"funkcje, które można dowolnie dostosowywać do swoich potrzeb."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Monitor website trading activity and minimize abuse"
@@ -7305,10 +7324,9 @@ msgid "Next Day"
 msgstr "Następny dzień"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:82
-#, fuzzy
 #| msgid "Webtrader"
 msgid "Next Gen on GitHub"
-msgstr "Webtrader"
+msgstr "Aplikacja Next Gen na GitHub"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:415
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Backoffice/Form.pm:819
@@ -8099,6 +8117,8 @@ msgstr "Wybierz, w jakiej walucie chcesz zawrzeć transakcję."
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:715
 msgid "Please complete the following financial assessment form before continuing."
 msgstr ""
+"Zanim przejdziesz dalej wypełnij poniższy formularz oceny sytuacji "
+"finansowej."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:138
 msgid "Please confirm the trade on your statement before proceeding."
@@ -8427,7 +8447,7 @@ msgstr "Siła i prostota"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:45
 msgid "Powerful charting and technical analysis"
-msgstr ""
+msgstr "Funkcjonalne wykresy i zaawansowana analiza techniczna"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal_jp/contract.html.tt:2
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal_jp/tacjp.html.tt:10
@@ -8619,7 +8639,7 @@ msgstr "Nie można wyznaczyć odpowiednich limitów."
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:136
 msgid "Prospectus"
-msgstr ""
+msgstr "Prospekt"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Proven knowledge of auditing standards, procedures, laws, rules and regulations are an added advantage"
@@ -10210,10 +10230,15 @@ msgstr "Portal %1 jest chroniony prawami autorskimi."
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/group-information.html.haml:1
-#, fuzzy
 #| msgid "The <span itemprop=\"brand\">%1</span> service (formerly known as BetOnMarkets.com) is owned and operated by Binary Ltd. Fully licensed and regulated, %1 has been providing financial trading to a worldwide audience of over 1,000,000 clients since <span itemprop=\"foundingdate\">1999</span>"
 msgid "The <span itemprop=\"brand\">%1</span> service (formerly known as BetOnMarkets.com) is owned and operated by Binary Ltd. Fully licensed and regulated, %1 has been providing financial trading to a worldwide audience of over 1,000,000 accounts since <span itemprop=\"foundingdate\">1999</span>"
-msgstr "Portal <span itemprop=\"brand\">%1</span> (poprzednia nazwa: BetOnMarkets.com) jest własnością grupy Binary Ltd i jest prowadzony przez tę grupę. Posiadamy wszystkie niezbędne zezwolenia i podlegamy wymaganym regulacjom. %1 umożliwia handel na rynkach finansowych ponad 1 000 000 klientom na całym świecie od <span itemprop=\"foundingdate\">1999 roku</span>"
+msgstr ""
+"Portal <span itemprop=\"brand\">%1</span> (poprzednia nazwa: "
+"BetOnMarkets.com) jest własnością grupy Binary Ltd i jest prowadzony przez "
+"tę grupę. Posiadamy wszystkie niezbędne zezwolenia i podlegamy wymaganym "
+"regulacjom. Od <span itemprop=\"foundingdate\">1999 roku</span> %1 umożliwia "
+"handel na rynkach finansowych klientom na całym świecie, korzystającym z "
+"ponad 1 000 000 kont"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/home/index.html.haml:1
 msgid "The <strong>Premier Platform</strong> for Binary Options Trading"
@@ -10736,10 +10761,9 @@ msgstr "Pierwszy najmniejszy przyrost ceny oznacza pierwszy najmniejszy przyrost
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:59
-#, fuzzy
 #| msgid "Purpose of trading"
 msgid "The future of trading on %1"
-msgstr "Purpose of trading"
+msgstr "Przyszłość handlowania na %1"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:118
 msgid "The information provided during the sign-up process warranted by yourself to be true and correct is determined by the Company to be false or incorrect during the term of this Agreement;"
@@ -11265,16 +11289,14 @@ msgid "Tick"
 msgstr "Zmiana ceny"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:8
-#, fuzzy
 #| msgid "Tick Trades:"
 msgid "Tick Trade App"
-msgstr "Zakłady z najmniejszym przyrostem ceny:"
+msgstr "Aplikacja Tick Trade"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:80
-#, fuzzy
 #| msgid "Tick Trade Up/Down"
 msgid "Tick Trade on GitHub"
-msgstr "Zakład z najmniejszym przyrostem ceny wzrost/spadek"
+msgstr "Aplikacja Tick Trade na GitHub"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/commission_table.html.tt:3
 msgid "Tier"
@@ -11625,10 +11647,9 @@ msgstr "Zaufanie"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:33
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:49
-#, fuzzy
 #| msgid "Try it now"
 msgid "Try It"
-msgstr "Wypróbuj teraz"
+msgstr "Wypróbuj ją"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:305
 msgid "Try adding more letters or numbers."
@@ -11705,10 +11726,9 @@ msgid "Ultimate Oscillator"
 msgstr "Oscylator ostateczny"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:9
-#, fuzzy
 #| msgid "Start trading"
 msgid "Ultra-fast trading"
-msgstr "Rozpocznij handel"
+msgstr "Super szybkie handlowanie"
 
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Locale.pm:205
 msgid "Unable to price the contract."
@@ -12274,10 +12294,9 @@ msgid "Webtrader"
 msgstr "Webtrader"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:81
-#, fuzzy
 #| msgid "Webtrader"
 msgid "Webtrader on GitHub"
-msgstr "Webtrader"
+msgstr "Webtrader na GitHub"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:76
 msgid "Wednesday"
@@ -12915,10 +12934,9 @@ msgid "You have exceeded your daily limit on losses of %1%2."
 msgstr "Przekroczono dzienny limit straty: %2 %1."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:719
-#, fuzzy
 #| msgid "You have not granted access to any apps."
 msgid "You have not granted access to any applications."
-msgstr "Nie udzielono Ci dostępu do żadnej aplikacji."
+msgstr "Nie przyznano Ci dostępu do żadnej aplikacji."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:119
 msgid "You have not obtained and have not maintained all necessary licences and consents to operate within any laws, rules, and regulations applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business;"
@@ -13422,10 +13440,9 @@ msgid "Your risks are known"
 msgstr "Wiesz, jakie jest ryzyko"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:315
-#, fuzzy
 #| msgid "Session duration limit, in minutes"
 msgid "Your session duration limit will end in %1 seconds."
-msgstr "Limit czasu sesji, w minutach"
+msgstr "Limit czasu sesji zakończy się za %1 s."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:263
 msgid "Your settings have been updated successfully."
