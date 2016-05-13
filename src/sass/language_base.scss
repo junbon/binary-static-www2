@@ -171,9 +171,12 @@ body.RU{
     display: inline !important;
   }
 
+  .ru-hide {
+    display: none !important;
+  }
 }
 
-body.PT {
+body.PT, body.RU {
   a, button, .button, span, input {
     text-transform: initial!important;
   }
