@@ -18,7 +18,7 @@ our @EXPORT_OK = qw/
     tt2
 
     css_files js_config menu
-/;
+    /;
 
 sub root_path {
     return path(__FILE__)->parent->parent->parent->parent->absolute->stringify;
@@ -30,6 +30,7 @@ sub is_dev { return $IS_DEV; }
 sub set_is_dev { $IS_DEV = 1; }
 
 our $LANG = 'en';
+
 sub set_lang {
     $LANG = shift;
 }
@@ -78,7 +79,7 @@ sub lang_display_name {
 
 ## url_for
 sub root_url {
-    return is_dev() ? '/binary-static-www2/' : '/'
+    return is_dev() ? '/binary-static-www2/' : '/';
 }
 
 sub url_for {
@@ -90,26 +91,26 @@ sub url_for {
 ## tt2/haml
 sub tt2 {
     my @include_path = (root_path() . '/src/templates/toolkit');
-    my $stash = {
-        language                  => $request->language,
-        broker                    => $request->broker,
-        request                   => $request,
-        broker_name               => $request->website->display_name,
-        website                   => $request->website,
+    my $stash        = {
+        language    => $request->language,
+        broker      => $request->broker,
+        request     => $request,
+        broker_name => $request->website->display_name,
+        website     => $request->website,
         # 'is_pjax_request'         => $request->is_pjax,
         l                         => \&localize,
         to_monetary_number_format => \&Format::Util::Numbers::to_monetary_number_format,
     };
 
     my $template_toolkit = Template->new({
-        ENCODING     => 'utf8',
-        INCLUDE_PATH => join(':', @include_path),
-        INTERPOLATE  => 1,
-        PRE_CHOMP    => $Template::CHOMP_GREEDY,
-        POST_CHOMP   => $Template::CHOMP_GREEDY,
-        TRIM         => 1,
-        STASH        => $stash,
-    }) || die "$Template::ERROR\n";
+            ENCODING     => 'utf8',
+            INCLUDE_PATH => join(':', @include_path),
+            INTERPOLATE  => 1,
+            PRE_CHOMP    => $Template::CHOMP_GREEDY,
+            POST_CHOMP   => $Template::CHOMP_GREEDY,
+            TRIM         => 1,
+            STASH        => $stash,
+        }) || die "$Template::ERROR\n";
 
     return $template_toolkit;
 }
@@ -153,13 +154,13 @@ sub js_config {
             livechaticon  => url_for('images/pages/contact/chat-icon.svg')->to_string,
         },
         broker           => 'CR',
-        countries_list   => YAML::XS::LoadFile( root_path() . '/scripts/config/countries.yml'),
+        countries_list   => YAML::XS::LoadFile(root_path() . '/scripts/config/countries.yml'),
         valid_loginids   => 'MX|MF|VRTC|MLT|CR|FOG|VRTJ|JP',
         streaming_server => 'www.binary.com',
     );
 
     # hardcode, require a fix?
-    $setting{arr_all_currencies} = ["USD","EUR","GBP","AUD"];
+    $setting{arr_all_currencies} = ["USD", "EUR", "GBP", "AUD"];
 
     return {
         libs     => \@libs,
@@ -171,12 +172,13 @@ sub menu {
     my @menu;
 
     # beta interface
-    push @menu, {
+    push @menu,
+        {
         id         => 'topMenuBetaInterface',
         url        => url_for('/trading'),
         text       => localize('Start Trading'),
         link_class => 'pjaxload'
-    };
+        };
 
     # myaccount
     my $my_account_ref = {
@@ -249,12 +251,13 @@ sub menu {
     push @menu, $my_account_ref;
 
     # cashier
-    push @menu, {
+    push @menu,
+        {
         id         => 'topMenuCashier',
         url        => url_for('/cashier'),
         text       => localize('Cashier'),
         link_class => 'pjaxload',
-    };
+        };
 
     # resources
     my $resources_items_ref = {
@@ -307,7 +310,6 @@ sub menu {
 
     $charting_items_ref->{'sub_items'} = [$charts_director_ref, $trading_view_ref];
     push @menu, $charting_items_ref;
-
 
     # push @{$menu}, $self->_main_menu_trading();
 

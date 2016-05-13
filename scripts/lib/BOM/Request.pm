@@ -4,13 +4,14 @@ use Moo;
 use BOM::Config qw/root_url/;
 
 has 'language' => (is => 'rw');
-has 'website' => (is => 'lazy');
+has 'website'  => (is => 'lazy');
 sub _build_website { return BOM::Request::Website->new }
 
-sub param {} # return nothing
-sub broker { 'CR' } # hardcode
+sub param  { }         # return nothing
+sub broker { 'CR' }    # hardcode
 
 our %HTML_URLS;
+
 sub url_for {
     my $self = shift;
     my @args = @_;
