@@ -40,7 +40,7 @@ my @m = (
     ['terms-and-conditions',       'legal/tac',                   'toolkit', 'default', 'Terms and Conditions'],
     ['terms-and-conditions-jp',    'legal_jp/tacjp',              'toolkit', 'default', 'Terms and Conditions'],
     ['resources',                  'resources/index',             'haml',    'default'],
-    ['charting',                   'charting/index',              'haml',    'default'],
+    ['applications',               'applications/index',          'toolkit', 'default'],
     ['about-us',                   'about/index',                 'haml',    'full_width'],
     ['group-information',          'about/group-information',     'haml',    'default'],
     ['open-positions',             'static/job_descriptions',     'haml',    'full_width'],
@@ -68,7 +68,8 @@ my @m = (
     ['get-started/types-of-trades',              'get_started/types_of_trades',              'haml', 'get_started'],
     ['get-started/beginners-faq',                'get_started/beginners_faq',                'haml', 'get_started'],
     ['get-started/glossary',                     'get_started/glossary',                     'haml', 'get_started'],
-    ['get-started/volidx-markets',               'get_started/volidx_markets',               'haml', 'full_width'],
+    ['get-started/volidx-markets',               'get_started/volidx_markets',               'haml', 'get_started'],
+    ['get-started/volidx-otc_indices_stocks',    'get_started/otc_indices_stocks',           'haml', 'get_started'],
     ['get-started/spread',                       'get_started/spread_bets',                  'haml', 'get_started'],
 
     ['get-started-jp', 'get_started_jp/get_started', 'toolkit', 'default', 'Get Started'],
@@ -103,16 +104,17 @@ my @m = (
     ['user/settings/detailsws',        'account/settings_detailsws',     'toolkit', 'default', 'Personal Details'],
     ['user/settings/securityws',       'cashier/settings_securityws',    'haml',    'default', 'Security'],
     ['user/statementws',               'account/statementws',            'toolkit', 'default', 'Statement'],
-    ['user/my_accountws',              'homepage/logged_inws',           'toolkit', 'default', 'My Account'],
+    ['user/my_accountws',              'account/my_accountws',           'toolkit', 'default', 'My Account'],
     ['user/settingsws',                'account/settingsws',             'toolkit', 'default', 'Settings'],
     ['user/iphistoryws',               'account/iphistory',              'toolkit', 'default', 'Login History'],
     ['user/tnc_approvalws',            'legal/tnc_approvalws',           'toolkit', 'default', 'Terms and Conditions Approval'],
     ['user/assessmentws',              'account/financial_assessmentws', 'toolkit', 'default', 'Financial Assessment'],
     ['user/lost_passwordws',           'user/lost_passwordws',           'haml',    'default'],
     ['user/reset_passwordws',          'user/reset_passwordws',          'haml',    'default'],
-    ['user/applicationsws',            'account/applications',           'toolkit', 'default', 'Applications'],
+    ['user/authorised_appsws',         'account/authorised_appsws',      'toolkit', 'default', 'Authorised Applications'],
     ['user/reality_check_frequencyws', 'user/reality_check_frequencyws', 'haml',    'default'],
     ['user/reality_check_summaryws',   'user/reality_check_summaryws',   'haml',    'default'],
+    ['logged_inws',                    'global/logged_inws',             'toolkit', undef],
 );
 
 ## config
