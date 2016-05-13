@@ -9,8 +9,6 @@ use Getopt::Long;
 use Text::Haml;
 use Path::Tiny;
 use HTML::Entities qw( encode_entities );
-use Test::MockModule;
-use Mojo::URL;
 use Encode;
 
 use BOM::Config qw/set_is_dev is_dev localize set_lang all_languages lang_display_name tt2 css_files js_config menu/;

@@ -9,6 +9,7 @@ use JSON;
 use YAML::XS;
 use Mojo::URL;
 use Template;
+use Template::Stash;
 use Format::Util::Numbers;
 
 our @EXPORT_OK = qw/
@@ -95,7 +96,7 @@ sub tt2 {
     my @include_path = (root_path() . '/src/templates/toolkit');
 
     state $request = BOM::Request->new(language => $LANG);
-    my $stash        = {
+    my $stash        = Template::Stash->new({
         language    => $request->language,
         broker      => $request->broker,
         request     => $request,
@@ -104,7 +105,7 @@ sub tt2 {
         # 'is_pjax_request'         => $request->is_pjax,
         l                         => \&localize,
         to_monetary_number_format => \&Format::Util::Numbers::to_monetary_number_format,
-    };
+    });
 
     my $template_toolkit = Template->new({
             ENCODING     => 'utf8',

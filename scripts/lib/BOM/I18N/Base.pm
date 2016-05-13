@@ -3,6 +3,7 @@ package BOM::I18N::Base;
 use strict;
 use warnings;
 use parent 'Locale::Maketext';
+use Locale::Maketext::Lexicon;
 
 =head1 NAME
 
