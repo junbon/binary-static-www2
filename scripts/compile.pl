@@ -219,19 +219,6 @@ foreach my $m (@m) {
             affiliate_email => 'affiliates@binary.com',
         );
 
-        if ($save_as =~ m{logintrouble}) {
-            $stash{body_id} = 'header_page';
-        } elsif ($save_as eq 'cashier') {
-            $stash{deposit_url}  = $request->url_for('/cashier/forward', {act => 'deposit'});
-            $stash{withdraw_url} = $request->url_for('/cashier/forward', {act => 'withdraw'});
-        } elsif ($save_as eq 'cashier/payment_methods') {
-            $stash{deposit_url}  = $request->url_for('/cashier/forward', {act => 'deposit'});
-            $stash{withdraw_url} = $request->url_for('/cashier/forward', {act => 'withdraw'});
-        } elsif ($save_as =~ 'cashier/payment_agent_list') {
-            $stash{website}                 = $request->website->display_name;
-            $stash{apply_payment_agent_url} = $request->url_for('/payment-agent');
-        }
-
         if ($title) {
             $stash{title} = localize($title);
         }

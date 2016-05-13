@@ -1,7 +1,7 @@
 - stash(
 -  title => l('Payment Agents'),
 - );
-- my $email_url = 'mailto:'.stash->{affiliate_email};
+- my $email_link = 'mailto:'.stash->{affiliate_email};
 .grd-container.grd-default-container
   .payment-agent.static_full
     .grd-grid-3.grd-hide-mobile
@@ -18,7 +18,7 @@
           %li#sidebar-link-section-4
             %a{:href => "#next-steps"}= l('How does it work?')
         .sidebar-button
-          %a.pjaxload{:href => $email_url}= l('Contact Us')
+          %a.pjaxload{:href => $email_link}= l('Contact Us')
     .grd-grid-9.grd-grid-mobile-12.grd-parent
       .section
         %a#why-choose-payment-agents
