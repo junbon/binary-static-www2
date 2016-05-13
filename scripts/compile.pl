@@ -219,24 +219,8 @@ foreach my $m (@m) {
             affiliate_email => 'affiliates@binary.com',
         );
 
-        if ($save_as =~ m{terms-and-conditions}) {
-            $stash{website}         = $request->website->display_name;
-        } elsif ($save_as =~ m{logintrouble}) {
+        if ($save_as =~ m{logintrouble}) {
             $stash{body_id} = 'header_page';
-        } elsif ($save_as =~ m{us_patents}) {
-            $stash{us_patents} = [{
-                    title => localize('Betting system and method'),
-                    url   => 'http://www.google.com/patents/US7206762',
-                },
-                {
-                    title => localize('Computer trading system for offering custom financial market speculations'),
-                    url   => 'http://www.google.com/patents/US8046293'
-                },
-                {
-                    title => localize('Computer system and method for speculating on a financial market'),
-                    url   => 'http://www.google.com/patents/US8046292'
-                },
-            ];
         } elsif ($save_as eq 'cashier') {
             $stash{deposit_url}  = $request->url_for('/cashier/forward', {act => 'deposit'});
             $stash{withdraw_url} = $request->url_for('/cashier/forward', {act => 'withdraw'});
