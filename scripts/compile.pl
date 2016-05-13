@@ -51,7 +51,7 @@ my @m = (
     ['smart-indices',              'static/smart_indices',        'haml',    'full_width'],
     ['open-source-projects',       'static/open_source_projects', 'haml',    'full_width'],
     ['styles',                     'home/styles',                 'haml',    'full_width'],
-    ['affiliate/signup',           'affiliates/signup',           'toolkit', 'default'],
+    ['affiliate/signup',           'affiliates/signup',           'toolkit', 'default', 'Affiliate'],
     ['user/logintrouble',          'misc/logintrouble',           'toolkit', 'default', 'Login trouble'],
     ['legal/us_patents',           'legal/us_patents',            'toolkit', 'default', 'US Patents'],
     ['cashier',                    'cashier/index',               'haml',    'default'],
@@ -209,40 +209,18 @@ foreach my $m (@m) {
         $current_route =~ s{^(.+)/}{}sg;
 
         my %stash = (
-            website_name  => $request->website->display_name,
-            request       => $request,
-            website       => $request->website,
-            domain_name   => $request->domain_name,
-            language      => uc $lang,
-            current_path  => $save_as,
-            current_route => $current_route,
+            website_name    => $request->website->display_name,
+            request         => $request,
+            website         => $request->website,
+            domain_name     => $request->domain_name,
+            language        => uc $lang,
+            current_path    => $save_as,
+            current_route   => $current_route,
+            affiliate_email => 'affiliates@binary.com',
         );
 
         if ($save_as =~ m{terms-and-conditions}) {
             $stash{website}         = $request->website->display_name;
-            $stash{affiliate_email} = BOM::Platform::Runtime->instance->app_config->marketing->myaffiliates_email;
-        } elsif ($save_as =~ m{affiliate/signup}) {
-            $stash{title}           = localize('Affiliate');
-            $stash{affiliate_email} = BOM::Platform::Runtime->instance->app_config->marketing->myaffiliates_email;
-            $stash{commission_data} = {
-                min_commission => 20,
-                max_commission => 35,
-                first_tier     => {
-                    'min' => 0,
-                    'max' => '$10,000'
-                },
-                second_tier => {
-                    'min'  => '$10,001',
-                    'max'  => '$50,000',
-                    'rate' => 25
-                },
-                third_tier => {
-                    'min'  => '$50,001',
-                    'max'  => '$100,000',
-                    'rate' => 30
-                },
-                fourth_tier => {'min' => '$100,001'},
-            };
         } elsif ($save_as =~ m{logintrouble}) {
             $stash{body_id} = 'header_page';
         } elsif ($save_as =~ m{us_patents}) {
