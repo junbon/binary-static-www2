@@ -69,7 +69,7 @@ my @m = (
     ['get-started/beginners-faq',                'get_started/beginners_faq',                'haml', 'get_started'],
     ['get-started/glossary',                     'get_started/glossary',                     'haml', 'get_started'],
     ['get-started/volidx-markets',               'get_started/volidx_markets',               'haml', 'get_started'],
-    ['get-started/volidx-otc_indices_stocks',    'get_started/otc_indices_stocks',           'haml', 'get_started'],
+    ['get-started/otc_indices_stocks',           'get_started/otc_indices_stocks',           'haml', 'get_started'],
     ['get-started/spread',                       'get_started/spread_bets',                  'haml', 'get_started'],
 
     ['get-started-jp', 'get_started_jp/get_started', 'toolkit', 'default', 'Get Started'],
@@ -189,9 +189,12 @@ foreach my $m (@m) {
     if ($tpl_type eq 'toolkit') {
         $file = "$tpl_path.html.tt";    # no Absolute path
     }
-    my $layout_file = "$root_path/src/templates/$tpl_type/layouts/$layout.html.$tpl_type";
-    if ($tpl_type eq 'toolkit') {
-        $layout_file = "layouts/$layout.html.tt";    # no Absolute path
+    my $layout_file;
+    if($layout) {
+        $layout_file = "$root_path/src/templates/$tpl_type/layouts/$layout.html.$tpl_type";
+        if ($tpl_type eq 'toolkit') {
+            $layout_file = "layouts/$layout.html.tt";    # no Absolute path
+        }
     }
     foreach my $lang (@langs) {
         my $save_as_file = "$dist_path/$lang/pjax/$save_as.html";
@@ -212,7 +215,6 @@ foreach my $m (@m) {
             website_name    => $request->website->display_name,
             request         => $request,
             website         => $request->website,
-            domain_name     => $request->domain_name,
             language        => uc $lang,
             current_path    => $save_as,
             current_route   => $current_route,
