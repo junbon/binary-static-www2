@@ -299,12 +299,14 @@ foreach my $m (@m) {
 
         ## do with wrapper
         $save_as_file   = "$dist_path/$lang/$save_as.html";
-        $stash{content} = $output;
-        $output         = '';
-        if ($tpl_type eq 'haml') {
-            $output = haml_handle($layout_file, %stash);
-        } else {
-            $output = tt2_handle($layout_file, %stash);
+        if($layout) {
+            $stash{content} = $output;
+            $output         = '';
+            if ($tpl_type eq 'haml') {
+                $output = haml_handle($layout_file, %stash);
+            } else {
+                $output = tt2_handle($layout_file, %stash);
+            }
         }
         $path = path($save_as_file);
         $path->parent->mkpath if $save_as =~ '/';
