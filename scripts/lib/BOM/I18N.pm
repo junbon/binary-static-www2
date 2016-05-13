@@ -4,7 +4,7 @@ use feature 'state';
 use strict;
 use warnings;
 use Path::Tiny;
-use BOM::Config qw/root_path all_languages/;
+use BOM qw/root_path all_languages/;
 
 sub handle_for {
     my $language = shift;

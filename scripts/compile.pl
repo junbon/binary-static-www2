@@ -11,7 +11,7 @@ use Path::Tiny;
 use HTML::Entities qw( encode_entities );
 use Encode;
 
-use BOM::Config qw/set_is_dev is_dev localize set_lang all_languages lang_display_name tt2 css_files js_config menu/;
+use BOM qw/set_is_dev is_dev localize set_lang all_languages lang_display_name tt2 css_files js_config menu/;
 use BOM::Request;
 
 # force = re-generate all files
@@ -116,7 +116,6 @@ my @m = (
 );
 
 ## config
-our $LANG = 'en';
 my $root_path = "$Bin/..";
 my $dist_path = "$root_path/dist";
 @BOM::Request::HTML_URLS = map { $_->[0] } @m;
@@ -148,7 +147,6 @@ foreach my $m (@m) {
         my $save_as_file = "$dist_path/$lang/pjax/$save_as.html";
         next if -e $save_as_file and not $force;
 
-        $LANG = $lang;
         set_lang($lang);
 
         mkdir("$dist_path/$lang")      unless -d "$dist_path/$lang";

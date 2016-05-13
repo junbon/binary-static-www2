@@ -1,4 +1,4 @@
-package BOM::Config;
+package BOM;
 
 use strict;
 use warnings;
@@ -24,7 +24,7 @@ our @EXPORT_OK = qw/
     /;
 
 sub root_path {
-    return path(__FILE__)->parent->parent->parent->parent->absolute->stringify;
+    return path(__FILE__)->parent->parent->parent->absolute->stringify;
 }
 
 # for developer

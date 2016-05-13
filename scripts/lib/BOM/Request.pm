@@ -1,7 +1,7 @@
 package BOM::Request;
 
 use Moo;
-use BOM::Config qw/root_url/;
+use BOM qw/root_url/;
 
 has 'language' => (is => 'rw');
 has 'website'  => (is => 'lazy');
