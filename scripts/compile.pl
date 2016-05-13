@@ -40,7 +40,7 @@ my @m = (
     ['terms-and-conditions',       'legal/tac',                   'toolkit', 'default', 'Terms and Conditions'],
     ['terms-and-conditions-jp',    'legal_jp/tacjp',              'toolkit', 'default', 'Terms and Conditions'],
     ['resources',                  'resources/index',             'haml',    'default'],
-    ['charting',                   'charting/index',              'haml',    'default'],
+    ['applications',               'applications/index',          'toolkit', 'default'],
     ['about-us',                   'about/index',                 'haml',    'full_width'],
     ['group-information',          'about/group-information',     'haml',    'default'],
     ['open-positions',             'static/job_descriptions',     'haml',    'full_width'],
@@ -51,7 +51,7 @@ my @m = (
     ['smart-indices',              'static/smart_indices',        'haml',    'full_width'],
     ['open-source-projects',       'static/open_source_projects', 'haml',    'full_width'],
     ['styles',                     'home/styles',                 'haml',    'full_width'],
-    ['affiliate/signup',           'affiliates/signup',           'toolkit', 'default'],
+    ['affiliate/signup',           'affiliates/signup',           'toolkit', 'default', 'Affiliate'],
     ['user/logintrouble',          'misc/logintrouble',           'toolkit', 'default', 'Login trouble'],
     ['legal/us_patents',           'legal/us_patents',            'toolkit', 'default', 'US Patents'],
     ['cashier',                    'cashier/index',               'haml',    'default'],
@@ -68,7 +68,8 @@ my @m = (
     ['get-started/types-of-trades',              'get_started/types_of_trades',              'haml', 'get_started'],
     ['get-started/beginners-faq',                'get_started/beginners_faq',                'haml', 'get_started'],
     ['get-started/glossary',                     'get_started/glossary',                     'haml', 'get_started'],
-    ['get-started/volidx-markets',               'get_started/volidx_markets',               'haml', 'full_width'],
+    ['get-started/volidx-markets',               'get_started/volidx_markets',               'haml', 'get_started'],
+    ['get-started/otc_indices_stocks',           'get_started/otc_indices_stocks',           'haml', 'get_started'],
     ['get-started/spread',                       'get_started/spread_bets',                  'haml', 'get_started'],
 
     ['get-started-jp', 'get_started_jp/get_started', 'toolkit', 'default', 'Get Started'],
@@ -103,16 +104,17 @@ my @m = (
     ['user/settings/detailsws',        'account/settings_detailsws',     'toolkit', 'default', 'Personal Details'],
     ['user/settings/securityws',       'cashier/settings_securityws',    'haml',    'default', 'Security'],
     ['user/statementws',               'account/statementws',            'toolkit', 'default', 'Statement'],
-    ['user/my_accountws',              'homepage/logged_inws',           'toolkit', 'default', 'My Account'],
+    ['user/my_accountws',              'account/my_accountws',           'toolkit', 'default', 'My Account'],
     ['user/settingsws',                'account/settingsws',             'toolkit', 'default', 'Settings'],
     ['user/iphistoryws',               'account/iphistory',              'toolkit', 'default', 'Login History'],
     ['user/tnc_approvalws',            'legal/tnc_approvalws',           'toolkit', 'default', 'Terms and Conditions Approval'],
     ['user/assessmentws',              'account/financial_assessmentws', 'toolkit', 'default', 'Financial Assessment'],
     ['user/lost_passwordws',           'user/lost_passwordws',           'haml',    'default'],
     ['user/reset_passwordws',          'user/reset_passwordws',          'haml',    'default'],
-    ['user/applicationsws',            'account/applications',           'toolkit', 'default', 'Applications'],
+    ['user/authorised_appsws',         'account/authorised_appsws',      'toolkit', 'default', 'Authorised Applications'],
     ['user/reality_check_frequencyws', 'user/reality_check_frequencyws', 'haml',    'default'],
     ['user/reality_check_summaryws',   'user/reality_check_summaryws',   'haml',    'default'],
+    ['logged_inws',                    'global/logged_inws',             'toolkit', undef],
 );
 
 ## config
@@ -187,9 +189,12 @@ foreach my $m (@m) {
     if ($tpl_type eq 'toolkit') {
         $file = "$tpl_path.html.tt";    # no Absolute path
     }
-    my $layout_file = "$root_path/src/templates/$tpl_type/layouts/$layout.html.$tpl_type";
-    if ($tpl_type eq 'toolkit') {
-        $layout_file = "layouts/$layout.html.tt";    # no Absolute path
+    my $layout_file;
+    if($layout) {
+        $layout_file = "$root_path/src/templates/$tpl_type/layouts/$layout.html.$tpl_type";
+        if ($tpl_type eq 'toolkit') {
+            $layout_file = "layouts/$layout.html.tt";    # no Absolute path
+        }
     }
     foreach my $lang (@langs) {
         my $save_as_file = "$dist_path/$lang/pjax/$save_as.html";
@@ -207,66 +212,14 @@ foreach my $m (@m) {
         $current_route =~ s{^(.+)/}{}sg;
 
         my %stash = (
-            website_name  => $request->website->display_name,
-            request       => $request,
-            website       => $request->website,
-            domain_name   => $request->domain_name,
-            language      => uc $lang,
-            current_path  => $save_as,
-            current_route => $current_route,
+            website_name    => $request->website->display_name,
+            request         => $request,
+            website         => $request->website,
+            language        => uc $lang,
+            current_path    => $save_as,
+            current_route   => $current_route,
+            affiliate_email => 'affiliates@binary.com',
         );
-
-        if ($save_as =~ m{terms-and-conditions}) {
-            $stash{website}         = $request->website->display_name;
-            $stash{affiliate_email} = BOM::Platform::Runtime->instance->app_config->marketing->myaffiliates_email;
-        } elsif ($save_as =~ m{affiliate/signup}) {
-            $stash{title}           = localize('Affiliate');
-            $stash{affiliate_email} = BOM::Platform::Runtime->instance->app_config->marketing->myaffiliates_email;
-            $stash{commission_data} = {
-                min_commission => 20,
-                max_commission => 35,
-                first_tier     => {
-                    'min' => 0,
-                    'max' => '$10,000'
-                },
-                second_tier => {
-                    'min'  => '$10,001',
-                    'max'  => '$50,000',
-                    'rate' => 25
-                },
-                third_tier => {
-                    'min'  => '$50,001',
-                    'max'  => '$100,000',
-                    'rate' => 30
-                },
-                fourth_tier => {'min' => '$100,001'},
-            };
-        } elsif ($save_as =~ m{logintrouble}) {
-            $stash{body_id} = 'header_page';
-        } elsif ($save_as =~ m{us_patents}) {
-            $stash{us_patents} = [{
-                    title => localize('Betting system and method'),
-                    url   => 'http://www.google.com/patents/US7206762',
-                },
-                {
-                    title => localize('Computer trading system for offering custom financial market speculations'),
-                    url   => 'http://www.google.com/patents/US8046293'
-                },
-                {
-                    title => localize('Computer system and method for speculating on a financial market'),
-                    url   => 'http://www.google.com/patents/US8046292'
-                },
-            ];
-        } elsif ($save_as eq 'cashier') {
-            $stash{deposit_url}  = $request->url_for('/cashier/forward', {act => 'deposit'});
-            $stash{withdraw_url} = $request->url_for('/cashier/forward', {act => 'withdraw'});
-        } elsif ($save_as eq 'cashier/payment_methods') {
-            $stash{deposit_url}  = $request->url_for('/cashier/forward', {act => 'deposit'});
-            $stash{withdraw_url} = $request->url_for('/cashier/forward', {act => 'withdraw'});
-        } elsif ($save_as =~ 'cashier/payment_agent_list') {
-            $stash{website}                 = $request->website->display_name;
-            $stash{apply_payment_agent_url} = $request->url_for('/payment-agent');
-        }
 
         if ($title) {
             $stash{title} = localize($title);
@@ -297,12 +250,14 @@ foreach my $m (@m) {
 
         ## do with wrapper
         $save_as_file   = "$dist_path/$lang/$save_as.html";
-        $stash{content} = $output;
-        $output         = '';
-        if ($tpl_type eq 'haml') {
-            $output = haml_handle($layout_file, %stash);
-        } else {
-            $output = tt2_handle($layout_file, %stash);
+        if($layout) {
+            $stash{content} = $output;
+            $output         = '';
+            if ($tpl_type eq 'haml') {
+                $output = haml_handle($layout_file, %stash);
+            } else {
+                $output = tt2_handle($layout_file, %stash);
+            }
         }
         $path = path($save_as_file);
         $path->parent->mkpath if $save_as =~ '/';
