@@ -3,7 +3,7 @@ requires 'Text::Haml';
 requires 'Template';
 requires 'Path::Tiny';
 requires 'HTML::Entities';
-requires 'Locale::Maketext';
+requires 'Locale::Maketext::Lexicon';
 requires 'JSON';
 requires 'YAML::XS';
 requires 'Mojolicious';

@@ -16,6 +16,7 @@ sub url_for {
     my $self = shift;
     my @args = @_;
 
+    my $LANG = $self->language;
     my $url = $args[0] || '';
 
     if ($url =~ m{^/?(images|css|scripts)/}) {
@@ -54,3 +55,5 @@ package BOM::Request::Website;
 use Moo;
 
 sub display_name { 'Binary.com' }
+
+1;

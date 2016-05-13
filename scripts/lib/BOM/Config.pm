@@ -15,6 +15,8 @@ our @EXPORT_OK = qw/
     root_path is_dev set_is_dev
     localize set_lang all_languages lang_display_name
 
+    root_url
+
     tt2
 
     css_files js_config menu
@@ -84,13 +86,15 @@ sub root_url {
 
 sub url_for {
     require BOM::Request;
-    state $request = BOM::Request->new;
+    state $request = BOM::Request->new(language => $LANG);
     return $request->url_for(@_);
 }
 
 ## tt2/haml
 sub tt2 {
     my @include_path = (root_path() . '/src/templates/toolkit');
+
+    state $request = BOM::Request->new(language => $LANG);
     my $stash        = {
         language    => $request->language,
         broker      => $request->broker,
