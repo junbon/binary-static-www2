@@ -7,9 +7,10 @@
 
 ## FAQ
 
-### compile.pl usage
+### compile.pl usage (require `cd scripts`)
 
- * build HTMLs by `cd scripts` && `carton exec perl compile.pl`
+ * build HTMLs by `carton exec perl compile.pl`
+ * re-build all HTML by `carton exec perl compile -f`
  * build specified url by `carton exec perl compile -p why-us`
 
 ### Local test

@@ -119,8 +119,7 @@ my @m = (
 our $LANG = 'en';
 my $root_path = "$Bin/..";
 my $dist_path = "$root_path/dist";
-our %HTML_URLS = map { '/' . $_->[0] => 1 } @m;
-%BOM::Request::HTML_URLS = %HTML_URLS;
+@BOM::Request::HTML_URLS = map { $_->[0] } @m;
 
 foreach my $m (@m) {
     my $save_as  = $m->[0];

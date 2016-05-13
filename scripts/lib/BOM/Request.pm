@@ -10,20 +10,25 @@ sub _build_website { return BOM::Request::Website->new }
 sub param  { }         # return nothing
 sub broker { 'CR' }    # hardcode
 
-our %HTML_URLS;
+our @HTML_URLS;        # from compile.pl
+my %HTML_URLS;
 
 sub url_for {
     my $self = shift;
     my @args = @_;
 
-    my $LANG = $self->language;
+    my $LANG = lc $self->language;
     my $url = $args[0] || '';
+
+    # quick fix
+    $url = '/' . $url if grep { $url eq $_ } @HTML_URLS;
 
     if ($url =~ m{^/?(images|css|scripts)/}) {
         $url =~ s/^\///;
         return Mojo::URL->new(root_url() . $url);
     }
 
+    %HTML_URLS = map { '/' . $_ => 1 } @HTML_URLS unless keys %HTML_URLS;
     if ($HTML_URLS{$url}) {
         $url =~ s/^\///;
         return Mojo::URL->new(root_url() . "$LANG/$url.html");

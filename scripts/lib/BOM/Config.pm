@@ -96,7 +96,7 @@ sub tt2 {
     my @include_path = (root_path() . '/src/templates/toolkit');
 
     state $request = BOM::Request->new(language => $LANG);
-    my $stash        = Template::Stash->new({
+    my $stash = Template::Stash->new({
         language    => $request->language,
         broker      => $request->broker,
         request     => $request,
