@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Chinese (Taiwan) (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-14 06:30+0000\n"
+"PO-Revision-Date: 2016-05-14 06:32+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) "
 "<https://hosted.weblate.org/projects/binary/static/zh_TW/>\n"
@@ -8083,7 +8083,7 @@ msgstr "繼續操作前請填寫以下財務評估表格。"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:138
 msgid "Please confirm the trade on your statement before proceeding."
-msgstr "繼續執行之前，請在您的聲明上確認此項交易。"
+msgstr "繼續操作前，請在您的聲明上確認此項交易。"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:576
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/cashier/paymentagent_transferws.html.tt:5
