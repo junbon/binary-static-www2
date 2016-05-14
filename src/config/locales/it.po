@@ -2,9 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Italian (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 05:06+0000\n"
-"Last-Translator: Sittie Hadjirah Sevilla <sittiebaser@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/binary/static/it/>\n"
+"PO-Revision-Date: 2016-05-14 19:12+0000\n"
+"Last-Translator: Annalisa <ligiu@me.com>\n"
+"Language-Team: Italian "
+"<https://hosted.weblate.org/projects/binary/static/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12905,7 +12906,6 @@ msgid "You have exceeded your daily limit on losses of %1%2."
 msgstr "Hai superato il tuo limite giornaliero di perdite di %1 %2."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:719
-#, fuzzy
 #| msgid "You have not granted access to any apps."
 msgid "You have not granted access to any applications."
 msgstr "Non hai accesso ad alcuna applicazione."
@@ -13647,10 +13647,9 @@ msgid "loading..."
 msgstr "caricamento..."
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:314
-#, fuzzy
 #| msgid "Login"
 msgid "login"
-msgstr "Login"
+msgstr "login"
 
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Contract.pm:2087
 msgid "low barrier"
