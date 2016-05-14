@@ -172,17 +172,6 @@ foreach my $m (@m) {
             $stash{title} = localize($title);
         }
 
-        # my $page_name  = '/' . $save_as;
-        # my $page_rules = YAML::XS::LoadFile('/home/git/regentmarkets/bom-platform/config/page_caching_rules.yml')->{$page_name};
-        # my $page_caching_rules = $page_rules->{header};
-        # if ($page_caching_rules) {
-        #     foreach my $key (keys %{$page_caching_rules}) {
-        #         if (not $page_rules->{exclude_appcache} and $page_caching_rules->{$key} =~ /s-maxage=(\d+)/ and $1 > 25000) {
-        #             $stash{appcache_manifest} = 1;
-        #         }
-        #     }
-        # }
-
         my $output;
         if ($tpl_type eq 'haml') {
             $output = haml_handle($file, %stash);
@@ -209,8 +198,6 @@ foreach my $m (@m) {
         $path = path($save_as_file);
         $path->parent->mkpath if $save_as =~ '/';
         $path->spew_utf8($output);
-
-        # exit;
     }
 }
 
