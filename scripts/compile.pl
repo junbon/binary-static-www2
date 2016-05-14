@@ -252,11 +252,6 @@ sub haml_handle {
             return $al;
         });
 
-    $haml->add_helper(
-        js_configs => sub {
-            return js_config();
-        });
-
     my $request      = $stash{request};
     my $current_path = $stash{current_path};
     $haml->add_helper(
@@ -290,6 +285,7 @@ sub haml_handle {
     # FIXME
     $haml->add_helper(google_tag_tracking_code => sub { });
 
+    $stash{javascript} = js_config();
     $stash{css_files} = [css_files()];
     $stash{menu} = menu();
 
