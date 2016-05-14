@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-13 03:43+0000\n"
+"PO-Revision-Date: 2016-05-14 06:59+0000\n"
 "Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
 "Language-Team: Vietnamese "
 "<https://hosted.weblate.org/projects/binary/static/vi/>\n"
@@ -16341,7 +16341,7 @@ msgstr "Dầu/USD"
 
 #: Underlying Symbol frxXPTUSD
 msgid "Platinum/USD"
-msgstr "Platinum/ USD"
+msgstr "Platinum/USD"
 
 #: Underlying Symbol frxXAUAUD
 msgid "Gold/AUD"
@@ -16401,11 +16401,11 @@ msgstr "Vàng/GBP"
 
 #: Underlying Symbol frxXPTEUR
 msgid "XPT/EUR"
-msgstr "Cặp tiền tệ XPT/EUR"
+msgstr "XPT/EUR"
 
 #: Underlying Symbol frxXPTGBP
 msgid "XPT/GBP"
-msgstr "Cặp tiền tệ XPT/GBP"
+msgstr "XPT/GBP"
 
 #: Underlying Symbol R_50
 msgid "Volatility 50 Index"
@@ -16437,7 +16437,9 @@ msgstr "Tổng hợp"
 
 #: Explanation for market Synthetic
 msgid "Synthetic represents the empirical simulation of cash index from futures."
-msgstr "Sự tổng hợp chính là quá trình mô phỏng có kinh nghiệm chỉ số tiền mặt từ tương lai."
+msgstr ""
+"Sự tổng hợp chính là quá trình mô phỏng thực nghiệm của chỉ số tiền mặt từ "
+"tương lai."
 
 #: Explanation for market Commodities
 msgid "Commodities are traded items with directly usable qualities."
