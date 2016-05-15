@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-15 09:41+0000\n"
-"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
+"PO-Revision-Date: 2016-05-15 09:45+0000\n"
+"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -10838,7 +10838,10 @@ msgstr "O futuro de negociações na %1"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:118
 msgid "The information provided during the sign-up process warranted by yourself to be true and correct is determined by the Company to be false or incorrect during the term of this Agreement;"
-msgstr "As informações fornecidas durante o processo de inscrição, certificadas por você como sendo verdadeiras e corretas, são considerados falsas ou incorretas pela Empresa durante a vigência deste Acordo;"
+msgstr ""
+"As informações fornecidas durante o processo de inscrição, certificadas por "
+"você como sendo verdadeiras e corretas, são consideradas falsas ou "
+"incorretas pela Empresa durante a vigência deste Acordo;"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/biel_terms.html.tt:43
 msgid "The level of protection offered and due to each client depends on the category to which each client is assigned. Retail Clients benefit from the highest degree of protection."
@@ -12171,7 +12174,13 @@ msgstr "Estamos empenhados em garantir que os seus dados pessoais e as suas tran
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "We are currently accepting applications from skilled, ambitious affiliate marketers based virtually all over the globe. Each applicant's skills and experience will be evaluated against the company's potential for growth in a particular segment, to determine the best-fit business cases for engagement."
-msgstr "Estamos atualmente aceitando candidaturas de profissionais de marketing de afiliados competentes e ambiciosos, baseados virtualmente ao redor do mundo. As competências e a experiência de cada candidato serão avaliadas relativamente ao potencial de crescimento da empresa num segmento específico para determinar os casos de negócio de melhor adequação para estabelecer contato."
+msgstr ""
+"Estamos atualmente aceitando candidaturas de profissionais de marketing de "
+"afiliados competentes e ambiciosos, baseados virtualmente, ao redor do "
+"mundo. As habilidades e a experiência de cada candidato serão avaliadas "
+"relativamente ao potencial de crescimento da empresa num segmento "
+"específico, para determinar os casos de negócio que melhor se adequam para a "
+"contratação."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/biel_terms.html.tt:49
 msgid "We are entitled under the Rules to rely upon information provided by you. You should ensure that you provide us with accurate and complete information and notify us in the event that any information supplied to us changes. You should note that if you provide us with inaccurate information, or if you fail to notify us of any changes to information previously supplied by you, this may adversely affect the quality of the services that we can provide."
@@ -12283,7 +12292,12 @@ msgstr "Reservamos o direito de modificar, suplementar ou substituir estes termo
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:50
 msgid "We reserve the right to refuse your referrals’ application to open an account (or to close their accounts), as deemed necessary, to comply with any requirements we may periodically establish and/or that may be required under applicable laws, rules, and regulations."
-msgstr "Nós reservamos o direito de recusar os pedidos dos clientes que você nos indica para a abertura de uma conta (ou para fechar as suas contas), na medida que julgamos necessário, para o cumprimento de quaisquer requisitos que possamos vir a estabelecer e/ou que possam ser exigidos pelas leis, regras e regulamentações aplicáveis."
+msgstr ""
+"Nos reservamos o direito de recusar os pedidos dos clientes que você nos "
+"indicar para a abertura de uma conta (ou fechamento das suas contas), quando "
+"julguemos necessário, para o cumprimento de quaisquer requisitos que "
+"possamos vir a estabelecer e/ou que possam ser exigidos pelas leis, regras e "
+"regulamentações aplicáveis."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/why_us.html.haml:1
 msgid "We segregate and hold client funds in secure AAA-rated banks."
