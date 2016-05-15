@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-15 09:28+0000\n"
-"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
+"PO-Revision-Date: 2016-05-15 09:29+0000\n"
+"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -1222,7 +1222,9 @@ msgstr "AGENTE DE PAGAMENTOS AUTORIZADO?"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ability to communicate fluently in the English language, in both oral and written forms"
-msgstr "A capacidade de comunicar fluentemente em inglês, tanto na forma oral como escrita"
+msgstr ""
+"A capacidade de se comunicar fluentemente em inglês, tanto na forma oral "
+"como escrita"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ability to speak multiple languages"
@@ -1230,7 +1232,7 @@ msgstr "A capacidade de falar várias línguas"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ability to speak, read, and write multiple languages"
-msgstr "A capacidade de falar e escrever em várias línguas"
+msgstr "A capacidade de falar, ler e escrever em várias línguas"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ability to work in a multicultural and international environment"
@@ -1358,15 +1360,21 @@ msgstr "Ação"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Adapt affiliate-marketing tactics and promotional materials as needed, to localise all content for maximum effectiveness"
-msgstr "Adapte táticas de marketing de afiliados e materiais promocionais, conforme necessário, para localizar todos os conteúdos para máxima eficácia"
+msgstr ""
+"Adaptar táticas de marketing de afiliados e materiais promocionais, conforme "
+"necessário, para localizar todos os conteúdos para máxima eficácia"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Adapt communication appropriately to suit a variety of different formats and target audiences"
-msgstr "Adapte a comunicação de forma apropriada para se adequar a uma variedade de formatos e públicos-alvo"
+msgstr ""
+"Adaptar a comunicação de forma apropriada para se adequar a uma variedade de "
+"formatos e públicos-alvo"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Adapt tone of voice as appropriate to suit specified target audiences"
-msgstr "Adapte o tom da sua voz, conforme apropriado, para se adequar a públicos-alvo específicos"
+msgstr ""
+"Adaptaar o tom de voz, conforme apropriado, para se adequar a públicos-alvo "
+"específicos"
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:540
 msgid "Add Lines"
