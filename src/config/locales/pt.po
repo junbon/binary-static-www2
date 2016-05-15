@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-15 09:46+0000\n"
-"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
+"PO-Revision-Date: 2016-05-15 09:48+0000\n"
+"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -12437,7 +12437,7 @@ msgstr "Estamos muito orgulhosos deste prêmio. Estamos fortemente empenhados em
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/otc_indices_stocks.html.haml:1
 msgid "What are OTC indices and stocks?"
-msgstr "Quais são os índices e as ações OTC?"
+msgstr "O que são os índices e as ações OTC?"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/faq.html.tt:59
 msgid "What commission plan do you offer?"
@@ -12851,7 +12851,13 @@ msgstr "Tem também o direito de exigir-nos que o informemos quanto aos dados pe
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:49
 msgid "You and the Company are independent contractors, and nothing in this Agreement will create any partnership, joint venture, agency, franchise, sales representative, or employment relationship between us. You will have no authority to make or accept any offers or representations on our behalf. You will not make any statement, whether on your website or otherwise, that reasonably would contradict anything in this paragraph."
-msgstr "Você e a Empresa somos contratantes independentes, e nada no presente Acordo irá criar qualquer parceria, joint venture, agência, franquia, representação de vendas, ou relação de emprego entre nós. Você não terá autoridade nenhuma para fazer ou aceitar quaisquer ofertas ou representações em nosso nome. Você não fará qualquer declaração, quer no seu site ou noutro sítio, que possa contradizer razoavelmente qualquer afirmação contida neste parágrafo."
+msgstr ""
+"Você e a Empresa são contratantes independentes, e nada no presente Acordo "
+"irá criar qualquer parceria, joint venture, agência, franquia, representação "
+"de vendas, ou relação de emprego entre nós. Você não terá autoridade nenhuma "
+"para fazer ou aceitar quaisquer ofertas ou representações em nosso nome. "
+"Você não fará qualquer declaração, quer no seu site ou em outros, que possa "
+"contradizer razoavelmente qualquer afirmação contida neste parágrafo."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:93
 msgid "You and your Application must also comply with the following, which are hereby incorporated by reference:"
