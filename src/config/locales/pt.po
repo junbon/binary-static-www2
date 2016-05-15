@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-15 09:31+0000\n"
-"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
+"PO-Revision-Date: 2016-05-15 09:33+0000\n"
+"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -1631,7 +1631,14 @@ msgstr "Quaisquer alterações da nossa política de privacidade ou declaração
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:134
 msgid "Any disputes, controversy, or claims that arise out of or relating to this Agreement against the Company will be referred to and finally determined by an arbitration firm selected by the Company. The language to be used in the arbitral proceedings will be English. Judgement upon the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof. You are also responsible for any and all costs related to such arbitration."
-msgstr "Quaisquer litígios, controvérsias ou reivindicações que podem resultar de ou relacionados com este acordo, contra a Empresa, serão referidos e finalmente determinados por uma empresa de arbitragem selecionada pela Empresa. O idioma a ser usado nos procedimentos arbitrais será inglês. Julgamento sobre o prêmio concedido pelo(s) mediador(es) pode ser levado a qualquer tribunal com jurisdição sobre o mesmo. Você é também responsável por todos os custos relacionados com tal arbitragem."
+msgstr ""
+"Quaisquer litígios, controvérsias ou reivindicações que possam resultar ou "
+"que estejam relacionados com este acordo, contra a Empresa, serão referidos "
+"e finalmente determinados por uma empresa de arbitragem selecionada pela "
+"Empresa. O idioma a ser usado nos procedimentos arbitrais será inglês. "
+"Julgamento sobre o prêmio concedido pelo(s) mediador(es) pode ser levado a "
+"qualquer tribunal com jurisdição sobre o mesmo. Você também é responsável "
+"por todos os custos relacionados com tal arbitragem."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:191
 msgid "Any failure on your part to maintain the security of any security devices or procedures used in or in association with the Binary.com API;"
@@ -1828,7 +1835,8 @@ msgstr "Assistir na revisão e gravação de apresentações de vídeo"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Assist marketing team members with additional tasks and initiatives"
-msgstr "Assistir membros da equipe de marketing com tarefas e iniciativas adicionais"
+msgstr ""
+"Auxiliar membros da equipe de marketing com tarefas e iniciativas adicionais"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Assist senior members of the marketing team in implementing a broad array of promotional campaigns"
@@ -2799,7 +2807,12 @@ msgstr "Comissão sobre retiradas"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:81
 msgid "Commissions will be earned throughout the life of the client, on all transactions the client undertakes at the merchant, for as long as you, the Affiliate, remain a member of this affiliate program. The company reserves the right to cancel the commissions that are not reclaimed after 2 years."
-msgstr "As comissões serão recebidas durante a permanência do cliente, sobre todas as transações que o cliente empreenda junto do mercador, enquanto você, o Afiliado, permanecer como membro deste programa de afiliados. A empresa reserva-se o direito de cancelar as comissões que não forem reclamadas após 2 anos."
+msgstr ""
+"As comissões serão recebidas durante a permanência do cliente, sobre todas "
+"as transações que o cliente empreenda junto ao operador, enquanto você, o "
+"Afiliado, permanecer como membro deste programa de afiliados. A empresa "
+"reserva-se o direito de cancelar as comissões que não forem reclamadas após "
+"2 anos."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/glossary.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:271
@@ -3173,7 +3186,10 @@ msgstr "Criar conteúdos claros, concisos e cativantes para exibição no site, 
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Create clear, concise, and engaging content that effectively promotes the company’s trading platform and product offerings in a variety of formats."
-msgstr "Criar conteúdos claros, concisos e cativantes que promovem eficazmente a plataforma de negociação e a oferta de produtos da empresa, numa variedade de formatos."
+msgstr ""
+"Criar conteúdos claros, concisos e cativantes que promovam eficientemente a "
+"plataforma de negociação e a oferta de produtos da empresa, numa variedade "
+"de formatos."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Create content to support our international marketing campaigns in a variety of different formats and languages"
