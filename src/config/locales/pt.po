@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-15 09:34+0000\n"
-"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
+"PO-Revision-Date: 2016-05-15 09:41+0000\n"
+"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -3631,7 +3631,9 @@ msgstr "Excluir por violação"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Demonstrate the ability to think / act quickly and multi-task as needed to execute effective campaigns"
-msgstr "Demonstrar a capacidade de pensar / agira rapidamente e realizar várias tarefas em simultâneo para executar campanhas eficazes"
+msgstr ""
+"Demonstrar a capacidade de pensar / agir rapidamente e realizar várias "
+"tarefas simultaneamente para executar campanhas eficazes"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/datafeed.html.tt:10
 msgid "Depending on the quality of the data feeds received from our feed providers, our servers might apply a tick filtering algorithm. The purpose of this filtering algorithm is to strip the feed of stray ticks. Stray ticks are ticks that manifestly fall outside of the current trading range of the market; such ticks are often due to communication delays with the exchanges or banks that provide quotes, human error, or database problems at any point between the originator of the quote and our servers."
@@ -3751,11 +3753,15 @@ msgstr "Gestor / Chefe de equipe DevOps"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Develop and maintain a consistent, engaging brand voice throughout all social-media channels"
-msgstr "Desenvolver e manter uma voz de marca consistente e cativante por todos os designados canais de mídia social"
+msgstr ""
+"Desenvolver e manter uma voz de marca consistente e cativante em todos os "
+"canais de mídia social"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Develop content as necessary to promote the company through social media"
-msgstr "Desenvolver conteúdos, conforme necessário, para promover a empresa nos meios de comunicação social"
+msgstr ""
+"Desenvolver conteúdo, conforme necessário, para promover a empresa nos meios "
+"de comunicação social"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Develop derivatives pricing, risk management models and algorithms using C/C++, R, MATLAB, Perl, Python and Java"
@@ -3898,7 +3904,10 @@ msgstr "Impulsionar crescimento rápido e desenvolvimento de negócios para auxi
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_descriptions.html.haml:1
 msgid "Drive rapid growth from key areas of the world, applying a variety of online and offline marketing abilities to expand the company's active affiliate network."
-msgstr "Impulsionar crescimento rápido em áreas principais do mundo, aplicando uma variedade de capacidades de marketing online e offline para expandir a rede de afiliados ativa da empresa."
+msgstr ""
+"Impulsionar o rápido crescimento nas principais áreas do mundo, aplicando "
+"uma variedade de capacidades de marketing online e offline para expandir a "
+"rede de afiliados ativa da empresa."
 
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Transaction.pm:1417
 msgid "Due to regulatory requirements, you are required to authenticate your account in order to continue trading."
@@ -4244,7 +4253,9 @@ msgstr "Exceto na medida em que o seu aplicativo contenha a API Binary.com, a em
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Exceptional communication skills in English, in both oral and written form"
-msgstr "Excelentes competências de comunicação em inglês, tanto na forma oral como escrita"
+msgstr ""
+"Habilidade de comunicação em inglês excepcional, tanto na forma oral como "
+"escrita"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Exceptional organizational skills; detail orientation; strong work ethic; and efficient multi-tasking capabilities"
@@ -4328,7 +4339,10 @@ msgstr "Preço de saída"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Expand our network of active affiliates in your local market. Contribute your energy, skills, and knowledge of the local business culture to help further our rapid rate of growth worldwide."
-msgstr "Expandir a nossa rede de afiliados ativos no seu mercado local. Contribuir com as suas competências e energia e os seus conhecimentos da cultura de negócios local para auxiliar o aumento do nosso crescimento em todo o mundo."
+msgstr ""
+"Expandir a nossa rede de afiliados ativos no seu mercado local. Contribuir "
+"com as suas habilidades, sua energia e os seus conhecimentos da cultura de "
+"negócios local para auxiliar no aumento do nosso crescimento em todo o mundo."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Experience in an anti-fraud or risk management role"
@@ -4600,7 +4614,9 @@ msgstr "Assistência de primeira classe a clientes."
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Firsthand knowledge of other cultures through direct experience"
-msgstr "Conhecimentos diretos de outras culturas através de experiências diretas"
+msgstr ""
+"Conhecimentos em primeira mão de outras culturas através de experiências "
+"diretas"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/benefits_of_trading_binaries.html.haml:1
 msgid "Flexibility"
@@ -5495,7 +5511,17 @@ msgstr "Na eventualidade de um conflito entre o conteúdo deste documento e os d
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:43
 msgid "In the event that the Company is aware of an Affiliate who is in breach of any of the above provisions, the Company shall have the right, in addition to any other right or remedy available to it under this Agreement or applicable law, to immediately block the Affiliate’s access to this Program. The Affiliate hereby irrevocably waives its rights to, and shall indemnify the Company and any member of the Binary group of companies for, any claim or demand made against the Company or any member of the Binary group of companies, their directors, officers, shareholders, employees or against the Binary.com website in respect of such action taken by the Company."
-msgstr "No caso da empresa ter conhecimentos de um Afiliado que está a violar uma das provisões supramencionadas, a empresa terá o direito, para além de qualquer outro direito ou remédio à sua disposição neste Acordo ou lei aplicável, de bloquear imediatamente o acesso do Afiliado ao programa. O Afiliado, pelo presente, renúncia de forma irrevocável aos seus direitos de, e irá indenizar a empresa e qualquer membro do grupo de empresas Binary por, quaisquer reivindicações ou exigências contra a Empresa, ou qualquer membro do grupo de empresas Binary, os seus diretores, oficiais, sócios, funcionários ou contra o website Binary.com em relação a tal ação tomada pela empresa."
+msgstr ""
+"No caso da empresa ter conhecimentos de um Afiliado que está violando uma "
+"das provisões supramencionadas, a Empresa terá o direito, além de qualquer "
+"outro direito ou solução à sua disposição neste Acordo ou lei aplicável, de "
+"bloquear imediatamente o acesso do Afiliado ao programa. O Afiliado, pelo "
+"presente, renuncia de forma irrevocável aos seus direitos de, e irá "
+"indenizar a Empresa e qualquer membro do grupo de empresas Binary por, "
+"quaisquer reivindicações ou exigências contra a Empresa, ou qualquer membro "
+"do grupo de empresas Binary, os seus diretores, oficiais, sócios, "
+"funcionários ou contra o website Binary.com em relação a tal ação tomada "
+"pela empresa."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/risk_disclaimer.html.tt:40
 msgid "In the unlikely event of BIEL suffering an investment default and not being able to meet its obligations, BIEL is a member of the Malta Investor Compensation Scheme which covers the first €20,000 of any claim. Whether you are able to claim depends on the type of business and your personal circumstances."
@@ -7837,7 +7863,7 @@ msgstr "Mais de 3 anos"
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:349
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/japanws.html.tt:366
 msgid "Over 5 years"
-msgstr "Mais de 5 anos"
+msgstr "Over 5 years"
 
 #. (url_for('/careers')
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/index.html.haml:1
@@ -7880,7 +7906,14 @@ msgstr "A posse e o conteúdo do site %1 permanecem as nossas respectivas propri
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:62
 msgid "Ownership, content, and liability of the Affiliate's websites are the sole responsibility of the Affiliate. You will be solely responsible for the development, operation, and maintenance of your website and for all materials that appear on your website. You will indemnify and hold us harmless from all claims, damages, and expenses (including, without limitation to, attorneys' fees) relating to the development, operation, maintenance, and contents of your website."
-msgstr "A titularidade, o conteúdo e a responsabilidade pelos sites do Afiliado são da exclusiva responsabilidade do Afiliado. Você será unicamente responsável pelo desenvolvimento, operação e manutenção do seu site e por todos os materiais que aparecem no seu site. Você irá indenizar e isentar-nos de responsabilidade por todas as reclamações, danos e despesas (incluindo, mas não exclusivamente, honorários de advogados) relativamente ao desenvolvimento, operação, manutenção e conteúdo do seu site."
+msgstr ""
+"A titularidade, o conteúdo e a responsabilidade pelos sites do Afiliado são "
+"da exclusiva responsabilidade do Afiliado. Você será unicamente responsável "
+"pelo desenvolvimento, operação e manutenção do seu site e por todos os "
+"materiais que aparecem no seu site. Você irá indenizar e isentar-nos de "
+"responsabilidade por todas as reclamações, danos e despesas (incluindo, mas "
+"não exclusivamente, honorários de advogados) relativos ao desenvolvimento, "
+"operação, manutenção e conteúdo do seu site."
 
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Locale.pm:210
 msgid "P.O. Box is not accepted in address."
@@ -8022,7 +8055,11 @@ msgstr "Métodos de Pagamento"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:78
 msgid "Payment of commission earned for the previous calendar month will be made monthly, on or around the 15th day of each month, and may be credited to any payment method as agreed between the Company and the Affiliate."
-msgstr "O pagamento de comissões ganhas durante o mês do calendário anterior será feito mensalmente, no, ou por volta de, dia 15 de cada mês, e poderá ser creditado em qualquer método de pagamento acordado entre a Empresa e o Afiliado."
+msgstr ""
+"O pagamento de comissões ganhas durante o mês do calendário anterior será "
+"feito mensalmente, no, ou por volta do, dia 15 de cada mês, e poderá ser "
+"creditado em qualquer método de pagamento acordado entre a Empresa e o "
+"Afiliado."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/api_tokenws.html.tt:34
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:74
@@ -10374,7 +10411,11 @@ msgstr "A Empresa não afirma que o site %1 permanecerá ininterrupto, ou que fo
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:55
 msgid "The Company may change the commission structure at any time at its sole and absolute discretion. We will endeavour to ensure affiliates are notified when changes have been made to the commission structure."
-msgstr "A Empresa pode alterar a estrutura de comissões a qualquer momento e a seu exclusivo e absoluto critério. Faremos o possível para garantir que os afiliados sejam notificados quando alterações são feitas à estrutura de comissões."
+msgstr ""
+"A Empresa pode alterar a estrutura de comissões a qualquer momento e a seu "
+"exclusivo e absoluto critério. Faremos o possível para garantir que os "
+"afiliados sejam notificados quando alterações tenham sido feitas à estrutura "
+"de comissões."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:149
 msgid "The Company may change, suspend, terminate or discontinue any aspect of the Binary.com API, including the availability of any services, information features or functions accessible by means of the Binary.com API, on no less than seven days advance notice to you."
@@ -10403,7 +10444,12 @@ msgstr "A empresa pode, ocasionalmente e a seu exclusivo critério, ou conforme 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:97
 msgid "The Company provides the %1 website on an “as is” and “as available” basis, and gives no warranty that the %1 website will be free of errors, or that errors will be corrected, or that our website is free of any third party interferences such as hackers or any other harmful components that arise outside of the Company’s control."
-msgstr "A Empresa fornece o site %1 numa base \"conforme se encontra\" e \"conforme disponibilizado\" e não garante que o site %1 estará livre de erros ou que os erros serão corrigidos, ou que o nosso site está livre de quaisquer interferências de terceiros, tais como hackers ou quaisquer componentes nocivos que resultam sem o nosso controle."
+msgstr ""
+"A Empresa fornece o site %1 numa base \"conforme se encontra\" e \"conforme "
+"disponibilizado\" e não garante que o site %1 estará livre de erros ou que "
+"os erros serão corrigidos, ou que o nosso site está livre de quaisquer "
+"interferências de terceiros, tais como hackers ou quaisquer componentes "
+"nocivos que surgirem sem o nosso controle."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/api_tac_tab.html.tt:171
 msgid "The Company provides the Binary.com API on an \"as is\" and \"as available\" basis with no warranties, either express or implied, of any kind. To the fullest extent permissible under applicable law, the Company disclaim any and all warranties and representations, including, without limitation, any implied warranties of merchantability, fitness for a particular purpose, title, accuracy of data, and non-infringement."
@@ -10431,7 +10477,10 @@ msgstr "A Empresa reserva o direito de suspender a operação deste site ou das 
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:54
 msgid "The Company reserves the right to void, delay, or withhold payment of commission fees to you in situations including a suspected breach of a law or a breach of the terms and conditions of this Agreement."
-msgstr "A Empresa reserva-se o direito de anular, adiar ou reter o pagamento de comissões a você em situações que incluem uma violação suspeita de uma lei ou uma violação dos termos e condições deste Acordo."
+msgstr ""
+"A Empresa reserva-se no direito de anular, adiar ou reter o pagamento de "
+"comissões a você em situações que incluam uma violação suspeita de uma lei "
+"ou uma violação dos termos e condições deste Acordo."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:53
 msgid "The Company shall be entitled to exercise any of its rights or fulfill any of its obligations hereunder (including, but not limited to, its payment obligations) through any member of the Binary group of companies."
