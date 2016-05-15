@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-05-15 09:41+0000\n"
-"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
+"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -10478,7 +10478,7 @@ msgstr "A Empresa reserva o direito de suspender a operação deste site ou das 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:54
 msgid "The Company reserves the right to void, delay, or withhold payment of commission fees to you in situations including a suspected breach of a law or a breach of the terms and conditions of this Agreement."
 msgstr ""
-"A Empresa reserva-se no direito de anular, adiar ou reter o pagamento de "
+"A Empresa reserva-se o direito de anular, adiar ou reter o pagamento de "
 "comissões a você em situações que incluam uma violação suspeita de uma lei "
 "ou uma violação dos termos e condições deste Acordo."
 
