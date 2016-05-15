@@ -3,9 +3,10 @@ msgstr ""
 "Project-Id-Version: German (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-10 09:23+0000\n"
-"Last-Translator: Robert Grundler <grundlertex@gmail.com>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>\n"
+"PO-Revision-Date: 2016-05-15 16:25+0000\n"
+"Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/binary/static/de/>"
+"\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5189,7 +5190,9 @@ msgstr "Wenn Sie unseren Grundanfoderungen entsprechen, werden wir Ihnen einen T
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:750
 msgid "If you need assistance feel free to contact our %1Customer Support"
-msgstr "Sollten Sie Hilfe benötigen, können Sie sich gerne mit unserer %1 Kundenbetreuung in Verbindung setzen"
+msgstr ""
+"Sollten Sie Hilfe benötigen, können Sie sich gerne mit unserer %"
+"1Kundenbetreuung in Verbindung setzen"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/email/lost_password.html.tt:9
 msgid "If you need help, please contact our customer support team at"
@@ -11758,7 +11761,9 @@ msgstr "Großbritannien"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "University degree in Marketing, Communications, Journalism, or related discipline"
-msgstr "Universitätsabschluss in Marketing, Kommunikation,  Journalismus oder einer ähnlichen Disziplin"
+msgstr ""
+"Universitätsabschluss in Marketing, Kommunikation, Journalismus oder einer "
+"ähnlichen Disziplin"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "University degree, preferably in Graphic Design or a related discipline"
