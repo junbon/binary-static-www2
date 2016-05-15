@@ -21,8 +21,8 @@ my $force;
 my $is_dev;
 my $pattern;
 GetOptions(
-    "force|f" => \$force,
-    "dev|d"  => \$is_dev,
+    "force|f"     => \$force,
+    "dev|d"       => \$is_dev,
     "pattern|p=s" => \$pattern,
 );
 set_is_dev() if $is_dev;
@@ -132,17 +132,6 @@ foreach my $m (@m) {
         $force = 1;
     }
 
-    my $file     = "$root_path/src/templates/$tpl_type/$tpl_path.html.$tpl_type";
-    if ($tpl_type eq 'toolkit') {
-        $file = "$tpl_path.html.tt";    # no Absolute path
-    }
-    my $layout_file;
-    if($layout) {
-        $layout_file = "$root_path/src/templates/$tpl_type/layouts/$layout.html.$tpl_type";
-        if ($tpl_type eq 'toolkit') {
-            $layout_file = "layouts/$layout.html.tt";    # no Absolute path
-        }
-    }
     foreach my $lang (@langs) {
         my $save_as_file = "$dist_path/$lang/pjax/$save_as.html";
         next if -e $save_as_file and not $force;
@@ -152,7 +141,7 @@ foreach my $m (@m) {
         mkdir("$dist_path/$lang")      unless -d "$dist_path/$lang";
         mkdir("$dist_path/$lang/pjax") unless -d "$dist_path/$lang/pjax";
         my $request = BOM::Request->new(
-            language    => uc $lang,
+            language => uc $lang,
         );
 
         my $current_route = $save_as;
@@ -172,6 +161,11 @@ foreach my $m (@m) {
             $stash{title} = localize($title);
         }
 
+        my $file = "$root_path/src/templates/haml/$tpl_path.html.haml";
+        if ($tpl_type eq 'toolkit') {
+            $file = "$tpl_path.html.tt";    # no Absolute path
+        }
+
         my $output;
         if ($tpl_type eq 'haml') {
             $output = haml_handle($file, %stash);
@@ -179,25 +173,45 @@ foreach my $m (@m) {
             $output = tt2_handle($file, %stash);
         }
 
+        ## pjax is using layout/default/content
+        my $layout_file = "$root_path/src/templates/haml/layouts/default/content.html.haml";
+        if ($tpl_type eq 'toolkit') {
+            $layout_file = "layouts/default/content.html.tt";
+        }
+        $stash{is_pjax_request} = 1;
+        $stash{content}         = $output;
+        my $layout_output = '';
+        if ($tpl_type eq 'haml') {
+            $layout_output = haml_handle($layout_file, %stash);
+        } else {
+            $layout_output = tt2_handle($layout_file, %stash);
+        }
+
         say $save_as_file;
         my $path = path($save_as_file);
         $path->parent->mkpath if $save_as =~ '/';
-        $path->spew_utf8($output);
+        $path->spew_utf8($layout_output);
 
-        ## do with wrapper
-        $save_as_file   = "$dist_path/$lang/$save_as.html";
-        if($layout) {
-            $stash{content} = $output;
-            $output         = '';
+        ## not pjax
+        $save_as_file = "$dist_path/$lang/$save_as.html";
+        if ($layout) {
+            $layout_file = "$root_path/src/templates/$tpl_type/layouts/$layout.html.$tpl_type";
+            if ($tpl_type eq 'toolkit') {
+                $layout_file = "layouts/$layout.html.tt";
+            }
+
+            $stash{is_pjax_request} = 0;
+            $stash{content}         = $output;
+            $layout_output          = '';
             if ($tpl_type eq 'haml') {
-                $output = haml_handle($layout_file, %stash);
+                $layout_output = haml_handle($layout_file, %stash);
             } else {
-                $output = tt2_handle($layout_file, %stash);
+                $layout_output = tt2_handle($layout_file, %stash);
             }
         }
         $path = path($save_as_file);
         $path->parent->mkpath if $save_as =~ '/';
-        $path->spew_utf8($output);
+        $path->spew_utf8($layout_output);
     }
 }
 
@@ -273,8 +287,8 @@ sub haml_handle {
     $haml->add_helper(google_tag_tracking_code => sub { });
 
     $stash{javascript} = js_config();
-    $stash{css_files} = [css_files()];
-    $stash{menu} = menu();
+    $stash{css_files}  = [css_files()];
+    $stash{menu}       = menu();
 
     my $output = $haml->render_file($file, %stash) or die $haml->error;
 
@@ -297,15 +311,8 @@ sub tt2_handle {
 
     ## global/language_form.html.tt
     $stash{language_options} = [
-        map {
-            {
-                code => $_,
-                text => decode_utf8( lang_display_name($_) ),
-                value => uc($_),
-                selected => uc($stash{iso639a_language}) eq uc($_) ? 1 : 0,
-            }
-        } all_languages()
-    ];
+        map { {code => $_, text => decode_utf8(lang_display_name($_)), value => uc($_), selected => uc($stash{iso639a_language}) eq uc($_) ? 1 : 0,} }
+            all_languages()];
 
     my $output = '';
     $tt2->process($file, \%stash, \$output) or die $tt2->error(), "\n";
