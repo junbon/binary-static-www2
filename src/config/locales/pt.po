@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Portuguese (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-15 09:50+0000\n"
-"Last-Translator: Alcino Jorge <alcino@binary.com>\n"
+"PO-Revision-Date: 2016-05-15 09:54+0000\n"
+"Last-Translator: Gabriela Balieiro Moreira <eusouagabi@gmail.com>\n"
 "Language-Team: Portuguese "
 "<https://hosted.weblate.org/projects/binary/static/pt/>\n"
 "Language: pt\n"
@@ -13187,11 +13187,25 @@ msgstr "Você deve descontinuar o seu uso de todas as versões anteriores da API
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:103
 msgid "You shall indemnify on demand and hold the Company harmless from, and against any and all losses, demands, claims, damages, costs, expenses (including, but not limited to, consequential losses, loss of profit, and reasonable legal costs, if applicable), and liabilities suffered or incurred, directly, or indirectly, by the Company in consequence of any breach, non-performance, or non-observance by you of any of your obligations or warranties under this Agreement."
-msgstr "Você deverá indenizar a Empresa a pedido e isentá-la de responsabilidades decorrentes de, e contra quaisquer perdas, processos, reclamações, danos, custos, despesas, (includindo, mas não limitados a, perdas consequenciais, perdas de lucro e despesas legais razoáveis, quando aplicáveis) e responsabilidades decorridos ou incorridas, direta ou indiretamente, pela Empresa em consequência de qualquer violação, falha na execução ou não cumprimento por você de quaisquer das suas obrigações ou garantias neste Acordo."
+msgstr ""
+"Você deverá indenizar a Empresa mediante pedido e isentá-la de "
+"responsabilidades decorrentes de, e contra quaisquer perdas, processos, "
+"reclamações, danos, custos, despesas, (includindo, mas não limitados a, "
+"perdas consequenciais, perdas de lucro e despesas legais razoáveis, quando "
+"aplicáveis) e responsabilidades decorridos ou incorridos, direta ou "
+"indiretamente, pela Empresa em consequência de qualquer violação, falha na "
+"execução ou não cumprimento por você de quaisquer das suas obrigações ou "
+"garantias neste Acordo."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:40
 msgid "You shall not develop and implement marketing, advertising, and promotional activities which infringe any applicable laws, rules, regulations, or codes of practice relating to marketing, advertising, and promotional activities applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business."
-msgstr "Você não deve desenvolver ou implementar atividades de marketing, publicidade ou promocionais que violam quaisquer leis, regras, regulamentos ou códigos de prática relacionados com atividades de marketing, publicidade ou promocionais aplicáveis, sob a autoridade de qualquer entidade regulatória, da jurisdição na qual você opera ou em que se destina o seu negócio."
+msgstr ""
+"Você não deve desenvolver ou implementar atividades de marketing, "
+"publicidade ou promocionais que violem quaisquer leis, regras, regulamentos "
+"ou códigos de prática relacionados com atividades de marketing, publicidade "
+"ou promocionais aplicáveis, sob a autoridade de qualquer entidade "
+"regulatória, da jurisdição na qual você opera ou em que se destina o seu "
+"negócio."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:36
 msgid "You shall not encourage your referrals to make deposits or place any trades where the purpose of that action is (whether in whole or in part) to increase affiliate commissions rather than to benefit your referrals’ trading performance and profitability."
@@ -13204,7 +13218,9 @@ msgstr "Você não deve incentivar os clientes que indica a contrairem qualquer 
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:34
 msgid "You shall not hold or pool your referrals’ funds or third party funds into your own account held with %1."
-msgstr "Você não deve deter ou reunir fundos de clientes indicados ou fundos de terceiros na sua própria conta detida na %1."
+msgstr ""
+"Você não deve deter ou reunir fundos de clientes indicados ou fundos de "
+"terceiros na sua própria conta da %1."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:37
 msgid "You shall not place trades on your referrals’ behalf."
@@ -13213,7 +13229,13 @@ msgstr "Você não deve negociar em nome dos clientes que indica."
 #. (website)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:38
 msgid "You shall not purchase or register keywords, search terms or other identifiers for use in any search engine, portal, sponsored advertising service or other search or referral service which are identical or similar to any of the Company's trademarks or trade names that include the word \"%1\" or any variation thereof."
-msgstr "Você não deve comprar ou registrar palavras-chave, termos de pesquisa ou outros identificadores para uso em qualquer motor de busca, portal, serviço de publicidade patrocinada ou outro serviço de pesquisa ou de indicação que sejam idênticos ou semelhantes a qualquer das marcas comerciais ou nomes comerciais da Empresa, que incluam a palavra \"%1\" ou qualquer variante do mesmo."
+msgstr ""
+"Você não deve comprar ou registrar palavras-chave, termos de pesquisa ou "
+"outros identificadores para uso em qualquer mecanismo de busca, portal, "
+"serviço de publicidade patrocinada ou outro serviço de pesquisa ou de "
+"indicação que sejam idênticos ou semelhantes a qualquer uma das marcas "
+"comerciais ou nomes comerciais da Empresa, que incluam a palavra \"%1\" ou "
+"qualquer variante do mesmo."
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:35
 msgid "You shall not resort to high-pressure sales tactics or false promises."
