@@ -290,31 +290,14 @@ sub menu {
     $resources_items_ref->{'sub_items'} = [$asset_index_ref, $trading_times_ref];
     push @menu, $resources_items_ref;
 
-    # charting
-    my $charting_items_ref = {
-        url        => url_for('/charting'),
-        text       => localize('Charting'),
-        id         => 'topMenuCharting',
+    # applications
+    push @menu,
+        {
+        id         => 'topMenuApplications',
+        url        => url_for('/applications'),
+        text       => localize('Applications'),
         link_class => 'pjaxload',
-    };
-
-    # chart director
-    my $charts_director_ref = {
-        id     => 'topMenuWebtrader',
-        url    => '//webtrader.binary.com',
-        text   => localize('Webtrader'),
-        target => "_blank"
-    };
-
-    my $trading_view_ref = {
-        id     => 'topMenuTradingView',
-        url    => '//tradingview.binary.com',
-        text   => localize('TradingView'),
-        target => "_blank"
-    };
-
-    $charting_items_ref->{'sub_items'} = [$charts_director_ref, $trading_view_ref];
-    push @menu, $charting_items_ref;
+        };
 
     # push @{$menu}, $self->_main_menu_trading();
 

@@ -38,7 +38,7 @@ my @m = (
     ['terms-and-conditions',       'legal/tac',                   'toolkit', 'default', 'Terms and Conditions'],
     ['terms-and-conditions-jp',    'legal_jp/tacjp',              'toolkit', 'default', 'Terms and Conditions'],
     ['resources',                  'resources/index',             'haml',    'default'],
-    ['applications',               'applications/index',          'toolkit', 'default'],
+    ['applications',               'applications/index',          'toolkit', 'default', 'Applications'],
     ['about-us',                   'about/index',                 'haml',    'full_width'],
     ['group-information',          'about/group-information',     'haml',    'default'],
     ['open-positions',             'static/job_descriptions',     'haml',    'full_width'],
