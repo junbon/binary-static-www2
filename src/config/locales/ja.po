@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-12 10:51+0000\n"
+"PO-Revision-Date: 2016-05-16 06:18+0000\n"
 "Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/binary/static/ja/>\n"
+"Language-Team: Japanese "
+"<https://hosted.weblate.org/projects/binary/static/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5125,7 +5126,7 @@ msgstr "パスワードを忘れてしまいました。再発行の方法につ
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/user/reset_passwordws.html.haml:1
 msgid "I have Real Money Account"
-msgstr "リアルマネー口座を既に持っています"
+msgstr "リアル口座を既に持っています"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/maltainvestws.html.tt:415
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/account/realws.html.tt:176
@@ -8003,7 +8004,7 @@ msgstr "パスワードは小文字と大文字を含む英字と数字を組み
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:307
 msgid "Password should have lower and uppercase letters with numbers."
-msgstr "パスワードは大文字と小文字を含む英字と数字を組み合わせる必要があります。"
+msgstr "大文字と小文字を含む英字と数字を組み合わせる必要があります"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:139
@@ -11062,7 +11063,7 @@ msgstr ""
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:145
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:300
 msgid "The two passwords that you entered do not match."
-msgstr "ご入力頂いた各パスワードが合致しません。"
+msgstr "入力頂いたパスワードと一致しません。"
 
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Transaction.pm:1161
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Transaction.pm:1231
