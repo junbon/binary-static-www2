@@ -1,4 +1,4 @@
-package BOM;
+package BS;
 
 use strict;
 use warnings;
@@ -41,8 +41,8 @@ sub set_lang {
 sub localize {
     my @texts = @_;
 
-    require BOM::I18N;
-    my $lh = BOM::I18N::handle_for($LANG)
+    require BS::I18N;
+    my $lh = BS::I18N::handle_for($LANG)
         || die("could not build locale for language $LANG");
 
     return $lh->maketext(@texts);
@@ -86,8 +86,8 @@ sub root_url {
 }
 
 sub url_for {
-    require BOM::Request;
-    state $request = BOM::Request->new(language => $LANG);
+    require BS::Request;
+    state $request = BS::Request->new(language => $LANG);
     return $request->url_for(@_);
 }
 
@@ -95,7 +95,7 @@ sub url_for {
 sub tt2 {
     my @include_path = (root_path() . '/src/templates/toolkit');
 
-    state $request = BOM::Request->new(language => $LANG);
+    state $request = BS::Request->new(language => $LANG);
     my $stash = Template::Stash->new({
         language    => $request->language,
         broker      => $request->broker,
