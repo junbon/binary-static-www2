@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-16 09:03+0000\n"
-"Last-Translator: Nguyen Thi My Linh <linh.nguyen@netlink.vn>\n"
+"PO-Revision-Date: 2016-05-16 09:27+0000\n"
+"Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
 "Language-Team: Vietnamese "
 "<https://hosted.weblate.org/projects/binary/static/vi/>\n"
 "Language: vi\n"
@@ -15377,7 +15377,7 @@ msgstr "Berkshire Hathaway Inc."
 
 #: Underlying Symbol AUCBA
 msgid "Commonwealth Bank"
-msgstr ""
+msgstr "Ngân hàng Thịnh vượng chung"
 
 #: Underlying Symbol UKAAL
 msgid "Anglo American plc"
@@ -15445,7 +15445,7 @@ msgstr "AbbVie Inc."
 
 #: Underlying Symbol DESIE
 msgid "Siemens AG"
-msgstr ""
+msgstr "Siemens AG"
 
 #: Underlying Symbol UKRDSA
 msgid "Royal Dutch Shell plc"
@@ -15556,10 +15556,9 @@ msgid "YY Inc."
 msgstr "YY Inc."
 
 #: Underlying Symbol USAMZN
-#, fuzzy
 #| msgid "Sohu.com Inc."
 msgid "Amazon.com Inc"
-msgstr "Sohu.com Inc."
+msgstr "Amazon.com Inc"
 
 #: Underlying Symbol USHAL
 msgid "Halliburton Company"
@@ -15618,14 +15617,13 @@ msgid "Volkswagen AG"
 msgstr "Volkswagen AG"
 
 #: Underlying Symbol UKBARC
-#, fuzzy
 #| msgid "Barclays plc"
 msgid "Barclays"
-msgstr "Ngân hàng Barclays plc"
+msgstr "Barclays"
 
 #: Underlying Symbol AUMQG
 msgid "Macquarie Group"
-msgstr ""
+msgstr "Tập đoàn Macquarie"
 
 #: Underlying Symbol AUTLS
 msgid "TELSTRA CORPORATION LIMITED"
@@ -15728,10 +15726,9 @@ msgid "WOOLWORTHS LIMITED"
 msgstr "WOOLWORTHS LIMITED"
 
 #: Underlying Symbol UKGSK
-#, fuzzy
 #| msgid "GlaxoSmithKline plc"
 msgid "GlaxoSmithKline"
-msgstr "Tập đoàn dược phẩm GlaxoSmithKline"
+msgstr "GlaxoSmithKline"
 
 #: Underlying Symbol AUWES
 msgid "WESFARMERS LIMITED"
@@ -15806,10 +15803,9 @@ msgid "BMW"
 msgstr "BMW"
 
 #: Underlying Symbol USAAPL
-#, fuzzy
 #| msgid "Apple Inc."
 msgid "Apple Inc"
-msgstr "Apple Inc."
+msgstr "Apple Inc"
 
 #: Underlying Symbol INBHARTIARTL
 msgid "Bharti Airtel"
@@ -15824,10 +15820,9 @@ msgid "UBS AG"
 msgstr "UBS AG"
 
 #: Underlying Symbol USCT
-#, fuzzy
 #| msgid "Citigroup Inc."
 msgid "Citigroup Inc"
-msgstr "Citigroup Inc."
+msgstr "Citigroup Inc"
 
 #: Underlying Symbol FPMIC
 msgid "Michelin"
@@ -15870,10 +15865,9 @@ msgid "Reliance Industries Ltd"
 msgstr "Công ty Reliance Industries"
 
 #: Underlying Symbol AUBHP
-#, fuzzy
 #| msgid "BHP Billiton Ltd"
 msgid "BHP Billiton"
-msgstr "Công ty BHP Billiton"
+msgstr "BHP Billiton"
 
 #: Underlying Symbol USAMAT
 msgid "Applied Materials Inc."
@@ -15972,10 +15966,9 @@ msgid "Piraeus Bank SA"
 msgstr "Piraeus Bank SA"
 
 #: Underlying Symbol USFB
-#, fuzzy
 #| msgid "Facebook Inc."
 msgid "Facebook Inc"
-msgstr "Facebook Inc."
+msgstr "Facebook Inc"
 
 #: Underlying Symbol FPDG
 msgid "Vinci"
@@ -16074,10 +16067,9 @@ msgid "Philip Morris International"
 msgstr "Tập đoàn quốc tế Philip Morris International"
 
 #: Underlying Symbol UKHSBA
-#, fuzzy
 #| msgid "HSBC Holdings plc"
 msgid "HSBC Holdings"
-msgstr "Tập đoàn HSBC Holdings"
+msgstr "HSBC Holdings"
 
 #: Underlying Symbol DEEOAN
 msgid "E.ON SE"
@@ -16092,13 +16084,11 @@ msgid "IBM"
 msgstr "Tập đoàn IBM"
 
 #: Underlying Symbol USPFE
-#, fuzzy
 #| msgid "Pfizer Inc."
 msgid "Pfizer Inc"
-msgstr "Tập đoàn Pfizer Inc."
+msgstr "Pfizer Inc"
 
 #: Underlying Symbol AUANZ
-#, fuzzy
 #| msgid "ANZ Banking Group Ltd"
 msgid "ANZ Banking Group"
 msgstr "Tập đoàn tài chính ANZ"
@@ -16152,7 +16142,6 @@ msgid "Schneider Electric"
 msgstr "Tập đoàn năng lượng Schneider Electric"
 
 #: Underlying Symbol UKVOD
-#, fuzzy
 #| msgid "Vodafone"
 msgid "Vodafone Group"
 msgstr "Tập đoàn viễn thông Vodafone"
@@ -16178,10 +16167,9 @@ msgid "Dialog Semiconductor plc"
 msgstr "Dialog Semiconductor plc"
 
 #: Underlying Symbol USXOM
-#, fuzzy
 #| msgid "ExxonMobil"
 msgid "Exxon Mobil Corp"
-msgstr "Tập đoàn ExxonMobil"
+msgstr "Tập đoàn Exxon Mobil"
 
 #: Underlying Symbol USNTFLX
 msgid "Netflix Inc."
@@ -16276,10 +16264,9 @@ msgid "Veolia Environnement water"
 msgstr "Veolia Environnement water"
 
 #: Underlying Symbol USKO
-#, fuzzy
 #| msgid "The Coca-Cola Company"
 msgid "Coca-Cola Co"
-msgstr "Tập đoàn Coca-Cola"
+msgstr "Công ty Coca-Cola"
 
 #: Underlying Symbol BBUCB
 msgid "UCB"
@@ -16330,22 +16317,19 @@ msgid "Societe Generale"
 msgstr "Hãng Societe Generale"
 
 #: Underlying Symbol AUQAN
-#, fuzzy
 #| msgid "Qantas Airways Limited"
 msgid "Qantas Airways"
-msgstr "Qantas Airways Limited"
+msgstr "Hãng hàng không Qantas"
 
 #: Underlying Symbol USGE
-#, fuzzy
 #| msgid "General Electric Company"
 msgid "General Electric Co"
-msgstr "Tập đoàn General Electric Company"
+msgstr "Tập đoàn General Electric"
 
 #: Underlying Symbol USMSFT
-#, fuzzy
 #| msgid "Microsoft"
 msgid "Microsoft Corp"
-msgstr "Microsoft"
+msgstr "Tập đoàn Microsoft"
 
 #: Underlying Symbol USJD
 msgid "JD.com Inc."
@@ -16360,10 +16344,9 @@ msgid "Alstom industrial machinery"
 msgstr "Alstom industrial machinery"
 
 #: Underlying Symbol USGOOG
-#, fuzzy
 #| msgid "Alcoa Inc."
 msgid "Alphabet Inc"
-msgstr "Alcoa Inc."
+msgstr "Alphabet Inc"
 
 #: Underlying Symbol USWMT
 msgid "Wal-Mart Stores Inc."
@@ -16494,10 +16477,9 @@ msgid "Commodities are traded items with directly usable qualities."
 msgstr "Hàng hóa là những thứ được mang ra trao đổi buôn bán, có giá trị sử dụng trực tiếp."
 
 #: Translation for market name
-#, fuzzy
 #| msgid "Stocks"
 msgid "OTC Stocks"
-msgstr "Cổ phiếu"
+msgstr "Chứng khoán phi tập trung"
 
 #: Explanation for market OTC Stocks
 msgid "Stocks (or shares) represent the value of partial ownership in a single company."
@@ -16560,10 +16542,9 @@ msgid "Americas Future"
 msgstr "Hợp đồng tương lai Mỹ"
 
 #: Explanation for market Germany
-#, fuzzy
 #| msgid "Germany Stocks"
 msgid "Germany OTC Stocks"
-msgstr "Chứng khoán Đức"
+msgstr "Chứng khoán phi tập trung Đức"
 
 #: Translation for sub market name
 msgid "French Stocks"
@@ -16602,10 +16583,9 @@ msgid "United States Stocks"
 msgstr "Chứng khoán Hoa Kỳ"
 
 #: Explanation for market Australia
-#, fuzzy
 #| msgid "Australia Stocks"
 msgid "Australia OTC Stocks"
-msgstr "Chứng khoán Úc"
+msgstr "Chứng khoán phi tập trung Úc"
 
 #: Translation for sub market name
 msgid "Minor Pairs"
@@ -16616,16 +16596,14 @@ msgid "Forex pairs of interest, but with less liquid international markets."
 msgstr "Lãi suất của cặp Ngoại hối, nhưng thị trường quốc tế ít thanh khoản hơn."
 
 #: Translation for sub market name
-#, fuzzy
 #| msgid "USD"
 msgid "US"
-msgstr "USD"
+msgstr "Hoa Kỳ"
 
 #: Explanation for market US
-#, fuzzy
 #| msgid "US Stocks"
 msgid "US OTC Stocks"
-msgstr "Chứng khoán Mỹ"
+msgstr "Chứng khoán phi tập trung Hoa Kỳ"
 
 #: Translation for sub market name
 msgid "Germany Stocks"
@@ -16641,13 +16619,12 @@ msgstr "Liên kết với một số mà đại diện cho sự biến động t
 
 #: Translation for sub market name
 msgid "UK"
-msgstr ""
+msgstr "Vương quốc Anh"
 
 #: Explanation for market UK
-#, fuzzy
 #| msgid "UK Stocks"
 msgid "UK OTC Stocks"
-msgstr "Chứng khoán Anh"
+msgstr "Chứng khoán phi tập trung Anh"
 
 #: Translation for sub market name
 msgid "Metals"
