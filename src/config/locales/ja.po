@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-16 08:12+0000\n"
-"Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
+"PO-Revision-Date: 2016-05-17 00:01+0000\n"
+"Last-Translator: Haruna Sekiya <hrnmyrn@gmail.com>\n"
 "Language-Team: Japanese "
 "<https://hosted.weblate.org/projects/binary/static/ja/>\n"
 "Language: ja\n"
@@ -247,10 +247,9 @@ msgstr "当社ではインターバンク市場と同等レベルの算出方法
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:3
-#, fuzzy
 #| msgid "%1 provides a variety of charts to help you determine what markets to trade on. Try them out."
 msgid "%1 provides a variety of applications to help you trade efficiently."
-msgstr "%1では、トレード計画に役立てるような様々なタイプのチャートを提供しています。是非ともご活用下さい。"
+msgstr "%1ではトレード計画に役立てるような様々なアプリケーションを提供しています。是非ともご活用下さい。"
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/partners.html.haml:1
@@ -1428,7 +1427,7 @@ msgstr "ソフトウェア設計原則の高度な知識"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:29
 msgid "Advanced tool for active traders"
-msgstr ""
+msgstr "上級トレーダーのための高度なツール"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Advising senior managers regarding salary negotiations and job offers"
@@ -1914,7 +1913,7 @@ msgstr "ご利用できるお支払い方法"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:62
 msgid "Available soon..."
-msgstr ""
+msgstr "ただ今準備中です..."
 
 #: /home/git/regentmarkets/bom-app/lib/BOM/View/Charting.pm:642
 msgid "Avg Directional Index"
@@ -2155,7 +2154,7 @@ msgstr "Binary Ltdは、<span itemprop='location'>47 Esplanade, St. Helier, Jers
 #, fuzzy
 #| msgid "Binary option"
 msgid "Binary Next Gen"
-msgstr "バイナリーオプション"
+msgstr "次世代バイナリー"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/get_started/binary_options_basics.html.haml:1
 msgid "Binary Options Basics"
@@ -2259,7 +2258,7 @@ msgstr "Binary.comではオープンソースによる開発を推進し、コ�
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
 msgid "Binary.com is honoured as the world's \"Best Binary Options Broker\" at the 16th annual MENA International Financial Conference and Exhibition, hosted in Dubai."
-msgstr ""
+msgstr "ドバイで開催された第16回 MENA国際金融会議/展示会において「最優秀バイナリーオプションブローカー」をいただき、大変光栄に存じます。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/group-information.html.haml:1
 msgid "Binary.com is not available in Costa Rica and is not regulated or supervised by any regulatory body in the Costa Rican financial system."
@@ -2290,7 +2289,6 @@ msgid "Binary.com supports the <a target=\"_blank\" href=\"http://www.responsibl
 msgstr "Binary.comは、ギャンブルに関連する害を最小限にすることを約束している英国の大手慈善団体<a target=\"_blank\" href=\"http://www.responsiblegamblingtrust.org.uk/\">「責任ある賭博基金」(RGT, Responsible Gambling Trust)</a> をサポートしています。RGT資金教育、予防と治療のサービスや手数料の調査は、ギャンブルに関する害についてより理解するのに役立ちます。また、機密なアドバイスや感情的なサポートをしている全国ギャンブルヘルプラインも提供しています。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/group_history.html.haml:1
-#, fuzzy
 #| msgid "Binary.com took home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London."
 msgid "Binary.com takes home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London."
 msgstr "ロンドンで開催された名誉あるEGRオペレーター賞授賞式にてBinary.comが金融ベッティングオペレーター部門で最優秀賞を受賞しました。"
@@ -2866,10 +2864,9 @@ msgstr "当社の権利"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/layouts/default/footer.html.haml:1
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/global/footer.html.tt:133
-#, fuzzy
 #| msgid "Compliance"
 msgid "Complaints"
-msgstr "コンプライアンス"
+msgstr "クレーム"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/complaints_disputes.html.tt:2
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/tac.html.tt:19
@@ -4133,7 +4130,7 @@ msgstr "潜在顧客、顧客、パートナーの誘致と展開に多様なチ
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:10
 msgid "Enjoy our fastest type of trading on your mobile phone or tablet. Place tick trades anytime, anywhere – even while you’re on the move."
-msgstr ""
+msgstr "モバイルまたはタブレットで最速のお取引をお楽しみください。出先でもTickトレードをいつでもどこでも取引可能。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/job_details.html.haml:1
 msgid "Ensure compliance with quality control standards governing website content"
@@ -6767,10 +6764,9 @@ msgid "Links"
 msgstr "サイト内のリンクについて"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:83
-#, fuzzy
 #| msgid "Binary.com open-source projects"
 msgid "List of All Open-Source Projects"
-msgstr "Binary.comオープンソース・プロジェクト"
+msgstr "オープンソースプロジェクトリスト"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/static/contact.html.haml:1
 msgid "Live chat:"
@@ -10294,10 +10290,12 @@ msgstr "%1のウェブサイトは特定の著作権で保護されています�
 
 #. (stash->{website_name})
 #: /home/git/translations/binary-static-www2/src/templates/haml/about/group-information.html.haml:1
-#, fuzzy
 #| msgid "The <span itemprop=\"brand\">%1</span> service (formerly known as BetOnMarkets.com) is owned and operated by Binary Ltd. Fully licensed and regulated, %1 has been providing financial trading to a worldwide audience of over 1,000,000 clients since <span itemprop=\"foundingdate\">1999</span>"
 msgid "The <span itemprop=\"brand\">%1</span> service (formerly known as BetOnMarkets.com) is owned and operated by Binary Ltd. Fully licensed and regulated, %1 has been providing financial trading to a worldwide audience of over 1,000,000 accounts since <span itemprop=\"foundingdate\">1999</span>"
-msgstr "<span itemprop=\"brand\">%1</span>サービス（旧サービス名：BetOnMarkets.com）はBinary Ltd.が所有し、運営しています。ライセンス監督機関による監査を受けながら発行ライセンスを保持しており、%1は<span itemprop=\"foundingdate\">1999</span>年から世界中に10万人以上の顧客を擁しています。"
+msgstr ""
+"<span itemprop=\"brand\">%1</span>サービス（旧サービス名：BetOnMarkets.com）はBinary "
+"Ltd.が所有し、運営しています。ライセンス監督機関による監査を受けながら発行ライセンスを保持しており、%1は<span itemprop=\""
+"foundingdate\">1999</span>年から世界中に10万人以上の顧客を擁しています。"
 
 #: /home/git/translations/binary-static-www2/src/templates/haml/home/index.html.haml:1
 msgid "The <strong>Premier Platform</strong> for Binary Options Trading"
@@ -10880,10 +10878,9 @@ msgstr "最初のTickとは、当社のサーバにてトレードが処理さ�
 
 #. (request.website.display_name)
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:59
-#, fuzzy
 #| msgid "Purpose of trading"
 msgid "The future of trading on %1"
-msgstr "投資の目的"
+msgstr "%1での今後のお取引"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/misc/affiliate_tac_tab.html.tt:118
 msgid "The information provided during the sign-up process warranted by yourself to be true and correct is determined by the Company to be false or incorrect during the term of this Agreement;"
@@ -11462,16 +11459,14 @@ msgid "Tick"
 msgstr "Tick"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:8
-#, fuzzy
 #| msgid "Tick Trades:"
 msgid "Tick Trade App"
-msgstr "Tickトレード："
+msgstr "Tickトレードアプリ"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:80
-#, fuzzy
 #| msgid "Tick Trade Up/Down"
 msgid "Tick Trade on GitHub"
-msgstr "Tickトレード・Up/Down"
+msgstr "GitHubでTickトレード"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/affiliates/commission_table.html.tt:3
 msgid "Tier"
@@ -11906,10 +11901,9 @@ msgid "Ultimate Oscillator"
 msgstr "アルティメット・オシレーター"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:9
-#, fuzzy
 #| msgid "Start trading"
 msgid "Ultra-fast trading"
-msgstr "トレード開始"
+msgstr "超高速取引"
 
 #: /home/git/regentmarkets/bom-platform/lib/BOM/Platform/Locale.pm:205
 msgid "Unable to price the contract."
@@ -12122,10 +12116,9 @@ msgid "Verify your withdrawal request - %1"
 msgstr "出金リクエストを確認する。- %1"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/legal/terms_and_conditions.html.tt:4
-#, fuzzy
 #| msgid "Version 39. Last modified 2016-03-01."
 msgid "Version 40. Last modified 2016-05-12."
-msgstr "バージョン39　最終更新日：2016-03-01"
+msgstr "バージョン40　最終更新日：2016-05-12"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:190
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/bet/analyse_link.html.tt:4
@@ -12497,10 +12490,9 @@ msgid "Webtrader"
 msgstr "Webtrader"
 
 #: /home/git/translations/binary-static-www2/src/templates/toolkit/applications/index.html.tt:81
-#, fuzzy
 #| msgid "Webtrader"
 msgid "Webtrader on GitHub"
-msgstr "Webtrader"
+msgstr "GitHubでWebtraderを利用"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:76
 msgid "Wednesday"
@@ -13142,7 +13134,6 @@ msgid "You have exceeded your daily limit on losses of %1%2."
 msgstr "%1%2の1日の損失制限をオーバーしました。"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:720
-#, fuzzy
 #| msgid "You have not granted access to any apps."
 msgid "You have not granted access to any applications."
 msgstr "アプリケーションへのアクセス権限がありません。"
@@ -13661,10 +13652,9 @@ msgid "Your risks are known"
 msgstr "リスクが明確"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:315
-#, fuzzy
 #| msgid "Session duration limit, in minutes"
 msgid "Your session duration limit will end in %1 seconds."
-msgstr "取引継続時間の制限(分単位)"
+msgstr "お客様の取引継続時間制限は%1秒後に終了します。"
 
 #: /home/git/regentmarkets/bom-app/bin/GenerateStaticData.pm:263
 msgid "Your settings have been updated successfully."
@@ -15847,10 +15837,9 @@ msgid "YY Inc."
 msgstr "YY Inc."
 
 #: Underlying Symbol USAMZN
-#, fuzzy
 #| msgid "Sohu.com Inc."
 msgid "Amazon.com Inc"
-msgstr "Sohu.com Inc.（ソフ ドットコム）"
+msgstr "Amazon.com Inc（アマゾン）"
 
 #: Underlying Symbol USHAL
 msgid "Halliburton Company"
@@ -15909,10 +15898,9 @@ msgid "Volkswagen AG"
 msgstr "Volkswagen AG（フォルクスワーゲン）"
 
 #: Underlying Symbol UKBARC
-#, fuzzy
 #| msgid "Barclays plc"
 msgid "Barclays"
-msgstr "Barclays plc（バークレイズ）"
+msgstr "Barclays（バークレイズ）"
 
 #: Underlying Symbol AUMQG
 msgid "Macquarie Group"
@@ -16019,10 +16007,9 @@ msgid "WOOLWORTHS LIMITED"
 msgstr "WOOLWORTHS LIMITED（ウールワース）"
 
 #: Underlying Symbol UKGSK
-#, fuzzy
 #| msgid "GlaxoSmithKline plc"
 msgid "GlaxoSmithKline"
-msgstr "GlaxoSmithKline plc（グラクソ・スミスクライン）"
+msgstr "GlaxoSmithKline（グラクソ・スミスクライン）"
 
 #: Underlying Symbol AUWES
 msgid "WESFARMERS LIMITED"
@@ -16097,10 +16084,9 @@ msgid "BMW"
 msgstr "BMW"
 
 #: Underlying Symbol USAAPL
-#, fuzzy
 #| msgid "Apple Inc."
 msgid "Apple Inc"
-msgstr "Apple Inc.（アップル）"
+msgstr "Apple Inc（アップル）"
 
 #: Underlying Symbol INBHARTIARTL
 msgid "Bharti Airtel"
@@ -16115,10 +16101,9 @@ msgid "UBS AG"
 msgstr "UBS AG"
 
 #: Underlying Symbol USCT
-#, fuzzy
 #| msgid "Citigroup Inc."
 msgid "Citigroup Inc"
-msgstr "Citigroup Inc.（シティグループ）"
+msgstr "Citigroup Inc（シティグループ）"
 
 #: Underlying Symbol FPMIC
 msgid "Michelin"
@@ -16161,10 +16146,9 @@ msgid "Reliance Industries Ltd"
 msgstr "Reliance Industries Ltd（リライアンス・インダストリーズ）"
 
 #: Underlying Symbol AUBHP
-#, fuzzy
 #| msgid "BHP Billiton Ltd"
 msgid "BHP Billiton"
-msgstr "BHP Billiton Ltd（BHBビリトン）"
+msgstr "BHP Billiton（BHBビリトン）"
 
 #: Underlying Symbol USAMAT
 msgid "Applied Materials Inc."
@@ -16263,10 +16247,9 @@ msgid "Piraeus Bank SA"
 msgstr "Piraeus Bank SA（ピレウス銀行）"
 
 #: Underlying Symbol USFB
-#, fuzzy
 #| msgid "Facebook Inc."
 msgid "Facebook Inc"
-msgstr "Facebook Inc.（フェイスブック）"
+msgstr "Facebook Inc（フェイスブック）"
 
 #: Underlying Symbol FPDG
 msgid "Vinci"
@@ -16365,7 +16348,6 @@ msgid "Philip Morris International"
 msgstr "Philip Morris International（フィリップ・モリス）"
 
 #: Underlying Symbol UKHSBA
-#, fuzzy
 #| msgid "HSBC Holdings plc"
 msgid "HSBC Holdings"
 msgstr "HSBCホールディングス"
@@ -16383,16 +16365,14 @@ msgid "IBM"
 msgstr "IBM"
 
 #: Underlying Symbol USPFE
-#, fuzzy
 #| msgid "Pfizer Inc."
 msgid "Pfizer Inc"
-msgstr "Pfizer Inc.（ファイザー）"
+msgstr "Pfizer Inc（ファイザー）"
 
 #: Underlying Symbol AUANZ
-#, fuzzy
 #| msgid "ANZ Banking Group Ltd"
 msgid "ANZ Banking Group"
-msgstr "ANZ Banking Group Ltd（ANZ銀行グループ）"
+msgstr "ANZ銀行グループ"
 
 #: Underlying Symbol UKBATS
 msgid "British American Tobacco"
@@ -16443,10 +16423,9 @@ msgid "Schneider Electric"
 msgstr "Schneider Electric（シュナイダーエレクトリック）"
 
 #: Underlying Symbol UKVOD
-#, fuzzy
 #| msgid "Vodafone"
 msgid "Vodafone Group"
-msgstr "Vodafone（ボーダフォン）"
+msgstr "Vodafone Group（ボーダフォングループ）"
 
 #: Underlying Symbol INSUNPHARMA
 msgid "Sun Pharma"
@@ -16469,10 +16448,9 @@ msgid "Dialog Semiconductor plc"
 msgstr "Dialog Semiconductor plc"
 
 #: Underlying Symbol USXOM
-#, fuzzy
 #| msgid "ExxonMobil"
 msgid "Exxon Mobil Corp"
-msgstr "ExxonMobil（エクソンモービル）"
+msgstr "Exxon Mobil Corp（エクソンモービル）"
 
 #: Underlying Symbol USNTFLX
 msgid "Netflix Inc."
@@ -16567,10 +16545,9 @@ msgid "Veolia Environnement water"
 msgstr "Veolia Environnement water"
 
 #: Underlying Symbol USKO
-#, fuzzy
 #| msgid "The Coca-Cola Company"
 msgid "Coca-Cola Co"
-msgstr "The Coca-Cola Company（ザ コカ・コーラカンパニー）"
+msgstr "Coca-Cola Co（コカ・コーラ）"
 
 #: Underlying Symbol BBUCB
 msgid "UCB"
@@ -16621,22 +16598,19 @@ msgid "Societe Generale"
 msgstr "Societe Generale"
 
 #: Underlying Symbol AUQAN
-#, fuzzy
 #| msgid "Qantas Airways Limited"
 msgid "Qantas Airways"
-msgstr "Qantas Airways Limited（カンタス航空）"
+msgstr "Qantas Airways（カンタス航空）"
 
 #: Underlying Symbol USGE
-#, fuzzy
 #| msgid "General Electric Company"
 msgid "General Electric Co"
-msgstr "General Electric Company（ゼネラル・エレクトリック）"
+msgstr "General Electric Co（ゼネラル・エレクトリック）"
 
 #: Underlying Symbol USMSFT
-#, fuzzy
 #| msgid "Microsoft"
 msgid "Microsoft Corp"
-msgstr "Microsoft"
+msgstr "Microsoft Corp（マイクロソフト）"
 
 #: Underlying Symbol USJD
 msgid "JD.com Inc."
@@ -16651,10 +16625,9 @@ msgid "Alstom industrial machinery"
 msgstr "Alstom industrial machinery"
 
 #: Underlying Symbol USGOOG
-#, fuzzy
 #| msgid "Alcoa Inc."
 msgid "Alphabet Inc"
-msgstr "Alcoa Inc.（アルコア）"
+msgstr "Alphabet Inc（アルコア）"
 
 #: Underlying Symbol USWMT
 msgid "Wal-Mart Stores Inc."
@@ -16785,10 +16758,9 @@ msgid "Commodities are traded items with directly usable qualities."
 msgstr "コモディティは直接的に利用出来る価値と共にトレードされるアイテムです。"
 
 #: Translation for market name
-#, fuzzy
 #| msgid "Stocks"
 msgid "OTC Stocks"
-msgstr "株式"
+msgstr "店頭株"
 
 #: Explanation for market OTC Stocks
 msgid "Stocks (or shares) represent the value of partial ownership in a single company."
@@ -16851,10 +16823,9 @@ msgid "Americas Future"
 msgstr "Americas Future"
 
 #: Explanation for market Germany
-#, fuzzy
 #| msgid "Germany Stocks"
 msgid "Germany OTC Stocks"
-msgstr "ドイツ株式"
+msgstr "ドイツ 店頭株"
 
 #: Translation for sub market name
 msgid "French Stocks"
@@ -16893,10 +16864,9 @@ msgid "United States Stocks"
 msgstr "米国株式"
 
 #: Explanation for market Australia
-#, fuzzy
 #| msgid "Australia Stocks"
 msgid "Australia OTC Stocks"
-msgstr "オーストラリア株式"
+msgstr "オーストラリア 店頭株"
 
 #: Translation for sub market name
 msgid "Minor Pairs"
@@ -16907,16 +16877,14 @@ msgid "Forex pairs of interest, but with less liquid international markets."
 msgstr "外国為替のうち、国際市場で流動性が低いペア。"
 
 #: Translation for sub market name
-#, fuzzy
 #| msgid "USD"
 msgid "US"
-msgstr "USD"
+msgstr "アメリカ"
 
 #: Explanation for market US
-#, fuzzy
 #| msgid "US Stocks"
 msgid "US OTC Stocks"
-msgstr "アメリカ株式"
+msgstr "アメリカ 店頭株"
 
 #: Translation for sub market name
 msgid "Germany Stocks"
@@ -16935,10 +16903,9 @@ msgid "UK"
 msgstr "イギリス"
 
 #: Explanation for market UK
-#, fuzzy
 #| msgid "UK Stocks"
 msgid "UK OTC Stocks"
-msgstr "イギリス株式"
+msgstr "イギリス 店頭株"
 
 #: Translation for sub market name
 msgid "Metals"
