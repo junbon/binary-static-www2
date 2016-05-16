@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-16 09:27+0000\n"
+"PO-Revision-Date: 2016-05-16 11:19+0000\n"
 "Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
 "Language-Team: Vietnamese "
 "<https://hosted.weblate.org/projects/binary/static/vi/>\n"
@@ -16568,15 +16568,17 @@ msgstr "Dạ khúc"
 
 #: Explanation for market Nocturnes
 msgid "Represent a single day of trading with different market factors. They are reset at the start of each trading day (12:00GMT)."
-msgstr "Thể hiện giao dịch của một ngày với các nhân tố thị trường khác nhau. Chúng được thiết lập lại tại thời điểm bắt đầu ngày giao dịch (12:00 giờ GMT)."
+msgstr ""
+"Thể hiện một ngày giao dịch với những yếu tố thị trường khác nhau. Chúng "
+"được tái thiết lập tại thời điểm bắt đầu ngày giao dịch (12:00 giờ GMT)."
 
 #: Translation for sub market name
 msgid "OTC Indices"
-msgstr "Chỉ số phi tập trung"
+msgstr "Các chỉ số phi tập trung"
 
 #: Translation for sub market name
 msgid "Europe/Africa"
-msgstr "Châu Âu/châu Phi"
+msgstr "Châu Âu/Châu Phi"
 
 #: Translation for sub market name
 msgid "United States Stocks"
@@ -16611,11 +16613,16 @@ msgstr "Chứng khoán Đức"
 
 #: Explanation for market Daily Reset Indices
 msgid "Represent a single day of trading with different market factors. They are reset at the start of each trading day (00:00GMT)."
-msgstr "Đại diện cho một ngày duy nhất của giao dịch với các yếu tố thị trường khác nhau. Chúng được thiết lập lại vào đầu mỗi ngày giao dịch (00: 00GMT)."
+msgstr ""
+"Đại diện cho một ngày  giao dịch với các yếu tố thị trường khác nhau. Chúng "
+"được tái thiết lập vào đầu mỗi ngày giao dịch (00: 00GMT)."
 
 #: Explanation for market Continuous Indices
 msgid "Associated with a number that represents the relative volatility of the market. For example, the Volatility 100 Index is twice as volatile as the Volatility 50 Index."
-msgstr "Liên kết với một số mà đại diện cho sự biến động tương đối của thị trường. Ví dụ, Chỉ số Biến động 100 thì biến động gấp hai lần so với Chỉ số Biến động 50."
+msgstr ""
+"Liên kết với một số đại diện cho sự biến động tương đối của thị trường. Ví "
+"dụ, Chỉ số Biến động 100 thì biến động gấp hai lần so với Chỉ số "
+"Biến động 50."
 
 #: Translation for sub market name
 msgid "UK"
@@ -16762,7 +16769,7 @@ msgstr "%1 %2 tiền thưởng nếu chữ số cuối cùng của %3 kh�
 
 #: Translation for contract type "DIGITEVEN"
 msgid "even"
-msgstr "đồng đều"
+msgstr "số chẵn"
 
 #. %1 - Payout Currency (example USD)
 #. %2 - Payout value (example 100)
@@ -16773,7 +16780,9 @@ msgstr "đồng đều"
 #. %7 - Low barrier (when present)
 #: Translation for contract type description (DIGITEVEN - tick)
 msgid "%1 %2 payout if the last digit of %3 is even after %5 ticks."
-msgstr "%1 %2 tiền thưởng nếu chữ số cuối cùng của %3 đồng đều sau %5 bước giá."
+msgstr ""
+"%1 %2 tiền thưởng nếu chữ số cuối cùng của %3 là số chẵn sau %5 bước "
+"giá."
 
 #: Translation for contract type "DIGITMATCH"
 msgid "matches"
@@ -17026,7 +17035,9 @@ msgstr "%1 %2 tiền lãi cho mỗi điểm %3 rơi từ mức nhập va�
 #. %7 - Low barrier (when present)
 #: Translation for contract type description (SPREADD - point)
 msgid "%1 %2 payout for every point %3 falls from entry level, with stop loss of %4 points and stop profit of %5 points."
-msgstr "%1 %2 tiền lãi cho mỗi điểm %3 rơi từ mức nhập vào, với điểm lỗ tới hạn của %4 điểm và điểm lãi tới hạn của %5 điểm."
+msgstr ""
+"%1 %2 tiền lãi cho mỗi điểm %3 rơi từ mức nhập vào, với điểm cắt "
+"lỗ %4 điểm và điểm cắt lãi %5 điểm."
 
 #: Translation for contract type "SPREADU"
 msgid "spread up"
@@ -17041,7 +17052,9 @@ msgstr "chênh lệch lên"
 #. %7 - Low barrier (when present)
 #: Translation for contract type description (SPREADU - dollar)
 msgid "%1 %2 payout for every point %3 rises from entry level, with stop loss of %6 %4 and stop profit of %6 %5."
-msgstr "%1 %2 tiền lãi cho mỗi điểm %3 lên từ điểm nhập vào, với điểm tới hạn lỗ của %6 %4 và điểm tới hạn lãi của %6 %5."
+msgstr ""
+"%1 %2 tiền lãi cho mỗi điểm %3 lên từ điểm nhập vào, với điểm cắt "
+"lỗ %6 %4 và điểm cắt lãi %6 %5."
 
 #. %1 - Payout Currency (example USD)
 #. %2 - Payout value (example 100)
@@ -17052,7 +17065,9 @@ msgstr "%1 %2 tiền lãi cho mỗi điểm %3 lên từ điểm nhập v
 #. %7 - Low barrier (when present)
 #: Translation for contract type description (SPREADU - point)
 msgid "%1 %2 payout for every point %3 rises from entry level, with stop loss of %4 points and stop profit of %5 points."
-msgstr "%1 %2 tiền lãi cho mỗi điểm %3 lên từ điểm nhập vào, với điểm tới hạn lỗ %4 điểm và điểm tới hạn lãi của %5 điểm."
+msgstr ""
+"%1 %2 tiền lãi cho mỗi điểm %3 lên từ điểm nhập vào, với điểm cắt "
+"lỗ %4 điểm và điểm cắt lãi %5 điểm."
 
 #: Translation for contract type "UPORDOWN"
 msgid "goes outside"
