@@ -4,32 +4,30 @@ use strict;
 use warnings;
 use v5.10;
 use FindBin qw/$Bin/;
+use lib "$Bin/lib";
 use Getopt::Long;
 use Text::Haml;
-use Template;
-use BOM::Platform::Runtime;
-use BOM::Platform::Static::Config;
-use BOM::Platform::Locale;
-use BOM::Platform::Context qw/localize/;
-use BOM::Platform::Context::Request;
-use BOM::View::JavascriptConfig;
-use BOM::View::CssConfig;
-use BOM::View::Menu;
 use Path::Tiny;
 use HTML::Entities qw( encode_entities );
-use Test::MockModule;
-use Mojo::URL;
+use Encode;
 
-# force = re-generate files
-# test  = for domain like http://fayland.github.io/binary-static-www2/ which has a sub path
+use BOM qw/set_is_dev is_dev localize set_lang all_languages lang_display_name tt2 css_files js_config menu/;
+use BOM::Request;
+
+# force = re-generate all files
+# dev   = for domain like http://fayland.github.io/binary-static-www2/ which has a sub path
+# pattern = the url pattern to rebuild
 my $force;
-my $test;
+my $is_dev;
+my $pattern;
 GetOptions(
-    "force|f" => \$force,
-    "test|t"  => \$test,
+    "force|f"     => \$force,
+    "dev|d"       => \$is_dev,
+    "pattern|p=s" => \$pattern,
 );
+set_is_dev() if $is_dev;
 
-my @langs = ('en', 'ar', 'de', 'es', 'fr', 'id', 'it', 'pl', 'pt', 'ru', 'vi', 'zh_cn', 'zh_tw');
+my @langs = map { lc $_ } all_languages();
 my @m = (
     ['home',                'home/index',                 'haml', 'full_width'],
     ['why-us',              'static/why_us',              'haml', 'full_width'],
@@ -118,66 +116,9 @@ my @m = (
 );
 
 ## config
-our $LANG = 'en';
 my $root_path = "$Bin/..";
 my $dist_path = "$root_path/dist";
-our %HTML_URLS = map { '/' . $_->[0] => 1 } @m;
-
-## do some mockup
-my $mock = Test::MockModule->new('BOM::Platform::Static::Config');
-$mock->mock(
-    get_config => sub {
-        return {binary_static_hash => '_=v1'};    ## increase it when new version is deployed
-    });
-$mock->mock(
-    get_static_path => sub {
-        return "$root_path/src";
-    });
-
-my $old_sub = \&BOM::Platform::Context::Request::url_for;
-my $mock2   = Test::MockModule->new('BOM::Platform::Context::Request');
-$mock2->mock(
-    url_for => sub {
-        my ($self, @args) = @_;
-
-        # print Dumper(\@args); use Data::Dumper;
-        my $url = $args[0] || '';
-
-        # quick fix
-        $url = '/' . $url if grep { $url eq $_ } (map { $_->[0] } @m);
-
-        my $domain_prefix = $test ? '/binary-static-www2/' : '/';
-        if ($url =~ m{^/?(images|css|scripts)/}) {
-            $url =~ s/^\///;
-            return Mojo::URL->new($domain_prefix . $url);
-        }
-        if ($HTML_URLS{$url}) {
-            $url =~ s/^\///;
-            return Mojo::URL->new($domain_prefix . "$LANG/$url.html");
-        }
-        # /terms-and-conditions#privacy-tab
-        my ($upre, $upost) = ($url =~ /^(.*?)\#(.*?)$/);
-        if ($upost and $HTML_URLS{$upre}) {
-            $upre =~ s/^\///;
-            return Mojo::URL->new($domain_prefix . "$LANG/$upre.html#$upost");
-        }
-        # for link alternate
-        my $query = $args[1] || {};
-        if ($query->{l} and $query->{l} ne $LANG) {
-            # /binary-static-www2/en/home.html
-            $url =~ s{^(/binary-static-www2)?/(\w+)/(.+)\.html$}{/$3};
-            if ($HTML_URLS{$url}) {
-                $url =~ s/^\///;
-                return Mojo::URL->new($domain_prefix . lc($query->{l}) . "/$url.html");
-            }
-        }
-
-        # $args[2] ||= { no_lang => 1};
-        # $args[2]->{no_lang} = 1;
-
-        # print STDERR $url . "\n";
-        return $old_sub->($self, @args);
-    });
+@BOM::Request::HTML_URLS = map { $_->[0] } @m;
 
 foreach my $m (@m) {
     my $save_as  = $m->[0];
@@ -185,28 +126,23 @@ foreach my $m (@m) {
     my $tpl_type = $m->[2];
     my $layout   = $m->[3];
     my $title    = $m->[4];
-    my $file     = "$root_path/src/templates/$tpl_type/$tpl_path.html.$tpl_type";
-    if ($tpl_type eq 'toolkit') {
-        $file = "$tpl_path.html.tt";    # no Absolute path
+
+    if ($pattern) {
+        next unless index($save_as, $pattern) > -1;
+        $force = 1;
     }
-    my $layout_file;
-    if($layout) {
-        $layout_file = "$root_path/src/templates/$tpl_type/layouts/$layout.html.$tpl_type";
-        if ($tpl_type eq 'toolkit') {
-            $layout_file = "layouts/$layout.html.tt";    # no Absolute path
-        }
-    }
+
     foreach my $lang (@langs) {
         my $save_as_file = "$dist_path/$lang/pjax/$save_as.html";
         next if -e $save_as_file and not $force;
 
+        set_lang($lang);
+
         mkdir("$dist_path/$lang")      unless -d "$dist_path/$lang";
         mkdir("$dist_path/$lang/pjax") unless -d "$dist_path/$lang/pjax";
-        my $request = BOM::Platform::Context::Request->new(
-            domain_name => 'www.binary.com',
-            language    => uc $lang,
+        my $request = BOM::Request->new(
+            language => uc $lang,
         );
-        BOM::Platform::Context::request($request);
 
         my $current_route = $save_as;
         $current_route =~ s{^(.+)/}{}sg;
@@ -225,16 +161,10 @@ foreach my $m (@m) {
             $stash{title} = localize($title);
         }
 
-        # my $page_name  = '/' . $save_as;
-        # my $page_rules = YAML::XS::LoadFile('/home/git/regentmarkets/bom-platform/config/page_caching_rules.yml')->{$page_name};
-        # my $page_caching_rules = $page_rules->{header};
-        # if ($page_caching_rules) {
-        #     foreach my $key (keys %{$page_caching_rules}) {
-        #         if (not $page_rules->{exclude_appcache} and $page_caching_rules->{$key} =~ /s-maxage=(\d+)/ and $1 > 25000) {
-        #             $stash{appcache_manifest} = 1;
-        #         }
-        #     }
-        # }
+        my $file = "$root_path/src/templates/haml/$tpl_path.html.haml";
+        if ($tpl_type eq 'toolkit') {
+            $file = "$tpl_path.html.tt";    # no Absolute path
+        }
 
         my $output;
         if ($tpl_type eq 'haml') {
@@ -243,27 +173,45 @@ foreach my $m (@m) {
             $output = tt2_handle($file, %stash);
         }
 
+        ## pjax is using layout/default/content
+        my $layout_file = "$root_path/src/templates/haml/layouts/default/content.html.haml";
+        if ($tpl_type eq 'toolkit') {
+            $layout_file = "layouts/default/content.html.tt";
+        }
+        $stash{is_pjax_request} = 1;
+        $stash{content}         = $output;
+        my $layout_output = '';
+        if ($tpl_type eq 'haml') {
+            $layout_output = haml_handle($layout_file, %stash);
+        } else {
+            $layout_output = tt2_handle($layout_file, %stash);
+        }
+
         say $save_as_file;
         my $path = path($save_as_file);
         $path->parent->mkpath if $save_as =~ '/';
-        $path->spew_utf8($output);
+        $path->spew_utf8($layout_output);
 
-        ## do with wrapper
-        $save_as_file   = "$dist_path/$lang/$save_as.html";
-        if($layout) {
-            $stash{content} = $output;
-            $output         = '';
+        ## not pjax
+        $save_as_file = "$dist_path/$lang/$save_as.html";
+        if ($layout) {
+            $layout_file = "$root_path/src/templates/$tpl_type/layouts/$layout.html.$tpl_type";
+            if ($tpl_type eq 'toolkit') {
+                $layout_file = "layouts/$layout.html.tt";
+            }
+
+            $stash{is_pjax_request} = 0;
+            $stash{content}         = $output;
+            $layout_output          = '';
             if ($tpl_type eq 'haml') {
-                $output = haml_handle($layout_file, %stash);
+                $layout_output = haml_handle($layout_file, %stash);
             } else {
-                $output = tt2_handle($layout_file, %stash);
+                $layout_output = tt2_handle($layout_file, %stash);
             }
         }
         $path = path($save_as_file);
         $path->parent->mkpath if $save_as =~ '/';
-        $path->spew_utf8($output);
-
-        # exit;
+        $path->spew_utf8($layout_output);
     }
 }
 
@@ -299,27 +247,10 @@ sub haml_handle {
     $haml->add_helper(
         available_languages => sub {
             my ($c)           = @_;
-            my @allowed_langs = @{BOM::Platform::Static::Config::get_display_languages()};
+            my @allowed_langs = all_languages();
             my $al            = {};
-            map { $al->{$_} = BOM::Platform::Locale::_lang_display_name($_) } @allowed_langs;
+            map { $al->{$_} = lang_display_name($_) } @allowed_langs;
             return $al;
-        });
-
-    $haml->add_helper(
-        js_configs => sub {
-            return BOM::View::JavascriptConfig->instance->config_for();
-        });
-
-    $haml->add_helper(
-        menu => sub {
-            my ($c) = @_;
-            return BOM::View::Menu->new();
-        });
-
-    $haml->add_helper(
-        css => sub {
-            my ($c) = @_;
-            return BOM::View::CssConfig->new();
         });
 
     my $request      = $stash{request};
@@ -355,6 +286,10 @@ sub haml_handle {
     # FIXME
     $haml->add_helper(google_tag_tracking_code => sub { });
 
+    $stash{javascript} = js_config();
+    $stash{css_files}  = [css_files()];
+    $stash{menu}       = menu();
+
     my $output = $haml->render_file($file, %stash) or die $haml->error;
 
     return $output;
@@ -363,17 +298,21 @@ sub haml_handle {
 sub tt2_handle {
     my ($file, %stash) = @_;
 
-    my $tt2 = &BOM::Platform::Context::template();
+    my $tt2 = tt2();
 
     my $request = $stash{request};
 
-    $stash{javascript}       = BOM::View::JavascriptConfig->instance->config_for();
-    $stash{css_files}        = [BOM::View::CssConfig->new()->files];
+    $stash{javascript}       = js_config();
+    $stash{css_files}        = [css_files()];
     $stash{iso639a_language} = $request->language;
     $stash{icon_url}         = $request->url_for('images/common/favicon_1.ico');
     $stash{lang}             = $request->language;
-    $stash{language_select}  = BOM::Platform::Locale::language_selector();
-    $stash{menu}             = BOM::View::Menu->new();
+    $stash{menu}             = menu();
+
+    ## global/language_form.html.tt
+    $stash{language_options} = [
+        map { {code => $_, text => decode_utf8(lang_display_name($_)), value => uc($_), selected => uc($stash{iso639a_language}) eq uc($_) ? 1 : 0,} }
+            all_languages()];
 
     my $output = '';
     $tt2->process($file, \%stash, \$output) or die $tt2->error(), "\n";
