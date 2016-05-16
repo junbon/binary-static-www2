@@ -343,16 +343,25 @@ var URL = function (url) { // jshint ignore:line
 };
 
 URL.prototype = {
-    url_for: function(path, params) {
-        if(!path) {
-            path = '';
+    url_for: function(path, params, type) {
+        var mid_path = '/';
+        if(/.cgi/.test(path)) {
+            if(type == 'cached') {
+                mid_path = '/c/';
+            } else {
+                mid_path = '/d/';
+            }
         }
-        else if (path.length > 0 && path[0] === '/') {
-            path = path.substr(1);
+
+        var url = "https://" + this.location.host + mid_path + path;
+        if(params) {
+            url += '?' + params;
+            url += '&l=' + page.language();
+        } else {
+            url += '?l=' + page.language();
         }
-        var lang = page.language().toLowerCase(),
-            url  = window.location.href;
-        return url.substring(0, url.indexOf('/' + lang + '/') + lang.length + 2) + path + (params ? '?' + params : '');
+
+        return url;
     },
     url_for_static: function(path) {
         if(!path) {
@@ -929,6 +938,7 @@ Contents.prototype = {
     on_load: function() {
         this.activate_by_client_type();
         this.topbar_message_visibility();
+        this.update_body_id();
         this.update_content_class();
         this.tooltip.attach();
         this.init_draggable();
@@ -983,6 +993,11 @@ Contents.prototype = {
             $('#account-transfer-section').addClass('invisible');
             $('#account-transfer-section').hide();
         }
+    },
+    update_body_id: function() {
+        //This is required for our css to work.
+        $('body').attr('id', '');
+        $('body').attr('id', $('#body_id').html());
     },
     update_content_class: function() {
         //This is required for our css to work.
@@ -1074,30 +1089,16 @@ var Page = function(config) {
 };
 
 Page.prototype = {
-    all_languages: function() {
-        return ['EN', 'AR', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'VI', 'ZH_CN', 'ZH_TW'];
-    },
-    language_from_url: function() {
-        var regex = new RegExp('^(' + this.all_languages().join('|') + ')$', 'i'),
-            urls  = window.location.href.split('/').slice(3);
-        var langs = urls.filter(function(u){
-            return regex.test(u);
-        });
-        return langs && langs.length > 0 ? langs[0].toUpperCase() : '';
-    },
     language: function() {
-        var lang = window.lang;
-        if(!lang) {
-            lang = this.language_from_url();
-            if(!lang) {
-                lang = $.cookie('language');
-                if(!lang) {
-                    lang = 'EN';
-                }
-            }
-            window.lang = lang.toUpperCase();
+        if ($('#language_select').length > 0) {
+            return $('#language_select').attr('class').toUpperCase(); //Required as mojo still provides lower case lang codes and most of our system expects upper case.
+        } else if(page.url.param('l')) {
+            return page.url.param('l');
+        } else if($.cookie('language')) {
+            return $.cookie('language');
+        } else {
+            return 'EN';
         }
-        return lang;
     },
     on_load: function() {
         this.url.reset();
@@ -1175,9 +1176,22 @@ Page.prototype = {
         moment.locale(language.toLowerCase());
     },
     url_for_language: function(lang) {
-        lang = lang.trim();
-        SessionStore.set('selected.language', lang.toUpperCase());
-        return window.location.href.replace(new RegExp('\/' + page.language() + '\/', 'i'), '/' + lang.toLowerCase() + '/');
+        lang = lang.trim().toUpperCase();
+        SessionStore.set('selected.language', lang);
+        var loc = document.location; // quick access
+        var qs = loc.search || '?';
+        var url = loc.protocol + '//' + loc.host + loc.pathname;
+        if (qs.indexOf('l=') >= 0) {
+            url += qs.replace(/(\?|&)l=[A-Z_]{2,5}/, "$1l=" + lang);
+        } else {
+            if (qs.length > 1) {
+                lang = '&l=' + lang;
+            } else {
+                lang = 'l=' + lang;
+            }
+            url += qs + lang;
+        }
+        return url;
     },
     record_affiliate_exposure: function() {
         var token = this.url.param('t');
