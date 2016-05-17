@@ -21,10 +21,13 @@ function BinarySocketClass() {
         timeouts = {},
         req_number = 0,
         socketUrl;
-        if(window.location.host == 'www.binary.com'){
-          socketUrl = "wss://ws.binaryws.com/websockets/v3";
-        } else{
-          socketUrl = "wss://"+window.location.host+"/websockets/v3";
+        var host = window.location.host;
+        if((/www\.binary\.com/i).test(host)) {
+            socketUrl = 'wss://ws.binaryws.com/websockets/v3';
+        } else if((/binaryqa/i).test(host)) {
+            socketUrl = 'wss://' + host + '/websockets/v3';
+        } else {
+            socketUrl = 'wss://www2.binary.com/websockets/v3';
         }
 
     if (page.language()) {
@@ -77,7 +80,7 @@ function BinarySocketClass() {
                     else{
                         $('.price_container').hide();
                     }
-                }, 7*1000);
+                }, 60*1000);
             }
 
             binarySocket.send(JSON.stringify(data));
@@ -115,7 +118,9 @@ function BinarySocketClass() {
             }
 
             if(isReady()=== true){
-                page.header.validate_cookies();
+                if(!Login.is_login_pages()) {
+                    page.header.validate_cookies();
+                }
                 if (clock_started === false) {
                     page.header.start_clock_ws();
                 }
@@ -136,43 +141,58 @@ function BinarySocketClass() {
                         ViewPopupWS.dispatch(response);
                       } else if (passthrough.dispatch_to === 'ViewChartWS') {
                         Highchart.dispatch(response);
+                      } else if (passthrough.dispatch_to === 'ViewTickDisplayWS') {
+                        WSTickDisplay.dispatch(response);
                       }
                     }
                 }
                 var type = response.msg_type;
                 if (type === 'authorize') {
                     if(response.hasOwnProperty('error')) {
+                        var isActiveTab = sessionStorage.getItem('active_tab') === '1';
+                        if(response.error.code === 'SelfExclusion' && isActiveTab) {
+                            sessionStorage.removeItem('active_tab');
+                            alert(response.error.message);
+                        }
                         LocalStore.set('reality_check.ack', 0);
-                       send({'logout': '1', passthrough: {'redirect': 'login'}});
+                        page.client.send_logout_request(isActiveTab);
                     }
                     else {
                         authorized = true;
-                        page.client.response_authorize(response);
                         if(typeof events.onauth === 'function'){
                             events.onauth();
                         }
-                        send({balance:1, subscribe: 1});
-                        send({landing_company_details: TUser.get().landing_company_name});
-                        send({get_settings: 1});
+                        if(!Login.is_login_pages()) {
+                            page.client.response_authorize(response);
+                            send({balance:1, subscribe: 1});
+                            send({landing_company_details: TUser.get().landing_company_name});
+                            send({get_settings: 1});
+                            if(!page.client.is_virtual()) {
+                                send({get_self_exclusion: 1});
+                            }
+                        }
                         sendBufferedSends();
                     }
                 } else if (type === 'balance') {
                     ViewBalanceUI.updateBalances(response);
                 } else if (type === 'time') {
                     page.header.time_counter(response);
-                    ViewPopupWS.dispatch(response);
                 } else if (type === 'logout') {
                     localStorage.removeItem('jp_test_allowed');
                     RealityCheckData.clear();
                     page.header.do_logout(response);
                 } else if (type === 'landing_company_details') {
                     page.client.response_landing_company_details(response);
-                    RealityCheck.init();
+                    BinarySocket.send({reality_check: 1, passthrough: { for: 'init_rc' }});
+                } else if (type === 'get_self_exclusion') {
+                    SessionDurationLimit.exclusionResponseHandler(response);
                 } else if (type === 'payout_currencies' && response.echo_req.hasOwnProperty('passthrough') && response.echo_req.passthrough.handler === 'page.client') {
                     page.client.response_payout_currencies(response);
                 } else if (type === 'get_settings') {
+                    GTM.event_handler(response.get_settings);
+                    page.client.set_storage_value('tnc_status', response.get_settings.client_tnc_status || '-');
+                    if (!localStorage.getItem('risk_classification')) page.client.check_tnc();
                     var jpStatus = response.get_settings.jp_account_status;
-
                     if (jpStatus) {
                         switch (jpStatus.status) {
                             case 'jp_knowledge_test_pending': localStorage.setItem('jp_test_allowed', 1);
@@ -192,6 +212,10 @@ function BinarySocketClass() {
                         localStorage.removeItem('jp_test_allowed');
                     }
                 } else if (type === 'website_status') {
+                    if(!response.hasOwnProperty('error')) {
+                        LocalStore.set('website.tnc_version', response.website_status.terms_conditions_version);
+                        if (!localStorage.getItem('risk_classification')) page.client.check_tnc();
+                    }
                   if (response.website_status.clients_country) {
                     localStorage.setItem('clients_country', response.website_status.clients_country);
                     if (isNotBackoffice()) {
@@ -199,7 +223,32 @@ function BinarySocketClass() {
                     }
                   }
                 } else if (type === 'reality_check') {
-                    RealityCheck.realityCheckWSHandler(response);
+                    if (response.echo_req.passthrough.for === 'init_rc') {
+                        var currentData = TUser.get();
+                        var addedLoginTime = Object.assign({logintime: response.reality_check.start_time}, currentData);
+                        TUser.set(addedLoginTime);
+                        RealityCheck.init();
+                    } else {
+                        RealityCheck.realityCheckWSHandler(response);
+                    }
+                } else if (type === 'get_account_status') {
+                  if (response.get_account_status.risk_classification === 'high' && isNotBackoffice() && (localStorage.getItem('reality_check.ack') === '1' || !localStorage.getItem('reality_check.interval'))) {
+                    send({get_financial_assessment: 1});
+                  } else {
+                    localStorage.removeItem('risk_classification');
+                  }
+                  localStorage.setItem('risk_classification.response', response.get_account_status.risk_classification);
+                } else if (type === 'get_financial_assessment' && !response.hasOwnProperty('error')) {
+                  if (Object.keys(response.get_financial_assessment).length === 0) {
+                    if (localStorage.getItem('reality_check.ack') === '1' || !localStorage.getItem('reality_check.interval') && localStorage.getItem('risk_classification.response') === 'high') {
+                      localStorage.setItem('risk_classification', 'high');
+                      page.header.check_risk_classification();
+                    }
+                  } else if ((localStorage.getItem('reality_check.ack') === '1' || !localStorage.getItem('reality_check.interval')) && localStorage.getItem('risk_classification') !== 'high') {
+                    localStorage.removeItem('risk_classification');
+                    localStorage.removeItem('risk_classification.response');
+                    page.client.check_tnc();
+                  }
                 }
                 if (response.hasOwnProperty('error')) {
                     if(response.error && response.error.code) {
@@ -209,11 +258,12 @@ function BinarySocketClass() {
                             .on('click', '#ratelimit-refresh-link', function () {
                                 window.location.reload();
                             });
-                      } else if (response.error.code === 'InvalidToken' && 
-                          type !== 'reset_password' && 
-                          type !== 'new_account_virtual' && 
-                          type !== 'paymentagent_withdraw') {
-                        BinarySocket.send({'logout': '1'});
+                      } else if (response.error.code === 'InvalidToken' &&
+                          type !== 'reset_password' &&
+                          type !== 'new_account_virtual' &&
+                          type !== 'paymentagent_withdraw' &&
+                          type !== 'cashier') {
+                            page.client.send_logout_request();
                       }
                     }
                 }

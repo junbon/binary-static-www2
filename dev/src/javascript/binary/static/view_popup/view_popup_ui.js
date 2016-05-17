@@ -17,6 +17,7 @@ var ViewPopupUI = (function() {
                 con.hide();
                 var _on_close = function () {
                     that.cleanup(true);
+                    chartUpdated = false;
                     if(TradePage.is_trading_page()) {
                         // Re-subscribe the trading page's tick stream which was unsubscribed by popup's chart
                         BinarySocket.send({'ticks_history':$('#underlying').val(),'style':'ticks','end':'latest','count':20,'subscribe':1});
@@ -32,14 +33,22 @@ var ViewPopupUI = (function() {
         },
         cleanup: function () {
             this.forget_streams();
+            this.forget_chart_streams();
             this.clear_timer();
             this.close_container();
             this._init();
-            Highchart.clear_values();
         },
         forget_streams: function() {
             while(window.stream_ids && window.stream_ids.length > 0) {
                 var id = window.stream_ids.pop();
+                if(id && id.length > 0) {
+                    BinarySocket.send({"forget": id});
+                }
+            }
+        },
+        forget_chart_streams: function() {
+            while(window.chart_stream_ids && window.chart_stream_ids.length > 0) {
+                var id = window.chart_stream_ids.pop();
                 if(id && id.length > 0) {
                     BinarySocket.send({"forget": id});
                 }
@@ -80,7 +89,7 @@ var ViewPopupUI = (function() {
             body.append(con);
             con.show();
             $(document.body).append($('<div/>', {class: 'popup_page_overlay'}));
-            $('.popup_page_overlay').click(function(){that.cleanup();});
+            $('.popup_page_overlay').click(function(){con.find('a.close').click();});
             con.draggable({
                 stop: function() {
                     that.reposition_confirmation_ondrag();

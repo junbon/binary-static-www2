@@ -65,6 +65,7 @@ var APITokenWS = (function() {
 
         if(rebuildTable) {
             populateTokensList(api_token, newToken);
+            showLocalTimeOnHover('td.last-used');
         }
 
         // Hide form if tokens count reached the maximum limit
@@ -119,7 +120,7 @@ var APITokenWS = (function() {
     };
 
     var createTableRow = function(token) {
-        var lastUsed = token.last_used ? token.last_used : text.localize('Never Used');
+        var lastUsed = (token.last_used ? token.last_used + ' GMT': text.localize('Never Used'));
         var scopes = token.scopes.map(function (v) {
             return v.capitalizeFirstLetter();
         });
@@ -179,8 +180,8 @@ var APITokenWS = (function() {
 
         // Token Name
         if(!isRequiredError(nameID) && !isCountError(nameID, 2, 32)){
-            if(!(/^[a-zA-Z0-9\s\-]*$/).test(newName)) {
-                showError(nameID, Content.errorMessage('reg', [letters, numbers, space, '-']));
+            if(!(/^\w+$/).test(newName)) {
+                showError(nameID, Content.errorMessage('reg', [letters, numbers, '_']));
             }
         }
 
@@ -281,13 +282,9 @@ var APITokenWS = (function() {
 
 
 
-pjax_config_page("api_tokenws", function() {
+pjax_config_page_require_auth("api_tokenws", function() {
     return {
         onLoad: function() {
-            if (page.client.redirect_if_logout()) {
-                return;
-            }
-
             BinarySocket.init({
                 onmessage: function(msg) {
                     var response = JSON.parse(msg.data);

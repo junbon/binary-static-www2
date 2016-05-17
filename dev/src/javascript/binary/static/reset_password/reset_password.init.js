@@ -93,9 +93,9 @@ var ResetPassword = (function () {
                 // special handling as backend return inconsistent format
                 var errMsg;
                 if (response.error.code === 'InputValidationFailed') {
-                    errMsg = resetErrorTemplate.replace('[_1]', text.localize('Token has expired.'));
+                    errMsg = text.localize(resetErrorTemplate).replace('[_1]', text.localize('Token has expired.'));
                 } else {
-                    errMsg = resetErrorTemplate.replace('[_1]', text.localize(response.error.message));
+                    errMsg = text.localize(resetErrorTemplate).replace('[_1]', text.localize(response.error.message));
                 }
 
                 $('#reset-error-msg').text(errMsg);
@@ -104,7 +104,7 @@ var ResetPassword = (function () {
                     .text(text.localize('Your password has been successfully reset. ' +
                         'Please log into your account using your new password.'));
                 window.setTimeout(function () {
-                    window.location.href = page.url.url_for('login');
+                    Login.redirect_to_login();
                 }, 5000);
             }
         }
@@ -117,9 +117,15 @@ var ResetPassword = (function () {
         dobmm = undefined;
         dobyy = undefined;
 
-        $('#dobdd').val('');
-        $('#dobmm').val('');
-        $('#dobyy').val('');
+        if (page.language().toLowerCase() === 'ja') {
+          $("#dobyy").val($("#dobyy option:first").val());
+          $("#dobmm").val($("#dobmm option:first").val());
+          $("#dobdd").val($("#dobdd option:first").val());
+        } else {
+          $('#dobdd').val('');
+          $('#dobmm').val('');
+          $('#dobyy').val('');
+        }
 
         if (isChecked) {
             $('#dob-field').removeClass(hiddenClass);
@@ -141,7 +147,12 @@ var ResetPassword = (function () {
     }
 
     function init() {
+        $('#reset_passwordws').removeClass('invisible');
         Content.populate();
+        if (page.language().toLowerCase() === 'ja') {
+          $('#dobmm').insertAfter('#dobyy');
+          $('#dobdd').insertAfter('#dobmm');
+        }
         generateBirthDate();
         var $pmContainer = $('#password-meter-container');
 

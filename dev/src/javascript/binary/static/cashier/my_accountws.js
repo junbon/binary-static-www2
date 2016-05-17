@@ -43,12 +43,10 @@ var MyAccountWS = (function() {
         is_authenticated_payment_agent = get_settings.is_authenticated_payment_agent;
 
         checkAll();
-
-        addGTMDataLayer(get_settings);
     };
 
     var responseAccountStatus = function(response) {
-        get_account_status = response.get_account_status;
+        get_account_status = response.get_account_status.status;
         checkAll();
     };
 
@@ -57,7 +55,7 @@ var MyAccountWS = (function() {
             return;
         }
 
-        if(isReal && terms_conditions_version !== client_tnc_status) {
+        if(isReal && terms_conditions_version !== client_tnc_status && !localStorage.getItem('risk_classification')) {
             window.location.href = page.url.url_for('user/tnc_approvalws');
             return;
         }
@@ -105,45 +103,6 @@ var MyAccountWS = (function() {
                         .replace('[_3]', loginid)
                 );
             $(virtualTopupID).removeClass(hiddenClass);
-        }
-    };
-
-    var addGTMDataLayer = function(get_settings) {
-        var is_login = page.url.param('login'),
-            is_newaccount = localStorage.getItem('new_account') === '1';
-        if(is_login || is_newaccount) {
-            localStorage.removeItem('new_account');
-            var oldUrl = window.location.href;
-            var newUrl = oldUrl.replace(/(login=true&|newaccounttype=real&|newaccounttype=virtual&)/gi, '');
-
-            var affiliateToken = $.cookie('affiliate_tracking');
-            if (affiliateToken) {
-                GTM.push_data_layer({'bom_affiliate_token': JSON.parse(affiliateToken).t});
-            }
-
-            var data = {
-                'visitorID'   : page.client.loginid,
-                'bom_country' : get_settings.country,
-                'bom_email'   : get_settings.email,
-                'url'         : oldUrl,
-                'bom_today'   : Math.floor(Date.now() / 1000),
-                'event'       : is_newaccount ? 'new_account' : 'log_in'
-            };
-
-            if(is_newaccount) {
-                data['bom_date_joined'] = data['bom_today'];
-            }
-
-            if(isReal) {
-                data['bom_age']       = parseInt((moment().unix() - get_settings.date_of_birth) / 31557600);
-                data['bom_firstname'] = get_settings.first_name;
-                data['bom_lastname']  = get_settings.last_name;
-                data['bom_phone']     = get_settings.phone;
-            }
-
-            GTM.push_data_layer(data);
-
-            window.history.replaceState('My Account', document.title, newUrl);
         }
     };
 
@@ -204,13 +163,9 @@ var MyAccountWS = (function() {
 }());
 
 
-pjax_config_page("user/my_accountws", function() {
+pjax_config_page_require_auth("user/my_accountws", function() {
     return {
         onLoad: function() {
-            if (page.client.redirect_if_logout()) {
-                return;
-            }
-
             showLoadingImage($('<div/>', {id: 'loading'}).insertAfter('#welcome'));
 
             if(page.url.param('login')) {

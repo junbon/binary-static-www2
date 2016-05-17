@@ -1,12 +1,15 @@
 %div#reality-check-content
   %div
     %h1= l('Reality Check')
-    %p#login-time
+    %p
       %label= l('Login time:')
-    %p#current-time
+      %span#login-time
+    %p
       %label= l('Current time:')
-    %p#session-duration
+      %span#current-time
+    %p
       %label= l('Session duration:')
+      %span#session-duration
     %p#start-time
     %table
       %tr
@@ -20,7 +23,7 @@
         %th= l('Potential profit')
       %tr
         %td#login-id
-        %td#currency
+        %td#rc_currency
         %td#turnover
         %td#profitloss
         %td#bought

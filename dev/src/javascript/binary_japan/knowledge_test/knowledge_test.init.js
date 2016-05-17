@@ -4,11 +4,12 @@ var KnowledgeTest = (function() {
     var hiddenClass = 'invisible';
 
     var submitted = {};
+    var submitCompleted = false;
     var randomPicks = [];
     var randomPicksAnswer = {};
     var resultScore = 0;
 
-    var passMsg = '{JAPAN ONLY}Congratulations, you have pass the test, our Customer Support will contact you shortly';
+    var passMsg = '{JAPAN ONLY}Congratulations, you have pass the test, our Customer Support will contact you shortly.';
     var failMsg = '{JAPAN ONLY}Sorry, you have failed the test, please try again after 24 hours.';
 
     function questionAnswerHandler(ev) {
@@ -18,6 +19,9 @@ var KnowledgeTest = (function() {
     }
 
     function submitHandler() {
+        if (submitCompleted) {
+            return;
+        }
         var answeredQid = Object.keys(submitted).map(function(k) {return +k;});
         if (answeredQid.length !== 20) {
             $('#knowledge-test-msg')
@@ -39,10 +43,11 @@ var KnowledgeTest = (function() {
         // compute score
         for (var k in submitted) {
             if (submitted.hasOwnProperty(k)) {
-                resultScore += submitted[k] === randomPicksAnswer[k] ? 1 : 0;
+                resultScore += (submitted[k] === randomPicksAnswer[k] ? 1 : 0);
             }
         }
         KnowledgeTestData.sendResult(resultScore);
+        submitCompleted = true;
     }
 
     function showQuestionsTable() {
@@ -84,7 +89,7 @@ var KnowledgeTest = (function() {
         var lastTestDate = new Date(lastTestEpoch * 1000);
 
         var msgTemplate =
-            '{JAPAN ONLY}Dear customer, you are not allowed to take knowledge test until [_1].\nLast test taken at [_2].';
+            '{JAPAN ONLY}Dear customer, you are not allowed to take knowledge test until [_1]. Last test taken at [_2].';
 
         var msg = text.localize(msgTemplate)
             .replace('[_1]', nextTestDate.toUTCString())

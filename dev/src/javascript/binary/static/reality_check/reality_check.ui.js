@@ -48,18 +48,22 @@ var RealityCheckUI = (function () {
 
     function updateSummary(summary) {
         $('#start-time').text(summary.startTimeString);
-        $('#login-time').append(summary.loginTime);
-        $('#current-time').append(summary.currentTime);
-        $('#session-duration').append(summary.sessionDuration);
-        
+        $('#login-time').text(summary.loginTime);
+        $('#current-time').text(summary.currentTime);
+        $('#session-duration').text(summary.sessionDuration);
+
         $('#login-id').text(summary.loginId);
-        $('#currency').text(summary.currency);
+        $('#rc_currency').text(summary.currency);
         $('#turnover').text(summary.turnover);
         $('#profitloss').text(summary.profitLoss);
         $('#bought').text(summary.contractsBought);
         $('#sold').text(summary.contractsSold);
         $('#open').text(summary.openContracts);
         $('#potential').text(summary.potentialProfit);
+
+        showLocalTimeOnHover('#start-time');
+        showLocalTimeOnHover('#login-time');
+        showLocalTimeOnHover('#current-time');
     }
 
     function renderSummaryPopUp(summary) {
@@ -88,12 +92,12 @@ var RealityCheckUI = (function () {
             RealityCheckData.updateAck();
         });
     }
-    
+
     function summaryEventHandler() {
         $('button#continue').click(function() {
             RealityCheckData.updateAck();
         });
-        
+
         $('button#btn_logout').click(function() {
             BinarySocket.send({logout: 1});
         });
@@ -101,6 +105,7 @@ var RealityCheckUI = (function () {
 
     function closePopUp() {
         $('#reality-check').remove();
+        if (!page.client.is_virtual() && page.client.residence !== 'jp') BinarySocket.send({get_account_status: 1});
     }
 
     return {

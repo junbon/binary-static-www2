@@ -1,13 +1,21 @@
 var RealityCheck = (function () {
     'use strict';
     var hiddenClass = 'invisible';
-    var loginTime;
+    var loginTime;      // milliseconds
+    var getAccountStatus;
+
+    function initializeValues() {
+      getAccountStatus = false;
+    }
 
     function realityCheckWSHandler(response) {
+        initializeValues();
         if ($.isEmptyObject(response.reality_check)) {
             // not required for reality check
+            sendAccountStatus();
             return;
         }
+
         var summary = RealityCheckData.summaryData(response.reality_check);
         RealityCheckUI.renderSummaryPopUp(summary);
     }
@@ -21,7 +29,7 @@ var RealityCheck = (function () {
     function startSummaryTimer() {
         var interval = RealityCheckData.getInterval();
         var toWait = computeIntervalForNextPopup(loginTime, interval);
-        
+
         window.setTimeout(function () {
             RealityCheckData.setOpenSummaryFlag();
             RealityCheckData.getSummaryAsync();
@@ -54,13 +62,21 @@ var RealityCheck = (function () {
             $('p.error-msg').removeClass(hiddenClass);
             return;
         }
-        
+
         var intervalMs = intervalMinute * 60 * 1000;
         RealityCheckData.updateInterval(intervalMs);
         RealityCheckData.triggerCloseEvent();
         RealityCheckData.updateAck();
         RealityCheckUI.closePopUp();
         startSummaryTimer();
+        sendAccountStatus();
+    }
+
+    function sendAccountStatus() {
+      if (!page.client.is_virtual() && page.client.residence !== 'jp' && !getAccountStatus) {
+        BinarySocket.send({get_account_status: 1});
+        getAccountStatus = true;
+      }
     }
 
     function onLogoutClick() {
@@ -72,13 +88,14 @@ var RealityCheck = (function () {
     }
 
     function init() {
+        initializeValues();
         if (!page.client.require_reality_check()) {
             RealityCheckData.setPreviousLoadLoginId();
+            sendAccountStatus();
             return;
         }
 
-        var rcCookie = getCookieItem('reality_check');
-        loginTime = rcCookie && rcCookie.split(',')[1] * 1000;
+        loginTime = TUser.get().logintime * 1000;
 
         window.addEventListener('storage', realityStorageEventHandler, false);
 
@@ -97,8 +114,9 @@ var RealityCheck = (function () {
         }
 
         RealityCheckData.setPreviousLoadLoginId();
+        sendAccountStatus();
     }
-    
+
     return {
         init: init,
         onContinueClick: onContinueClick,

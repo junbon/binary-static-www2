@@ -80,6 +80,7 @@ var get_started_behaviour = function() {
 
         return false;
     };
+
     var to_show;
     var nav = $('.get-started').find('.subsection-navigation');
     var fragment;
@@ -100,6 +101,20 @@ var get_started_behaviour = function() {
         to_show = fragment ? $('a[name=' + fragment + '-section]').parent('.subsection') : $('.subsection.first');
         update_active_subsection(to_show);
     }
+    select_nav_element();
+};
+
+var select_nav_element = function() {
+  var $navLink = $('.nav li a');
+  var $navList = $('.nav li');
+  $navList.removeClass('selected');
+  for (i = 0; i < $navLink.length; i++) {
+    if ($navLink[i].href.match(window.location.pathname)) {
+      document.getElementsByClassName('nav')[0].getElementsByTagName('li')[i].setAttribute('class', 'selected');
+      break;
+    }
+  }
+  return;
 };
 
 var Charts = function(charts) {
@@ -284,10 +299,13 @@ function dropDownMonths(select, startNum, endNum) {
     return;
 }
 
-function generateBirthDate(){
+function generateBirthDate(country){
     var days    = document.getElementById('dobdd'),
         months  = document.getElementById('dobmm'),
         year    = document.getElementById('dobyy');
+
+    if (document.getElementById('dobdd').length > 1) return;
+
     //days
     dropDownNumbers(days, 1, 31);
     //months
@@ -297,6 +315,11 @@ function generateBirthDate(){
     var endYear = currentYear - 17;
     //years
     dropDownNumbers(year, startYear, endYear);
+    if ((country && country === 'jp') || page.language().toLowerCase() === 'ja') {
+      days.options[0].innerHTML = text.localize('Day');
+      months.options[0].innerHTML = text.localize('Month');
+      year.options[0].innerHTML = text.localize('Year');
+    }
     return;
 }
 
@@ -319,12 +342,13 @@ function handle_residence_state_ws(){
       var response = JSON.parse(msg.data);
       if (response) {
         var type = response.msg_type;
+        var country;
         var residenceDisabled = $('#residence-disabled');
         if (type === 'get_settings') {
-          var country = response.get_settings.country_code;
+          country = response.get_settings.country_code;
           if (country && country !== null) {
             page.client.residence = country;
-            generateBirthDate();
+            generateBirthDate(country);
             generateState();
             if (/maltainvestws/.test(window.location.pathname)) {
               var settings = response.get_settings;
@@ -403,7 +427,7 @@ function handle_residence_state_ws(){
             $('#error-residence').insertAfter('#residence-disabled');
             residenceDisabled.attr('disabled', 'disabled');
             $('#real-form').show();
-            generateBirthDate();
+            generateBirthDate(country);
             generateState();
             return;
           }
@@ -466,14 +490,6 @@ function generateState() {
       BinarySocket.send({ states_list: page.client.residence });
     }
     return;
-}
-
-function getUrlVars() {
-    var vars = {};
-    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-        vars[key] = value;
-    });
-    return vars;
 }
 
 // returns true if internet explorer browser
@@ -543,6 +559,9 @@ function isNotBackoffice() {
 pjax_config_page('/\?.+|/home', function() {
     return {
         onLoad: function() {
+            if(/^(\/|\/home)$/i.test(window.location.pathname)) {
+                page.client.redirect_if_login();
+            }
             check_login_hide_signup();
             submit_email();
         }
@@ -562,24 +581,10 @@ pjax_config_page('/why-us', function() {
     };
 });
 
-pjax_config_page('/smart-indices', function() {
+pjax_config_page('/volidx-markets', function() {
     return {
         onLoad: function() {
-            sidebar_scroll($('.smart-indices'));
-            if (page.url.location.hash !== "") {
-              $('a[href="' + page.url.location.hash + '"]').click();
-            }
-        },
-        onUnload: function() {
-            $(window).off('scroll');
-        }
-    };
-});
-
-pjax_config_page('/random-markets', function() {
-    return {
-        onLoad: function() {
-            sidebar_scroll($('.random-markets'));
+            sidebar_scroll($('.volidx-markets'));
             if (page.url.location.hash !== "") {
               $('a[href="' + page.url.location.hash + '"]').click();
             }
@@ -601,17 +606,6 @@ pjax_config_page('/open-source-projects', function() {
     };
 });
 
-pjax_config_page('/white-labels', function() {
-    return {
-        onLoad: function() {
-            sidebar_scroll($('.white-labels'));
-        },
-        onUnload: function() {
-            $(window).off('scroll');
-        }
-    };
-});
-
 pjax_config_page('/payment-agent', function() {
     return {
         onLoad: function() {
@@ -626,6 +620,9 @@ pjax_config_page('/payment-agent', function() {
 pjax_config_page('/get-started', function() {
     return {
         onLoad: function() {
+            if (!/jp/.test(window.location.pathname) && page.language().toLowerCase() === 'ja') {
+              window.location.href = page.url.url_for('get-started-jp');
+            }
             get_started_behaviour();
         },
         onUnload: function() {
@@ -679,11 +676,11 @@ pjax_config_page('/terms-and-conditions', function() {
     };
 });
 
-pjax_config_page('/login', function() {
+pjax_config_page('\/login|\/loginid_switch', function() {
     return {
         onLoad: function() {
-            if (page.user.is_logged_in) {
-              window.location.href = page.url.url_for('user/my_accountws');
+            if(isNotBackoffice()) {
+                window.location.href = page.url.url_for('oauth2/authorize', 'app_id=binarycom');
             }
         }
     };
