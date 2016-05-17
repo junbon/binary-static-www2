@@ -664,7 +664,7 @@ var ViewPopupWS = (function() {
                     break;
                 case 'forget_all':
                     if (response.echo_req.forget_all === 'ticks' && !candleForgotten) {
-                      socketSend({"forget_all":"candle"});
+                      socketSend({"forget_all":"candles"});
                       candleForgotten = true;
                     } else {
                       Highchart.show_chart(contract);
