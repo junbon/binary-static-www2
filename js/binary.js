@@ -73800,12 +73800,9 @@ pjax_config_page('/trading', function () {
         }(),
         amount: function() {
             return {
-                payout_min:    1,
                 payout_max:    100000,
-                payout_err:    undefined,
                 stake_min:    0.5,
-                stake_max:    100000,
-                stake_err:    undefined,
+                error:    undefined,
                 calculation_value: undefined,
                 keyup: function(event) {
                     var me = BetForm.amount;
@@ -73839,11 +73836,8 @@ pjax_config_page('/trading', function () {
                 },
                 update_settings: function() {
                     this.stake_min = parseFloat($('#staking_context #stake_min').html());
-                    this.stake_max = parseFloat($('#staking_context #stake_max').html());
-                    this.stake_err = $('#staking_context #stake_err').html();
-                    this.payout_min = parseFloat($('#staking_context #payout_min').html());
                     this.payout_max = parseFloat($('#staking_context #payout_max').html());
-                    this.payout_err = $('#staking_context #payout_err').html();
+                    this.error = $('#staking_context #error').html();
                 },
             };
         }(),
@@ -75870,15 +75864,12 @@ BetForm.Time.EndTime.prototype = {
                         // We're intentionally making payout errors have highest priority
                         // it's something they can fix immediately on this web interface.
 
+                        // just a minimum stake and a maximum payout check will do.
                         if (prices[i].payout.raw/100  - epsilon > bf_amount.payout_max ||
-                            prices[i].payout.raw/100 + epsilon < bf_amount.payout_min) {
-                            err = bf_amount.payout_err;
-                        } else if (prices[i].price.raw/100 - epsilon > bf_amount.stake_max ||
                             prices[i].price.raw/100 + epsilon < bf_amount.stake_min) {
-                            // You probably think there should be two conditions above, but too high stake just
-                            // makes for "too high payout" or "no return" errors.
-                            err = bf_amount.stake_err;
+                            err = bf_amount.error;
                         }
+
                         this.show_error(form, err);
                         this.update_price(prices[i].id, prices[i].price, prices[i].prev_price);
                         this.update_description(prices[i].id, prices[i].payout, prices[i].prev_payout);
